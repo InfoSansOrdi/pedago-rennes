@@ -61,7 +61,7 @@ regards), ou sur l'histoire de la discipline.
 
 ## Activités présentes dans ce dépôt
 
-- [Critiques de films](2015-TAL) (traitement automatique des langues).
+- [Critiques de films](pedago2/2015-TAL) (traitement automatique des langues).
   On cherche à automatiser la classification de critique de films
   entre les commentaires positifs et négatifs. Ce faisant, on découvre
   les algorithmes les plus simples du domaine et leurs limites.
