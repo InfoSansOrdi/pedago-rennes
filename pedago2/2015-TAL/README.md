@@ -1,10 +1,9 @@
-# Traitement automatique des langues
+# Les critiques de film
 
-## Les critiques de film
-
-La première activité de ce répertoire est une activité visant à
-démystifier comment les ordinateurs peuvent classifier du texte en
-français sachant que forcément, ils ne comprennent rien.
+Cette activité vise à démystifier comment les ordinateurs peuvent
+classifier du texte en français sachant que forcément, ils ne
+comprennent rien. Il s'agit donc d'une introduction au traitement
+automatique des langues.
 
 On demande au participant de classifier les commentaires sur des films
 issus de la première série de cartes, selon que ça donne envie d'aller
