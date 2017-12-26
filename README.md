@@ -35,6 +35,8 @@ une séquence pédagogique présentant le déroulé précis de la séance.
 L'important est de conclure en expliquant aux participants le rapport
 entre l'activité jouée et l'informatique.
 
+**[Plus d'infos sur Pedago 1](pedago1)**
+
 Au premier semestre de M2, le module de Pedago2 (animé par Martin
 Quinson) est l'occasion pour les élèves de tenter d'inventer une
 activité débranchée originale, de préférence en rapport avec le sujet
@@ -51,18 +53,5 @@ D'autres cours portent sur des techniques de communication plus
 pragmatiques (posture, gestion des silences, rôle de la respiration,
 regards), ou sur l'histoire de la discipline.
 
-# Pedago 1
-
-## Collections d'activités débranchées
-
-## Fiches de préparation et matériel additionel
-
-# Pedago 2
-
-## Activités présentes dans ce dépôt
-
-- [Critiques de films](pedago2/2015-TAL) (traitement automatique des langues).
-  On cherche à automatiser la classification de critique de films
-  entre les commentaires positifs et négatifs. Ce faisant, on découvre
-  les algorithmes les plus simples du domaine et leurs limites.
+**[Plus d'infos sur Pedago 2](pedago2)**
 

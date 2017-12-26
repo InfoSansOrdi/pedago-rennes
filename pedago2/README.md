@@ -2,7 +2,8 @@
 
 Ce répertoire contient diverses activités réalisées ou en cours de
 réalisation dans le cadre du module Pedago2 de l'ENS Rennes. La
-description du module est [ici](..).
+description du module est
+[ici](https://github.com/InfoSansOrdi/pedago-rennes).
 
 # Ressources disponibles
 
