@@ -12,3 +12,6 @@ Cette activité est une première approche du binaire. Pour représenter les pre
 ### Seconde activité: Le binaire et les images
 
 Cette activité reprend la fin de la première activité et s'attaque ensuite à une représentation des images en binaire. D'abord, on étudie les images en noir et blanc, avec un bit par pixel indiquant sa couleur, puis on étudie les images en couleur avec un système similaire (une couleur correspond à un nombre).
+
+
+Ce(tte) œuvre est mise à disposition selon les termes de la Licence Creative Commons Attribution - Pas d’Utilisation Commerciale 4.0 International.
