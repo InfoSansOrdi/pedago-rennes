@@ -1,5 +1,6 @@
 L'activité initiée ici consiste à comparer les structures d'arbres de décision pour de la classification de masques.
 Le matériel se composerait de 16 cartes représentant des masques, chacun étant composé selon les 15 caractéristiques binaires suivantes.
+
 - Nez: forme, taille, couleur
 - Yeux: forme, couleur, nombre
 - Dents: nombre (toutes ou une sur deux), couleur
@@ -9,6 +10,8 @@ Le matériel se composerait de 16 cartes représentant des masques, chacun étan
 - Forme: carré ou triangle.
 - Couleur: foncé ou clair (de la teinte qu'on veut).
 - Taille: petit ou grand.
+
+Une liste de question fixée à l'avance permet de contraindre la structure des arbres vis à vis d'un jeu de masque.
 
 Séquence de question fixée:
 1. Forme du nez
@@ -69,3 +72,9 @@ assurer la répartition dans un arbre en peigne. La suite est libre mais agence�
 14. 00000000000001 1
 15. 000000000000001
 16. 000000000000000
+
+On peut par exemple présenter le premier jeu, demander de trouver une séquence de questions efficaces pour identifier un masque (à la manière d'un "qui est-ce ?") puis, proposer pour le premier jeu la séquence de questions décrite plus haut.
+
+Ensuite prendre le second jeu de masques et faire découvrir que la séquence de question précédente n'est plus optimale.
+
+Terminer par l'introduction des dessins des arbres de classification.
