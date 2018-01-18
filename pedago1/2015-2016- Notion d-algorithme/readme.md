@@ -1,0 +1,1 @@
+Fiche de préparation pour deux séances de 45~50 minutes sur la notion d'algorithme. Une activité sur un arbre couvrant minimal (les dessins viendront plus tard...) et une autre sur le tri (crépier psychorigide, images et informations disponibles ici: http://people.irisa.fr/Martin.Quinson/Mediation/SMN/index.html)
