@@ -1,7 +1,5 @@
 L'activité initiée ici consiste à comparer les structures d'arbres de décision pour de la classification de masques.
-
-16 cartes représentant des masques
-15 caractéristiques binaires:
+Le matériel se composerait de 16 cartes représentant des masques, chacun étant composé selon les 15 caractéristiques binaires suivantes.
 - Nez: forme, taille, couleur
 - Yeux: forme, couleur, nombre
 - Dents: nombre (toutes ou une sur deux), couleur
