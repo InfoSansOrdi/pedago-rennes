@@ -1,3 +1,5 @@
+Cette activité est basée sur une idée originale de Lesly-Ann Daniel. Elle est distribuée sous licence CC-BY.
+
 * Stockage de mot-de-passes
 L'objectif de cette activité est de comprendre les enjeux et problématiques liées au stockage des mots-de-passe.
 
@@ -64,7 +66,8 @@ Ces attaques sont souvent basées sur des bases de données de mot-de-passe fré
 Contre-mesures:
 - Ne pas utiliser des mots-de-passe communs.
 - Ne pas utiliser le même mot-de-passe partout.
-- Utiliser des mots-de-passe compliquée via un gestionnaire de mots-de-passe.
+- Utiliser des mots-de-passe compliqués
+- Solution: le gestionnaire de mots-de-passe.
 
 Nouvelle propriété des algorithmes de hashage?
-Assez longs à calculer pour ralentir les attaques brute-force.
+- Assez longs à calculer pour ralentir les attaques brute-force.
