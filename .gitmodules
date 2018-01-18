@@ -1,0 +1,3 @@
+[submodule "pedago2/2017-PeA/educum17"]
+	path = pedago2/2017-PeA/educum17
+	url = git@github.com:lbeziaud/educum17.git
