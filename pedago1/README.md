@@ -71,3 +71,5 @@ faut l'indiquer dans vos fichiers.
 
 - [Protéger sa vie privée sur internet](https://framagit.org/nooe/Protection_Vie_Privee/),
   Noe Brucy, 2015.
+- [Cryptographie](https://github.com/Aurele-Barriere/Crypto), 
+  Aurèle Barrière \& Nathan Thomasset, 2015.
