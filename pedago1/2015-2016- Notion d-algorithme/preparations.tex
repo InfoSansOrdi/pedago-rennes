@@ -1,0 +1,108 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}%
+\usepackage[francais]{babel}%
+
+\begin{document}
+\title{Préparations des interventions Pédago}
+\author{ Léo Henry et Estelle Varloot}
+\date\today
+\maketitle
+\section{introduction}
+Nos deux activités tournaient autour de la notion d'algorithme. Elles étaient
+alternées avec celles de Solène et Joshua.
+
+\section{Les mineurs (arbre couvrant minimal d'un graphe)}
+ Le but de l'activité était de faire découvrir des algorithmes de parcours d'un
+ arbre couvrant minimal. Nous poussions les élèves à découvrir Kruskal ou Prime.
+ \paragraph{}
+ La situation proposée est la suivante: vous disposez d'une équipe de robot et
+ du plan d'une mine de diamants, dont les galleries sont obstruées par des rochers.
+ Votre but est de donner des instructions aux robots pour pouvoir récupérer tous
+ les diamants et retourner à l'entrée, en cassant le moins de pierres possible.
+ Il faut donc pour cela sélectionner les chemins les moins coûteux à employer.
+ \paragraph{}
+ L'activité s'articulait de la manière suivante, avec des temps de repère assez 
+ indicatifs. Il s'agissait de nos points de repères, mais s'il nous a été utile 
+ d'en avoir, il l'a aussi été de s'en écarter à 5 minutes près.
+ \begin{description}
+ \item[introduction ~10 min] Introduction de l'activité: on va faire de l'informatique
+ et donc (évidemment) des mineurs, explication de la situation et des règles.
+ Prenez du temps pour les règles, 5 minutes de plus ici c'est 10 de moins à replacer
+ les idées au milieu de la séance.
+ \item[jeu en binômes ~10/15min] Chercher par groupes de deux à trouver la 
+ solution sur une première mine. Pour ceux qui s'en sortent vite, mieux vaut 
+ prévoir une seconde carte, à faire en se demandant pourquoi on choisit un chemin.
+ \item[mise en commun ~5/10min] On reprend le groupe entier et on fait un exemple
+ au tableau en demandant à chaque étape quel chemin choisir et pourquoi. Explication
+ de la consigne suivante
+ \item[travail par 3/4] On reforme des groupes sur une nouvelle carte. Cette fois,
+ un élève seulement voit la carte, et ce sont les autres qui lui disent quoi faire.
+ C'est le moment de se rendre compte qu'il faut être précis dans sa formulation.
+ Le second but est de faire verbaliser l'algorithme (si possible écrire, mais mieux
+ vaut ne pas viser une production écrite à tout prix).
+ \item[Correction et explication] On remet en commun, et on essaie de faire donner
+ la réponse au groupe (avec une correction rédigée sous le coude, Kruskal par exemple
+ pour sa simplicité). On fait le lien avec le sujet: c'est bien de l'informatique.
+ \end{description}
+ 
+ \paragraph{}
+ Pour moduler l'activité, nous avions prévu des coups de pouces et des aspects
+ pour aller plus loin. Les coups e pouces sont simples, ils reviennent juste à se
+ poser les bonnes questions: combien ça coûte? est-ce que j'en ai besoin? Attirer
+ l'attention des élèves sur ces question est généralement suffisant.
+ \\Les questions pour aller plus loin que nous avions trouvées sont, soit
+ un petit à-côté (de combien de chemins tu as besoin pour $n$ diamants? par où
+ commencer?), soit tout simplement, tu l'as fait comme ça, existe-t'il une autre 
+ méthode (et aiguiller sur les bases du second algorithme)? 
+ 
+ \paragraph{L'explication finale}
+ L'explication finale est une partie à bien penser: les élèves sont fatigués, et
+ ça peut être ardu. Il est utile d'avoir des mots clés, voir des tournures ou 
+ des phrases prévues. Nous nous étions concentrés sur deux points:
+ \begin{itemize}
+ \item Ça peut servir (avec des exemples: réseau d'électricité ou de téléphone), 
+ et pour aller plus loin le graphe. (C'est moins joli mais très général)
+ \item Le grand final, brodé sur deux séances : les algorithmes, recettes de cuisine
+ / stratégie à appliquer sans réfléchir, peut s'appliquer à n'importe quelle carte, 
+ peut être fait par une machine... 
+ \end{itemize}
+ \section{Le galettier psycho-rigide (du tri)}
+ Trèèès grand classique. Il s'agit d'aider un galettier (Bretagne oblige) à ranger
+ ses galettes carrées de la plus grande à la plus petite. Mais il ne peut évidemment
+ pas y mettre les mains. Il ne dispose que dune spatule avec laquelle il peut retourner
+ un nombre quelconque de galettes les plus hautes dans le tas. Petit bonus: quand
+ on a la chance d'avoir un support coloré, il faut aussi mettre la face colorée vers le haut.
+ 
+ \paragraph{}
+ Nous l'avions envisagé avec le timing suivant, avec des groupes de 3 élèves: 
+ \begin{description}
+ \item[introduction 5~10min] Présenter la situation, les règles, et faire un exemple rapide.
+ Faire l'exemple rapidement est assez amusant: les élèves ne peuvent pas coprendre comme ça
+ et ils voient que ça marche, d'où une pique d'émulation.
+ \item[Laissez tester 10min] Le jeu étant simple, il ne faut pas laisser trop de 
+ temps dans cette phase. Il s'agit juste de laisser les élèves rentrer dans l'action.
+ Si certains trouvent avec la couleur tant mieux, mais pour ceux qui bloquent,
+ mieux vaut ne pas leur compliquer la tâche.
+ \item[Remise en commun 5min] On repdrend la classe et on fait les robots : on manipule 
+ selon ce qu'ils nous disent. Leur attention est alors attirée sur la précision
+ du langage à adopter, d'autant plus qu'etant les manipulateurs, on ne se prive
+ pas d'interpréter négativement toute instruction floue ou de leur préciser qu'on
+ ne peut pas la suivre.
+ \item[manipulation cachée 10min] Les élèves étant par groupe de 3, ils se répartissent
+ les tâches suivantes: le manipulateur, qui a en main les galettes; l'opérateur,
+ qui donne les instructions à suivre (sans voir les galettes); l'arbitre, qui 
+ vérifie que ces instruction sont bien suivies. Évidemment les rôles tournent. Le
+ but est ici de faire verbaliser l'algorithme.
+ \item[conclusion 15min] On remet en commun et on demande à des élèves de venir 
+ faire l'algorithme devant la classe: ils se tournent vers la classe avec nous
+ derrière eux, et on manipule les galettes selon ce qu'ils nous disent. Le grand 
+ plaisir final serait que l'un de ceux qui passent ait suffisamet compris pour 
+ réussir devant la classe. On fait ensuite la correction, et une généralisation sur
+ les tris puis l'algorithmique (une deuxième fois).
+ \end{description}
+ Il n'y a pas grand chose de plus que nous ayons prévu sur cette activité, mais un
+ coup de pouce très efficace pour les élèves: l'algorithme triant d'abord les galettes
+ les plus basses, on peut lui proposer de les poser dans une 'assiette', pour mettre
+ en avant la nature récursive de la méthode.
+\end{document}
