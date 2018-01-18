@@ -8,9 +8,9 @@ L'activité initiée ici consiste à comparer les structures d'arbres de décisi
 - Cornes: forme, taille, couleur
 - Oreilles: taille, couleur
 - Sourcils: forme, couleur
-- Forme = carré ou triangle.
-- Couleur = foncé ou clair (de la teinte qu'on veut).
-- Taille = petit ou grand.
+- Forme: carré ou triangle.
+- Couleur: foncé ou clair (de la teinte qu'on veut).
+- Taille: petit ou grand.
 
 Séquence de question fixée:
 - 1-Forme du nez
@@ -55,18 +55,18 @@ libre
 Ensemble 2:
 Les i première caractéristiques du iè masques sont fixées à 0^{i-1}1 pour
 assurer la répartition dans un arbre en peigne
--1 0101010101010
--01 101010101010
--001 01010101010
--0001 1010101010
--00001 010101010
--000001 10101010
--0000001 0101010
--00000001 101010
--000000001 01010
--0000000001 1010
--00000000001 010
--000000000001 10
--0000000000001 0
--00000000000001
--00000000000000
+- 1 0101010101010
+- 01 101010101010
+- 001 01010101010
+- 0001 1010101010
+- 00001 010101010
+- 000001 10101010
+- 0000001 0101010
+- 00000001 101010
+- 000000001 01010
+- 0000000001 1010
+- 00000000001 010
+- 000000000001 10
+- 0000000000001 0
+- 00000000000001
+- 00000000000000
