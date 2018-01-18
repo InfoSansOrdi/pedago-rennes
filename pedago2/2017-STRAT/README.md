@@ -1,3 +1,6 @@
+Based on an original idea of Arthur Queffelec.
+This idea is shared under the CC BY-SA license.
+
 Beware Ongoing Work !
 
 # Strategic Reasoning
@@ -13,7 +16,7 @@ multi agent reasoning requires so much computation
 Note: "plan" and "strategy" are used through out this activity for the
 same idea.
 
-# Single Agent Activity
+## Single Agent Activity
 
 The critical point to address in this activity is how all planning
 problems are related and that reasoning about a game and a system can,
@@ -27,7 +30,7 @@ public was different, it ends up giving the same resulting plan.
 Note: a tree decomposition of the game can give good intuition for the
 second part.
 
-# Multi Agent Activity
+## Multi Agent Activity
 
 In this part, we could use multiple examples of multi-agent system as
 well. For instance, tic tac toe, itinerary for cars and -something
@@ -38,14 +41,14 @@ attention back. From this point, we can create an alternative of the
 maze game previously stated and add an entity which can move walls to
 explicit the addition of branching to the tree decomposition.
 
-# Strategy Activity
+## Strategy Activity
 
 From this point, we need to display the meaning of winning strategy,
 the need to have a strategy which wins against all the strategies of
-the opponents. In other work, we could take a strategy which wins in a
+the opponents. In other word, we could take a strategy which wins in a
 certain settings but won't "for all".
 
-# Addition
+## Addition
 
 This is a scratch of an activity, there are a lot of points to
 address:
