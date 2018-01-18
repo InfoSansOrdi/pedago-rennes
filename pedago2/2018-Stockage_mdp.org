@@ -1,0 +1,70 @@
+* Stockage de mot-de-passes
+L'objectif de cette activité est de comprendre les enjeux et problématiques liées au stockage des mots-de-passe.
+
+Cette activité serait à faire sous forme d'exposé interactif, le but étant de faire deviner aux élèves les problèmes liés à chaque technique.
+
+TODO: Essayer de rapprocher l'exposé interactif d'une activité.
+
+** Stockage dans un fichier
+Stocker la liste de mots-de-passe de utilisateurs en clair dans un fichier sur le système.
+
+Problème: ceux qui peuvent accéder au fichier on accès à la liste de tous les mots-de-passe. 
+Il arrive souvent que dees attaquants arrivent à faire fuiter des informations, ils pourraient donc faire fuiter les mots-de-passe.
+
+** Chiffrement des mots-de-passe
+Stocker la liste de mots-de-passe chiffrée. Déchiffrer le mot-de-passe stocké et le comparer à la tentative.
+
+Problèmes: le stockage de la clé. Si un attaquant peut accéder à la clé, il peut compromettre les mots de passe de tous les utilisateurs.
+TODO check for more.
+
+** Fonctions de hash
+On donne aux élèves un outil supplémentaire: les fonctions de hash.
+Les fonctions de hash sont introduites comme une boîte noire:
+- on met un mot en entrée
+- on a un hash/condensat en sortie.
+
+Propriétés de la fonction de hash:
+- Non inversible, on ne peut pas retrouver l'entrée depuis la sortie.
+- Donne toujours le même résultat pour une même entrée.
+- Deux entrées différentes ont peu de chance de donner la même sortie.
+
+Possibilités d'implémentation d'une fonction de hash:
+- Via une application, un site web.
+- Fonction de hash manuelle: on converti les lettres en nombres et on ajoute le premier avec le dernier, le second avec l'avant dernier, etc. ex: azerty => 1 26 5 18 20 => 14146
+
+
+** Hashage des mots-de-passe
+Comment utiliser les fonctions de hash pour le stockage des mots-de-passe ?
+- On stocke un hash des mots-de-passe dans la base de donnée.
+- On applique la fonction de hash sur le mot-de-passe à vérifier et on s'assure que les deux hashs correspondent.
+
+Pourquoi chaque propriété est importante:
+- Si on peut inverser la fonction, on peut retrouver les mots-de-passe à partir du fichier de hash.
+- Si on peut avoir plusieurs hashs différents pour un même mot-de-passe, on ne peut plus le comparer au hash stocké.
+- On pourrait trouver plus facilement des mots-de-passe qui donnent le même hash et qui seraient donc indistingables. 
+
+Activité:
+Faire choisir ~3 mots-de-passe aux élèves et calculer le hash. Ensuite écrire chaque hash au tableau.
+- Si on a des collisions, ça introduit le problème ci-dessous.
+- Sinon demander si quelqu'un voit un problème avec cette méthode.
+
+Problèmes:
+- Propriété 2: Deux mots-de-passe similaires ont le même hash. On peut donc savoir quels utilisateurs utilisent le même mot-de-passe et faire dees attaques statistiques. Pire, si on peut accéder aux indication de mot-de-passe, il s'agit de résoudre un problème de mot-croisé: https://zed0.co.uk/crossword/
+- Rainbow-tables: Tables pré-calculées avec correspondances mot-de-passe / hashs.
+
+** Fonctions de hash salées
+On ajoute un sel au mot de passe: une chaîne de caractères supplémentaire que l'on stocke avec le hash (stocké en clair avec le hash).
+- On vérifie un mot-de-passe en lui ajoutant le sel puis en le passant dans la focntion de hash.
+Ainsi, deux mots-de-passe identiques n'ont pas le même hash et l'attaque ci-dessus n'est plus applicable.
+
+** Attaques brute-force et hygiène numérique
+Il est posible de faire des attaques par brute-force. On teste chaque possibilité de mot-de-passe jusqu'à en trouver un qui correspond au hash.
+Ces attaques sont souvent basées sur des bases de données de mot-de-passe fréquemment utilisés.
+
+Contre-mesures:
+- Ne pas utiliser des mots-de-passe communs.
+- Ne pas utiliser le même mot-de-passe partout.
+- Utiliser des mots-de-passe compliquée via un gestionnaire de mots-de-passe.
+
+Nouvelle propriété des algorithmes de hashage?
+Assez longs à calculer pour ralentir les attaques brute-force.
