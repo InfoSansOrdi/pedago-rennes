@@ -1,3 +1,5 @@
+Cette activité est basée sur une idée originale de Vladislav Tempez. Elle est distribuée sous licence CC-BY.
+
 L'activité initiée ici consiste à comparer les structures d'arbres de décision pour de la classification de masques.
 Le matériel se composerait de 16 cartes représentant des masques, chacun étant composé selon les 15 caractéristiques binaires suivantes.
 
