@@ -32,7 +32,7 @@ la taille des fichiers commités (en vectoriel c'est plus petit) pour
 créant un autre projet à coté, et en rajoutant un lien ici sous forme
 d'un [sous-module
 git](https://git-scm.com/book/en/v2/Git-Tools-Submodules). C'est ce
-qui est fait pour le répertoire [2017-PeA].
+qui est fait pour le répertoire [2017-PeA](2017-PeA).
 Surveillez également la licence de vos fichiers: merci de n'ajouter
 que des choses que vous avez le droit légal de diffuser. Préciser la
 licence de tous vos fichiers dans le `README.md`.
