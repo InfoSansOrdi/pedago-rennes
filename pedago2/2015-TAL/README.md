@@ -1,4 +1,4 @@
-# Les critiques de film
+# Les critiques de film
 
 Cette activité vise à démystifier comment les ordinateurs peuvent
 classifier du texte en français sachant que forcément, ils ne
