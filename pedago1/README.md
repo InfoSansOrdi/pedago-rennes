@@ -66,3 +66,8 @@ le pdf de votre fiche de prep, ainsi que le matériel supplémentaire
 que vous avez préparé (le cas échéant). Si vous ne souhaitez pas
 diffuser votre travail sous licence CC-BY-SA, aucun problème, mais il
 faut l'indiquer dans vos fichiers.
+
+# Exemples d'exposés en lycée
+
+- [Protéger sa vie privée sur internet](https://framagit.org/nooe/Protection_Vie_Privee/),
+  Noe Brucy, 2015.
