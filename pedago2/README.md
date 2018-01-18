@@ -12,16 +12,30 @@ description du module est
   entre les commentaires positifs et négatifs. Ce faisant, on découvre
   les algorithmes les plus simples du domaine et leurs limites.
 
-Oui, c'est un peu court, mais je compte sur vous pour compléter.
 
 # Comment travailler dans ce répertoire
 
-Créez un sous-répertoire année-motclé, et ajoutez-y un fichier
-README.md contenant vos réflexions, le matériel (pdf, svg, odt) et le
-code associés. Tâchez de limiter la taille des fichiers commités (en
-vectoriel c'est plus petit), et surveillez la licence. Si ce n'est pas
-CC-BY-SA, pas de problème (tant que c'est légal), mais indiquez-le
-dans votre README.
+Afin de pouvoir ajouter votre travail, il faut faire un "fork" du
+dépot pedago-rennes sur GitHub (avec le bouton en haut à droite). Une
+fois sur votre copie, vous pouvez soit récupérer un clone sur votre
+disque, soit l'éditer directement depuis l'interface web. Dans les
+deux cas, créez un fichier nommé `pedago2/année-motclé.md` et
+ajoutez-y vos idées. Il faut également choisir une licence et
+l'indiquer explicitement dans le fichier.
+
+Si vous avez du matériel (pdf, svg, odt) et/ou du code, faites un
+répertoire nommé `pedago2/année-motclé` et renommez votre fichier
+d'explications en `pedago2/année-motclé/README.md`.  Tâchez de limiter
+la taille des fichiers commités (en vectoriel c'est plus petit) pour
+épargner les disques durs de vos collègues.  Si votre projet commence
+à prendre de l'ampleur, le mieux est de lui donner son autonomie en
+créant un autre projet à coté, et en rajoutant un lien ici sous forme
+d'un [sous-module
+git](https://git-scm.com/book/en/v2/Git-Tools-Submodules). C'est ce
+qui est fait pour le répertoire [2017-PeA].
+Surveillez également la licence de vos fichiers: merci de n'ajouter
+que des choses que vous avez le droit légal de diffuser. Préciser la
+licence de tous vos fichiers dans le `README.md`.
 
 L'objectif n'est pas d'avoir un répertoire par participant, mais bien
 un répertoire par activité en construction. Les améliorations aux
@@ -36,13 +50,8 @@ mieux est l'ennemi du bien! Souvenez vous simplement que le dépôt est
 public: ne faites pas d'humour gras ou ni trop de private jokes. Les
 choses en travaux ne sont pas honteuses, au contraire.
 
-Si vous avez du mal à écrire plus de 10 lignes sur votre idée, ce
-n'est peut-être pas la peine de faire un répertoire. Faites simplement
-un fichier nommé année-motclé.txt (ou .md ou .org ou autre). Il sera
-promu au rang de répertoire quand on l'aura complété un peu.
-
 Pour collaborer, le plus simple est peut-être que l'un d'entre vous
 fork le dépot puis ajoute les personnes avec lesquelles il compte
-travailler en collaborateur à sa copie. Pensez à faire des pull
-requests de temps en temps pour que j'intègre votre travail dans le
-dépot central. Même (surtout) si ce n'est pas encore fini.
+travailler en collaborateur à sa copie. Faites des pull requests
+régulières pour que j'intègre votre travail dans le dépot central.
+Même (surtout) si ce n'est pas encore fini.
