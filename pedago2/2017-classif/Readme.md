@@ -1,3 +1,5 @@
+Cette activité est basée sur une idée original de Dominique Barbe. Elle est distribuée sous licence CC-BY.
+
 But : découvrir la classification et ses enjeux !
 
 Matériel : des images d'animaux (libres de droits).
