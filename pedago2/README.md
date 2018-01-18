@@ -11,8 +11,10 @@ description du module est
   On cherche à automatiser la classification de critique de films
   entre les commentaires positifs et négatifs. Ce faisant, on découvre
   les algorithmes les plus simples du domaine et leurs limites.
-- [Privacy en Amphi](pedago2/2017-PeA) (vie privée et statistiques).
-
+- [Privacy en Amphi](2017-PeA) (vie privée et statistiques).
+  On cherche à faire des statistiques sur les participants, mais tout
+  en respectant leur vie privée. C'est l'occasion de découvrir la
+  notion de *differential privacy*.
 
 # Comment travailler dans ce répertoire
 
