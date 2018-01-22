@@ -5,12 +5,12 @@ La [fiche de préparation](FicheDePreparation.pdf) décrit l'organisation de l'a
 
 L'image de la locomotive permet d'expliquer le concept de pixel.
 Une petite image a été utilisée pour les consignes.
-'''
-_ # _  -- 1 1 1
-# _ #  -- 0 1 1 1
-# # _  -- 0 2 1
-# # #  -- 0 3
-'''
+
+:white_medium_square: :black_medium_square: :white_medium_square:  -- 1 1 1
+:black_medium_square: :white_medium_square: :black_medium_square:  -- 0 1 1 1
+:black_medium_square: :black_medium_square: :white_medium_square:  -- 0 2 1
+:black_medium_square: :black_medium_square: :black_medium_square:  -- 0 3
+
 
 ## Retour d'expérience
 Les élèves aiment beaucoup l'activité, qui devient un jeu dès que les instructions ont été assimilées. Découvrir les nouvelles images les motivent. :)
