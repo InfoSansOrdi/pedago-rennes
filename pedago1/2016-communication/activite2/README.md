@@ -7,8 +7,11 @@ L'image de la locomotive permet d'expliquer le concept de pixel.
 Une petite image a été utilisée pour les consignes.
 
 :white_medium_square: :black_medium_square: :white_medium_square:  -- 1 1 1
+
 :black_medium_square: :white_medium_square: :black_medium_square:  -- 0 1 1 1
+
 :black_medium_square: :black_medium_square: :white_medium_square:  -- 0 2 1
+
 :black_medium_square: :black_medium_square: :black_medium_square:  -- 0 3
 
 
