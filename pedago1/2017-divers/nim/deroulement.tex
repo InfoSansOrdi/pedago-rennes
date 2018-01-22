@@ -1,0 +1,178 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[top=0.9in, left=0.6in, right=0.7in, bottom=1in]{geometry}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{longtable}
+\usepackage{array}
+
+\renewcommand{\headrulewidth}{1pt}
+\chead{} 
+\lhead{Jeu de Nim - Plan de l'activité}
+\rhead{Santiago Bautista et Benjamin Bordais}
+
+\renewcommand{\footrulewidth}{1pt}
+\cfoot{\textbf{page \thepage}} 
+\lfoot{2017}
+\rfoot{ENS Rennes}
+
+\fancypagestyle{plain}{
+\fancyhf{} 
+\cfoot{\textbf{page \thepage}} 
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{1pt}}
+
+\begin{document}
+\title{Jeu de Nim}
+\author{Santiago Bautista, Benjamin Bordais}
+\date{\today}
+\maketitle
+\paragraph*{Niveau:} CM1-CM2
+\paragraph*{Durée:} 45 minutes
+\paragraph*{Prérequis:} Aucun
+\paragraph*{Description du jeu:}
+Dans le jeu de Nim, deux joueurs s'affrontent. Sur la table, entre eux, il y a 16 pions/jetons/allumettes
+qui sont posés. A tour de rôle, chaque joueur prend un, deux ou trois jetons.
+Le joueur qui prend le(s) derniers jetons a gagné.
+
+\begin{longtable}{c|m{2.5cm}|m{5cm}|m{2.5cm}|m{3cm}}
+\textbf{Durée} & \textbf{Phase} & \textbf{Activités et consignes} & \textbf{Organisation} & \textbf{Matériel} \\ \hline
+
+5' &
+
+Présentation des règles
+
+ &
+
+\og Je vous propose de jouer à un petit jeu. 
+
+Nous allons vous montrer comment on y joue. \fg{}
+
+On montre le déroulement d’une partie au tableau.
+
+& 
+
+(Santiago et Benjamin)
+ 
+ &
+
+Tableau et craies (ou feutres)
+
+
+\\ \hline
+
+5' &
+
+Appropriation des règles
+ 
+ &
+
+
+On joue contre quatre élèves volontaires. Chacun de nous deux en rencontre deux. 
+On fait remarquer aux élèves que l’on gagne à chaque fois.
+  
+& Idem & Idem \\ \hline
+
+5' & 
+
+Exploration du jeu
+
+ &
+
+Les élèves jouent l’un contre l’autre par groupes de deux
+ 
+& 
+
+Par groupes de deux
+&
+Une quinzaine de groupes de 16 jetons colorés
+
+
+ \\ \hline
+
+
+10'
+&
+
+Recherche de stratégie
+
+  & 
+
+\og Recommencez à jouer entre vous, mais maintenant l'objectif est de mettre en place une stratégie pour gagner.\fg{}
+(leur rappeler que nous avons gagné chaque partie).
+
+Aide des groupes en difficultés et défis supplémentaires pour les groupes en avance.
+
+& Idem & Idem \\ \hline
+
+10' &
+
+Automatisation de la stratégie 
+ 
+&  
+
+Dans chacun des anciens groupes de deux, il y en a un qui est un \emph{robot} et un qui donne les instructions, il a les yeux fermés.
+Ils alternent qui commence, ainsi que les rôles.
+
+
+& 
+
+Par groupes de quatre
+ 
+ & Idem \\ \hline
+
+5' & Démonstration & 
+On choisit un élève à l’aise avec cet exercice pour faire une démonstration,
+l’un de nous est le robot.
+&
+Oral collectif
+&
+Tableau (et craies ou feutres) \\  \hline
+
+5' & En quoi est-ce de l'informatique &
+\og 
+Ce qu'on vient de faire, c'est de l'informatique
+car on a besoin de stratégies gagnantes (que l'on appelle algorithmes)
+ pour utiliser des ordinateurs.
+\fg{}  
+ 
+\og 
+C'est que les ordinateurs sont très obéissants:
+ils font tout ce qu'on leur demande, mais seulement ce que l'on demande.
+\fg{} 
+
+\og 
+Il faut donc avoir une stratégie gagnante pour chaque problème que l'on veut faire résoudre à l'ordinateur,
+afin de s'assurer qu'il résoudra le problème à coup sûr
+\fg{} 
+
+& Oral collectif & Rien
+\end{longtable}
+
+\paragraph*{Coup de pouce pour débloquer la réflexion} (si les élèves patinent) :
+\begin{itemize}
+\item Ranger les jetons/allumettes par couleurs, donc par groupes de 4
+\item On peut jouer avec seulement 4 jetons, puis rajouter 4 autres jetons une fois qu'ils auront compris,
+et ainsi de suite.
+\item On joue contre l'élève
+avec la consigne \og regarde bien ce que je fais\fg{}
+puis on inverse les rôles en cours de partie.
+\item On propose des stratégies (qui marchent pas) et on demande aux élèves de jouer contre.
+\begin{itemize}
+\item[\emph{Agressif}] prend toujours 3 pions (ou tous les pions s'il en reste moins), systématiquement.
+\item[\emph{Peureux}] prend toujours un seul pion, systématiquement, quoi qu'il arrive.
+\item[\emph{Aléatoire}] détermination au D6 du nombre de pions pris
+\end{itemize}
+\end{itemize}
+
+\paragraph*{Variantes pour aller plus loin} (si certains groupes d'élèves vont trop vite)
+\begin{itemize}
+\item Est-ce que tu préfères commencer ou pas?
+\item Et s'il y a 17 jetons au début, que se passe-t-il ?
+\item Maintenant, celui qui prend le dernier jeton perd
+\end{itemize}
+
+\end{document}
