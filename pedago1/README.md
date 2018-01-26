@@ -73,3 +73,5 @@ faut l'indiquer dans vos fichiers.
   Noe Brucy, 2015.
 - [Cryptographie](https://github.com/Aurele-Barriere/Crypto), 
   Aurèle Barrière \& Nathan Thomasset, 2015.
+- [PageRank et vie privée](https://framagit.org/florestan.demoor/PedagoL3/), Florestan De Moor \&
+  Jérémy Thibault, 2015.
