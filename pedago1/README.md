@@ -45,6 +45,10 @@ préparer vos interventions.
   séquences, et même un  petit magazine dédié: [Computer Science for fun](http://www.cs4fn.org/)! 
 - [Ch'ti Code](https://wikis.univ-lille1.fr/chticode/wiki/mpls/informatique-sans-ordinateur)
   est une initiative lilloise foisonne de ressources prêtes à l'emploi.
+- [EPCC Outreach Repository](https://github.com/EPCCed/Activities)
+  contient des activités de médiation scientifique mises en place par
+  le centre de calcul de l'université d'Edinburgh. C'est donc plutôt
+  centré autour du calcul parallèle, du HPC et des big data.
 - [Le Castor Informatique](http://castor-informatique.fr/) Ce
   concours est à l'informatique ce que le Kangourou est aux
   mathématiques : une façon ludique de faire découvrir l'informatique
