@@ -77,6 +77,11 @@ faut l'indiquer dans vos fichiers.
   arbres recouvrants avec un repackaging de la ville embourbée à base
   de galeries de nains à la recherche de diamants, et le crépier
   psychorigide repris des activités de M. Quinson.
+- [Communication d'images](2016-communication) (Joshua Peignier et
+  Solène Mirliaz): repackaging de deux activités sur la représentation
+  des images issues du livre unplug: figure téléphonée en vectoriel
+  puis en bitmap. Tous les supports (dessins compris) ont été refaits
+  pour l'occasion.
 
 # Exemples d'exposés en lycée
 
