@@ -82,6 +82,10 @@ faut l'indiquer dans vos fichiers.
   des images issues du livre unplug: figure téléphonée en vectoriel
   puis en bitmap. Tous les supports (dessins compris) ont été refaits
   pour l'occasion.
+- [Binaire](2016-BIN) (Benjamin Fasquelle, Raphaël Truffet, Jimmy
+  Rogala, et Antonin Garret): repackaging complet de deux activités
+  issues du livre unplug autour du binaire: compter en binaire et
+  représentation d'image bitmap. 
 
 # Exemples d'exposés en lycée
 
