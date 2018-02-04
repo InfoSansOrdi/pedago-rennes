@@ -71,6 +71,13 @@ que vous avez préparé (le cas échéant). Si vous ne souhaitez pas
 diffuser votre travail sous licence CC-BY-SA, aucun problème, mais il
 faut l'indiquer dans vos fichiers.
 
+#### 2015
+
+- [Algorithmes](2015-algorithmes) (Léo Henry et Estelle Varloot):
+  arbres recouvrants avec un repackaging de la ville embourbée à base
+  de galeries de nains à la recherche de diamants, et le crépier
+  psychorigide repris des activités de M. Quinson.
+
 # Exemples d'exposés en lycée
 
 - [Protéger sa vie privée sur internet](https://framagit.org/nooe/Protection_Vie_Privee/),
