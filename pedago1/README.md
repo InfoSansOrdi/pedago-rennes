@@ -16,6 +16,8 @@ Cette liste regroupe des sites dans lesquels vous trouverez des
 activités d'informatique débranchée que vous pouvez reprendre pour
 préparer vos interventions.
 
+- [Hors série spécial débranché](http://www.infinimath.com/espaceeducation/tangenteeducation/sommaire.php?som=271)
+  du magazine Tangente Education.
 - [Activités d'algorithmique](http://people.irisa.fr/Martin.Quinson/Mediation/SMN/)
   utilisées par M. Quinson à la moindre occasion.
 - La [page médiation](https://members.loria.fr/MDuflot/files/mediation.html) 
