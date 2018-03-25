@@ -56,6 +56,8 @@ préparer vos interventions.
   mathématiques : une façon ludique de faire découvrir l'informatique
   aux scolaires (primaire et secondaire). On doit pouvoir adapter la
   plupart des activités pour les rendre unplug.
+- [Network and Magic](https://code.ffdn.org/ljf/networkandmagic), un
+  jeu de rôles pour expliquer le fonctionnement d'internet.
 
 Si vous avez des liens à ajouter, ils sont bienvenus.
 
