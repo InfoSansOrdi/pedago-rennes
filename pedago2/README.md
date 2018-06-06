@@ -43,7 +43,8 @@ licence de tous vos fichiers dans le `README.md`.
 L'objectif n'est pas d'avoir un répertoire par participant, mais bien
 un répertoire par activité en construction. Les améliorations aux
 activités des autres (ou des années passées) sont encouragées, tant
-que ça ne tourne pas à l'edit war.
+que ça ne tourne pas à la [guerre
+d'édition](https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Guerre_d%27%C3%A9dition).
 
 L'objectif n'est pas non plus d'avoir un musée d'activités terminées
 et prêtes à l'emploi, mais bien une pépinière d'idées en cours de
