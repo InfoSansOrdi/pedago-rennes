@@ -33,6 +33,9 @@ préparer vos interventions.
   réfléchir avec les mains. De nouveaux défis semblent être ajoutés au
   fil du temps. Certaines solutions sont données, mais souvent sans 
   l'algorithme ou la démarche de résolution. 
+- [Graphes et Algorithmes – Jeux grandeur nature](https://hal.inria.fr/hal-01366804v2)
+  400 pages d'activités autour des problèmes classiques de graphes, à
+  jouer soit en jeu de plateau soit en grandeur nature.
 - [Groupe IREM Informatique sans ordinateur de Clermont-Ferrand](http://www.irem.univ-bpclermont.fr/spip.php?article892).
   Des activités prêtes à l'emploi, avec les fiches de préparation et
   le matériel pour les élèves. Tout a été testé en classe. 
