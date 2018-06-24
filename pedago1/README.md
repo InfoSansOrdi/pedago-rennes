@@ -61,6 +61,9 @@ préparer vos interventions.
   plupart des activités pour les rendre unplug.
 - [Network and Magic](https://code.ffdn.org/ljf/networkandmagic), un
   jeu de rôles pour expliquer le fonctionnement d'internet.
+- [Alligator Eggs!](http://worrydream.com/AlligatorEggs/) est un
+  puzzle dont les règles représentent le λ-calcul. La ressource est
+  dans le domaine public.
 
 Si vous avez des liens à ajouter, ils sont bienvenus.
 
