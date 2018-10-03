@@ -61,6 +61,8 @@ if ($word_count eq 12) {
     ($sizeX, $sizeY) = (4,3);
 } elsif ($word_count eq 24) {
     ($sizeX, $sizeY) = (6,4);
+} elsif ($word_count eq 30) {
+    ($sizeX, $sizeY) = (5,6);
 } elsif ($word_count eq 36) {
     ($sizeX, $sizeY) = (6,6);
 } else {
@@ -90,7 +92,7 @@ for my $y (0..($sizeY-1)) {
     }
     print "\n";
 }
-die "I don't know how to empty extra cells on last page" if (($word_count % 12) ne 0);
+warn "I don't know how to empty extra cells on last page" if (($word_count % 12) ne 0);
 my ($page_count) = $word_count / 12 + (($word_count % 12) eq 0? 0 : 1);
 
 for my $P (0..$page_count) {
