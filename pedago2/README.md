@@ -26,6 +26,12 @@ deux cas, créez un fichier nommé `pedago2/année-motclé.md` et
 ajoutez-y vos idées. Il faut également choisir une licence et
 l'indiquer explicitement dans le fichier.
 
+Pour plus de doc "comment débuter sur GitHub", je vous conseille le
+très bon site https://www.firsttimersonly.com/ qui pointe plusieurs
+tutoriels bien faits, expliquant tout pas à pas. On y apprend même
+comment trouver des contributions simples à faire dans des logiciels
+libres. Mais ce n'est pas l'objet du module :)
+
 Si vous avez du matériel (pdf, svg, odt) et/ou du code, faites un
 répertoire nommé `pedago2/année-motclé` et renommez votre fichier
 d'explications en `pedago2/année-motclé/README.md`.  Tâchez de limiter
