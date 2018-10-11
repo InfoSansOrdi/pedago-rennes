@@ -15,29 +15,63 @@
 \section{But}
 Faire prendre conscience aux joueurs de l'importance d'avoir des protocoles de sécurité sans failles.
 
+\section{Nombre d'intervenants}
+Cette activité est jouée par un animateur et fait intervenir 3 ou 4 joueurs en plus de l'animateur.
+
 \section{Principe de l'activité}
-Les joueurs vont tester des protocoles fournis en exemple, leur but est de s'échanger un message en s'assurant que celui-ci reste secret, en utilisant les clés et les boîtes à leur disposition ; un des joueurs prend le rôle de l'attaquant et doit réussir à obtenir le message, en le sortant de la boîte dans laquelle il se trouve ; un des joueurs joue le rôle d'arbitre, c'est par lui que les joueurs passeront pour échanger des messages.
+Les joueurs vont tester des protocoles fournis en exemple, leur but est de s'échanger un message en s'assurant que celui-ci reste secret, en utilisant les clés et les boîtes à leur disposition ; un des joueurs prend le rôle de l'attaquant et doit réussir à obtenir le message, en le sortant de la boîte dans laquelle il se trouve. L'animateur de l'activité joue le rôle d'arbitre ; c'est par lui que les joueurs et l'attaquant devront passer pour échanger des messages.
 
 \section{Matériel}
 \begin{itemize}
 \item Des cartes Messages (en plusieurs exemplaires).
 \item Des clés rondes colorées.
-\item Des clés triangulaires uniques numérotées de $1$ à $p$.
-\item Des clés carrées numérotées de $1$ à $p$.
-\item Des boîtes verrouillées par des clés rondes colorées.
-\item Des boîtes verrouillées par des clés triangulaires numérotées et ouvrables par les clés carrées correspondantes.
-\item Des boîtes verrouillées par des clés carrées numérotées et ouvrables avec les clés triangulaires correspondantes.
+\item Des clés triangulaires uniques et colorées et numérotées.
+\item Des clés carrées colorées et numérotées.
+\item Des boîtes verrouillées par des clés rondes colorées et numérotées.
+\item Des boîtes verrouillées par des clés triangulaires colorées et ouvrables par les clés carrées de la même couleur.
+\item Des boîtes verrouillées par des clés carrées numérotées et ouvrables avec les clés triangulaires de la même couleur.
 \item Des masques cartonnés.
 \item Des exemples de protocole.
 \end{itemize}
 
 
+\section{Fonctionnement des différents objets}
+\begin{itemize}
+	\item Les cartes messages sont des secrets que les joueurs vont chercher à s'échanger, en faisant en sorte que l'attaquant ne puisse pas les obtenir.
+	\item Pour les clés, chaque numéro est associé à une seule couleur (ils servent par exemple à aider les daltoniens à distinguer les différentes clés).
+	\item Les boîtes sont des enveloppes que les joueurs vont utiliser pour s'envoyer des cartes Messages. Il y en a de différentes sortes :
+		\begin{itemize}
+			\item Certaines boîtes portent un simple cadenas coloré. Cela signifie que pour verrouiller ou déverrouiller cette boîte, un joueur doit posséder une clé ronde de la même couleur que le cadenas.
+			\item D'autres boîtes possèdent deux symboles reliés par une flèche ; ces symboles sont forcément un carré et un triangle, qui peuvent être d'un côté ou de l'autre de la flèche. Pour fermer une telle boîte, un joueur doit posséder une clé de la même forme et de la même couleur que le symbole à gauche de la flèche. Pour ouvrir cette même boîte, un joueur doit posséder une clé de la même forme et de la même couleur que le symbole à droite de la flèche. 
+		\end{itemize}
+	\item Les clés triangulaires sont des clés secrètes. Lorsque les joueurs en ont besoin, ils en auront chacun une d'une couleur différente.
+	\item Les clés carrées sont des clés publiques : si un joueur possède une clé triangulaire d'une certaine couleur, tous les autres joueurs (y compris l'attaquant) doivent posséder une clé carrée de la même couleur.
+\end{itemize}
+
 \section{Règles}
 \begin{itemize}
 \item Les boîtes ne peuvent pas être cassées. Elles ne peuvent être ouvertes que si vous disposez de la bonne clé ; de même, vous ne pouvez verrouiller une boîte que si vous disposez de la bonne clé.
 \item Pour donner un message à un joueur, donnez le à l'arbitre en lui pointant du doigt le joueur à qui vous voulez envoyer le message.
-\item Lorsque l'arbitre reçoit un message, il doit immédiatement en faire une copie (il peut pour cela l'ouvrir sans avoir de clé, et c'est le seul joueur à posséder ce droit) et la donner à l'attaquant.
+\item Lorsqu'un joueur construit un message et le donne à l'arbitre, le joueur doit immédiatement en faire une copie, que l'arbitre donnera à l'attaquant (explication : l'attaquant observe le réseau, et est capable de copier tout ce qui y passe, même sans pouvoir le déchiffrer ; ici, comme ce sont des morceaux de papier qui passent sur le réseau, il faut en faire des copies physiques pour l'attaquant).
 \item L'attaquant a le droit de forcer l'arbitre à lui donner un message, pour que celui-ci n'arrive pas à destination. Il a également le droit de donner à n'importe quel moment un message à l'arbitre en lui pointant du doigt le joueur auquel il souhaite l'envoyer. 
 \end{itemize}
 
+
+\section{Initiation}
+Cette partie sert à initier les différents joueurs à l'utilité des différentes clés, et à les initier aux notions de chiffrement symétrique et asymétrique.
+\subsection{Les clés rondes}
+\begin{itemize}
+	\item Rôles : l'arbitre, deux joueurs (appelés joueur 1 et joueur 2), et un attaquant.
+	\item Au début de la partie, les joueurs 1 et 2 ont chacun une clé ronde rouge. L'attaquant ne possède pas cette clé.
+	\item But : le joueur 1 doit piocher une carte Message et le joueur 2 doit récupérer la carte Message sans que l'attaquant ne puisse l'obtenir. Pour cela, ils peuvent utiliser les clés et boîtes à leur disposition.
+	\item Solution : comme les deux joueurs ont une clé ronde rouge et que l'attaquant n'a pas cette clé, il suffit que le joueur 1 mette la carte dans une boîte qu'il puisse verrouiller avec sa clé rouge. Il la donne alors à l'arbitre, et celui-ci la donne à l'autre joueur ; comme il possède la même clé, il peut déverrouiller la boîte et récupérer le message. L'attaquant aura obtenu une copie de la boîte, mais il sera incapable de l'ouvrir.
+\end{itemize}
+
+\subsection{Les clés carrés et triangulaires}
+\begin{itemize}
+	\item Rôles : l'arbitre, deux joueurs (appelés joueur 1 et joueur 2), et un attaquant.
+	\item Au début de la partie, le joueur 1 possède une clé triangulaire rouge et le joueur 2 possède une clé triangulaire bleue. Tous les joueurs (y compris l'attaquant) possèdent aussi une clé carrée bleue et une clé carrée rouge.
+	\item But : le joueur 1 doit piocher une carte Message et le joueur 2 doit récupérer cette carte sans que l'attaquant ne puisse l'obtenir.
+	\item Solution : La solution la plus simple est que le joueur 1 prenne une boîte qui puisse être fermée avec la clé carrée bleue et ouverte avec la clé triangulaire bleue. Ainsi, seul le joueur 2 pourra ouvrir la boîte.
+\end{itemize}
 \end{document}
