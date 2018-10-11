@@ -2,6 +2,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{tikz}
 \usepackage{amsmath}
+\usepackage{fullpage}
 
 %opening
 \title{Initiations aux protocoles de sécurité}
@@ -10,10 +11,33 @@
 
 \maketitle
 
+
+\section{But}
+Faire prendre conscience aux joueurs de l'importance d'avoir des protocoles de sécurité sans failles.
+
+\section{Principe de l'activité}
+Les joueurs vont tester des protocoles fournis en exemple, leur but est de s'échanger un message en s'assurant que celui-ci reste secret, en utilisant les clés et les boîtes à leur disposition ; un des joueurs prend le rôle de l'attaquant et doit réussir à obtenir le message, en le sortant de la boîte dans laquelle il se trouve ; un des joueurs joue le rôle d'arbitre, c'est par lui que les joueurs passeront pour échanger des messages.
+
 \section{Matériel}
+\begin{itemize}
+\item Des cartes Messages (en plusieurs exemplaires).
+\item Des clés rondes colorées.
+\item Des clés triangulaires uniques numérotées de $1$ à $p$.
+\item Des clés carrées numérotées de $1$ à $p$.
+\item Des boîtes verrouillées par des clés rondes colorées.
+\item Des boîtes verrouillées par des clés triangulaires numérotées et ouvrables par les clés carrées correspondantes.
+\item Des boîtes verrouillées par des clés carrées numérotées et ouvrables avec les clés triangulaires correspondantes.
+\item Des masques cartonnés.
+\item Des exemples de protocole.
+\end{itemize}
+
 
 \section{Règles}
-
-
+\begin{itemize}
+\item Les boîtes ne peuvent pas être cassées. Elles ne peuvent être ouvertes que si vous disposez de la bonne clé ; de même, vous ne pouvez verrouiller une boîte que si vous disposez de la bonne clé.
+\item Pour donner un message à un joueur, donnez le à l'arbitre en lui pointant du doigt le joueur à qui vous voulez envoyer le message.
+\item Lorsque l'arbitre reçoit un message, il doit immédiatement en faire une copie (il peut pour cela l'ouvrir sans avoir de clé, et c'est le seul joueur à posséder ce droit) et la donner à l'attaquant.
+\item L'attaquant a le droit de forcer l'arbitre à lui donner un message, pour que celui-ci n'arrive pas à destination. Il a également le droit de donner à n'importe quel moment un message à l'arbitre en lui pointant du doigt le joueur auquel il souhaite l'envoyer. 
+\end{itemize}
 
 \end{document}
