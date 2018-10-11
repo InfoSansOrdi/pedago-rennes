@@ -23,3 +23,7 @@ Il faudrait prévoir plus de modèles, pour les plus rapides, ou bien ajouter pl
 La partie écrite a cette fois eu un peu plus de temps pour être réaliser mais n'a pas pû être faite par tout le monde. Les résultats sont relativement satisfaisants.
 
 (Les fiches sont à couper en deux. Pour les [modèles](modeles.pdf) des boucliers, la fiche doit être couper en quatre (six boucliers par élèves), de tels sortes que les deux élèves d'un groupe n'est, évidemment, pas les mêmes.)
+
+## TODO
+ * [ ] Ajouter un exemple de blason grand format
+ * [ ] Ajouter une liste d'instructions pour la présentation du professeur
