@@ -1,0 +1,6 @@
+boardSize: 600
+cellSize: 30
+output: board.svg
+skew: False
+divide: 2
+seed: 268656267568
