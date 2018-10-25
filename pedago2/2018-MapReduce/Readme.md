@@ -8,9 +8,10 @@ Elle est distribuée sous license CC-BY-SA.
 
 ## Matériel requis
 
-* Plateau de couleurs en deux exemplaires dont une avec lignes de séparation en blocs à découper (à générer en utilisant le script Python fourni, voir ci dessous)
+* Plateau de motifs
 * Cartes rôle (coordinateur, analyseur, rassembleur)
-* Cartes couleurs
+* Cartes motifs
+* Ciseaux
 
 ## Public visé
 
@@ -18,17 +19,20 @@ Cette activité requiert le calcul d'additions simples, et peut généralement �
 
 ## Générer le plateau
 
+Des exemples de plateaux sont disponibles dans le dépôt.
+
+Il est également possible de générer un plateau en utilisant le script Python fourni.
 La librairie `svgwrite` est utilisée, elle peut être installée avec la commande suivante : `pip3 install svgwrite`.
 Divers paramètres peuvent être modifiés dans le fichier de configuration `boardConfig.yml` dont le nom du fichier généré (`board.svg` par défaut).
 Puis exécuter :
 ```python3 board.py```
-Pour avoir les deux exemplaires, exécuter le script une première fois avec `divide: 0` puis une seconde avec une autre valeur de `divide` et la même valeur de `seed`.
+Le script utilise les images 'cat', 'dog', 'crow' et 'fish' de (Font Awesome)[https://fontawesome.com/] qui sont sous license CC BY 4.0.
 
 ## Déroulement de l'activité
 
 ### Problème à résoudre :
 
-On dispose d'un plateau contenant un certain nombre de cases colorées. Le but est de compter le nombre de cases de chaque couleur.
+On dispose d'un plateau contenant un certain nombre de motifs parmi les quatre suivants : chat, chien, oiseau et poisson. Le but est de compter le nombre de cases de chaque motif.
 
 ### Première partie : approche naïve
 
