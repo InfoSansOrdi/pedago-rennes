@@ -1,6 +1,6 @@
-boardSize: 600
-cellSize: 30
-output: board.svg
+boardWidth: 200
+boardHeight: 300
+cellSize: 10
+output: board-example.svg
 skew: False
-divide: 2
-seed: 268656267568
+seed: 268656267566
