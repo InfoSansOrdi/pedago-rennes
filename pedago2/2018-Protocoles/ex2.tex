@@ -1,0 +1,53 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usepackage{fullpage}
+
+%opening
+\title{Exemple 2}
+
+\begin{document}
+
+\maketitle
+
+\section{Nombre de joueurs et situation initiale}
+\begin{itemize}
+	\item Rôles : l'arbitre, un attaquant, et deux joueurs, nommés joueur 1 et joueur 2 ; l'attaquant sera nommé joueur 3.
+	\item Au début, l'arbitre distribue aléatoirement à chaque joueur une clé triangulaire, et une clé carrée correspondante. Ainsi, si le joueur 1 reçoit la clé triangulaire 2, l'arbitre doit aussi lui donner la clé carrée 2, et personne d'autre ne posède cette clé au début.
+	\item But : le joueur 1 piochera une carte Secret, et devra l'envoyer au joueur 2 en s'assurant qu'elle reste secrète.
+\end{itemize}
+
+
+
+
+\section{Joueur 1}
+\begin{enumerate}
+	\item Faites un double de votre clé carrée, et envoyez la au joueur 2.
+	\item Si vous recevez une boîte contenant une clé carrée, piochez une carte Secret, et enfermez la dans une boîte que vous verrouillerez avec la clé carrée que vous venez de recevoir. Puis envoyez le tout au joueur 2.
+\end{enumerate}
+
+\section{Joueur 2}
+\begin{enumerate}
+	\item Si vous recevez une clé carrée, utilisez la pour fermer une boîte où vous aurez préalablement placé une copie de votre propre clé carrée, puis renvoyez le tout au joueur 1.
+	\item Si vous recevez une boîte que vous pouvez ouvrir avec votre clé triangulaire, ouvrez la. Si elle contient une carte Secret, le protocole est terminé.
+\end{enumerate}
+
+\section{La faille}
+Ce protocole contient une faille :
+\begin{itemize}
+ \item Lorsque le joueur 1 envoie sa clé carrée au joueur 2, l'attaquant peut bloquer cette clé pour que le joueur 2 ne la reçoive pas, et la garder pour lui.
+ \item Par la suite, l'attaquant envoie sa propre clé carrée au joueur 2.
+ \item Le joueur 3 envoie alors sa clé carrée dans une boîte que seul le joueur 3 pourra ouvrir. Celui-ci peut alors récupérer la clé carrée du joueur 2.
+ \item Le joueur 3 envoie alors sa clé carrée au joueur 1, dans une boîte qu'il ferme avec la clé carrée du joueur 1.
+ \item Le joueur 1 envoie alors une carte Secret dans une boîte qu'il ferme avec la clé qu'il a reçue, qui est celle du joueur 3. Le joueur 3 peut alors récupérer la boîte et lire le secret. Il peut ensuite l'envoyer au joueur 2 dans une boîte qu'il ferme avec sa clé.
+\end{itemize}
+
+\section{En pratique}
+Dans cet exemple, le joueur 1 croit qu'il parle avec le joueur 2, alors qu'il parle en réalité avec le joueur 3. Le joueur 2 parle avec quelqu'un, sans avoir besoin de savoir de qui il s'agit.\\
+En pratique, le joueur 2 peut être un serveur, et le joueur 1 quelqu'un qui croît parler avec ce serveur ; le joueur 3 est alors un attaquant qui se fait passer pour le serveur auprès du joueur 1, et récupérer tous les secrets que celui-ci veut envoyer au serveur.
+
+\section{Comment corriger l'attaque ?}
+Une solution est d'avoir une personne extérieure, qui soit de confiance, et qui puisse garantir qu'une personne possède bien la clé privée qui correspond à une clé publique donnée. Dans la vraie vie, une telle personne extérieure est appelée une \emph{autorité de certification}.\\  Ainsi, au lieu d'envoyer des clés, les joueurs envoient des clés dans une boîte verrouillée par la clé triangulaire (privée) de cette autorité de certification. Tous les joueurs doivent posséder la clé carrée correspondant à l'autorité de certification.\\ Ainsi, lorsqu'un joueur reçoit une clé carrée dans une boîte fermée par l'autorité de certification, ils savent de qui vient cette clé carrée.\\
+Dans cet exemple, lorsque le joueur 1 reçoit la clé du joueur 3, il saurait alors qu'elle vient du joueur 3 et l'attaque ne serait plus possible.
+\end{document}
