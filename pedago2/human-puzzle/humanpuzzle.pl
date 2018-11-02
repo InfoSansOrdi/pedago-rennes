@@ -97,7 +97,7 @@ for my $y (0..($sizeY-1)) {
     }
     print "\n";
 }
-warn "I don't know how to empty extra cells on last page" if (($word_count % 12) ne 0);
+
 my ($page_count) = $word_count / 12 + (($word_count % 12) eq 0? 0 : 1);
 
 for my $P (0..$page_count) {
