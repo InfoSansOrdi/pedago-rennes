@@ -2,9 +2,7 @@
 
 # Script to create the material for a Human Puzzle from the sentence to encode.
 #
-# Usage: just provide a text file containing your sentence, and a symbol to print on the back
-#
-# TODO: for now only sentences of exactly 24 or 36 words are handled.
+# Usage: just provide a symbol to print on the back and a text file containing your sentence (or directly your sentence).
 #
 # Copyright (C), Martin Quinson 2018. This file is distributed under the terms of
 # the GNU General Public License version 3 (http://www.gnu.org/licenses/gpl.html).
@@ -14,11 +12,11 @@
   
 
 use strict;
-													    
-die "Usage: humanpuzzle-generate.pl sentence.txt pagenum\n" if ($#ARGV != 1);
-die "Cannot read from $ARGV[0]: file not found.\n" unless (-e $ARGV[0]);
 
-my ($dataname,$pageback) = ($ARGV[0], $ARGV[1]);
+die "Usage: humanpuzzle-generate.pl pagenum sentence.txt\n" if ($#ARGV == 0);
+
+my $pageback = shift @ARGV;
+
 
 sub readfile ($) {
     my $filename = shift;
@@ -39,9 +37,16 @@ sub writefile ($$) {
     close FH || die "Cannot write into $filename: $!\n";
 }
 
-print "Reading the sentence from '$dataname'...";
-my (@words) = split(" ", readfile($dataname));
-
+my (@words);
+my ($dataname) = ("board");
+if (-e $ARGV[0]) {
+    $dataname = shift @ARGV;
+    print "Reading the sentence from '$dataname'...";
+    @words = split(" ", readfile($dataname));
+} else {
+    print "Reading the sentence from the command line...";
+    @words = @ARGV;
+}
 my ($word_count) = scalar @words;
 
 print "Input has $word_count words: ";
@@ -147,6 +152,7 @@ for my $P (0..$page_count-1) {
 	my ($a,$b,$c,$d,$txt)=($page[$P][$C]{'a'},$page[$P][$C]{'b'},$page[$P][$C]{'c'},$page[$P][$C]{'d'},$page[$P][$C]{'txt'});
 	my ($id) = $C+1; # the input file starts counting on 1 while we count on 0 in this program
 	$txt =~ s/_/ /g;
+	$txt =~ s/\\n/\n/g;
 	$ctn =~ s|>${id}a</tspan|>${a}</tspan|gm;
 	$ctn =~ s|>${id}b</tspan|>${b}</tspan|gm;
 	$ctn =~ s|>${id}c</tspan|>${c}</tspan|gm;
@@ -161,8 +167,10 @@ for my $P (0..$page_count-1) {
 
 $dataname =~ s/\..*//g;
 print "Join the pages and remove temp files\n";
-qx,pdfjoin --outfile ${dataname}.pdf $file_list, && "Cannot run pdfjoin: $!\n";
+qx,pdfjoin --outfile ${dataname}.pdf $file_list, && die "Cannot run pdfjoin: $!\n";
 unlink("tmp-back.pdf") || die "Cannot remove tempfile: $!\n";
 for my $P (0..$page_count-1) {
     unlink("tmp-page-$P.pdf") || die "Cannot remove tempfile: $!\n";
 }
+
+exit 0;
