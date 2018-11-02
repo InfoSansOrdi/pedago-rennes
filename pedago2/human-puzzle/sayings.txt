@@ -1,0 +1,9 @@
+1 There_are two hard problems in_Computer Science: cache invalidation, naming things, off-by-1 errors.
+2 There are two ways to write error-free programs; the third one works.
+3 The great thing about TCP jokes is that you always get them.
+4 I know a joke about UDP, but you might not get it.
+5 If Java had true garbage collection, most programs would delete themselves automatically.
+6 You can write software without even realising that you are doing maths.
+7 Programs must_be written for people to_read, and_only incidentally for machines to execute.   
+8 A month in the lab frequently saves an hour in the library.
+9 Whether Machines Can Think is as relevant as whether Submarines Can Swim.
