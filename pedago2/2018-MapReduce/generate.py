@@ -6,7 +6,7 @@ import random
 
 patterns = ['bicycle', 'fish', 'rocket', 'tree', 'walking']#, 'cat', 'seedling', 'trophy' , 'crow', 'truck']
 
-pmargin=1500 # page margin, in the unit of the viewBox
+pmargin=1200 # page margin, in the unit of the viewBox
 cmargin=645 # margin within the card
 cellsize=645 # cell of one icon, in the unit of the viewBox
 
@@ -37,6 +37,13 @@ for filename in patterns:
     ypad[filename] = (cellsize - int(box.group(2))) / 2
     assert ypad[filename] > 0, "the cell is too small for {:s}.svg: cellsize is {:d} but image is x{:s} y{:s}".format(filename, cellsize, box.group(1), box.group(2))
 
+
+# Compute the data content
+# TODO: here, we may skew the random generation, or trick it another way
+data = [[0 for j in range(cardsize * ycard)] for i in range(cardsize * xcard)]
+for x in range(cardsize * xcard):
+    for y in range(cardsize * ycard):
+        data[x][y] = int(random.uniform(0,len(patterns)))
     
 # Helping function
 def cell_to_viewport(pattern, x, y):
@@ -56,7 +63,7 @@ f.write('</defs>\n')
 # Cells content
 for x in range(cardsize * xcard):
     for y in range(cardsize * ycard):
-        pat = patterns[int(random.uniform(0,len(patterns)))]
+        pat = patterns[ data[x][y] ]
         f.write('<use xlink:href="#{:s}" {:s} />\n'.format(pat, cell_to_viewport(pat, x,y)))
 # Grid to help cutting the cards
 for x in range(xcard):
