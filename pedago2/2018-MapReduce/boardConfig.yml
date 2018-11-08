@@ -1,6 +1,0 @@
-boardWidth: 200
-boardHeight: 300
-cellSize: 10
-output: board-example.svg
-skew: False
-seed: 268656267566
