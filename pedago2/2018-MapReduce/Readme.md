@@ -8,10 +8,8 @@ Elle est distribuée sous license CC-BY-SA.
 
 ## Matériel requis
 
-* Plateau de motifs
-* Cartes rôle (coordinateur, analyseur, rassembleur)
-* Cartes motifs
-* Ciseaux
+* Cartes motifs à imprimer et découper
+* Cartes rôle (coordinateur, analyseur, rassembleur) : fichier `roles.pdf` à imprimer et découper
 
 ## Public visé
 
@@ -19,20 +17,20 @@ Cette activité requiert le calcul d'additions simples, et peut généralement �
 
 ## Générer le plateau
 
-Des exemples de plateaux sont disponibles dans le dépôt.
-
-Il est également possible de générer un plateau en utilisant le script Python fourni.
-La librairie `svgwrite` est utilisée, elle peut être installée avec la commande suivante : `pip3 install svgwrite`.
-Divers paramètres peuvent être modifiés dans le fichier de configuration `boardConfig.yml` dont le nom du fichier généré (`board.svg` par défaut).
-Puis exécuter :
-```python3 board.py```
-Le script utilise les images 'cat', 'dog', 'crow' et 'fish' de (Font Awesome)[https://fontawesome.com/] qui sont sous license CC BY 4.0.
+Des exemples de pages de carte motifs sont disponibles dans le dépôt.
+Il est également possible de générer une page en utilisant le script Python fourni.
+Il suffit pour cela d'exécuter la commande suivante :
+```./generate.py```
+Le script utilise certaines images de [Font Awesome](https://fontawesome.com/) qui sont sous license CC BY 4.0.
+Les pages de cartes doivent ensuite être imprimées, et découpées.
 
 ## Déroulement de l'activité
 
 ### Problème à résoudre :
 
-On dispose d'un plateau contenant un certain nombre de motifs parmi les quatre suivants : chat, chien, oiseau et poisson. Le but est de compter le nombre de cases de chaque motif.
+On dispose d'un plateau contenant un certain nombre de motifs. Le but est de compter le nombre de cases de chaque motif.
+
+Afin de facilement détecter d'éventuelles erreurs, la génération est telle qu'un ensemble de cartes motifs issu d'un nombre entier de pages présente la propriété suivante : l'effectif de chaque motif est un multiple de 3.
 
 ### Première partie : approche naïve
 
@@ -57,8 +55,8 @@ Les rassembleurs ne commencent à travailler qu'une fois que les analyseurs ont 
 
 #### Déséquilibre de répartition des couleurs
 
-Un plateau déséquilibré peut être généré avec le script Python en passant le paramètre `skew: True`.
-Certaines couleurs sont alors bien plus présentes qua d'autre, menant à un déséquilibre de travail à effectuer pour les rassembleurs.
+Des cartes dont la distribution des motifs est biaisée sont également fournies en exemple.
+Certains motifs sont alors bien plus présents que d'autre, menant à un déséquilibre de travail à effectuer pour les analyseurs et les rassembleurs.
 Comment remédier à ce problème ?
 
 #### Faire face aux imprévus
@@ -67,10 +65,3 @@ Un travailleur est parti faire la sieste, et on ne sait pas quand il va revenir.
 
 introduction crash de noeuds / relancement de tâches / duplication de tâches
 
-## Avancement de la conception de l'activité
-
-* [x] Script pour générer plateau sous forme d'une image svg
-* [ ] Créer cartes rôle et couleurs
-* [ ] Ecrire objectifs de l'activité
-* [ ] Ecrire déroulement complet de l'activité de base (première et deuxième partie)
-* [ ] Ajouter extensions à l'activité (troisième partie)

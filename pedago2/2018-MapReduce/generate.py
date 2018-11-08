@@ -14,6 +14,8 @@ cardsize=5 # Each card has cardsize x cardsize icons
 xcard=3 # There is xcard x ycard on a given page
 ycard=4 #
 
+skew=True # Skew the pattern generation
+
 ## compute some globals
 paths = {} # <path> data drawing the pattern
 # Each image is meant to be printed on a viewBoxes of a specific size: 512x512, 640x512 or 320x512 (check their svg header)
@@ -37,13 +39,37 @@ for filename in patterns:
     ypad[filename] = (cellsize - int(box.group(2))) / 2
     assert ypad[filename] > 0, "the cell is too small for {:s}.svg: cellsize is {:d} but image is x{:s} y{:s}".format(filename, cellsize, box.group(1), box.group(2))
 
+# Generate a distribution of icons, skewed or not
+# The number of each pattern in one page will always be a multiple of 3
+assert (cardsize * cardsize * xcard * ycard) % 3 == 0, "the total number of icons in the page {:d} is not a multiple of 3".format(cardsize * cardsize * xcard * ycard)
+total = int((cardsize * cardsize * xcard * ycard) / 3)
+if skew:
+  amounts = [0 for i in range(len(patterns))]
+  cursum = 0
+  for i in range(len(amounts) - 1):
+    x = random.randint(1, total - cursum - (len(amounts) - i))
+    cursum += x
+    amounts[i] = x
+  amounts[-1] = total - cursum
+else:
+  amounts = [int(total / len(patterns)) for i in range(len(patterns))]
+  amounts[-1] += total - sum(amounts)
+amounts = [3 * e for e in amounts]
+assert sum(amounts) == (total * 3), "thid should not happen"
+print(amounts, sum(amounts))
 
 # Compute the data content
-# TODO: here, we may skew the random generation, or trick it another way
+# Generation is done using the distribution computed above
 data = [[0 for j in range(cardsize * ycard)] for i in range(cardsize * xcard)]
+pool = [i for i in range(len(patterns))]
+curamounts = [0 for i in range(len(amounts))]
 for x in range(cardsize * xcard):
     for y in range(cardsize * ycard):
-        data[x][y] = int(random.uniform(0,len(patterns)))
+        p = random.choice(pool)
+        curamounts[p] += 1
+        if curamounts[p] >= amounts[p]:
+          del pool[pool.index(p)]
+        data[x][y] = p
     
 # Helping function
 def cell_to_viewport(pattern, x, y):
