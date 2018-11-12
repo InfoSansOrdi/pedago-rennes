@@ -4,6 +4,9 @@ import os
 import re
 import random
 
+skew=False # Skew the pattern generation to get more of the first pattern
+crc=False # Generate only cards where the amount of each card is s.t. X%3 = 1
+
 patterns = ['bicycle',  'rocket', 'tree', 'walking']#'fish',, 'cat', 'seedling', 'trophy' , 'crow', 'truck']
 
 pmargin=1200 # page margin, in the unit of the viewBox
@@ -14,7 +17,6 @@ cardsize=5 # Each card has cardsize x cardsize icons
 xcard=3 # There is xcard x ycard on a given page
 ycard=4 #
 
-skew=True # Skew the pattern generation
 
 ## compute some globals
 paths = {} # <path> data drawing the pattern
@@ -38,7 +40,8 @@ for filename in patterns:
     
     ypad[filename] = (cellsize - int(box.group(2))) / 2
     assert ypad[filename] > 0, "the cell is too small for {:s}.svg: cellsize is {:d} but image is x{:s} y{:s}".format(filename, cellsize, box.group(1), box.group(2))
- 
+
+
 # Generate a distribution of icons, skewed or not
 # The number of each pattern in one batch will always be so that XX % 3 == 1
 def generate_amounts(target_size):
@@ -63,7 +66,6 @@ def generate_amounts(target_size):
             amounts_res[x] += 1
     amounts_res = [3 * e +1 for e in amounts_res]
     assert sum(amounts_res) == target_size, "This should not happen: {:d} != {:d}".format(sum(amounts_res), target_size)
-    print(amounts_res, sum(amounts_res))
     return amounts_res
 
 # Compute the data content
@@ -76,11 +78,16 @@ for xc in range(xcard):
         curamounts = [0 for i in range(len(amounts))]
         for x in range(cardsize):
             for y in range(cardsize):
-                p = random.choice(pool)
-                curamounts[p] += 1
-                if curamounts[p] >= amounts[p]:
-                    del pool[pool.index(p)]
-                data[x+xc*cardsize][y+yc*cardsize] = p
+                if crc:
+                    p = random.choice(pool)
+                    curamounts[p] += 1
+                    if curamounts[p] >= amounts[p]:
+                        del pool[pool.index(p)]
+                else:
+                    p = int(random.uniform(0,len(patterns)))
+                    curamounts[p] += 1
+        print(curamounts, sum(curamounts))
+        data[x+xc*cardsize][y+yc*cardsize] = p
     
 # Helping function
 def cell_to_viewport(pattern, x, y):
