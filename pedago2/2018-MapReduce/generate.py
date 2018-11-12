@@ -6,6 +6,7 @@ import random
 
 skew=False # Skew the pattern generation to get more of the first pattern
 crc=False # Generate only cards where the amount of each card is s.t. X%3 = 1
+letter=True # Print on letter paper (or on A4 if false)
 
 patterns = ['bicycle',  'rocket', 'tree', 'walking']#'fish',, 'cat', 'seedling', 'trophy' , 'crow', 'truck']
 
@@ -86,8 +87,8 @@ for xc in range(xcard):
                 else:
                     p = int(random.uniform(0,len(patterns)))
                     curamounts[p] += 1
+                data[x+xc*cardsize][y+yc*cardsize] = p
         print(curamounts, sum(curamounts))
-        data[x+xc*cardsize][y+yc*cardsize] = p
     
 # Helping function
 def cell_to_viewport(pattern, x, y):
@@ -98,7 +99,10 @@ def cell_to_viewport(pattern, x, y):
 ## Generate the file 
 f = open("board.svg", "w")
 f.write('<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"\n')
-f.write('     viewBox="0 0 14000 19800" height="297mm" width="210mm">\n') # 14000x19800 is 21000x29700 at 2/3 ratio
+if letter:
+    f.write('     viewBox="0 0 14000 19800" height="11in" width="8.5in">\n') # 14000x19800 is 21000x29700 at 2/3 ratio
+else:
+    f.write('     viewBox="0 0 14000 19800" height="297mm" width="210mm">\n') # 14000x19800 is 21000x29700 at 2/3 ratio
 f.write('<defs>\n')
 for pat in patterns:
     f.write('  <g id="{:s}">{:s}</g>\n'.format(pat, paths[pat]))
