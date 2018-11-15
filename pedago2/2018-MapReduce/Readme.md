@@ -9,7 +9,8 @@ Elle est distribuée sous license CC-BY-SA.
 ## Matériel requis
 
 * Cartes motifs à imprimer et découper
-* Cartes rôle (coordinateur, analyseur, rassembleur) : fichier `roles.pdf` à imprimer et découper
+* Cartes rôle (coordinateur, analyseur, rassembleur) : fichier `ressources/roles.pdf` à imprimer et découper
+* Cartes résultat : fichier `ressources/resultats.pdf` à imprimer et découper
 
 ## Public visé
 
@@ -17,7 +18,7 @@ Cette activité requiert le calcul d'additions simples, et peut généralement �
 
 ## Générer le plateau
 
-Des exemples de pages de carte motifs sont disponibles dans le dépôt.
+Des exemples de pages de cartes motifs sont disponibles dans le dépôt.
 Il est également possible de générer une page en utilisant le script Python fourni.
 Il suffit pour cela d'exécuter la commande suivante :
 ```./generate.py```
@@ -28,23 +29,24 @@ Les pages de cartes doivent ensuite être imprimées, et découpées.
 
 ### Problème à résoudre :
 
-On dispose d'un plateau contenant un certain nombre de motifs. Le but est de compter le nombre de cases de chaque motif.
+On dispose d'un ensemble de cartes sur lesquelles apparaissent un certain nombre de motifs. Le but est de compter le nombre de fois qu'apparaît chaque motif.
 
 Afin de facilement détecter d'éventuelles erreurs, la génération est telle qu'un ensemble de cartes motifs issu d'un nombre entier de pages présente la propriété suivante : l'effectif de chaque motif est un multiple de 3.
 
 ### Première partie : approche naïve
 
-Donner le plateau à un participant et lui demander de compter le nombre de cases de chaque couleur et d'inscrire le résultat sur les cartes couleurs.
+Donner les cartes à un participant et lui demander de compter les effectifs de chaque motif et d'inscrire les nombres sur les cartes résultat.
 Le but est de conclure que cette approche est très longue et fastidieuse à réaliser.
 Demander aux participants comment le processus pourrait être rendu plus rapide et plus facile.
 
 ### Deuxième partie : avec le paradigme MapReduce
 
 Désigner un coordinateur et lui donner cette carte rôle.
-Le coordinateur soit distribuer les autres cartes rôles : 4 rassembleurs, et analyseurs pour tous les participants restant.
-Donner le plateau découpé en blocs au coordinateur, qui va le répartir entre les analyseurs.
-Chaque analyseur compte le nombre de cases de chaque couleur dans le(s) bloc(s) qui lui a(ont) été donné(s) et inscrit le résultat sur les carte couleurs.
-Les cartes sont ensuite transférées aux rassembleurs correspondant (un par couleur) qui s'occupe de regrouper les résultats en les sommant et permet de récuper le résultat final.
+Le coordinateur doit distribuer les autres cartes rôles : 5 rassembleurs, et analyseurs pour tous les participants restant.
+Le coordinateur doit ensuite répartir les cartes motifs entre les analyseurs.
+Chaque analyseur compte les effectifs de chaque motif sur les cartes qui lui ont été attribuées et inscrit les nombres sur les carte résultat.
+Sous ordre du coordinateur, les analyseurs doivent ensuite transférer ces dernières aux rassembleurs (un rassembleur par motif).
+Les rassembleurs calculent les résultats finals en sommant les nombres qu'ils ont reçu.
 Demander aux participants ce qu'ils pensent de cette nouvelle approche. Leur parait-elle plus efficace que la première ?
 
 ### Troisième partie : pour aller plus loin
@@ -61,7 +63,7 @@ Comment remédier à ce problème ?
 
 #### Faire face aux imprévus
 
-Un travailleur est parti faire la sieste, et on ne sait pas quand il va revenir. Comment gérer cette situation pour tout de même finir rapidement le travail ?
+En plein milieu du travail, un participant doit aller chercher son goûter de toute urgence, et on ne sait pas quand il va revenir. Comment gérer cette situation pour tout de même finir rapidement le travail sans avoir à l'attendre ?
 
 introduction crash de noeuds / relancement de tâches / duplication de tâches
 
