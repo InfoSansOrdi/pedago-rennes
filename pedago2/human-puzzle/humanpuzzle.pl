@@ -121,12 +121,12 @@ sub newborder() {
     return $res;
 }
 for my $x (0..($sizeX-1)) { 
-    $page[ $fullP[$x][0]        ][ $fullC[$x][0]        ]{'a'} = ''; # No top neighbor on top
-    $page[ $fullP[$x][$sizeY-1] ][ $fullC[$x][$sizeY-1] ]{'c'} = ''; # No bottom neighbor on bottom
+    $page[ $fullP[$x][0]        ][ $fullC[$x][0]        ]{'a'} = newborder(); # Unmatched top neighbor on top
+    $page[ $fullP[$x][$sizeY-1] ][ $fullC[$x][$sizeY-1] ]{'c'} = newborder(); # Unmatched bottom neighbor on bottom
 }
 for my $y (0..($sizeY-1)) { 
-    $page[ $fullP[0][$y]        ][ $fullC[0][$y]        ]{'d'} = ''; # No left neighbor on left
-    $page[ $fullP[$sizeX-1][$y] ][ $fullC[$sizeX-1][$y] ]{'b'} = ''; # No right neighbor on right
+    $page[ $fullP[0][$y]        ][ $fullC[0][$y]        ]{'d'} = newborder(); # Unmatched left neighbor on left
+    $page[ $fullP[$sizeX-1][$y] ][ $fullC[$sizeX-1][$y] ]{'b'} = newborder(); # Unmatched right neighbor on right
 }
 for my $y (0..($sizeY-1)) { 
     for my $x (1..($sizeX-1)) {
