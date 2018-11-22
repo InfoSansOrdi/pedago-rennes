@@ -9,6 +9,7 @@ crc=False # Generate only cards where the amount of each card is s.t. X%3 = 1
 letter=True # Print on letter paper (or on A4 if false)
 
 patterns = ['bicycle',  'rocket', 'tree', 'walking']#'fish',, 'cat', 'seedling', 'trophy' , 'crow', 'truck']
+colors = ['black', 'red', 'green', 'purple']
 
 pmargin=1200 # page margin, in the unit of the viewBox
 cmargin=645 # margin within the card
@@ -30,10 +31,13 @@ random.seed(None)
 ## Read the image files and prepare the data
 repath = re.compile("<path[^>]*>")
 rebox = re.compile('viewBox="0 0 ([^ ]*) ([^"]*)"')
-for filename in patterns:
+recolor = re.compile('"/>')
+for (filename,color) in zip(patterns,colors):
     svgfile = open("img/{:s}.svg".format(filename), "r")
     svgstr = svgfile.read()
-    paths[filename] = repath.search(svgstr).group()
+    path = repath.search(svgstr).group()
+    paths[filename] = recolor.sub('" fill="{:s}"/>'.format(color), path)
+#    print('{:s}: {:s}\n'.format(filename, paths[filename]))
     box = rebox.search(svgstr)
     
     xpad[filename] = (cellsize - int(box.group(1))) / 2
