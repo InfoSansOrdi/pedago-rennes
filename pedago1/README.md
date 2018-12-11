@@ -43,6 +43,10 @@ préparer vos interventions.
   le matériel pour les élèves. Tout a été testé en classe. 
   Le [Groupe IREM de Grenoble](http://www-irem.ujf-grenoble.fr/spip/spip.php?article146) 
   a une page comparable.
+- Activité de [mesure binaire](https://github.com/Mommessc/Mesures_binaires),
+  inventée par Marie Le Guilly et Clément Mommessin lors de l'école
+  d'été «[Médiation](https://www.societe-informatique-de-france.fr/ecole-mediation-scientifique-en-informatique/)»
+  de la SIF à Toulouse en 2018.
 - [Teaching Computing in London](http://teachinglondoncomputing.org/)
   est une initiative britanique proposant de très nombreuses
   ressources (en anglais) très bien faites pour expliquer
