@@ -1,0 +1,44 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usepackage{amsmath}
+\usepackage{fullpage}
+
+%opening
+\title{Exemple 1}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Nombre de joueurs et situation initiale}
+\begin{itemize}
+	\item Rôles : l'arbitre, un attaquant, et deux joueurs, nommés joueur 1 et joueur 2.
+	\item Au début, le joueur 1 possède la clé ronde 1 ; le joueur 2 et l'attaquant ne possèdent pas de clé.
+	\item But : le joueur 1 piochera une carte Secret, et devra l'envoyer au joueur 2 en s'assurant qu'elle reste secrète.
+\end{itemize}
+
+
+
+
+\section{Joueur 1}
+\begin{enumerate}
+	\item Faites un double de votre clé ronde, et envoyez la au joueur 2.
+	\item Si vous recevez une carte Nombre, piochez une carte Secret, mettez les deux cartes dans une boîte que vous allez fermer avec votre clé ronde, et envoyez la au joueur 2.
+\end{enumerate}
+
+\section{Joueur 2}
+\begin{enumerate}
+	\item Si vous recevez une clé ronde, piochez une carte Nombre, et envoyez la joueur 1.
+	\item Si vous recevez une boîte fermée avec la clé ronde que vous avez reçue, ouvrez la avec cette même clé.\\ Si tout se passe bien, vous avez reçu une carte Secret et retrouvé votre carte Nombre.
+\end{enumerate}
+
+\section{La faille}
+Ce protocole contient une faille :
+Lorsque le joueur 1 envoie sa clé ronde au joueur 2, l'attaquant peut demander à l'arbitre de lui en faire une copie. Cela permet à l'attaquant d'ouvrir la boîte que le joueur 1 enverra et de lire la carte Secret.
+
+\section{Conclusion}
+En pratique, comme dans cette situation, les machines qui communiquent entre elles n'ont pas déjà de clé en commun, et doivent trouver un moyen de s'en échanger. Laisser passer une clé ronde à la vue de tous sur le réseau n'est pas une bonne idée.
+
+\end{document}
