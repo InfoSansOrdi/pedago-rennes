@@ -6,6 +6,7 @@
 
 %opening
 \title{Initiations aux protocoles de sécurité}
+\date{}
 
 \begin{document}
 
@@ -19,7 +20,7 @@ Faire prendre conscience aux joueurs de l'importance d'avoir des protocoles de s
 Cette activité est jouée par un animateur et fait intervenir 3 ou 4 joueurs en plus de l'animateur.
 
 \section{Principe de l'activité}
-Les joueurs vont tester des protocoles fournis en exemple, leur but est de s'échanger un message en s'assurant que celui-ci reste secret, en utilisant les clés et les boîtes à leur disposition ; un des joueurs prend le rôle de l'attaquant et doit réussir à obtenir le message, en le sortant de la boîte dans laquelle il se trouve. L'animateur de l'activité joue le rôle d'arbitre ; c'est par lui que les joueurs et l'attaquant devront passer pour échanger des messages.
+Les joueurs vont tester des protocoles fournis en exemple, leur but est de s'échanger des messages en utilisant les clés et les boîtes à leur disposition. En particulier, ils devront souvent s'échanger un Secret, et être sûr qu'ils communiquent avec les bonnes personnes. Un des joueurs prend le rôle de l'attaquant et va chercher à connaître le Secret (en le sortant de la boîte où il se trouve), ou à se faire passer pour quelqu'un d'autre. L'animateur de l'activité joue le rôle d'arbitre ; c'est par lui que les joueurs et l'attaquant devront passer pour échanger des messages.
 
 \section{Matériel}
 \begin{itemize}
@@ -41,42 +42,45 @@ Les joueurs vont tester des protocoles fournis en exemple, leur but est de s'éc
 \begin{itemize}
 	\item Les cartes Identités servent à identifier les joueurs.
 	\item Les cartes Secret sont des secrets que les joueurs vont chercher à s'échanger, en faisant en sorte que l'attaquant ne puisse pas les obtenir.
+	\item Les cartes Nombres sont des cartes qui peuvent être envoyées, dans des boîtes ou non, comme les cartes Secret. Elles permettent par exemple de s'assurer qu'on communique avec la bonne personne.
 	\item Pour les clés, chaque numéro est associé à une seule couleur (ils servent par exemple à aider les daltoniens à distinguer les différentes clés).
-	\item Les boîtes sont des enveloppes que les joueurs vont utiliser pour s'envoyer des cartes Secret, voire pour s'échanger des clés. Les joueurs ont le droit de choisir ce qu'ils mettent dans les boîtes, et peuvent même mettre des boîtes dans d'autres boîtes. Il y en a de différentes sortes :
+	\item Les boîtes sont des enveloppes que les joueurs vont utiliser pour s'envoyer des cartes Secret, Nombre, ou Identité, voire pour s'échanger des clés. Les joueurs ont le droit de choisir ce qu'ils mettent dans les boîtes, et peuvent même mettre des boîtes dans d'autres boîtes. Il y en a de différentes sortes :
 		\begin{itemize}
 			\item Certaines boîtes portent un simple cadenas coloré. Cela signifie que pour verrouiller ou déverrouiller cette boîte, un joueur doit posséder une clé ronde de la même couleur que le cadenas.
 			\item D'autres boîtes possèdent deux symboles reliés par une flèche ; ces symboles sont forcément un carré et un triangle, qui peuvent être d'un côté ou de l'autre de la flèche. Pour fermer une telle boîte, un joueur doit posséder une clé de la même forme et de la même couleur que le symbole à gauche de la flèche. Pour ouvrir cette même boîte, un joueur doit posséder une clé de la même forme et de la même couleur que le symbole à droite de la flèche. 
 		\end{itemize}
 	\item Les clés triangulaires sont des clés secrètes. Lorsque les joueurs en ont besoin, ils en auront chacun une d'une couleur différente.
-	\item Les clés carrées sont des clés publiques : si un joueur possède une clé triangulaire d'une certaine couleur, tous les autres joueurs (y compris l'attaquant) doivent posséder une clé carrée de la même couleur.
-	\item Les cartes Nombres sont des cartes qui peuvent être envoyées, dans des boîtes ou non, comme les cartes Secret. Elles permettent par exemple de s'assurer qu'on communique avec la bonne personne.
+	\item Les clés carrées sont des clés publiques : si un joueur possède une clé triangulaire d'une certaine couleur, les autres joueurs (y compris l'attaquant) possèderont souvent une clé carrée de la même couleur.
 \end{itemize}
 
 \section{Règles}
 \begin{itemize}
 \item Les boîtes ne peuvent pas être cassées. Elles ne peuvent être ouvertes que si vous disposez de la bonne clé ; de même, vous ne pouvez verrouiller une boîte que si vous disposez de la bonne clé.
 \item Les joueurs ont le droit de faire des doubles de toutes les clés en leur possession.
-\item Un message est soit une carte Secret, soit une carte Nombre, soit une clé, soit une boîte contenant quelque chose. Pour donner un message à un joueur, donnez le à l'arbitre en lui pointant du doigt le joueur à qui vous voulez envoyer le message.
+\item Un message est soit une carte Secret, soit une carte Nombre, soit une carte Identité, soit une clé, soit une boîte contenant quelque chose. Pour donner un message à un joueur, donnez le à l'arbitre en lui pointant du doigt le joueur à qui vous voulez envoyer le message.
 \item L'attaquant a le droit d'obliger l'arbitre à lui donner un message, pour que celui-ci n'arrive pas à destination. Il a également le droit de donner à n'importe quel moment un message à l'arbitre en lui pointant du doigt le joueur auquel il souhaite l'envoyer. 
 \item L'attaquant a également le droit d'obliger l'arbitre à lui donner une copie du message. Dans ce cas, l'arbitre a le droit d'ouvrir les boîtes pour constituer une copie du message, mais il devra tout de même le reconstruire avant de le donner à son destinataire.
 \end{itemize}
 
 
 \section{Initiation}
-Cette partie sert à initier les différents joueurs à l'utilité des différentes clés, et à les initier aux notions de chiffrement symétrique et asymétrique.
+Cette partie sert à initier les différents joueurs à l'utilité des différentes clés, et à les initier aux notions de chiffrement symétrique et asymétrique. Dans les deux cas, le but est que les joueurs qui doivent échanger un Secret trouvent eux-mêmes comment l'échanger sans que l'attaquant ne puisse y avoir accès. Les solutions données sont des protocoles qui permettent d'atteindre ce but. Les joueurs doivent chercher la solution, et lorsqu'ils proposent une solution, l'animateur leur fait jouer le protocole, en autorisant l'attaquant à agir s'il pense avoir un moyen de trouver le Secret.
 \subsection{Les clés rondes}
 \begin{itemize}
 	\item Rôles : l'arbitre, deux joueurs (appelés joueur 1 et joueur 2), et un attaquant.
-	\item Au début de la partie, les joueurs 1 et 2 ont chacun une clé ronde rouge. L'attaquant ne possède pas cette clé.
+	\item Au début de la partie, les joueurs 1 et 2 ont chacun une clé ronde rouge. L'attaquant ne possède pas cette clé. Tout le monde doit savoir quelles clés possèdent les joueurs 1 et 2. (Laissez les visibles à côté des joueurs.)
 	\item But : le joueur 1 doit piocher une carte Secret et le joueur 2 doit récupérer la carte Secret sans que l'attaquant ne puisse l'obtenir. Pour cela, ils peuvent utiliser les clés et boîtes à leur disposition.
-	\item Solution : comme les deux joueurs ont une clé ronde rouge et que l'attaquant n'a pas cette clé, il suffit que le joueur 1 mette la carte dans une boîte qu'il puisse verrouiller avec sa clé rouge. Il la donne alors à l'arbitre, et celui-ci la donne à l'autre joueur ; comme il possède la même clé, il peut déverrouiller la boîte et récupérer le message. L'attaquant aura obtenu une copie de la boîte, content une carte message identique, mais il sera incapable de l'ouvrir.
+	\item Solution : comme les deux joueurs ont une clé ronde rouge et que l'attaquant n'a pas cette clé, il suffit que le joueur 1 mette la carte dans une boîte qu'il puisse verrouiller avec sa clé rouge. Il la donne alors à l'arbitre, et celui-ci la donne à l'autre joueur ; comme il possède la même clé, il peut déverrouiller la boîte et récupérer le message. L'attaquant peut obtenir une copie de la boîte, contenant une carte message identique, mais il sera incapable de l'ouvrir.
 \end{itemize}
 
 \subsection{Les clés carrés et triangulaires}
 \begin{itemize}
 	\item Rôles : l'arbitre, deux joueurs (appelés joueur 1 et joueur 2), et un attaquant.
-	\item Au début de la partie, le joueur 1 possède une clé triangulaire rouge et le joueur 2 possède une clé triangulaire bleue. Tous les joueurs (y compris l'attaquant) possèdent aussi une clé carrée bleue et une clé carrée rouge.
+	\item Au début de la partie, le joueur 1 possède une clé triangulaire rouge et le joueur 2 possède une clé triangulaire bleue. Tous les joueurs (y compris l'attaquant) possèdent aussi une clé carrée bleue et une clé carrée rouge. Tout le monde doit savoir quelles clés possèdent les joueurs 1 et 2. (Laissez les visibles à côté des joueurs.)
 	\item But : le joueur 1 doit piocher une carte Secret et le joueur 2 doit récupérer cette carte sans que l'attaquant ne puisse l'obtenir.
-	\item Solution : La solution la plus simple est que le joueur 1 prenne une boîte qui puisse être fermée avec la clé carrée bleue et ouverte avec la clé triangulaire bleue. Ainsi, seul le joueur 2 pourra ouvrir la boîte. Comme avant, l'attaquant aura obtenu une copie de la boîte, contenant une carte message identique, mais il sera incapable de l'ouvrir.
+	\item Solution : La solution la plus simple est que le joueur 1 prenne une boîte qui puisse être fermée avec la clé carrée bleue et ouverte avec la clé triangulaire bleue. Ainsi, seul le joueur 2 pourra ouvrir la boîte. Comme avant, l'attaquant peut obtenir une copie de la boîte, contenant une carte message identique, mais il sera incapable de l'ouvrir.
 \end{itemize}
+
+\section{Exemple de protocoles}
+Les autres documents contiennent des exemples de protocoles, avec le nombre de joueurs et le matériel requis. Les protocoles (autrement dit, les actions que doivent effectuer tous les joueurs sauf l'attaquant) sont déjà écrits. L'animateur leur fait jouer un protocole, que les joueurs (excepté l'attaquant) doivent suivre à la lettre. Chaque protocole contiendra une faille, et le but sera cette fois que l'attaquant trouve comment agir pour exploiter la faille, par exemple, pour obtenir un Secret, ou se faire passer pour quelqu'un d'autre. L'animateur peut faire jouer un même protocole plusieurs fois jusqu'à ce que l'attaquant trouve la solution. Si l'attaquant ne trouve pas la solution, l'animateur le leur indique, puis peut expliquer comment cette faille est exploitée en pratique.
 \end{document}

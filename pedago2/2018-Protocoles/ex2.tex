@@ -6,6 +6,7 @@
 
 %opening
 \title{Exemple 2}
+\date{}
 
 \begin{document}
 
@@ -14,7 +15,7 @@
 \section{Nombre de joueurs et situation initiale}
 \begin{itemize}
 	\item Rôles : l'arbitre, un attaquant, et deux joueurs, nommés joueur 1 et joueur 2.
-	\item Au début, l'arbitre distribue aléatoirement à chaque joueur et à l'attaquant une clé triangulaire, et une clé carrée correspondante. Ainsi, si le joueur 1 reçoit la clé triangulaire 2, l'arbitre doit aussi lui donner la clé carrée 2, et personne d'autre ne posède cette clé au début.
+	\item Au début, l'arbitre distribue aléatoirement à chaque joueur et à l'attaquant une clé triangulaire, et une clé carrée correspondante. Ainsi, si le joueur 1 reçoit la clé triangulaire 2, l'arbitre doit aussi lui donner la clé carrée 2, et personne d'autre ne possède cette clé au début.
 	\item But : le joueur 1 piochera une carte Secret, et devra l'envoyer au joueur 2 en s'assurant qu'elle reste secrète.
 \end{itemize}
 
@@ -48,6 +49,6 @@ Dans cet exemple, le joueur 1 croit qu'il parle avec le joueur 2, alors qu'il pa
 En pratique, le joueur 2 peut être un serveur, et le joueur 1 quelqu'un qui croît parler avec ce serveur ; l'attaquant se fait passer pour le serveur auprès du joueur 1, et peut récupérer tous les secrets que celui-ci veut envoyer au serveur.
 
 \section{Comment corriger l'attaque ?}
-Une solution est d'avoir une personne extérieure, qui soit de confiance, et qui puisse garantir qu'une personne possède bien la clé privée qui correspond à une clé publique donnée.\\Ainsi, au lieu d'envoyer des clés, les joueurs envoient des clés dans une boîte verrouillée par la clé triangulaire de cette personne extérieure. Tous les joueurs doivent posséder la clé carrée correspondant à cette personne extérieure. Ainsi, lorsqu'ils reçoivent une clé carrée dans une boîte, ils savent que seule la personne possédant la clé triangulaire pourra ouvrir les boîtes fermées par cette clé carrée.\\
+Une solution est d'avoir une personne extérieure, qui soit de confiance, et qui puisse permettre de faire le lien entre une clé carrée et l'identité d'une personne, c'est-à-dire qui garantit qu'une personne donnée est la seule à posséder la clé triangulaire qui correspond à une certaine clé carrée.\\Ainsi, au lieu d'envoyer leurs clés carrées, les joueurs demandent à cette personne de confiance de construire une boîte contenant leur clé carrée et leur identité, et verrouillée avec la clé triangulaire de cette personne extérieure (donc signée par cette personne). Tous les joueurs doivent posséder la clé carrée de cette personne extérieure. Il suffit alors de refuser de recevoir des clés triangulaires qui ne sont pas signées par cette personne. Et lorsqu'on en reçoit une signée, elle vient avec une identité et on sait que la clé carrée reçue correspond à la personne dont l'identité est indiquée. Ainsi, dans notre exemple, le joueur 1 saurait, lorsqu'il reçoit une clé, que celle-ci ne vient pas du joueur 2. \\
 Une telle personne extérieure est appelée dans la vraie vie une \emph{autorité de certification}.
 \end{document}

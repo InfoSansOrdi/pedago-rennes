@@ -6,6 +6,7 @@
 
 %opening
 \title{Exemple 3}
+\date{}
 
 \begin{document}
 
@@ -14,7 +15,7 @@
 \section{Nombre de joueurs et situation initiale}
 \begin{itemize}
 	\item Rôles : l'arbitre, un attaquant, et trois joueurs, nommés joueur 1 et joueur 2 et serveur.
-	\item Au début, les joueurs 1 et 2 et l'attaquant possèdent chacun une clé ronde différente et des cartes Identité différentes. Le serveur possède un exemplaire de chacune de ces clés.
+	\item Au début, les joueurs 1 et 2 et l'attaquant possèdent chacun une clé ronde différente et des cartes Identité différentes. Le serveur possède un exemplaire de chacune de ces clés. Chaque joueur doit connaître les cartes Identité des autres joueurs (laissez les visibles à côté des joueurs). Le serveur doit connaître les clés possédées par chacune des joueurs.
 	\item But : le joueur 1 piochera une carte Secret, et devra l'envoyer au joueur 2 en s'assurant qu'elle reste secrète.
 \end{itemize}
 
@@ -28,7 +29,7 @@
 
 \section{Serveur}
 \begin{enumerate}
-	\item Si vous recevez dans cet ordre une carte d'identité, une autre carte d'identité, et une boîte, prenez la clé ronde que vous avez en commun le joueur désigné par la première carte, et essayez d'ouvrir la boîte avec. Si vous y arrivez, prenez la carte qui se trouve dedans. Puis enfermez la dans une autre boîte, avec la clé ronde que vous partagez avec le joueur désigné par la deuxième carte identité que vous avez reçue. Puis envoyez à ce joueur les deux cartes identités que vous avez reçue, dans le même ordre, et la boîte.
+	\item Si vous recevez dans cet ordre une carte Identité, une autre carte Identité, et une boîte, prenez la clé ronde que vous avez en commun avec le joueur désigné par la première carte, et essayez d'ouvrir la boîte avec. Si vous y arrivez, prenez la carte qui se trouve dedans. Puis enfermez la dans une autre boîte, avec la clé ronde que vous partagez avec le joueur désigné par la deuxième carte identité que vous avez reçues. Puis envoyez à ce joueur les deux cartes Identité que vous avez reçue, dans le même ordre, et la boîte.
 \end{enumerate}
 
 \section{Joueur 2}
@@ -39,8 +40,8 @@
 \section{La faille}
 Ce protocole contient une faille :
 \begin{itemize}
-	\item Lorsque le joueur 1 envoie au serveur son premier message, constitué de deux cartes identité et d'une boîte, l'attaquant peut intercepter le message (pour que le serveur ne le reçoive pas), et le modifier en remplaçant la deuxième carte identité par la sienne. Puis il renvoie le tout au serveur.
- \item Par la suite, le serveur récupère la carte Secret dans la boîte ; comme la deuxième carte identité qu'il a reçue est celle de l'attaquant, il met cette carte dans une boîte que l'attaquant pourra ouvrir, et il envoie le tout à la personne désignée par la deuxième carte identité qu'il a reçue, c'est-à-dire l'attaquant.
+	\item Lorsque le joueur 1 envoie au serveur son premier message, constitué de deux cartes Identité et d'une boîte, l'attaquant peut intercepter le message (pour que le serveur ne le reçoive pas), et le modifier en remplaçant la deuxième carte Identité par la sienne. Puis il renvoie le tout au serveur.
+ \item Par la suite, le serveur récupère la carte Secret dans la boîte ; comme la deuxième carte Identité qu'il a reçue est celle de l'attaquant, il met cette carte dans une boîte que l'attaquant pourra ouvrir, et il envoie le tout à la personne désignée par la deuxième carte Identité qu'il a reçue, c'est-à-dire l'attaquant.
 \item L'attaquant reçoit alors la boîte et peut récupérer la carte secret.
 \end{itemize}
 

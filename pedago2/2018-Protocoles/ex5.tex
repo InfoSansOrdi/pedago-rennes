@@ -6,6 +6,7 @@
 
 %opening
 \title{Exemple 5: Protocoles de vote}
+\date{}
 
 \begin{document}
 
@@ -22,7 +23,7 @@
 \section{Premier vote}
 \subsection{Serveur}
 	\begin{enumerate}
-		\item Annoncez publiquement (en parlant) à chaque votant qu'ils vont devoir voter, en vous envoyant des messages contenant leur vote, pour choisir le plat qu'ils mangeront ce soir : qu'ils votent 1 pour des lasagnes, 2 pour le chou bouilli moisi depuis un mois, et 3 pour les algues au pétrole ramassée sur une plage de Brest.
+		\item Annoncez publiquement (en parlant) aux votants qu'ils vont devoir voter, en vous envoyant des messages contenant leur vote, pour choisir le plat qu'ils mangeront ce soir : qu'ils votent 1 pour des lasagnes, 2 pour le chou bouilli moisi depuis un mois, et 3 pour les algues au pétrole ramassée sur une plage de Brest.
 		\item Ouvrez secrètement toutes les enveloppes que vous recevez (vous possédez normalement toutes les clés nécessaires). Chacune contient d'abord l'identité du votant, puis son vote. Vérifiez que tout le monde a voté, que chaque personne n'a voté qu'une seule fois, puis comptez les résultats et annoncez les.
 	\end{enumerate}
 
@@ -35,7 +36,7 @@
 \section{Deuxième vote}
 \subsection{Serveur}
 	\begin{enumerate}
-		\item Annoncez publiquement (en parlant) à chaque votant qu'ils vont devoir voter en vous envoyants des messages contenant leur vote pour se prononcer sur une loi sur le salaire des députés : qu'ils votent 1 pour doubler le salaire des députés, 2 pour laisser le salaire des députés tel qu'il est, et 3 pour diviser par deux le salaire des députés.
+		\item Annoncez publiquement (en parlant) aux votants qu'ils vont devoir voter en vous envoyant des messages contenant leur vote pour se prononcer sur une loi sur le salaire des députés : qu'ils votent 1 pour doubler le salaire des députés, 2 pour laisser le salaire des députés tel qu'il est, et 3 pour diviser par deux le salaire des députés.
 		\item Ouvrez secrètement toutes les enveloppes que vous recevez (vous possédez normalement toutes les clés nécessaires). Chacune contient d'abord l'identité du votant, puis son vote. Vérifiez que tout le monde a voté, que chaque personne n'a voté qu'une suele fois, puis comptez les résultats et annoncez-les.
 	\end{enumerate}
 \subsection{Votants}
@@ -50,9 +51,9 @@ Ce protocole contient une faille, qui vient du fait que les messages des votes p
 \end{itemize}
 
 \section{En pratique}
-Même si les deux votes concernent du sujet différent, la méthode utilisée pour voter (le protocole, donc) est exactement la même sur les deux votes. L'attaquant peut ainsi réutiliser des messages envoyés pour le premier vote pour modifier le déroulement du deuxième vote. Ce type d'attaque s'appelle une \emph{attaque par rejeu}. Cela peut aussi être utilisé pour usurper l'identité de quelqu'un en se connectant à un serveur : si un serveur demande qu'on lui envoie notre identité et notre mot de passe, même chiffré, un attaquant peut récupérer ce message, et même s'il ne peut pas le déchiffrer, il peut l'envoyer au serveur, qui l'acceptera car l'identité et le mot de passe qu'il recevra correspondent. Il croira alors avoir identifié la personne désignée dans le message, ce qui est faux.
+Même si les deux votes concernent des sujet différent, la méthode utilisée pour voter (le protocole, donc) est exactement la même sur les deux votes. L'attaquant peut ainsi réutiliser des messages envoyés pour le premier vote pour modifier le déroulement du deuxième vote. Ce type d'attaque s'appelle une \emph{attaque par rejeu}. Cela peut aussi être utilisé pour usurper l'identité de quelqu'un en se connectant à un serveur : si un serveur demande qu'on lui envoie notre identité et notre mot de passe, même chiffré, un attaquant peut récupérer ce message, et même s'il ne peut pas le déchiffrer, il peut l'envoyer au serveur, qui l'acceptera car l'identité et le mot de passe qu'il recevra correspondent. Il croira alors avoir identifié la personne désignée dans le message, ce qui est faux.
 
 
 \section{Comment corriger l'attaque ?}
-On peut corriger l'attaque en complexifiant le protocole, de sorte que les votants demandent d'abord l'autorisation de voter au serveur. Celui-ci peut alors leur envoyer une carte nombre, dans une boîte fermée avec leur clé carrée. Eux-seuls sont capables de l'ouvrir. Ils peuvent alors inclure cette même carte Nombre dans la boîte contenant leur vote, pour prouver au serveur qu'ils sont bien la personne indiquée par la carte Identité dans l'enveloppe.
+On peut corriger l'attaque en complexifiant le protocole, de sorte que les votants demandent d'abord l'autorisation de voter au serveur. Celui-ci peut alors leur envoyer une carte nombre, dans une boîte fermée avec leur clé carrée. Eux seuls sont capables de l'ouvrir. Ils peuvent alors inclure cette même carte Nombre dans la boîte contenant leur vote, pour prouver au serveur qu'ils sont bien la personne indiquée par la carte Identité dans l'enveloppe.
 \end{document}
