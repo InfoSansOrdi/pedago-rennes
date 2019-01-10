@@ -5,7 +5,7 @@ import re
 import random
 
 skew=True # Skew the pattern generation to get more of the first pattern
-letter=True # Print on letter paper (or on A4 if false)
+letter=False # Print on letter paper (or on A4 if false)
 
 files_feet = { 'double': ['foot_double',
 			  'shadow_double_bot',
@@ -218,8 +218,8 @@ f.write('<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/
 if letter:
 	f.write(' viewBox="0 0 14000 19800" height="11in" width="8.5in">\n') # 14000x19800 is 21000x29700 at 2/3 ratio
 else:
-#	f.write(' viewBox="0 0 14000 19800" height="297mm" width="210mm">\n') # 14000x19800 is 21000x29700 at 2/3 ratio
-	f.write(' viewBox="0 0 14000 19800" height="594mm" width="420mm">\n') # 14000x19800 is 21000x29700 at 2/3 ratio
+	f.write(' viewBox="0 0 21000 29700" height="297mm" width="210mm">\n') # 14000x19800 is 21000x29700 at 2/3 ratio
+#	f.write(' viewBox="0 0 14000 19800" height="594mm" width="420mm">\n') # 14000x19800 is 21000x29700 at 2/3 ratio
 
 f.write('<style>\n')
 
@@ -303,5 +303,5 @@ for x in range(xcard):
 f.write('</svg>\n')
 f.close()
 
-#os.system("inkscape --export-pdf=board.pdf board.svg")
+os.system("inkscape --export-pdf=board.pdf board.svg")
 #os.unlink("board.svg")
