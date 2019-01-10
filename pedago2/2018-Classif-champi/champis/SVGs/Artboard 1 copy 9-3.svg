@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1202" height="2000" viewBox="0 0 1202 2000">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1 {
+        fill: #ff2626;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-4 {
+        mix-blend-mode: multiply;
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-5 {
+        fill: #f52929;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="2216.34" y1="3130.81" x2="2216.34" y2="3056" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-opacity="0.2"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="2210.907" y1="3225.56" x2="2207.373" y2="3177.44" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="2215.655" y1="3005.28" x2="2215.655" y2="3084.59" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-opacity="0.29"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Artboard_1_copy_9" data-name="Artboard 1 copy 9">
+    <g>
+      <g id="pieds">
+        <g id="double_colerettes" data-name="double colerettes">
+          <path id="Shape_1_copy" data-name="Shape 1 copy" class="cls-1" d="M2387.05,3148.63c-26.72,15.03-60.85,10.46-60.85,35.41,0,11.93.61,24.16,1.26,33.68,10.64-.47,16.88-0.77,16.88-0.77s62.22-19.98,8.54,51.25c-28.15,37.34-25.63,196.43-25.63,196.43l8.54,555.13s-23.22,180.89-102.51,204.97-155.43-64.07-170.85-153.73,25.63-743.02,25.63-743.02-0.77-33.68-17.09-51.24c-15.71-16.9-51.82-48.08,17.09-51.03v-34.38s3.27-10.3-34.17-17.08-148.2-36.6,25.62-42.7q18.18-.645,35.24-1.2l7.48-128.37,187.94,1.46,6.38,121.29c30.92-.72,51.46-1.2,61.96-1.72C2406.18,3121.63,2413.77,3133.61,2387.05,3148.63Z" transform="translate(-1591 -2306)"/>
+          <path id="Shape_5_copy" data-name="Shape 5 copy" class="cls-2" d="M2120.01,3063.61l-4.92,67.19,202.51-4.64-3.99-70.15" transform="translate(-1591 -2306)"/>
+          <path class="cls-3" d="M2089.01,3189.02l-1.17,36.55,242.59-7.04s-5.72-25.17-3.45-41.1" transform="translate(-1591 -2306)"/>
+          <path id="ombre_pied_copy_3" data-name="ombre pied copy 3" class="cls-4" d="M2313.73,3084.6l-2.84-76.04-189.13-3.28-4.16,77.87" transform="translate(-1591 -2306)"/>
+        </g>
+      </g>
+      <g id="chapeaux">
+        <g id="convexe">
+          <path id="convex" class="cls-5" d="M1994.09,3020.52s-141.3-18.72-213.57-51.24-148.47-58.13-25.63-213.51c65.04-75.89,236.23-242.31,495.48-222.05s414.04,146.24,461.3,247.67,90.64,145.58-111.05,196.43S1994.09,3020.52,1994.09,3020.52Z" transform="translate(-1591 -2306)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
