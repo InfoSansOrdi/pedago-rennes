@@ -1,67 +1,34 @@
-# Activité MapReduce
+# MapReduce activity
 
-Cette activité est basée sur une idée originale de Florestan De Moor.
-Elle est distribuée sous license CC-BY-SA.
+This activity is based on an original idea of Florestan De Moor.
+It is licensed under CC-BY-SA.
 
-## Objectifs de l'activité
+## Goals
 
+This activity aims at giving a brief introduction to the MapReduce paradigm to perform parallel computations on large chunks of data.
 
-## Matériel requis
+## Required material
 
-* Cartes motifs à imprimer et découper
-* Cartes rôle (coordinateur, analyseur, rassembleur) : fichier `roles.pdf` à imprimer et découper
+* Cards to print and cut
 
-## Public visé
+## Target audience
 
-Cette activité requiert le calcul d'additions simples, et peut généralement être pratiquée dès le CE1.
+This activity requires the knowledge of simple additions, and can generally be exercised from 8 years old.
 
-## Générer le plateau
+## Generate the cards
 
-Des exemples de pages de carte motifs sont disponibles dans le dépôt.
-Il est également possible de générer une page en utilisant le script Python fourni.
-Il suffit pour cela d'exécuter la commande suivante :
-```./generate.py```
-Le script utilise certaines images de [Font Awesome](https://fontawesome.com/) qui sont sous license CC BY 4.0.
-Les pages de cartes doivent ensuite être imprimées, et découpées.
+Pre-generated examples are available in the repository.
+It is however possible to generate new cards by running a Python script as follows:
+```./booklet.sh```
+The script uses several pictures from [Font Awesome](https://fontawesome.com/) licensed under CC-BY 4.0.
 
-## Déroulement de l'activité
+## Workflow
 
-### Problème à résoudre :
+The goal is to find the answer to each question, under different scenarios.
+During the first step, a single individual is involved while they can require help from others during the second step.
+A timer can be used as an incentive for the participants to act more efficiently, especially during the second step.
+The participants can be asked to describe precisely the strategy they chose to solve the problem, and to discuss its strengths and limitations.
 
-On dispose d'un plateau contenant un certain nombre de motifs. Le but est de compter le nombre de cases de chaque motif.
-
-Afin de facilement détecter d'éventuelles erreurs, la génération est telle qu'un ensemble de cartes motifs issu d'un nombre entier de pages présente la propriété suivante : l'effectif de chaque motif est un multiple de 3.
-
-### Première partie : approche naïve
-
-Donner le plateau à un participant et lui demander de compter le nombre de cases de chaque couleur et d'inscrire le résultat sur les cartes couleurs.
-Le but est de conclure que cette approche est très longue et fastidieuse à réaliser.
-Demander aux participants comment le processus pourrait être rendu plus rapide et plus facile.
-
-### Deuxième partie : avec le paradigme MapReduce
-
-Désigner un coordinateur et lui donner cette carte rôle.
-Le coordinateur soit distribuer les autres cartes rôles : 4 rassembleurs, et analyseurs pour tous les participants restant.
-Donner le plateau découpé en blocs au coordinateur, qui va le répartir entre les analyseurs.
-Chaque analyseur compte le nombre de cases de chaque couleur dans le(s) bloc(s) qui lui a(ont) été donné(s) et inscrit le résultat sur les carte couleurs.
-Les cartes sont ensuite transférées aux rassembleurs correspondant (un par couleur) qui s'occupe de regrouper les résultats en les sommant et permet de récuper le résultat final.
-Demander aux participants ce qu'ils pensent de cette nouvelle approche. Leur parait-elle plus efficace que la première ?
-
-### Troisième partie : pour aller plus loin
-
-#### Transition analyseur-rassembleur
-
-Les rassembleurs ne commencent à travailler qu'une fois que les analyseurs ont terminé. Peut-on faire mieux pour aller plus vite ?
-
-#### Déséquilibre de répartition des couleurs
-
-Des cartes dont la distribution des motifs est biaisée sont également fournies en exemple.
-Certains motifs sont alors bien plus présents que d'autre, menant à un déséquilibre de travail à effectuer pour les analyseurs et les rassembleurs.
-Comment remédier à ce problème ?
-
-#### Faire face aux imprévus
-
-Un travailleur est parti faire la sieste, et on ne sait pas quand il va revenir. Comment gérer cette situation pour tout de même finir rapidement le travail ?
-
-introduction crash de noeuds / relancement de tâches / duplication de tâches
+1. How many rockets are there in the whole set of cards?
+2. Are there more men or more stars?
 
