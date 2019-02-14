@@ -24,6 +24,8 @@ open FH, "<$inputfile" || die "Cannot read from $filename: $!\n";
 my ($count) = 0;
 while (my $line = <FH>) {
     print "XXXX ./humanpuzzle.pl $line\n";
+    $line =~ s/#.*//;
+    next unless $line =~ m/[a-zA-Z]/;
     $line =~ s/;/\\;/g;
     $line =~ s/"/\\"/g; # "
     $line =~ s/'/\\'/g; # '

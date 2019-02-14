@@ -66,6 +66,10 @@ if ($word_count eq 12) {
     ($sizeX, $sizeY) = (4,3);
 } elsif ($word_count eq 24) {
     ($sizeX, $sizeY) = (6,4);
+} elsif ($word_count eq 25) {
+    ($sizeX, $sizeY) = (5,5);
+} elsif ($word_count eq 28) {
+    ($sizeX, $sizeY) = (7,4);
 } elsif ($word_count eq 30) {
     ($sizeX, $sizeY) = (5,6);
 } elsif ($word_count eq 36) {
@@ -74,6 +78,7 @@ if ($word_count eq 12) {
     die "I cannot deal with $word_count words yet. Please extend me.\n";
 }
 die "Bug: my settings for $word_count cells is buggy: ${sizeX}x${sizeY}\n" unless ($sizeY*$sizeX == $word_count);
+print STDERR "Word count: $word_count. Geometry: ${sizeX}x${sizeY}\n";
 
 # Compute how the placement of cells on the printed pages
 my (@fullP); # $fullP[x][y]: page number on which the cell (x,y) of the full puzzle is placed
@@ -82,6 +87,7 @@ my (@page);  # $page[P][C]{'x'}: x coordinate on full puzzle of the cell printed
              # $page[P][C]{'y'}: y coordinate on full puzzle of the cell printed in cell C on page P
              # $page[P][C]{'txt'}: text to print in the cell printed in cell C on page P
              # $page[P][C]{'a'}: top border, 'b': right border, 'c': bottom border, 'd': left border
+my ($orphelin_border) = 0; # whether we should put orphelin values on borders
 
 my ($cellidx) = 0;
 for my $y (0..($sizeY-1)) {    
@@ -109,7 +115,7 @@ for my $P (0..$page_count) {
 
 # Compute the values of the cells' borders
 my (%borders); # if $border{blah} is defined, then it was already used
-$borders{"66"} = $borders{"69"} = $borders{"96"} = $borders{"99"} = 1; # forbid these
+$borders{"66"} = $borders{"68"} = $borders{"69"} = $borders{"86"} = $borders{"89"} = $borders{"96"} = $borders{"98"} = $borders{"99"} = 1; # forbid these
 sub newborder() {
     my ($res);
     do {
@@ -121,12 +127,12 @@ sub newborder() {
     return $res;
 }
 for my $x (0..($sizeX-1)) { 
-    $page[ $fullP[$x][0]        ][ $fullC[$x][0]        ]{'a'} = newborder(); # Unmatched top neighbor on top
-    $page[ $fullP[$x][$sizeY-1] ][ $fullC[$x][$sizeY-1] ]{'c'} = newborder(); # Unmatched bottom neighbor on bottom
+    $page[ $fullP[$x][0]        ][ $fullC[$x][0]        ]{'a'} = ${orphelin_border} ? newborder() : " "; # Unmatched top neighbor on top
+    $page[ $fullP[$x][$sizeY-1] ][ $fullC[$x][$sizeY-1] ]{'c'} = ${orphelin_border} ? newborder() : " "; # Unmatched bottom neighbor on bottom
 }
 for my $y (0..($sizeY-1)) { 
-    $page[ $fullP[0][$y]        ][ $fullC[0][$y]        ]{'d'} = newborder(); # Unmatched left neighbor on left
-    $page[ $fullP[$sizeX-1][$y] ][ $fullC[$sizeX-1][$y] ]{'b'} = newborder(); # Unmatched right neighbor on right
+    $page[ $fullP[0][$y]        ][ $fullC[0][$y]        ]{'d'} = ${orphelin_border} ? newborder() : " "; # Unmatched left neighbor on left
+    $page[ $fullP[$sizeX-1][$y] ][ $fullC[$sizeX-1][$y] ]{'b'} = ${orphelin_border} ? newborder() : " "; # Unmatched right neighbor on right
 }
 for my $y (0..($sizeY-1)) { 
     for my $x (1..($sizeX-1)) {
