@@ -1,0 +1,60 @@
+digraph finite_state_machine {
+    rankdir=LR;
+    size="8,5"
+
+    node [shape = circle, label = "Pont-levis"] Pl;
+    node [shape = circle, label = "Oubliettes"] O;
+    node [shape = doublecircle, label = "Salle du trône"] St;
+    node [shape = circle, label = "Cuisine"] C;
+    node [shape = circle, label = "Salle du banquet"] Sb;
+    node [shape = circle, label = "Salle des gardes"] Sg;
+    node [shape = circle, label = "Tour du Magicien"] TM;
+    node [shape = circle, label = "Ecuries"] E;
+    node [shape = circle, label = "Salle du trésor"] ST;
+    node [shape = circle, label = "Cave à vin"] Cv;
+    node [shape = circle, label = "Chemin de ronde"] Cr;
+
+    node [shape = point]; qi
+
+    qi -> Pl;
+
+    Pl -> Cr [label = "abra"];
+    Pl -> E [label = "cadabra", weight = 10];
+    
+    E -> ST [label = "abra", weight = 30]; //weight = 30 optionel
+    E -> C [label = "cadabra", weight = 10];
+    
+    Cr -> Sg [label = "abra", weight = 10];
+    Cr -> TM [label = "cadabra"];
+    
+    TM -> Cv [label = "abra"];
+    TM -> ST [label = "cadabra", weight = 30];
+    
+    Sg -> O [label = "abracadabra"];
+    
+    O -> O [label = "abra"];
+    O -> Sg [label = "cadabra"];
+    
+    ST -> ST [label = "abra"];
+    ST -> St [label = "cadabra"];
+    
+    Cv -> Sg [label = "abra"];
+    Cv -> C [label = "cadabra", weight = 10];
+    
+    C -> Sg [label = "abra"];
+    C -> Sb [label = "cadabra"];
+    
+    Sb -> C [label = "abra", weight = 15];
+    Sb -> St [label = "cadabra"];
+
+    St -> ST [label = "abra"];
+    St -> Sb [label = "cadabra"];
+
+    Sg -> Pl [style = "invis"];
+    TM -> O [style = "invis"];
+    ST -> Sb [style = "invis", weight = 20];
+    E -> O [style = "invis"];
+    ST -> Cv [style = "invis"];
+    Cv -> Pl [style = "invis", weight = 15];
+    Sg -> TM [style = "invis"];
+}
