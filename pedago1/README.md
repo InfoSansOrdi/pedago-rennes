@@ -47,6 +47,8 @@ préparer vos interventions.
   inventée par Marie Le Guilly et Clément Mommessin lors de l'école
   d'été «[Médiation](https://www.societe-informatique-de-france.fr/ecole-mediation-scientifique-en-informatique/)»
   de la SIF à Toulouse en 2018.
+- Activité d'[apprentissage par renforcement](https://projet.liris.cnrs.fr/lirismed/index.php?id=la-machine-qui-apprend-a-jouer-toute-seule)
+  par Eric Duchêne et Aline Parreau.
 - [Teaching Computing in London](http://teachinglondoncomputing.org/)
   est une initiative britanique proposant de très nombreuses
   ressources (en anglais) très bien faites pour expliquer

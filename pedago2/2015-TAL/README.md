@@ -24,7 +24,7 @@ d'aller le voir ou non. C'est ce que fait la seconde pile de cartes.
 La troisième pile de cartes montre les limites de cette méthode en
 introduisant des mécanismes qui posent traditionnellement problèmes
 aux méthodes de TAL: négation, ironie, référent sémantique peu clair,
-etc.
+manque de contexte, etc.
 
 Cette activité est pratique pour briser la glace avec le public et
 ammorcer une discussion sur les techniques classiques de TAL. Il
