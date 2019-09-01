@@ -1,0 +1,14 @@
+Ces scripts servent à générer des plateaux pour le puzzle humain,
+décrit ici : https://github.com/Stevendeo/Puzzle_humain
+
+Le script central est humanpuzzle.pl qui génère un plateau tandis que
+multipuzzle.pl appelle le premier script autant de fois que nécessaire
+pour faire un ensemble de plateau dans le même pdf.
+
+On peut vouloir modifier les options en éditant humanpuzzle.pl, par
+exemple pour choisir si on veut des puzzles à bords visibles (sans
+chiffre dessus) ou à bord invisibles (avec des chiffres orphelins sur
+les bords).
+
+Un jour, je réécrirais tout ça en javascript ou autre, et je les
+metterais accessible en ligne. Votre aide est bienvenue.
