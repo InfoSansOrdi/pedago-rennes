@@ -5,8 +5,12 @@ Le script central est humanpuzzle.pl qui génère un plateau tandis que
 multipuzzle.pl appelle le premier script autant de fois que nécessaire
 pour faire un ensemble de plateau dans le même pdf.
 
-On peut vouloir modifier les options en éditant humanpuzzle.pl, par
-exemple pour choisir si on veut des puzzles à bords visibles (sans
+Pour mettre plusieurs mots sur la même pièce de puzzle, il suffit de
+les relier avec _. Par exemple: "Il_y_a" écrira "Il y a" sur une pièce.
+On ne peut pas aller à la ligne au milieu du texte d'une pièce (FIXME).
+
+Vous pouvez vouloir modifier les options en éditant humanpuzzle.pl,
+par exemple pour choisir entre des puzzles à bords visibles (sans
 chiffre dessus) ou à bord invisibles (avec des chiffres orphelins sur
 les bords).
 
