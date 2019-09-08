@@ -49,6 +49,8 @@ préparer vos interventions.
   de la SIF à Toulouse en 2018.
 - Activité d'[apprentissage par renforcement](https://projet.liris.cnrs.fr/lirismed/index.php?id=la-machine-qui-apprend-a-jouer-toute-seule)
   par Eric Duchêne et Aline Parreau.
+- Activité de [classification des savoirs](https://moex.inria.fr/mediation/class/)
+  par Line van den Berg et Jérôme Euzenat.
 - [Teaching Computing in London](http://teachinglondoncomputing.org/)
   est une initiative britanique proposant de très nombreuses
   ressources (en anglais) très bien faites pour expliquer
