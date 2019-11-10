@@ -207,6 +207,7 @@ function run(graph = _graph) {
             // reader.result contains the contents of blob as a typed array
             console.log(reader.result)
             document.getElementById('data').innerHTML = reader.result;
+            document.getElementById('data').dispatchEvent(new Event("input"));
         });
         reader.readAsText(this.files[0]);
     });
