@@ -163,8 +163,9 @@ Détail amusant : des idées d'extensions intéressantes sont apparues quand on
 cherchait le lien aux compétences. En particulier, on pourrait faire des motifs
 recursifs ou pseudo-récursifs pour travailler la compétence de décomposition.
 
-La rédaction est bien avancée, ce qui laisse envisager de rédiger le même genre
-de choses pour une autre activité connue avant la fin du module.
+La rédaction ([disponible ici](2019-cest-de-linfo/Blasons.md)) est
+bien avancée, ce qui laisse envisager de rédiger le même genre de
+choses pour une autre activité connue avant la fin du module.
 
 ## Deux activités autour de la modélisation et de la vérification
 
