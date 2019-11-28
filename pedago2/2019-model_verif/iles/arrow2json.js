@@ -15,13 +15,13 @@ DICT = {
     'Grotte': 'grotte',
     'grotte': 'grotte',
     'Rivière': 'riviere',
-    'Lac': 'riviere',
-    'lac': 'riviere',
-    'Crique': 'riviere',
+    'Lac': 'lac',
+    'lac': 'lac',
+    'Crique': 'crique',
     'Forêt de conifères': 'sapin',
     'forêt de conifères': 'sapin',
-    'Cabane du chasseur': "cabane_peche",
-    'cabane du chasseur': "cabane_peche"
+    'Cabane du chasseur': "cabane_chasse",
+    'cabane du chasseur': "cabane_chasse"
 }
 
 function f(reg, cb) {
