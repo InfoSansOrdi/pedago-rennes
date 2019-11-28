@@ -33,24 +33,26 @@ function f(reg, cb) {
 
 function g() {
     return function (text) {
-        const tmp = text.split('\n').map(x => x.trim());
-        const tmp1 = tmp.map(x => x.split(/ -> /).map(x => x.trim()));
-        const nodes = [...(new Set(tmp1.reduce((x, y) => [...x, ...y], [])))]
+        const lines = text.split('\n').map(x => x.trim());
+        const lines_splited = lines.map(line => line.split(/-> /).map(temp_node => temp_node.split(/-/).map(comp => comp.trim()) ) );
+	const link_nodes = lines_splited.map(line => line.map(comps => comps[0]));
+	const timed_links = lines_splited.map(line => line.map(comps => (comps.length < 2) ? [...comps, '0h'] : comps));
+        const nodes = [...(new Set(link_nodes.reduce((x, y) => [...x, ...y], [])))]
             .map(x => (DICT[x]!==undefined?1:console.error(x+' not found in DICT'),{ id: DICT[x] || x, img: (DICT[x] || x) + '.svg' }));
-        const links = tmp1.reduce((acc, x) => x.length > 2 ? [...acc, ...normalize_multiLink(x)] : [...acc, x], [])
-            .map(([source, target]) => ({ source: DICT[source] || source, target: DICT[target] || target }));
+        const links = timed_links.reduce((acc, x) => (x.length >= 2) ? [...acc, ...extract_links(x)] : acc, [])
+              .map(([source, time, target]) => ({ source: DICT[source] || source, time: time, target: DICT[target] || target }));
         return { nodes: nodes, links: links }
     }
 }
 
-function normalize_multiLink(l) {
-    let old = l[0];
-    const r = [];
+function extract_links(l) {
+    const result = [];
     for (let i = 1; i < l.length; i++) {
-        r.push([old, l[i]]);
-        old = l[i];
+	let source = l[i-1];
+	let dest   = l[i];
+        result.push([source[0], source[1], dest[0]]);
     }
-    return r;
+    return result;
 }
 
 if (typeof require != 'undefined' && require.main == module) {
