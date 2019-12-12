@@ -64,8 +64,6 @@ donner du contexte au jeu
 Pour commencer, les joueurs peuvent commencer par un graphe simple, comme celui
 représentant le jeu de Nim.
 
-![Graphe représentant le jeu de Nim](images/graphe-nim.pdf)
-
 ![Graphe représentant le jeu de Nim](images/graphe-nim.svg)
 
 Par la suite, on peut proposer aux joueurs des graphes de plus en plus complet.
@@ -94,6 +92,8 @@ Cependant, un seul des deux recevra les félicitations de son pays et connaitra
 la gloire : celui qui ramènera le véhicule dans le pays de départ (la France).
 Ils parcourent alors l'ensemble des continents : l'Europe, l'Asie, l'Océanie,
 l'Afrique, ainsi que l'Amérique du Sud et du Nord.
+
+![Plateau de jeu pour le tour du monde](images/tour_du_monde.svg)
 
 #### Le tour de France
 
