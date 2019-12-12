@@ -659,6 +659,162 @@ conseils/étapes de l'activité modélisation (activité A).
 
 # Activité C: Notations de la logique
 
+## Objectif pédagogique
+Quand il s'agit de vérifier des propriétés
+(que ce soit sur des programmes informatiques ou sur des
+graphes d'île), il faut les ennoncer de façon non-ambigüe.
+Pour cela, des notations mathématiques sont utilisées
+pour écrire les formules logiques.
+
+Dans cette activité, à travers le déchiffrement
+de formules qu'un pirate aurait êcrit 'avec des symboles cabalistiques'
+pour 'les rendre difficile à comprendre pour les autres',
+les participants seront amenés à comprendre comment
+lire une formule logique /  comment fonctionnent ces notations.
+
+## Matériel
+On a 3 jeux de propriétés / formules,
+en français et en notation logique;
+et un jeu d'îles sur lesquels on pourra vérifier
+certaines des formules.
+Les îles seront fournies sous forme de cartes.
+
+Les différents symboles qui apparaîtront dans les formules sont
+
+| Nom en logique             | Symbole       | Traduction                |
+|----------------------------|---------------|---------------------------|
+| Quantificateur existenciel | &exist; x, P  | Il existe un x tel que P  |
+| Quantificateur universel   | &forall; x, P | Pour tout x, on a P       |
+| Négation                   | &not;   P     | Non P / Il est faux que P |
+| Conjonction                | P1 &and; P2   | P1 et P2                  |
+| Implication                | P1 &rArr; P2  | Si P1 alors P2            |
+
+Symboles spécifiques à notre activité
+
+| Nom    | Symbole | Traduction                            |
+|--------|---------|---------------------------------------|
+| Chemin | l1 C l2 | chemin entre l1 et l2                 |
+| Arête  | l1 A l2 | arête entre l1 et l2                  |
+| Temps  | T(A)    | Le temps mis pour parcourir l'arête A |
+
+### Premier jeu de propriétés: découverte
+#### En notation logique
++ Propriété 1:   
+  ( &exist; A1, plage A1 forêt de palmiers) &and; (&exist; A2, Forêt de palmiers A2 cabane de pêcheur ) 
+  &and; (&exist; A3, cabane de pêcheur A3 volcan) &and; (&exist; A4, volcan A4 grotte)
++ Propriété 2:   
+  &exist; C (Cabane du pêcheur C rivière)
++ Propriété 3:   
+  &not; &exist; C (forêt de palmiers C forêt de conifère)
++ Propriété 4:   
+  &forall; C (plage C grotte) &rArr; &exist; C1 C2, (plage C1 volcan) &and; (volcan C2 grotte) &and; C = C1C2
++ Propriété 5:   
+  &exist; A1 A2 A3 A4, (plage A1 forêt de palmiers) &and; (Forêt de palmiers A2 cabane de pêcheur ) &and; (cabane de pêcheur A3 volcan) &and; (volcan A4 grotte) &and; T(A1) + T(A2) + T(A3) + T(A4) = 8h
+#### En français
++ Propriété 1:   
+	Pour cacher le trésor, j'ai débarqué sur la plage et je suis passé
+    successivement par la forêt de palmiers, la cabane de pêcheur et le
+    volcan avant d'arriver à la grotte, où j'ai caché mon trésor.
+
++ Propriété 2:   
+	Quand je passais par la cabane du pêcheur, j'ai vu un chemin qui
+    descendait jusqu'à la rivière, mais il était trop étroit pour que je
+    passe avec mon trésor. Je ne l'ai donc pas emprunté.
+
++ Propriété 3:   
+	Quand j'étais dans la forêt de palmiers, j'aurais voulu aller à la
+    forêt de conifères, mais je ne pouvais pas.
+
++ Propriété 4:   
+	Pour aller à la grotte depuis la plage, on passe forcément par la
+    cabane du pêcheur.
+
++ Propriété 5:   
+	Pour aller de la plage jusqu'à la grotte en empruntant le chemin que
+    j'ai décrit, il m'a fallu huit heures en tout.
+
+### Deuxième jeu de propriétés: Décodage (+ vérification)
+#### En notation logique
++ Propriété 1:   
+  ( &exist; A1, plage A1 Cabane du pêcheur) &and; (&exist; A2, Cabane de pêcheur A2 volcan ) 
+  &and; (&exist; A3, volcan A3 forêt de palmier) &and; (&exist; A4, forêt de palmier A4 lac)
++ Propriété 2:   
+  &exist; C (forêt de palmier C forêt de conifères)
++ Propriété 3:   
+  &not; &exist; A (forêt de conifères C lac) &and; &exist; C (forêt de conifères C lac)
++ Propriété 4:   
+  &forall; C (plage C lac) &rArr; &exist; A, (cabane de pêcheur A volcan) &and; &exist; C1 C2, (plage C1 cabane du pêcheur) &and; (volcan C2 lac) &and; C = C1AC2
++ Propriété 5:   
+  &exist; A1 A2 A3 A4, 
+  (  plage A1 Cabane du pêcheur) &and; ( Cabane de pêcheur A2 volcan ) 
+  &and; ( volcan A3 forêt de palmier) &and; ( forêt de palmier A4 lac) 
+  &and; T(A1) + T(A2) + T(A3) + T(A4) = 8h
+#### En français
++ Propriété 1:   
+	Pour cacher le trésor, j'ai débarqué sur la plage et je suis passé
+    successivement par la cabane du pêcheur, le volcan, la forêt de palmiers
+	et le lac, où j'ai caché mon trésor.
+
++ Propriété 2:   
+	Quand je passais par la forêt de palmiers, j'ai vu un chemin qui
+    descendait jusqu'à la forêt de conifères.
+
++ Propriété 3:   
+  Il n'y a pas de chemin direct entre la forêt de conifères et le lac,
+  mais il y a un chemin indirect pour aller de l'un à l'autre.
+
++ Propriété 4:   
+	Pour aller au lac depuis la plage, on passe forcément successivement par la
+    cabane du pêcheur et le volcan.
+
++ Propriété 5:   
+	Pour aller de la plage jusqu'au lac en empruntant le chemin que
+    j'ai décrit, il m'a fallu huit heures en tout.
+### Troisième jeu de propriétés: Encodage
+#### En notation logique
++ Propriété 1:   
+	( &exist; A1, cirque A1 Cabane de chasseur) &and; (&exist; A2, Cabane de chasseur A2 forêt de conifères ) 
+  &and; (&exist; A3, forêt de conifères A3 volcan) &and; (&exist; A4, volcan A4 grotte)
++ Propriété 2:   
+	&exist; C (volcan C lac)
++ Propriété 3:   
+  &not; &exist; C (volcan C rivière) &and; &exist; A (rivière C cabane de pêcheur)
++ Propriété 4:   
+  &forall; C (crique C grotte) &rArr; &exist; C1 C2, (crique C1 cabane du chasseur) &and; (cabane du chasseur C2 grotte) &and; C = C1C2
++ Propriété 5:   
+  &forall; C (crique C grotte) &rArr; &not; &exist; A C1 C2, (crique C1 cabane de chasseur) &and; (cabane de chasseur A forêt de palmiers)  &and; (forêt de palmiers C2 grotte) &and; C = C1AC2
+#### En français
++ Propriété 1:   
+	Pour cacher le trésor, j'ai débarqué sur la crique et je suis passé
+    successivement par la cabane du chasseur, la forêt de conifères, le volcan,
+	et la grotte, où j'ai caché mon trésor.
+
++ Propriété 2:   
+	Depuis le volcan, les aventuriers endurants peuvent aller jusqu'au lac.
+
++ Propriété 3:   
+    Depuis le volcan on ne peut pas aller jusqu'à la rivière. 
+	Cependant, on peut aller de la rivière à la cabane de pêche.
+
++ Propriété 4:   
+	Pour aller à la grotte depuis la crique, on passe forcément par la
+    cabane du chasseur.
+
++ Propriété 5:   
+	Pour aller de la crique jusqu'à la grotte,
+	on ne passe par aucun chemin direct entre la
+	cabane du chasseur et la forêt de palmiers.
+
+Pour voir quand distribuer quoi aux participants,
+voir la section suivante.
+
+## Déroulement
+### Mise en place
+
+
+### 
+
+
 Dans cette activité, le pirate n'a pas écrit son journal en français,
 mais avec des symboles cabalistiques qu'il va falloir apprendre à
 déchiffrer. C'est l'occasion d'apprendre ce qu'est un quantificateur en
