@@ -1,0 +1,93 @@
+const data = {
+  "nodes": [
+    {
+      "id": "plage",
+      "group": 1,
+      "img": "plage.svg"
+    },
+    {
+      "id": "palmier",
+      "group": 1,
+      "img": "palmier.svg"
+    },
+    {
+      "id": "cabane_peche",
+      "group": 1,
+      "img": "cabane_peche.svg",
+      "scale": 1.3
+    },
+    {
+      "id": "volcan",
+      "group": 1,
+      "img": "volcan.svg"
+    },
+    {
+      "id": "riviere",
+      "group": 1,
+      "img": "riviere.svg"
+    },
+    {
+      "id": "grotte",
+      "group": 1,
+      "img": "grotte.svg",
+      "scale": 0.8
+    },
+    {
+      "id": "crique",
+      "group": 1,
+      "img": "grotte.svg",
+      "scale": 0.8
+    },
+    {
+      "id": "sapin",
+      "group": 1,
+      "img": "sapin.svg"
+    },
+    {
+      "id": "cabane_chasse",
+      "group": 1,
+      "img": "cabane_peche.svg",
+      "scale": 1.3
+    }],
+  "links": [
+    {
+      "source": "plage",
+      "target": "palmier",
+      "value": 3
+    },
+    {
+      "source": "palmier",
+      "target": "cabane_peche",
+      "value": 3
+    },
+    {
+      "source": "cabane_peche",
+      "target": "riviere",
+      "value": 3
+    },
+    {
+      "source": "cabane_peche",
+      "target": "volcan",
+      "value": 3
+    },
+    {
+      "source": "riviere",
+      "target": "volcan",
+      "value": 3
+    },
+    {
+      "source": "volcan",
+      "target": "grotte",
+      "value": 3
+    },
+    {
+      "source": "crique",
+      "target": "sapin",
+      "value": 3
+    },
+    {
+      "source": "crique",
+      "target": "cabane_chasse",
+      "value": 3
+    }]
+}
