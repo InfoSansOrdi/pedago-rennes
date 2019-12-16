@@ -117,7 +117,7 @@ function run(graph = _graph) {
             .attr("dy", ".35em")
             .attr("text-anchor", "middle")
             .text(function (d) {
-                return (d.time==="0h")?"":d.time;
+                return (d.time==="0h"||d.time==="0"||d.time===0)?"":d.time;
             });
 
     nodes.call(
