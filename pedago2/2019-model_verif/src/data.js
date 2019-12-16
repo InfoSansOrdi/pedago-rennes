@@ -21,8 +21,8 @@ const data = {
           "img": "grotte.svg"
       },
       {
-          "id": "riviere",
-          "img": "riviere.svg"
+          "id": "crique",
+          "img": "crique.svg"
       },
       {
           "id": "cabane_peche",
