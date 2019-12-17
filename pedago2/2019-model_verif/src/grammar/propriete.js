@@ -1,5 +1,3 @@
-
-
 function origin() {
     const exclude = []
     const début = lieu(exclude, lieux_début)
@@ -7,7 +5,8 @@ function origin() {
     const other = Array(5).fill(0).map((x, i) => phrase((i < 3) ? prop() : prop_invalide()))
     return {
         rédigé: début_fin.map(x => x.rédigé).join("\n") + "\n" + other.map(x => x.rédigé).join("\n"),
-        prédicat: (v, e) => début_fin.every(x => x.prédicat(v, e)) && other.every(x => x.prédicat(v, e))
+        prédicat: (v, e) => début_fin.every(x => x.prédicat(v, e)) && other.every(x => x.prédicat(v, e)),
+        prédicatC: (c) => début_fin.every(x => x.prédicatC(c)) && other.every(x => x.prédicatC(c)),
     }
 }
 function origin_temps() {
@@ -18,7 +17,8 @@ function origin_temps() {
     const temps = phrase(prop_temps())
     return {
         rédigé: début_fin.map(x => x.rédigé).join("\n") + "\n" + other.map(x => x.rédigé).join("\n") + "\n" + temps.rédigé,
-        prédicat: (v, e) => début_fin.every(x => x.prédicat(v, e)) && other.every(x => x.prédicat(v, e)) && temps.prédicat(v, e)
+        prédicat: (v, e) => début_fin.every(x => x.prédicat(v, e)) && other.every(x => x.prédicat(v, e)) && temps.prédicat(v, e),
+        prédicatC: (c) => début_fin.every(x => x.prédicatC(c)) && other.every(x => x.prédicatC(c)) && temps.prédicatC(c),
     }
 }
 // syntaxe
@@ -29,7 +29,8 @@ function prop_début(début, s) {
     const rules = [
         () => ({
             ...s, rédigé: `j'ai débarqué ${début.position} et ${s.rédigé}`,
-            prédicat: (v, e) => [].some(x => x === début.key) && s.prédicat(v, e)
+            prédicat: (v, e) => v.some(x => x.id === début.key) && s.prédicat(v, e),
+            prédicatC: (c) => c.some(x => x === début.key) && s.prédicatC(c),
         }),
         // () => ({
         //     ...s, rédigé: `j'ai débarqué ${début.position}`,
@@ -55,7 +56,8 @@ function prop_temps(exclude = []) {
             const h = heure()
             return {
                 rédigé: `pour aller ${start.direction} jusqu'${à(end.decl)}, il m'a fallu ${h.rédigé} en passant par le chemin de plus court`,
-                prédicat: (v, e) => dijkstra(v, e, start.key, end.key, x => x.time, (x, end) => x.coût === h.number && x.id === end) !== undefined
+                prédicat: (v, e) => dijkstra(v, e, start.key, end.key, x => x.time, (x, end) => x.coût === h.number && x.id === end) !== undefined,
+                prédicatC: (c) => c.some(x => x === start.key) && c.some(x => x === end.key),
             }
         }
     ]
@@ -79,14 +81,36 @@ function prop(exclude = []) {
             const l = Array(4).fill(0).map(x => lieu(exclude))
             return {
                 rédigé: `je suis passé successivement par ${l[0].decl}, ${l[1].decl} et ${l[2].decl} avant d'arriver ${l[3].position}`,
-                prédicat: (v, e) => path2edges(l.map(x => x.key)).every(([a, b]) => e.find(({ source, target }) => (a === source && b === target) || (a === target && b === source)) !== undefined)
+                prédicat: (v, e) => path2edges(l.map(x => x.key)).every(([a, b]) => e.find(({ source, target }) => (a === source && b === target) || (a === target && b === source)) !== undefined),
+                prédicatC: (c) => {
+                    let i = 0
+                    for (const x of c) {
+                        if (x === l[i].key) {
+                            i++
+                        } else if (i !== 0) {
+                            break
+                        }
+                        if (i === l.length) return true
+                    }
+                    let j = 0
+                    for (const x of c.reverse()) {
+                        if (x === l[j].key) {
+                            j++
+                        } else if (j !== 0) {
+                            break
+                        }
+                        if (j === l.length) return true
+                    }
+                    return false
+                },
             }
         },
         () => {
             const from = lieu(exclude), to = lieu(exclude), without = lieu(exclude)
             return {
                 rédigé: `depuis ${from.decl} je suis allé ${to.position}, sans passer par ${without.decl}`,
-                prédicat: (v, e) => log(dijkstra(v.filter(x => x !== without.key), e, from.key, to.key)) !== undefined
+                prédicat: (v, e) => log(dijkstra(v.filter(x => x !== without.key), e, from.key, to.key)) !== undefined,
+                prédicatC: (c) => true && true,
             }
         },
         // () => ({ rédigé: `pour aller ${lieu(exclude).position} depuis ${lieu(exclude).decl}, on passe forcément par ${lieu(exclude).decl}`, prédicat: (v, e) => true }),
@@ -101,21 +125,24 @@ function prop_invalide() {
             const from = lieu(exclude), to = lieu(exclude)
             return {
                 rédigé: `quand je passais par ${from.decl}, j'ai vu un chemin direct qui descendait jusqu'${à(to.decl)}${validité()}`,
-                prédicat: (v, e) => e.find(({ source, target }) => (from === source && to === target) || (from === target && to === source)) === undefined
+                prédicat: (v, e) => e.find(({ source, target }) => (from === source && to === target) || (from === target && to === source)) === undefined,
+                prédicatC: (c) => true && true,
             }
         },
         () => {
             const from = lieu(exclude), to = lieu(exclude)
             return {
                 rédigé: `depuis ${from.position}, j'ai voulu aller directement ${to.position}${validité()}`,
-                prédicat: (v, e) => e.find(({ source, target }) => (from === source && to === target) || (from === target && to === source)) === undefined
+                prédicat: (v, e) => e.find(({ source, target }) => (from === source && to === target) || (from === target && to === source)) === undefined,
+                prédicatC: (c) => true && true,
             }
         },
         () => {
             const from = lieu(exclude), to = lieu(exclude)
             return {
                 rédigé: `quand j'étais ${from.position}, j'aurais voulu aller directement ${to.position}${validité()}`,
-                prédicat: (v, e) => e.find(({ source, target }) => (from === source && to === target) || (from === target && to === source)) === undefined
+                prédicat: (v, e) => e.find(({ source, target }) => (from === source && to === target) || (from === target && to === source)) === undefined,
+                prédicatC: (c) => true && true,
             }
         }
     ]
@@ -135,7 +162,10 @@ function prop_invalide() {
 
 function prop_fin(s) {
     const rules = [
-        () => ({ rédigé: `${s.rédigé.charAt(0).toUpperCase() + s.rédigé.slice(1)}, où j'ai caché mon trésor`, prédicat: (v, e) => true })
+        () => ({ rédigé: `${s.rédigé.charAt(0).toUpperCase() + s.rédigé.slice(1)}, où j'ai caché mon trésor`, 
+        prédicat: (v, e) => true,
+        prédicatC: (c) => true,
+    })
     ]
     return choose_Rand(rules)()
 }
@@ -153,7 +183,11 @@ const Lieux = {
     "grotte": { decl: "la grotte", direction: "de la grotte", position: "dans la grotte" },
     "cabane_chasse": { decl: "la cabane de chasseur", direction: "de la cabane de chasseur", position: "à cabane de chasseur" },
 }
-
+/**
+ * 
+ * @param {string[]} exclude 
+ * @param {string[]} include 
+ */
 function lieu(exclude = [], include) {
     const [k, v] = choose_Rand(Object.entries(Lieux).filter(([k, v]) => exclude.findIndex(x => x === k) === -1 && (!include || include.findIndex(x => x === k) !== -1)))
     exclude.push(k)
@@ -181,7 +215,10 @@ function validité() {
         [", mais je ne pouvais pas passer", ", mais le chemin était trop étroit pour que je passe avec mon trésor. Je ne l'ai donc pas emprunté"]
     )
 }
-
+/**
+ * @template T
+ * @param {T[]} l 
+ */
 function choose_Rand(l) {
     const i = Math.floor(Math.random() * l.length)
     return l[i]
@@ -241,6 +278,9 @@ function dijkstra(v, e, start, end, coût = x => 1, finish = (x, end) => x.id ==
 }
 
 
+
+
+
 // for (let i = 0; i < 10; i++) {
 //     const r = prop_temps()
 //     console.log(r.rédigé, r.prédicat(example.nodes, example.links))
@@ -250,13 +290,11 @@ function dijkstra(v, e, start, end, coût = x => 1, finish = (x, end) => x.id ==
 
 if (typeof require != 'undefined' && require.main == module) {
     const fs = require("fs");
-    if (process.argv.length < 2 || process.argv[2]===undefined){
+    if (process.argv.length < 2 || process.argv[2] === undefined) {
         console.error("need path to data")
         return;
     }
     const example = JSON.parse(fs.readFileSync(process.argv[2], "utf8"));
-    console.log(example);
-    return
     let chemin
     for (let i = 0; i < 1000; i++) {
         const start = [...example.nodes].filter(x => lieux_début.find(y => y === x.id) !== undefined).sort(() => Math.random() > 0.5)[0]
@@ -264,7 +302,7 @@ if (typeof require != 'undefined' && require.main == module) {
 
         const a = path2edges(tmp).map(([a, b]) => ({ source: a.id, target: b.id }))
         if (a.every(({ source: a, target: b }) => example.links.find(({ source, target }) => (a === source && b === target) || (a === target && b === source)) !== undefined)) {
-            chemin = { nodes: tmp, links: a }
+            chemin = { nodes: tmp, links: a, raw: tmp.map(x => x.id) }
             break
         }
     }
@@ -273,10 +311,10 @@ if (typeof require != 'undefined' && require.main == module) {
     for (let i = 0; i < 100000; i++) {
         const r = origin_temps()
         // const r = prop()
-        if (r.prédicat(chemin.nodes, chemin.links) && r.prédicat(example.nodes, example.links)) {
+        if (r.prédicatC(chemin.raw) && r.prédicat(example.nodes, example.links)) {
             propriétés = r
             break
         }
     }
-    console.log(propriétés && propriétés.rédigé)
+    console.log(222, propriétés && propriétés.rédigé)
 }
