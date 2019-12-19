@@ -60,7 +60,7 @@ THE SOFTWARE.
      id="namedview231"
      showgrid="false"
      inkscape:zoom="0.572"
-     inkscape:cx="1040.5377"
+     inkscape:cx="745.08315"
      inkscape:cy="582.42207"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -563,7 +563,7 @@ THE SOFTWARE.
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2300,7 +2300,7 @@ THE SOFTWARE.
      id="path1793"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:none;fill-rule:evenodd;stroke:#f80000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker1943)"
+     style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#marker1943)"
      d="M 1253.4965,894.35664 1243.007,728.27273"
      id="path1933"
      inkscape:connector-curvature="0" />
