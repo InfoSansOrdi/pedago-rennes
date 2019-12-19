@@ -101,6 +101,25 @@ Le scénario est le même que le précédent, mais à échelle différente, cell
 France. Ici, les joueurs visitent les villes de France, et doivent revenir vers
 Paris.
 
+### Des stratégies gagnantes
+
+Chaque jeu, c'est à dire chaque contexte a les mêmes principes. Se déplacer sur un plateau (représenté par un graphe) le long de trajets (arrêtes, ou transition du graphe) et être celui qui fera le trajet final vers l'arrivée. Pour chaque plateau, il existe une stratégie permettant de gagner à coup sur. Quelque soit les actions que l'adversaire va alors jouer, la stratégie gagnante lui permettra toujours de gagner.
+
+Pour expliquer cela, prenons l'exemple du tour du monde. Pour rappel, les joueurs commencent en France et doivent décider quels trajets suivre pour effectuer le tour du monde et revenir en France.
+
+![Stratégie gagnante pour le plateau du tour du monde.](images/tour_du_monde-strategie_gagnante.svg)
+
+Les cercles vert représentent les positions où le joueur qui va jouer peut forcément gagner. Les disques (cercles pleins) rouge représentent quand à eux les positions ou quelque soit le trajet suivi, l'autre joueur peut forcément gagner.
+
+Pour commencer, dans le cas du Groenland ou des États Unis, le joueur n'a qu'a suivre le trajet qui l'emmène directement en France, et il gagne. Ces deux cases sont donc des **positions gagnantes** pour le joueur. En revanche, si le joueur se situe actuellement au Canada, il peut aller soit aux États Unis, soit au Groenland. Dans les deux cas, il ammène l'autre joueur dans une position gagnante. Le canada est alors dit comme étant une **position perdante**. Continuons. Depuis le Mexique, le joueur peut soit choisir de suivre le trajet vers le Canada soit les États Unis. S'il ammène son adversaire aux États Unis, celui est alors sur une position gagnante, et peut alors gagner le jeu. En revanche, s'il choisit d'aller au Canada, son adversaire se retrouve alors dans une position perdante. Cela assure alors au joueur sa victoire.
+
+On peut alors définir position gagnante et position perdante de la manière suivante :
+
+* Une **position gagante** est une position depuis laquelle le joueur peut choisir un trajet qui le fait soit gagner immédiatement, soit qui ammène son adversaire vers une position perdante.
+* Une **position perdante** est une position depuis laquelle, quelque soit l'action du joueur, le trajet choisi ammène son adversaire sur une position gagnante.
+
+TODO : finir cette partie !
+
 ### Présentation de l'activité
 
 TODO
