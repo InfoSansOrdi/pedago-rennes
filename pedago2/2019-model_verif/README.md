@@ -854,10 +854,23 @@ en amont.
 En cas de difficulté, on peut appliquer à chaque étape ces différentes aides.
 + Pour la première sous-étape de l'étape 1: on peut aider le participant en 
 réassemblant les propriétés en français avec les propriétés codées.
-+ Pour la seconde sous-étape de l'étape 2: indiquer au participant de commencer
- par la propriété 1 et se concentrer sur le symbole des arêtes. Ensuite, via les
- propriétés 2 et 3, le participant peut essayer d'inférer le symbole du chemin. 
- La propriété 5, permet d'inférer l'icone du temps.
++ Pour la seconde sous-étape de l'étape 2: on propose cette ordre pour inférer les symboles
+    + le symbole représentant les arêtes via la propriété 1
+    + le symbole représentant les chemins via les propriétés 2 et 3
+    + le symbole représentant le temps via la propriété 5
+    + le symbole représentant la conjonction via les propriétés 1 et 5
+    + le symbole représentant "il existe" via les propriétés 1 et 2 (la difficulté
+    ici est que dans la traduction le "il existe" n'apparait pas, il peut être 
+    utile de reformuler les traduction soit par le participant soit par l'aidant)
+    + le symbole représentant la négation via la propriété 3 (ici on peut demander 
+    au participant de traduire la propriété via les symboles connus, tous sauf la
+    négation, et comparer sa traduction avec la traduction donnée)
+    + les deux symboles restant apparaissent uniquement dans la propriété 4. On 
+    commence par demander aux participants de traduire la deuxième partie de la 
+    propriété (à droite de l'implication) afin d'obtenir "on passe par la cabane 
+    du pêcheur". Un fois que cette traduction est faite, il faut traduire le 
+    "forcément" qui est représenter par l'implication et le pour tout. Cette 
+    dernière étape est vraiement délicate et peut être effectuée en classe entière.
 + Pour la seconde et la troisième étape, on donne un tableau récapitulatif de la
  traduction des éléments codés.
 
