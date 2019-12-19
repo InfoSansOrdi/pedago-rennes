@@ -811,11 +811,68 @@ voir la section suivante.
 ## Déroulement
 ### Mise en place
 
-
-### 
-
+### Context
 
 Dans cette activité, le pirate n'a pas écrit son journal en français,
 mais avec des symboles cabalistiques qu'il va falloir apprendre à
 déchiffrer. C'est l'occasion d'apprendre ce qu'est un quantificateur en
-logique. À FAIRE.
+logique.
+
+
+### Étapes de l'activité
+
+Cette activité se déroule en trois étapes. 
+
+La première étape permet aux participants de découvrir les éléments de logique.
+On leur donne le premiers jeu de propriétés en français et celle codée (pas 
+nécessairement dans le même ordre, elles peuvent être mélangées). Le but des
+participants est alors d'identifier grâces aux propriétés en français les 
+symboles des propriétés codées. Cette étape peut être guidée via deux sous-étapes
+intermédiaires : identifier les paires de propriétés en français avec celle 
+codée; puis inférer la traduction des symboles. 
+
+La seconde étape permet aux participants de manipuler les définitions logiques
+en les décodants dans des formules logiques. On leur distribue alors le deuxième
+jeu de propriétés uniquement codées. Leur objectif est donc de les traduire en 
+français.
+
+La troisième étape permet aux participants de manipuler à l'inverse les 
+définitions logiques. On leur distribue le troisième jeu de propriété uniquement
+en français et leur objectif est coder ces propriétés.
+
+
+### Modification de l'étape 3
+
+Si on veut mettre en place un peu de vérification, après avoir décodé les
+propriétés, on peut les tester sur le jeu d'îles fourni avec cette activité. Le 
+but ici est toujours le même et consiste à trouver l'île au trésor. Cependant, 
+pour des raisons de temps, l'activité de vérification devraient avoir été faite
+en amont.
+
+## Aides pour les participants
+
+En cas de difficulté, on peut appliquer à chaque étape ces différentes aides.
++ Pour la première sous-étape de l'étape 1: on peut aider le participant en 
+réassemblant les propriétés en français avec les propriétés codées.
++ Pour la seconde sous-étape de l'étape 2: indiquer au participant de commencer
+ par la propriété 1 et se concentrer sur le symbole des arêtes. Ensuite, via les
+ propriétés 2 et 3, le participant peut essayer d'inférer le symbole du chemin. 
+ La propriété 5, permet d'inférer l'icone du temps.
++ Pour la seconde et la troisième étape, on donne un tableau récapitulatif de la
+ traduction des éléments codés.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
