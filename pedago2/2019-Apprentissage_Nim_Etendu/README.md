@@ -9,7 +9,8 @@ L'apprentissage est présenté comme suit :
 * Un robot, contre lequel les joueurs jouent est modélisé par un ensemble de
 gobelets
 * Les gobelets représentent les différents états du jeu de Nim
-* Ils sont remplis de jetons, modélisant les choix du robot dans un état
+* Ils sont remplis de jetons, modélisant les choix possibles du robot dans un
+état
 * Au tour du robot, on tire dans un gobelet un jeton, qui indique l'action du
 robot
 * Les joueurs effectuent tour à tour des parties contre le robot
@@ -57,21 +58,20 @@ Le changer offre de nombreux points :
 * Faire évoluer les stratégies des joueurs
 * Renouveler le plaisir des joueurs, en changeant de temps en temps de
 graphe/plateau de jeu
-* On peut aussi placer les nœuds et arêtes à différents endroit du plateau pour
+* On peut aussi placer les nœuds et arêtes à différents endroits du plateau pour
 donner du contexte au jeu
 
 Pour commencer, les joueurs peuvent commencer par un graphe simple, comme celui
 représentant le jeu de Nim.
 
-![Graphe représentant le jeu de Nim](./images/graphe-nim.pdf)
-![Graphe représentant le jeu de Nim](./images/graphe-nim.svg)
+![Graphe représentant le jeu de Nim](images/graphe-nim.svg)
 
 Par la suite, on peut proposer aux joueurs des graphes de plus en plus complet.
 
 ### Des contextes possibles
 
 Ici, nous présentons des exemples de scénarios que l'on peut expliquer aux élèves
-avant de leur faire jouer.
+avant de jouer.
 Utiliser plusieurs scénarios à l'avantage, là encore de créer du renouvellement
 dans l'activité. Les élèves découvrent une nouvelle histoire, un nouveau
 plateau, permettant ainsi de limiter l'ennui.
@@ -92,6 +92,8 @@ Cependant, un seul des deux recevra les félicitations de son pays et connaitra
 la gloire : celui qui ramènera le véhicule dans le pays de départ (la France).
 Ils parcourent alors l'ensemble des continents : l'Europe, l'Asie, l'Océanie,
 l'Afrique, ainsi que l'Amérique du Sud et du Nord.
+
+![Plateau de jeu pour le tour du monde](images/tour_du_monde.svg)
 
 #### Le tour de France
 
