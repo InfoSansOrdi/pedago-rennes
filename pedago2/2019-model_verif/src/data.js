@@ -1,5 +1,72 @@
 const data = {
   "nodes": [
+      {
+          "id": "plage",
+          "img": "plage.svg"
+      },
+      {
+          "id": "palmier",
+          "img": "palmier.svg"
+      },
+      {
+          "id": "riviere",
+          "img": "riviere.svg"
+      },
+      {
+          "id": "volcan",
+          "img": "volcan.svg"
+      },
+      {
+          "id": "grotte",
+          "img": "grotte.svg"
+      },
+      {
+          "id": "crique",
+          "img": "crique.svg"
+      },
+      {
+          "id": "cabane_peche",
+          "img": "cabane_peche.svg"
+      },
+      {
+          "id": "sapin",
+          "img": "sapin.svg"
+      }
+  ],
+  "links": [
+      {
+          "source": "plage",
+          "target": "palmier"
+      },
+      {
+          "source": "palmier",
+          "target": "riviere"
+      },
+      {
+          "source": "riviere",
+          "target": "volcan"
+      },
+      {
+          "source": "volcan",
+          "target": "grotte"
+      },
+      {
+          "source": "volcan",
+          "target": "riviere"
+      },
+      {
+          "source": "palmier",
+          "target": "cabane_peche"
+      },
+      {
+          "source": "cabane_peche",
+          "target": "sapin"
+      }
+  ]
+}
+
+const data2 = {
+  "nodes": [
     {
       "id": "plage",
       "group": 1,

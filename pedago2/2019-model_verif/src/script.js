@@ -6,13 +6,15 @@ let height = 600;
 let color = d3.scaleOrdinal(d3.schemeCategory10);
 
 const _graph = data
-
+document.getElementById('data').innerHTML=JSON.stringify(_graph, undefined, '    ');
 document.getElementById('data').addEventListener("input",
     function () {
         try {
             run(JSON.parse(this.value))
+            this.style.backgroundColor=""
         } catch (error) {
             console.error(error)
+            this.style.backgroundColor="hsl(0,54%,71%)"
         }
     })
 
@@ -37,11 +39,11 @@ document.getElementById('data').addEventListener("input",
 function run(graph = _graph) {
     document.getElementById('viz').innerHTML = '';
     const graphLayout = d3.forceSimulation(graph.nodes)
-        .force("charge", d3.forceManyBody().strength(-3000))
+        .force("charge", d3.forceManyBody().strength(-2500))
         .force("center", d3.forceCenter(width / 2, height / 2))
         .force("x", d3.forceX(width / 2).strength(1))
         .force("y", d3.forceY(height / 2).strength(1))
-        .force("link", d3.forceLink(graph.links).id(function (d) { return d.id; }).distance(50).strength(1))
+        .force("link", d3.forceLink(graph.links).id(function (d) { return d.id; }).distance(80).strength(2))
         .on("tick", ticked);
 
     const adjlist = [];
@@ -69,8 +71,11 @@ function run(graph = _graph) {
         .data(graph.links)
         .enter()
         .append("line")
-        .attr("stroke", "hsl(25, 25%, 44%)")
+        .attr("stroke", function (d) {
+            return (d.blocked)? "hsla(25, 25%, 44%, 0)" : "hsl(25, 25%, 44%)"   
+        })
         .attr("stroke-width", "15px");
+
 
     const NODE_SIZE = 80
     const nodes = container.append("g").attr("class", "nodes")
@@ -98,6 +103,23 @@ function run(graph = _graph) {
 
     // node.on("mouseover", focus).on("mouseout", unfocus);
 
+
+    const linksText =
+        container.append("g").attr("class", "labels")
+            .selectAll("text")
+            .data(graph.links)
+            .enter()
+            .append("text")
+            .attr("class", "link-label")
+            .attr("font-family", "Arial, Helvetica, sans-serif")
+            .attr("fill", "Black")
+            .style("font", "bold 14px Arial")
+            .attr("dy", ".35em")
+            .attr("text-anchor", "middle")
+            .text(function (d) {
+                return (d.time==="0h"||d.time==="0"||d.time===0)?"":d.time;
+            });
+
     nodes.call(
         d3.drag()
             .on("start", dragstarted)
@@ -121,6 +143,7 @@ function run(graph = _graph) {
     function ticked() {
         nodes && nodes.call(updateNode);
         links && links.call(updateLink);
+        linksText && linksText.call(updateLinkText);
         if (!nodes && !links) {
             graphLayout.stop()
         }
@@ -176,6 +199,16 @@ function run(graph = _graph) {
             .attr("y1", function (d) { return fixna(d.source.y); })
             .attr("x2", function (d) { return fixna(d.target.x); })
             .attr("y2", function (d) { return fixna(d.target.y); });
+    }
+
+    function updateLinkText(link) {
+        linksText
+            .attr("x", function (d) {
+                return ((d.source.x + d.target.x) / 2);
+            })
+            .attr("y", function (d) {
+                return ((d.source.y + d.target.y) / 2);
+            });
     }
 
     function updateNode(node) {
