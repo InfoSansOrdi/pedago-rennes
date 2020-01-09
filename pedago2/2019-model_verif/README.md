@@ -167,6 +167,9 @@ Voici les descriptions des îles qu'il faudra donner au fur et à mesure.
 
 -   Sur la plage, on trouve le delta de la rivière Papamouan.
 
+-   En remontant la rivière Papamouan pendant trois heures, on
+    arrive à la cabane de pêcheur.
+
 -   De la plage, après avoir gravit pendant deux heures un chemin
     tortueux, la forêt de palmiers s'ouvre devant nous.
 
@@ -195,7 +198,7 @@ Voici les descriptions des îles qu'il faudra donner au fur et à mesure.
 
 -   De la plage, un chemin scabreux monte vers la forêt de palmiers.
 
--   De la rivière, on peut atteindre la cabane du pêcheur.
+-   De la rivière, on peut atteindre la cabane du pêcheur ou le volcan.
 
 -   Pour descendre à la grotte, il faut marcher sur la façade ouest du
     volcan.
@@ -229,6 +232,9 @@ Voici les descriptions des îles qu'il faudra donner au fur et à mesure.
 
 -   En descendant la façade est du volcan pendant trois heures, on
     arrive à la cabane du pêcheur.
+	
+-   Si par contre on descend sur la façade sud du volcan pendant quatre
+    heures, on arrive à la rivière.
 
 -   Le pêcheur fait tous les matins une promenade de deux heures jusqu'à
     la forêt de palmiers pour y cueillir des noix de coco.
@@ -572,7 +578,7 @@ conseils/étapes de l'activité modélisation (activité A).
 
 -   De la plage, un chemin fleuri mène à la forêt de palmiers
 
--   En traversant la forêt on peut arriver sur le lac ou sur la cabane
+-   En traversant la forêt de palmiers on peut arriver sur le lac ou sur la cabane
     du pêcheur
 
 -   Le lac mène à la forêt de conifères, mais ne permet pas d'atteindre
@@ -619,7 +625,7 @@ conseils/étapes de l'activité modélisation (activité A).
 
 -   Au milieu de la crique, se dresse la cabane du chasseur.
 
--   Traverser la crique prend une demie-heure et à sa lisière se trouve
+-   Traverser la crique prend une heure et à sa lisière se trouve
     une forêt de conifères
 
 -   Traverser la forêt de palmiers pour atteindre la cabane du pêcheur
@@ -643,7 +649,7 @@ conseils/étapes de l'activité modélisation (activité A).
     faut une bonne heure pour le trajet.
 
 -   De la rivière, une heure de marche permet d'atteindre la cabane du
-    pêcheur. En remontant la rivière, on peut atteindre le volcant au
+    pêcheur. En remontant la rivière, on peut atteindre le volcan au
     bout de quatre heures.
 
 -   Pour descendre à la grotte, il faut marcher sur la façade ouest du

@@ -112,7 +112,7 @@ function run(graph = _graph) {
             .append("text")
             .attr("class", "link-label")
             .attr("font-family", "Arial, Helvetica, sans-serif")
-            .attr("fill", "Black")
+            .attr("fill", "White")
             .style("font", "bold 14px Arial")
             .attr("dy", ".35em")
             .attr("text-anchor", "middle")

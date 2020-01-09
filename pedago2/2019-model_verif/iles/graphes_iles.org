@@ -1,9 +1,15 @@
-* Version vérification
+* Version vérification (et mode-verif)
 ** Ile des dauphins roses
 Plage -> Forêt de Palmiers -> Cabane du pêcheur -> Volcan -> Grotte
-Cabane du pêcheur -> Rivière
+Cabane du pêcheur -> Rivière -> Volcan
 Crique -> Forêt de conifères
 Crique -> Cabane du chasseur
+
+** Ile des dauphins roses temp
+Plage -1h-> Forêt de Palmiers -2h-> Cabane du pêcheur -3h-> Volcan -2h-> Grotte
+Cabane du pêcheur -1h-> Rivière -4h-> Volcan
+Crique -2h-> Forêt de conifères
+Crique -1h-> Cabane du chasseur
 
 ** Ile de la tortue
 Plage -> Forêt de Palmiers -> Cabane du pêcheur -> Volcan -> Grotte
@@ -28,17 +34,24 @@ Crique -> Forêt de conifères
 Crique -> Cabane du chasseur
 
 ** Ile des singes hurleurs
-Plage -> Forêt de palmiers -> Cabane de pêcheur -> Volcan -> Grotte
-Plage -> Rivière
-Crique -> Forêt de conifères
-Crique -> Cabane du chasseur
+Plage -2h-> Forêt de palmiers -1h-> Cabane de pêcheur -3h-> Volcan -3h-> Grotte
+Plage -0h-> Rivière -3h-> Cabane de pêcheur
+Crique -1h-> Forêt de conifères
+Crique -0h-> Cabane du chasseur
 
 * Version modélisation
 ** Ile des dauphins roses
 Plage -> Forêt de Palmiers -> Cabane du pêcheur -> Volcan -> Grotte
-Cabane du pêcheur -> Rivière
+Cabane du pêcheur -> Rivière -> Volcan
 Crique -> Forêt de conifères
 Crique -> Cabane du chasseur
+
+** Ile des dauphins roses temp
+Plage -1h-> Forêt de Palmiers -2h-> Cabane du pêcheur -3h-> Volcan -2h-> Grotte
+Cabane du pêcheur -1h-> Rivière -4h-> Volcan
+Crique -2h-> Forêt de conifères
+Crique -1h-> Cabane du chasseur
+
 
 ** Ile de la tortue
 Plage -> Forêt de Palmiers -> Rivière -> Cabane du pêcheur -> Volcan -> Grotte
@@ -63,10 +76,10 @@ Crique -> Forêt de conifères
 Crique -> Cabane du chasseur
 
 ** Ile des singes hurleurs
-Plage -> Forêt de palmiers -> Cabane de pêcheur -> Volcan -> Grotte
-Plage -> Rivière
-Crique -> Forêt de conifères
-Crique -> Cabane du chasseur
+Plage -2h-> Forêt de palmiers -1h-> Cabane de pêcheur -3h-> Volcan -3h-> Grotte
+Plage -0h-> Rivière -3h-> Cabane de pêcheur
+Crique -1h-> Forêt de conifères
+Crique -0h-> Cabane du chasseur
 * Version logique
 ** Ile 1
 Plage -> cabane du pêcheur -> volcan
