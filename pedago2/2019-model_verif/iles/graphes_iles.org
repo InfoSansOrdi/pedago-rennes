@@ -17,7 +17,7 @@ Cabane du pêcheur -> Lac
 Crique -> Forêt de conifères -> Rivière
 
 ** Ile du scorpion
-Plage -> forêt de palmiers -> volcan -> grotte
+Plage -> forêt de palmiers -> Volcan -> grotte
 Volcan -> Rivière -> Lac
 Rivière -> Cabane du pêcheur
 
@@ -35,9 +35,9 @@ Crique -> Cabane du chasseur
 
 ** Ile des singes hurleurs
 Plage -2h-> Forêt de palmiers -1h-> Cabane de pêcheur -3h-> Volcan -3h-> Grotte
-Plage -0h-> Rivière -3h-> Cabane de pêcheur
+Plage -1h-> Rivière -3h-> Cabane de pêcheur
 Crique -1h-> Forêt de conifères
-Crique -0h-> Cabane du chasseur
+Crique -1h-> Cabane du chasseur
 
 * Version modélisation
 ** Ile des dauphins roses
@@ -77,9 +77,9 @@ Crique -> Cabane du chasseur
 
 ** Ile des singes hurleurs
 Plage -2h-> Forêt de palmiers -1h-> Cabane de pêcheur -3h-> Volcan -3h-> Grotte
-Plage -0h-> Rivière -3h-> Cabane de pêcheur
+Plage -1h-> Rivière -3h-> Cabane de pêcheur
 Crique -1h-> Forêt de conifères
-Crique -0h-> Cabane du chasseur
+Crique -1h-> Cabane du chasseur
 * Version logique
 ** Ile 1
 Plage -> cabane du pêcheur -> volcan
