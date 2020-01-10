@@ -103,23 +103,43 @@ Paris.
 
 ### Des stratégies gagnantes
 
-Chaque jeu, c'est à dire chaque contexte a les mêmes principes. Se déplacer sur un plateau (représenté par un graphe) le long de trajets (arrêtes, ou transition du graphe) et être celui qui fera le trajet final vers l'arrivée. Pour chaque plateau, il existe une stratégie permettant de gagner à coup sur. Quelque soit les actions que l'adversaire va alors jouer, la stratégie gagnante lui permettra toujours de gagner.
+Chaque jeu, c'est à dire chaque contexte a les mêmes principes. Se déplacer sur un plateau (représenté par un graphe) le long de trajets (arrêtes, ou transition du graphe) et être celui qui fera le trajet final vers l'arrivée. Pour chaque plateau, il existe une stratégie permettant de gagner à coup sur (En revanche, cela dépend de quel joueur commence.). Quelque soit les actions que l'adversaire va alors jouer, la stratégie gagnante lui permettra toujours de gagner.
 
 Pour expliquer cela, prenons l'exemple du tour du monde. Pour rappel, les joueurs commencent en France et doivent décider quels trajets suivre pour effectuer le tour du monde et revenir en France.
 
 ![Stratégie gagnante pour le plateau du tour du monde.](images/tour_du_monde-strategie_gagnante.svg)
 
-Les cercles vert représentent les positions où le joueur qui va jouer peut forcément gagner. Les disques (cercles pleins) rouge représentent quand à eux les positions ou quelque soit le trajet suivi, l'autre joueur peut forcément gagner.
+Les cercles verts représentent les positions où le joueur qui va jouer peut forcément gagner. Les disques (cercles pleins) rouges représentent quand à eux les positions ou quelque soit le trajet suivi, l'autre joueur peut forcément gagner.
 
-Pour commencer, dans le cas du Groenland ou des États Unis, le joueur n'a qu'a suivre le trajet qui l'emmène directement en France, et il gagne. Ces deux cases sont donc des **positions gagnantes** pour le joueur. En revanche, si le joueur se situe actuellement au Canada, il peut aller soit aux États Unis, soit au Groenland. Dans les deux cas, il ammène l'autre joueur dans une position gagnante. Le canada est alors dit comme étant une **position perdante**. Continuons. Depuis le Mexique, le joueur peut soit choisir de suivre le trajet vers le Canada soit les États Unis. S'il ammène son adversaire aux États Unis, celui est alors sur une position gagnante, et peut alors gagner le jeu. En revanche, s'il choisit d'aller au Canada, son adversaire se retrouve alors dans une position perdante. Cela assure alors au joueur sa victoire.
+Pour commencer, dans le cas du Groenland ou des États Unis, le joueur n'a qu'a suivre le trajet qui l'emmène directement en France, et il gagne. Ces deux cases sont donc des **positions gagnantes** pour le joueur. En revanche, si le joueur se situe actuellement au Canada, il peut aller soit aux États Unis, soit au Groenland. Dans les deux cas, il ammène l'autre joueur dans une position gagnante. Le canada est alors dit comme étant une **position perdante**. Continuons : depuis le Mexique, le joueur peut soit choisir de suivre le trajet vers le Canada soit vers les États Unis. S'il ammène son adversaire aux États Unis, l'adersaire est alors sur une position gagnante, et peut alors gagner le jeu. En revanche, si le joueur choisit d'aller au Canada, son adversaire se retrouve alors dans une position perdante. Cela assure alors au joueur sa victoire.
 
 On peut alors définir position gagnante et position perdante de la manière suivante :
 
 * Une **position gagante** est une position depuis laquelle le joueur peut choisir un trajet qui le fait soit gagner immédiatement, soit qui ammène son adversaire vers une position perdante.
 * Une **position perdante** est une position depuis laquelle, quelque soit l'action du joueur, le trajet choisi ammène son adversaire sur une position gagnante.
 
-TODO : finir cette partie !
+Partant de ces définitions, on peut alors établir l'ensemble des positions gagnantes et des positions perdantes en parcourant petit à petit le plateau en sens inverse. L'image ci-dessus illustre le résultat que l'on obtient sur ce plateau. On observe sur ce plateau que la case départ est une position gagnante. Dans ce cas le joueur qui commence possède une stratégie gagnante. S'il l'applique (en suivant les flèches vertes continues), il gagnera forcément le jeu. Si la case départ est une position perdante, l'adversaire du joueur dispose alors d'une stratégie gagnante. Dans ce cas, il faut que l'adversaire commence pour gagner. 
+
+### Partie de Romain
+
+Cette partie concerne des simulations d'apprentissage de gobelets.
+Le but étant de voir quelles sont les bonnes façons d'apprendre les gobelets, comment entrainer le plus rapidement possible.
 
 ### Présentation de l'activité
 
-TODO
+Le but de cette section est de présenter une ébauche de fiche d'activité, ainsi que des idées qui peuvent être, ou non mise en place.
+
+Dans un premier temps, on présente le principe du jeu aux élèves.
+
+Ensuite, on invite les enfants à s'approprier le principe du jeu en jouant ensemble deux par deux pendant un certain temps.
+On peut les placer par groupe de 4/6, en îlots.
+
+On reprend les enfants, et on leur explique le fait que l'on rajoute un robot à gobelets.
+
+Pour la suite, l'idée étant qu'il y ai une table avec le robot à gobelet contre lequel les enfants/groupes d'enfants jouent en se relayant. Chaque partie jouée permet ainsi d'entrainer un peu plus le robot à gobelets. L'objectif étant de bien gérer le temps pour qu'avant la fin de l'activité, le robot est complétement appris la stratégie gagnante.
+
+Pendant ce temps, il faut occuper les autres groupes. Le but serait que les groupes cherchent à comprendre la stratégie gagnante, ainsi qu'une manière pour la trouver. Pour les occuper, on peut changer les plateaux de jeux pour renouverler leur attention, en revanche, cela peut les ralentirs dans les objectifs. On peut eventuellement envisager des plateaux à difficulté croissante, qui aident à comprendre le principe de stratégie gagnante.
+
+Enfin, pour conclure, l'idée serait de montrer que les gobelets sont capables de battre n'importe qui, de conclure sur l'idée de stratégie gagnate, d'expliquer pourquoi c'est de l'info, ...
+
+TODO : revoir les autres fiches, les citer, et modifier le texte en conséquence.
