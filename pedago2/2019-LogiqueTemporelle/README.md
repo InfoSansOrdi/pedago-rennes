@@ -3,9 +3,9 @@ Le Mage, l'Aventurier et le Chateau Hanté
 
 
 Ce document est un premier jet présentant une activité de pédagogie 
-informatique sans ordinateur dans le cadre du module PEDAGO pour les master 2 
-de l'ENS Rennes en informatique. L'objectif de ce papier est de présenter une 
-activité autour d'un sujet de recherche. La recherche qui nous intéresse ici est
+informatique sans ordinateur dans le cadre du module PEDAGO pour les masters
+2 de l'ENS Rennes en informatique. L'objectif ici est de présenter une 
+activité autour d'un sujet de recherche. La recherche qui nous intéresse est
 une recherche théorique en logique fondamentale. Ce document contient une 
 description de l'activité (et contiendra une mise en situation). Libre à vous de
 vous l'approprier et de l'adapter si vous en ressentez le besoin.
@@ -47,7 +47,6 @@ fantôme. Le document récapitulatif des choix des joueurs et des règles est
 appelé la *Table des règles de construction*.
   
 Voici un exemple de table:
-
  	  
 Choix des joueurs :
 
@@ -58,11 +57,25 @@ Choix des joueurs :
 Règles:
 
 * Pour placer le trésor, si deux pièces avant, il y avait un tableau, la pièce précédente doit être orange.
-* Le trésor ne peut etre placé qu'à la troisème pièce.
+* Le trésor ne peut etre placé qu'à la troisième pièce.
 
-Une table de règle caractérise entièrement une instance du jeu. Celle présentée ci-dessus est très simple mais donne une idée des
-règles possibles. Avec seulement quelques règles, on peut arriver à un jeu très dur à résoudre.
+Une table de règle caractérise entièrement une instance du jeu. 
+Celle présentée ci-dessus est très simple mais donne une idée des
+règles possibles. Avec seulement quelques règles, on peut arriver 
+à un jeu très dur à résoudre.
 
+**Idées de règles**
+
+Je n'ai pas réussi à créer une table des règles simples à lire et à comprendre 
+mais qui donneraient un jeu pas si simple à résoudre. (Pour comprendre ce concept, 
+pensez aux échecs ou au go... Ces jeux ont des règles globalement simples mais 
+il est impossible de savoir qui va remporter la partie dès le début). Cependant 
+j'ai pensé à certaines règles qui pourraient aider à avoir une table avec cette 
+bonne propriété.
+
+* Le mage choisit si il y a un tableau ou non, mais ne peut en placer que 3.
+* Le fantome choisi si il y a une épée mais dans une certaine configuration, si il n'y en a pas, il ne pourra pas mettre le monstre plus tard.
+* À chaque étape le fantome doit mettre un objet d'une liste donnée d'objet dont un objet qui le fera gagner si il en met suffisamment.
 
 Lien avec l'informatique
 ------------------------
@@ -70,36 +83,45 @@ Lien avec l'informatique
 En informatique, on se demande si les programmes utilisés partout ont des bugs.
 C'est d'autant plus critique lorsque le dit programme fait fonctionner une 
 centrale nucléaire ou fait voler un avion. De nombreuses approches pour
-vérifier les programmes ont été envisagées et l'une d'elle consiste à se 
+vérifier les programmes ont été envisagées et l'une d'elles consiste à se 
 demander si un système peut arriver dans un certain état et ce alors que 
-l'environement peut l'influencer.
+l'environnement peut l'influencer.
 
-Ici c'est presque pareil: on veut savoir si malgrès les agissements du fantôme,
-le mage peut ammener l'aventurier jusqu'au trésor.
+Ici c'est presque pareil: on veut savoir si malgré les agissements du fantôme,
+le mage peut amener l'aventurier jusqu'au trésor.
 
 **Objets:**
 
 Les activités débranchées peuvent être caractérisées par les objets qu'elles
 font manipuler. Il y en a 4 types différents : les langages, l'information, 
 les algorithmes et les machines. Pour chaque type, nous précisons à quel point
-l'activité est perninente.
+l'activité est pertinente.
 
 * Langage(-): Pas pertinent.
 * Information(\*): Le jeu se base sur l'adaptation aux décisions de son adversaire, donc des informations qu'il nous donne.
-* Algo(\*): Pour résoudre le jeude manière automatique, il faut développer un algorithme.
+* Algo(\*): Pour résoudre le jeu de manière automatique, il faut développer un algorithme.
 * Machine(\*): L'aventurier symbolise la machine : on ne le manipule pas directement il agit de manière prévisible.
-
 
 **Competence:**
 
 De même que pour les objets de l'informatique, des compétences spécifiques 
 à la discipline peuvent être reliées à l'activité. Elles sont au nombre de 
-7 et listées ci dessous.
+7 et listées ci-dessous.
 
-* Pensée Algo(\*): Pour résoudre le jeude manière, il faut développer un algorithme.
-* Abstraction/Modelisation(\*): On peut transformer les règles en un graphe des états possible.
-* Generalistation/Motif(-): A priori, pas pertinent.
+* Pensée Algo(\*): Pour résoudre le jeu de manière, il faut développer un algorithme.
+* Abstraction/Modélisation(\*): On peut transformer les règles en un graphe des états possible.
+* Generalisation/Motif(-): A priori, pas pertinent.
 * Logique(\*\*): Les règles sont en réalité des formules de logique temporelle.
-* Decomposition(-): A priori pas pertinent.
-* Evaluation(-): A priori pas pertinent.
+* Décomposition(-): A priori pas pertinent.
+* Évaluation(-): A priori pas pertinent.
+
+Idée d'extension : Chateau aléatoire
+------------------------------------
+
+Il est peut etre plus facile de créer un jeu avec des cartes tirées aléatoirement.
+Le joueur est alors tout seul et à chaque étape, il joue une ou plusieurs cartes 
+pour tenter de gagner.
+
+Attention, le lien avec l'informatique n'est plus exactement le meme ! Il s'agit 
+alors de verifier des systèmes probabilistes.
 
