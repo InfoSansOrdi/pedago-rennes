@@ -104,6 +104,8 @@ Voici les descriptions des îles qu'il faudra donner au fur et à mesure.
 
 ![aaa](iles/ile5.svg)
 
+<p><img src='iles/ile5.svg'></p>
+
 #### L'île tortue
 
 -   On peut arriver à l'île par la plage ou par la crique.
