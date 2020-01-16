@@ -102,10 +102,6 @@ Voici les descriptions des îles qu'il faudra donner au fur et à mesure.
 
 -   La rivière permet d'aller jusqu'à la cabane du pêcheur.
 
-![aaa](iles/ile5.svg)
-
-<p><img src='iles/ile5.svg'></p>
-
 #### L'île tortue
 
 -   On peut arriver à l'île par la plage ou par la crique.
@@ -298,8 +294,9 @@ ces cas-là, trois stratégies successives pourront être mises en place:
     texte, on pourra leur distribuer une carte de l'île (fournies dans
 	le document "fiche élève") comme celle ci-dessous:
 	
-![Exemple de carte d'île (île de la fortune)](iles/svgs/modelisation/ile_fortune.svg)
+![Exemple de carte d'île (île de la fortune)](iles/svgs/modelisation/ile_fortune2.svg)
 <a name="fortune_mode"></a> 
+
 
 Quand certains participants auront trouvé comment faire, une mise en
 commun permettra de montrer à tout le monde comment faire un schéma à
