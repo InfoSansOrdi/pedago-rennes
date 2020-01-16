@@ -102,6 +102,8 @@ Voici les descriptions des îles qu'il faudra donner au fur et à mesure.
 
 -   La rivière permet d'aller jusqu'à la cabane du pêcheur.
 
+![aaa](iles/ile5.svg)
+
 #### L'île tortue
 
 -   On peut arriver à l'île par la plage ou par la crique.
