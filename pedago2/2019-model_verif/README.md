@@ -294,8 +294,9 @@ ces cas-là, trois stratégies successives pourront être mises en place:
     texte, on pourra leur distribuer une carte de l'île (fournies dans
 	le document "fiche élève") comme celle ci-dessous:
 	
-![Exemple de carte d'île (île de la fortune)](iles/svgs/modelisation/ile_fortune.svg)
+![Exemple de carte d'île (île de la fortune)](iles/svgs/modelisation/ile_fortune.pdf)
 <a name="fortune_mode"></a> 
+
 
 Quand certains participants auront trouvé comment faire, une mise en
 commun permettra de montrer à tout le monde comment faire un schéma à
