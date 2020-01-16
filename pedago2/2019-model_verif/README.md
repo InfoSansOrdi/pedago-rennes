@@ -287,9 +287,15 @@ ces cas-là, trois stratégies successives pourront être mises en place:
 
 3.  Donner au participant des images prédécoupées des différents
     endroits de l'île, une feuille en papier, de la colle et un crayon
-    et lui dire "Montre-le moi\". S'ils ne pensent pas à tracer un trait
+    et lui dire "Montre-le moi\".
+
+4. S'ils ne pensent pas à tracer un trait
     entre les parties de l'île qui sont reliées entre elles d'après le
-    texte, on ne sais plus quoi faire =( .
+    texte, on pourra leur distribuer une carte de l'île (fournies dans
+	le document "fiche élève") comme celle ci-dessous:
+	
+![Exemple de carte d'île (île de la fortune)](iles/svgs/modelisation/ile_fortune.svg)
+<a name="fortune_mode"></a> 
 
 Quand certains participants auront trouvé comment faire, une mise en
 commun permettra de montrer à tout le monde comment faire un schéma à

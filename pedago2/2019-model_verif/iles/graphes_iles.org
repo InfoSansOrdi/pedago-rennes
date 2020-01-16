@@ -95,12 +95,12 @@ Crique -> Cabane de chasse
 Crique -> Forêt de conifères
 
 ** Ile 3
-Plage -> Cabane de pêcheur -> volcan -> Forêt de palmiers -> lac -> forêt de conifères
+Plage -> Cabane de pêcheur -> volcan -> Forêt de palmiers -> lac -> Forêt de conifères
 Forêt de palmiers -> Forêt de conifères
 
 ** Ile 4
 Plage -> Cabane de pêcheur -> volcan -> Forêt de palmier -> lac
-cabane de pêcheur -> forêt de conifères -> forêt de palmiers
+Cabane de pêcheur -> forêt de conifères -> Forêt de palmier
 volcan -> rivière -> lac
 
 ** Ile 5
@@ -110,5 +110,5 @@ volcan -2h-> cabane de chasse -1h-> rivière -1h-> lac
 
 ** Ile 6
 Plage -> cabane de pêcheur -> volcan -> forêt de palmiers -> lac
-plage -> Forêt de conifères -> cabane de pêcheur
+Plage -> Forêt de conifères -> cabane de pêcheur
 volcan -> rivière -> lac
