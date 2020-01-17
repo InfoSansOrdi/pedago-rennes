@@ -120,26 +120,63 @@ On peut alors définir position gagnante et position perdante de la manière sui
 
 Partant de ces définitions, on peut alors établir l'ensemble des positions gagnantes et des positions perdantes en parcourant petit à petit le plateau en sens inverse. L'image ci-dessus illustre le résultat que l'on obtient sur ce plateau. On observe sur ce plateau que la case départ est une position gagnante. Dans ce cas le joueur qui commence possède une stratégie gagnante. S'il l'applique (en suivant les flèches vertes continues), il gagnera forcément le jeu. Si la case départ est une position perdante, l'adversaire du joueur dispose alors d'une stratégie gagnante. Dans ce cas, il faut que l'adversaire commence pour gagner. 
 
-### Partie de Romain
+### Simulations d'apprentissage
 
 Cette partie concerne des simulations d'apprentissage de gobelets.
 Le but étant de voir quelles sont les bonnes façons d'apprendre les gobelets, comment entrainer le plus rapidement possible.
+Un début de simulateur a été réalisé, cependant, il reste encore à le compléter.
+
+Pour la carte du monde, avec un apprentissage dans lequel chaque partie perdue enlève la dernière transition réalisée, il faut perdre 18 parties pour apprendre complétement et parfaitement le jeu. (18 étant le nombre de transitions perdantes).
 
 ### Présentation de l'activité
 
 Le but de cette section est de présenter une ébauche de fiche d'activité, ainsi que des idées qui peuvent être, ou non mise en place.
 
+#### Explications du jeu (5 minutes)
+
 Dans un premier temps, on présente le principe du jeu aux élèves.
+* On peut montrer une partie en direct, pour expliquer.
+* On peut inviter des élèves à faire une démonstration du jeu, comprendre les difficultés et les expliquer.
+
+#### Appropriation de l'activité (10 minutes)
 
 Ensuite, on invite les enfants à s'approprier le principe du jeu en jouant ensemble deux par deux pendant un certain temps.
-On peut les placer par groupe de 4/6, en îlots.
+* On peut les placer par groupe de 4/6, en îlots.
+* On peut alterner les adversaires, ...
+
+#### Début d'explications et Introduction du robot (5 minutes)
 
 On reprend les enfants, et on leur explique le fait que l'on rajoute un robot à gobelets.
+On peut aussi parler de certains points avec les élèves comme des débuts d'idées sur des stratégies gagnantes
+
+#### Suite de l'activité (20 minutes)
 
 Pour la suite, l'idée étant qu'il y ai une table avec le robot à gobelet contre lequel les enfants/groupes d'enfants jouent en se relayant. Chaque partie jouée permet ainsi d'entrainer un peu plus le robot à gobelets. L'objectif étant de bien gérer le temps pour qu'avant la fin de l'activité, le robot est complétement appris la stratégie gagnante.
 
 Pendant ce temps, il faut occuper les autres groupes. Le but serait que les groupes cherchent à comprendre la stratégie gagnante, ainsi qu'une manière pour la trouver. Pour les occuper, on peut changer les plateaux de jeux pour renouverler leur attention, en revanche, cela peut les ralentirs dans les objectifs. On peut eventuellement envisager des plateaux à difficulté croissante, qui aident à comprendre le principe de stratégie gagnante.
 
+#### Conclusion de l'activité (5 minutes)
+
 Enfin, pour conclure, l'idée serait de montrer que les gobelets sont capables de battre n'importe qui, de conclure sur l'idée de stratégie gagnate, d'expliquer pourquoi c'est de l'info, ...
 
-TODO : revoir les autres fiches, les citer, et modifier le texte en conséquence.
+#### Expliquer pourquoi c'est de l'informatique (5 minutes)
+
+En fin de séance, il nous est demandé d'expliquer pourquoi l'activité que l'on a réalisée traitait d'un sujet de l'informatique. Ici, on donne plus des idées que des points définitifs:
+* Le principe de stratégies gagnantes.
+* Le principe d'apprentissage
+
+Des applications de la vie réelles qui peuvent parler aux élèves, dans le but de démystifier les technologies cachées derrières :
+* Les applications de reconnaissance vocale, que ce soit dans les téléphones (Syrie, Ok Google), ou les assistants vocaux à la maison (Google Home, Alexa). Même si ce n'est pas de l'apprentissage par renforcement. Mais l'activité peut viser à expliquer l'apprentissage plus que la sous-catégorie de l'apprentissage par renforcement
+* Les voitures autonomes. Idem, ce n'est pas de l'apprentissage par renforcement.
+
+### Sources
+
+* https://members.loria.fr/MDuflot/files/med/IAnim.html
+* https://projet.liris.cnrs.fr/lirismed/index.php?id=la-machine-qui-apprend-a-jouer-toute-seule
+* http://www.tangente-education.com/article.php?art=4076&dos=158
+
+### Idées d'extension
+
+Ici, on place des idées qui pourraient servir à améliorer l'activité, mais qui seraient surtout à étudier voir si c'est possible, et bénéfiques à l'activité:
+
+* des plateaux différents et des contextes différentes
