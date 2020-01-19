@@ -23,13 +23,14 @@ my ($files) = "";
 open FH, "<$inputfile" || die "Cannot read from $filename: $!\n";
 my ($count) = 0;
 while (my $line = <FH>) {
-    print "XXXX ./humanpuzzle.pl $line\n";
+    chomp $line;
     $line =~ s/#.*//;
     next unless $line =~ m/[a-zA-Z]/;
-    $line =~ s/;/\\;/g;
     $line =~ s/"/\\"/g; # "
-    $line =~ s/'/\\'/g; # '
-    qx,./humanpuzzle.pl $line,; # && die "Cannot generate this file: $!\n";
+    $line = '"'.$line.'"';
+    $line =~ s/ /" "/g;
+    print "XXXX ./humanpuzzle.pl $line\n";
+    qx,./humanpuzzle.pl $line,; # &&  die "Cannot generate this file: $!\n";
     print "mv board.pdf $dataname-$count.pdf\n";
     system("mv board.pdf $dataname-$count.pdf") && die "Cannot rename this file: $!\n";
     $files .= " $dataname-$count.pdf";
@@ -37,5 +38,5 @@ while (my $line = <FH>) {
 }
 close FH;
 
-qx,pdfjoin --outfile ${dataname}.pdf $files, && die "Cannot run pdfjoin: $!\n";
+qx,pdfjam --landscape --outfile ${dataname}.pdf $files, && die "Cannot run pdfjam: $!\n";
 qx,rm $files, && die "Cannot remove temp files: $!\n";

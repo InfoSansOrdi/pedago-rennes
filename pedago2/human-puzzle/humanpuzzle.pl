@@ -17,6 +17,11 @@ die "Usage: humanpuzzle-generate.pl pagenum sentence.txt\n" if ($#ARGV == 0);
 
 my $pageback = shift @ARGV;
 
+my ($orphelin_border) = 0; # whether we should put orphelin values on borders
+if ($pageback eq "--orphelin") {
+    $orphelin_border = 1;
+    $pageback = shift @ARGV;
+}
 
 sub readfile ($) {
     my $filename = shift;
@@ -87,7 +92,6 @@ my (@page);  # $page[P][C]{'x'}: x coordinate on full puzzle of the cell printed
              # $page[P][C]{'y'}: y coordinate on full puzzle of the cell printed in cell C on page P
              # $page[P][C]{'txt'}: text to print in the cell printed in cell C on page P
              # $page[P][C]{'a'}: top border, 'b': right border, 'c': bottom border, 'd': left border
-my ($orphelin_border) = 0; # whether we should put orphelin values on borders
 
 my ($cellidx) = 0;
 for my $y (0..($sizeY-1)) {    
@@ -115,7 +119,7 @@ for my $P (0..$page_count) {
 
 # Compute the values of the cells' borders
 my (%borders); # if $border{blah} is defined, then it was already used
-$borders{"66"} = $borders{"68"} = $borders{"69"} = $borders{"86"} = $borders{"89"} = $borders{"96"} = $borders{"98"} = $borders{"99"} = 1; # forbid these
+$borders{"6"} = $borders{"9"} = $borders{"66"} = $borders{"68"} = $borders{"69"} = $borders{"86"} = $borders{"89"} = $borders{"96"} = $borders{"98"} = $borders{"99"} = 1; # forbid these
 sub newborder() {
     my ($res);
     do {
@@ -173,7 +177,7 @@ for my $P (0..$page_count-1) {
 
 $dataname =~ s/\..*//g;
 print "Join the pages and remove temp files\n";
-qx,pdfjoin --outfile ${dataname}.pdf $file_list, && die "Cannot run pdfjoin: $!\n";
+qx,pdfjam --landscape --outfile ${dataname}.pdf $file_list, && die "Cannot run pdfjam: $!\n";
 unlink("tmp-back.pdf") || die "Cannot remove tempfile: $!\n";
 for my $P (0..$page_count-1) {
     unlink("tmp-page-$P.pdf") || die "Cannot remove tempfile: $!\n";
