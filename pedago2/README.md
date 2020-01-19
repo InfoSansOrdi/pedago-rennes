@@ -21,8 +21,9 @@ description du module est
 Afin de pouvoir ajouter votre travail, il faut faire un "fork" du
 dépot pedago-rennes sur GitHub (avec le bouton en haut à droite). Une
 fois sur votre copie, vous pouvez soit récupérer un clone sur votre
-disque, soit l'éditer directement depuis l'interface web. Dans les
-deux cas, créez un fichier nommé `pedago2/année-motclé.md` et
+disque, soit l'éditer directement depuis l'interface web. Limitez la
+taile de votre copie locale avec l'option `depth`: `git clone --depth=1`
+Dans les deux cas, créez un fichier nommé `pedago2/année-motclé.md` et
 ajoutez-y vos idées. Il faut également choisir une licence et
 l'indiquer explicitement dans le fichier.
 
