@@ -167,6 +167,9 @@ Voici les descriptions des îles qu'il faudra donner au fur et à mesure.
 
 -   Sur la plage, on trouve le delta de la rivière Papamouan.
 
+-   En remontant la rivière Papamouan pendant trois heures, on
+    arrive à la cabane de pêcheur.
+
 -   De la plage, après avoir gravit pendant deux heures un chemin
     tortueux, la forêt de palmiers s'ouvre devant nous.
 
@@ -195,7 +198,7 @@ Voici les descriptions des îles qu'il faudra donner au fur et à mesure.
 
 -   De la plage, un chemin scabreux monte vers la forêt de palmiers.
 
--   De la rivière, on peut atteindre la cabane du pêcheur.
+-   De la rivière, on peut atteindre la cabane du pêcheur ou le volcan.
 
 -   Pour descendre à la grotte, il faut marcher sur la façade ouest du
     volcan.
@@ -229,6 +232,9 @@ Voici les descriptions des îles qu'il faudra donner au fur et à mesure.
 
 -   En descendant la façade est du volcan pendant trois heures, on
     arrive à la cabane du pêcheur.
+	
+-   Si par contre on descend sur la façade sud du volcan pendant quatre
+    heures, on arrive à la rivière.
 
 -   Le pêcheur fait tous les matins une promenade de deux heures jusqu'à
     la forêt de palmiers pour y cueillir des noix de coco.
@@ -281,9 +287,16 @@ ces cas-là, trois stratégies successives pourront être mises en place:
 
 3.  Donner au participant des images prédécoupées des différents
     endroits de l'île, une feuille en papier, de la colle et un crayon
-    et lui dire "Montre-le moi\". S'ils ne pensent pas à tracer un trait
+    et lui dire "Montre-le moi\".
+
+4. S'ils ne pensent pas à tracer un trait
     entre les parties de l'île qui sont reliées entre elles d'après le
-    texte, on ne sais plus quoi faire =( .
+    texte, on pourra leur distribuer une carte de l'île (fournies dans
+	le document "fiche élève") comme celle ci-dessous:
+	
+![Exemple de carte d'île (île de la fortune)](iles/svgs/modelisation/ile_fortune2.svg)
+<a name="fortune_mode"></a> 
+
 
 Quand certains participants auront trouvé comment faire, une mise en
 commun permettra de montrer à tout le monde comment faire un schéma à
@@ -572,7 +585,7 @@ conseils/étapes de l'activité modélisation (activité A).
 
 -   De la plage, un chemin fleuri mène à la forêt de palmiers
 
--   En traversant la forêt on peut arriver sur le lac ou sur la cabane
+-   En traversant la forêt de palmiers on peut arriver sur le lac ou sur la cabane
     du pêcheur
 
 -   Le lac mène à la forêt de conifères, mais ne permet pas d'atteindre
@@ -619,7 +632,7 @@ conseils/étapes de l'activité modélisation (activité A).
 
 -   Au milieu de la crique, se dresse la cabane du chasseur.
 
--   Traverser la crique prend une demie-heure et à sa lisière se trouve
+-   Traverser la crique prend une heure et à sa lisière se trouve
     une forêt de conifères
 
 -   Traverser la forêt de palmiers pour atteindre la cabane du pêcheur
@@ -643,7 +656,7 @@ conseils/étapes de l'activité modélisation (activité A).
     faut une bonne heure pour le trajet.
 
 -   De la rivière, une heure de marche permet d'atteindre la cabane du
-    pêcheur. En remontant la rivière, on peut atteindre le volcant au
+    pêcheur. En remontant la rivière, on peut atteindre le volcan au
     bout de quatre heures.
 
 -   Pour descendre à la grotte, il faut marcher sur la façade ouest du
@@ -811,11 +824,81 @@ voir la section suivante.
 ## Déroulement
 ### Mise en place
 
-
-### 
-
+### Context
 
 Dans cette activité, le pirate n'a pas écrit son journal en français,
 mais avec des symboles cabalistiques qu'il va falloir apprendre à
 déchiffrer. C'est l'occasion d'apprendre ce qu'est un quantificateur en
-logique. À FAIRE.
+logique.
+
+
+### Étapes de l'activité
+
+Cette activité se déroule en trois étapes. 
+
+La première étape permet aux participants de découvrir les éléments de logique.
+On leur donne le premiers jeu de propriétés en français et celle codée (pas 
+nécessairement dans le même ordre, elles peuvent être mélangées). Le but des
+participants est alors d'identifier grâces aux propriétés en français les 
+symboles des propriétés codées. Cette étape peut être guidée via deux sous-étapes
+intermédiaires : identifier les paires de propriétés en français avec celle 
+codée; puis inférer la traduction des symboles. 
+
+La seconde étape permet aux participants de manipuler les définitions logiques
+en les décodants dans des formules logiques. On leur distribue alors le deuxième
+jeu de propriétés uniquement codées. Leur objectif est donc de les traduire en 
+français.
+
+La troisième étape permet aux participants de manipuler à l'inverse les 
+définitions logiques. On leur distribue le troisième jeu de propriété uniquement
+en français et leur objectif est coder ces propriétés.
+
+
+### Modification de l'étape 3
+
+Si on veut mettre en place un peu de vérification, après avoir décodé les
+propriétés, on peut les tester sur le jeu d'îles fourni avec cette activité. Le 
+but ici est toujours le même et consiste à trouver l'île au trésor. Cependant, 
+pour des raisons de temps, l'activité de vérification devraient avoir été faite
+en amont.
+
+## Aides pour les participants
+
+En cas de difficulté, on peut appliquer à chaque étape ces différentes aides.
++ Pour la première sous-étape de l'étape 1: on peut aider le participant en 
+réassemblant les propriétés en français avec les propriétés codées.
++ Pour la seconde sous-étape de l'étape 2: on propose cette ordre pour inférer les symboles
+    + le symbole représentant les arêtes via la propriété 1
+    + le symbole représentant les chemins via les propriétés 2 et 3
+    + le symbole représentant le temps via la propriété 5
+    + le symbole représentant la conjonction via les propriétés 1 et 5
+    + le symbole représentant "il existe" via les propriétés 1 et 2 (la difficulté
+    ici est que dans la traduction le "il existe" n'apparait pas, il peut être 
+    utile de reformuler les traduction soit par le participant soit par l'aidant)
+    + le symbole représentant la négation via la propriété 3 (ici on peut demander 
+    au participant de traduire la propriété via les symboles connus, tous sauf la
+    négation, et comparer sa traduction avec la traduction donnée)
+    + les deux symboles restant apparaissent uniquement dans la propriété 4. On 
+    commence par demander aux participants de traduire la deuxième partie de la 
+    propriété (à droite de l'implication) afin d'obtenir "on passe par la cabane 
+    du pêcheur". Un fois que cette traduction est faite, il faut traduire le 
+    "forcément" qui est représenter par l'implication et le pour tout. Cette 
+    dernière étape est vraiement délicate et peut être effectuée en classe entière.
++ Pour la seconde et la troisième étape, on donne un tableau récapitulatif de la
+ traduction des éléments codés.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
