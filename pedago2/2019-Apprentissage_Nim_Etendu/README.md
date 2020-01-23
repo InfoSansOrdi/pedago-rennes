@@ -44,14 +44,14 @@ unique pion)
 * Le gagnant est celui qui parvient à effectuer le déplacement amenant le
 véhicule sur une case représentant l'arrivée
 
-Le principe du jeu est donc globalement de se rapprocher d'un objectif commum,
+Le principe du jeu est donc globalement de se rapprocher d'un objectif commun,
 ensemble, mais d'être celui qui effectuera le dernier déplacement. Les joueurs
 devront donc essayer de prendre des détours, pour éviter que leur partenaire et
 adversaire ne gagne.
 
 ### Graphes et difficulté
 
-Un avantage de ce jeu est de pouvoir changer le graphe a volonté.
+Un avantage de ce jeu est de pouvoir changer le graphe à volonté.
 Le changer offre de nombreux points :
 
 * Faire varier la difficulté
@@ -103,27 +103,27 @@ Paris.
 
 ### Des stratégies gagnantes
 
-Chaque jeu, c'est à dire chaque contexte a les mêmes principes. Se déplacer sur un plateau (représenté par un graphe) le long de trajets (arrêtes, ou transition du graphe) et être celui qui fera le trajet final vers l'arrivée. Pour chaque plateau, il existe une stratégie permettant de gagner à coup sur (En revanche, cela dépend de quel joueur commence.). Quelque soit les actions que l'adversaire va alors jouer, la stratégie gagnante lui permettra toujours de gagner.
+Chaque jeu, c'est à dire chaque contexte a les mêmes principes. Se déplacer sur un plateau (représenté par un graphe) le long de trajets (arrêtes, ou transition du graphe) et être celui qui fera le trajet final vers l'arrivée. Pour chaque plateau, il existe une stratégie permettant de gagner à coup sur (En revanche, cela dépend de quel joueur commence.). Quelques soient les actions que l'adversaire va alors jouer, la stratégie gagnante lui permettra toujours de gagner.
 
 Pour expliquer cela, prenons l'exemple du tour du monde. Pour rappel, les joueurs commencent en France et doivent décider quels trajets suivre pour effectuer le tour du monde et revenir en France.
 
 ![Stratégie gagnante pour le plateau du tour du monde.](images/tour_du_monde-strategie_gagnante.svg)
 
-Les cercles verts représentent les positions où le joueur qui va jouer peut forcément gagner. Les disques (cercles pleins) rouges représentent quand à eux les positions ou quelque soit le trajet suivi, l'autre joueur peut forcément gagner.
+Les disques (cercles pleins) verts représentent les positions où le joueur qui va jouer peut forcément gagner. Les cercles rouges représentent quant à eux les positions ou quel que soit le trajet suivi, l'autre joueur peut forcément gagner.
 
-Pour commencer, dans le cas du Groenland ou des États Unis, le joueur n'a qu'a suivre le trajet qui l'emmène directement en France, et il gagne. Ces deux cases sont donc des **positions gagnantes** pour le joueur. En revanche, si le joueur se situe actuellement au Canada, il peut aller soit aux États Unis, soit au Groenland. Dans les deux cas, il ammène l'autre joueur dans une position gagnante. Le canada est alors dit comme étant une **position perdante**. Continuons : depuis le Mexique, le joueur peut soit choisir de suivre le trajet vers le Canada soit vers les États Unis. S'il ammène son adversaire aux États Unis, l'adersaire est alors sur une position gagnante, et peut alors gagner le jeu. En revanche, si le joueur choisit d'aller au Canada, son adversaire se retrouve alors dans une position perdante. Cela assure alors au joueur sa victoire.
+Pour commencer, dans le cas du Groenland ou des États Unis, le joueur n'à qu'a suivre le trajet qui l'emmène directement en France, et il gagne. Ces deux cases sont donc des **positions gagnantes** pour le joueur. En revanche, si le joueur se situe actuellement au Canada, il peut aller soit aux États Unis, soit au Groenland. Dans les deux cas, il amène l'autre joueur dans une position gagnante. Le canada est alors dit comme étant une **position perdante**. Continuons : depuis le Mexique, le joueur peut soit choisir de suivre le trajet vers le Canada soit vers les États Unis. S'il amène son adversaire aux États Unis, l'adversaire est alors sur une position gagnante, et peut alors gagner le jeu. En revanche, si le joueur choisit d'aller au Canada, son adversaire se retrouve alors dans une position perdante. Cela assure alors au joueur sa victoire.
 
 On peut alors définir position gagnante et position perdante de la manière suivante :
 
-* Une **position gagante** est une position depuis laquelle le joueur peut choisir un trajet qui le fait soit gagner immédiatement, soit qui ammène son adversaire vers une position perdante.
-* Une **position perdante** est une position depuis laquelle, quelque soit l'action du joueur, le trajet choisi ammène son adversaire sur une position gagnante.
+* Une **position gagante** est une position depuis laquelle le joueur peut choisir un trajet qui le fait soit gagner immédiatement, soit qui amène son adversaire vers une position perdante.
+* Une **position perdante** est une position depuis laquelle, quelle que soit l'action du joueur, le trajet choisi amène son adversaire sur une position gagnante.
 
-Partant de ces définitions, on peut alors établir l'ensemble des positions gagnantes et des positions perdantes en parcourant petit à petit le plateau en sens inverse. L'image ci-dessus illustre le résultat que l'on obtient sur ce plateau. On observe sur ce plateau que la case départ est une position gagnante. Dans ce cas le joueur qui commence possède une stratégie gagnante. S'il l'applique (en suivant les flèches vertes continues), il gagnera forcément le jeu. Si la case départ est une position perdante, l'adversaire du joueur dispose alors d'une stratégie gagnante. Dans ce cas, il faut que l'adversaire commence pour gagner. 
+Partant de ces définitions, on peut alors établir l'ensemble des positions gagnantes et des positions perdantes en parcourant petit à petit le plateau en sens inverse. L'image ci-dessus illustre le résultat que l'on obtient sur ce plateau. On observe sur ce plateau que la case départ est une position gagnante. Dans ce cas, le joueur qui commence possède une stratégie gagnante. S'il l'applique (en suivant les flèches vertes continues), il gagnera forcément le jeu. Si la case départ est une position perdante, l'adversaire du joueur dispose alors d'une stratégie gagnante. Dans ce cas, il faut que l'adversaire commence pour gagner. 
 
 ### Simulations d'apprentissage
 
 Cette partie concerne des simulations d'apprentissage de gobelets.
-Le but étant de voir quelles sont les bonnes façons d'apprendre les gobelets, comment entrainer le plus rapidement possible.
+Le but étant de voir quelles sont les bonnes façons d'apprendre les gobelets, comment entraîner le plus rapidement possible.
 Un début de simulateur a été réalisé, cependant, il reste encore à le compléter.
 
 Pour la carte du monde, avec un apprentissage dans lequel chaque partie perdue enlève la dernière transition réalisée, il faut perdre 18 parties pour apprendre complétement et parfaitement le jeu. (18 étant le nombre de transitions perdantes).
@@ -141,7 +141,7 @@ Dans un premier temps, on présente le principe du jeu aux élèves.
 #### Appropriation de l'activité (10 minutes)
 
 Ensuite, on invite les enfants à s'approprier le principe du jeu en jouant ensemble deux par deux pendant un certain temps.
-* On peut les placer par groupe de 4/6, en îlots.
+* On peut les placer par groupes de 4/6, en îlots.
 * On peut alterner les adversaires, ...
 
 #### Début d'explications et Introduction du robot (5 minutes)
@@ -151,9 +151,9 @@ On peut aussi parler de certains points avec les élèves comme des débuts d'id
 
 #### Suite de l'activité (20 minutes)
 
-Pour la suite, l'idée étant qu'il y ai une table avec le robot à gobelet contre lequel les enfants/groupes d'enfants jouent en se relayant. Chaque partie jouée permet ainsi d'entrainer un peu plus le robot à gobelets. L'objectif étant de bien gérer le temps pour qu'avant la fin de l'activité, le robot est complétement appris la stratégie gagnante.
+Pour la suite, l'idée étant qu'il y ai une table avec le robot à gobelet contre lequel les enfants/groupes d'enfants jouent en se relayant. Chaque partie jouée permet ainsi d'entraîner un peu plus le robot à gobelets. L'objectif étant de bien gérer le temps pour qu'avant la fin de l'activité, le robot est complétement appris la stratégie gagnante.
 
-Pendant ce temps, il faut occuper les autres groupes. Le but serait que les groupes cherchent à comprendre la stratégie gagnante, ainsi qu'une manière pour la trouver. Pour les occuper, on peut changer les plateaux de jeux pour renouverler leur attention, en revanche, cela peut les ralentirs dans les objectifs. On peut eventuellement envisager des plateaux à difficulté croissante, qui aident à comprendre le principe de stratégie gagnante.
+Pendant ce temps, il faut occuper les autres groupes. Le but serait que les groupes cherchent à comprendre la stratégie gagnante, ainsi qu'une manière pour la trouver. Pour les occuper, on peut changer les plateaux de jeux pour renouveler leur attention, en revanche, cela peut les ralentir dans les objectifs. On peut éventuellement envisager des plateaux à difficulté croissante, qui aident à comprendre le principe de stratégie gagnante.
 
 #### Conclusion de l'activité (5 minutes)
 
@@ -161,13 +161,19 @@ Enfin, pour conclure, l'idée serait de montrer que les gobelets sont capables d
 
 #### Expliquer pourquoi c'est de l'informatique (5 minutes)
 
-En fin de séance, il nous est demandé d'expliquer pourquoi l'activité que l'on a réalisée traitait d'un sujet de l'informatique. Ici, on donne plus des idées que des points définitifs:
+En fin de séance, il nous est demandé d'expliquer pourquoi l'activité que l'on a réalisée traitait d'un sujet de l'informatique. Ici, on donne plus des idées que des points définitifs :
 * Le principe de stratégies gagnantes.
 * Le principe d'apprentissage
 
-Des applications de la vie réelles qui peuvent parler aux élèves, dans le but de démystifier les technologies cachées derrières :
-* Les applications de reconnaissance vocale, que ce soit dans les téléphones (Syrie, Ok Google), ou les assistants vocaux à la maison (Google Home, Alexa). Même si ce n'est pas de l'apprentissage par renforcement. Mais l'activité peut viser à expliquer l'apprentissage plus que la sous-catégorie de l'apprentissage par renforcement
+Des applications de la vie réelles qui peuvent parler aux élèves, dans le but de démystifier les technologies cachées derrière :
+* Les applications de reconnaissance vocale, que ce soit dans les téléphones (Siri, Ok Google), ou les assistants vocaux à la maison (Google Home, Alexa). Même si ce n'est pas de l'apprentissage par renforcement. Mais l'activité peut viser à expliquer l'apprentissage plus que la sous-catégorie de l'apprentissage par renforcement
 * Les voitures autonomes. Idem, ce n'est pas de l'apprentissage par renforcement.
+
+Comment est-ce que cette activité rentre dans les différentes notions de l'informatique :
+
+* **Algorithme** : Cette activité fait intervenir le principe de stratégie gagnante. Pour les trouver, cela fait notamment intervenir divers algorithmes.
+* **Informations et données** : Le jeu fait intervenir diverses informations qui permettent de déterminer une stratégie gagnante.
+* **Machine** : Avec des simples gobelets, et des jetons, on simule un algorithme d'apprentissage. C'est ce que fait un véritable ordinateur, mais avec des optimisations et méthodes beaucoup plus poussées.
 
 ### Sources
 
