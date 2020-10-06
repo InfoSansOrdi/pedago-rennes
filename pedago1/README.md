@@ -43,6 +43,9 @@ préparer vos interventions.
   le matériel pour les élèves. Tout a été testé en classe. 
   Le [Groupe IREM de Grenoble](http://www-irem.ujf-grenoble.fr/spip/spip.php?article146) 
   a une page comparable.
+- Activité de [logique propositionnelle](https://algopi.fr/?page_id=151), 
+  inventée par Pablo Espana-Gutierrez dans le cadre de ce module de
+  Pedago1 à l'ENS Rennes.
 - Activité de [mesure binaire](https://github.com/Mommessc/Mesures_binaires),
   inventée par Marie Le Guilly et Clément Mommessin lors de l'école
   d'été «[Médiation](https://www.societe-informatique-de-france.fr/ecole-mediation-scientifique-en-informatique/)»
