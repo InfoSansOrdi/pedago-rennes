@@ -1,9 +1,15 @@
 # Sommaire des activités recensées sur le dépôt git pedago-rennes
 Pour l'instant on a juste épluché pedago1.
 
-Organisation selon les 4 catégories "info scolaire" (algorithmes, langages, information, machine) plus une catégorie supplémentaire "graphes et automates" car beaucoup d'activités classées dans "algorithmes" partagent cette thématique.
+Organisation selon les 4 catégories "info scolaire" (algorithmes, langages, information, machine) plus une catégorie supplémentaire "graphes et automates" car beaucoup d'activités classées dans "algorithmes" partagent cette thématique. Plus les activités non classées pour le moment.
 
 [Classification Dowek](http://www.lsv.fr/~dowek/Philo/quatre.pdf)
+
+---
+
+Autre idée: faire comme dans [ce document pédago 1](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2020-CosseronMulot-BazarMarmottes/informatique-parce-que-bazar.md), pour chaque activité, dire si elle correspond beaucoup/un peu/pas du tout aux quatres axes classif Dowek et aux compétences pensée informatique (cs unplugged ?), et si oui expliquer pourquoi.
+
+[Computational thinking, CS Unplugged](https://www.csunplugged.org/en/computational-thinking)
 
 ---
 Tentative de standard pour la description de chaque activité:
