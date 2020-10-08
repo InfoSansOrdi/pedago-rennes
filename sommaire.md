@@ -1,6 +1,9 @@
 # Sommaire des activités recensées sur le dépôt git pedago-rennes
 Pour l'instant on a juste épluché pedago1.
+
 Organisation selon les 4 catégories "info scolaire" (algorithmes, langages, information, machine) plus une catégorie supplémentaire "graphes et automates" car beaucoup d'activités classées dans "algorithmes" partagent cette thématique.
+
+[Classification Dowek](http://www.lsv.fr/~dowek/Philo/quatre.pdf)
 
 ---
 Tentative de standard pour la description de chaque activité:
@@ -143,5 +146,6 @@ Ressources:
 ## À classer
 ### Caméléons
 Activité de logique propositionnelle inventée par Pablo Espana-Gutierrez en Pédago 1.
+
 Ressources:
 [Page détaillant l'activité](https://algopi.fr/?page_id=151)
