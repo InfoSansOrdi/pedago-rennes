@@ -2,6 +2,19 @@
 Pour l'instant on a juste épluché pedago1.
 Organisation selon les 4 catégories "info scolaire" (algorithmes, langages, information, machine) plus une catégorie supplémentaire "graphes et automates" car beaucoup d'activités classées dans "algorithmes" partagent cette thématique.
 
+---
+Tentative de standard pour la description de chaque activité:
+### Nom de l'activité
+Courte description
+#### Mots-clefs
+* **Mot-clef très important**
+* *Mot-clef un peu important*
+* Mot-clef moins important
+#### Ressources
+* [Lien 1](nyan.cat)
+* [Lien 2](truc)
+---
+
 ## Graphes et automates
 ### Châteaux magiques
 
