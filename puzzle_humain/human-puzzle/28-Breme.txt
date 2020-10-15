@@ -1,0 +1,6 @@
+B1 Un meunier décide de tuer son vieil âne pour récupérer la peau. L'animal s'enfuit pendant la nuit pour sauver sa_vie, et se_met en chemin pour devenir musicien à_Brême.
+B2 En chemin, l'âne rencontre un chien trop vieux pour chasser dont le maître voulait se débarasser. Il lui propose d'aller à Brême avec lui pour s'engager dans l'orchestre.
+B3 Les_deux animaux rencontrent un chat et un coq dans la même situation, et tous décident de voyager ensemble. Un soir, ils trouvent une maison habitée par des voleurs.
+B4 Les animaux veulent faire fuir les voleurs_: l'âne s'approche, le_chien sur son dos. Le_chat monte sur le_chien, et_le_coq sur le_chat. Ils bondissent alors dans la maison en hurlant.
+B5 Les voleurs chassés, les animaux s'installent dans la maison. L'un des voleurs revient le_soir pour récupérer la maison, mais les animaux l'attaquent dans le noir et le terrorisent.
+B6 Les quatre animaux s'installent définitivement dans la maison. Ils ne seront jamais musiciens dans les rues de_Brême, mais ils vivent heureux et font de la musique entre amis.
