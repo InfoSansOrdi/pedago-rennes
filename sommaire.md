@@ -60,6 +60,10 @@ TODO
 ### Ressources
 * [Pédago 1 2019-Drewery-Garito](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2019-DreweryGarito-AutomatesTris/Fiche_Algo_Tris.pdf)
 
+## Arbres de décision
+### Ressources
+* [Pédago 2 2018-ArbresDecision](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/pedago2/2018-ArbresDecision)
+
 ## Baseball multicolore
 ### Concepts
 * Algorithmes ++
@@ -90,6 +94,7 @@ Activité classique, testée en cycle 3, formation enseignant
 * [Pédago 1 2019-Mavromatis-Thuillier](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/pedago1/2019-Blasons-MavromatisThuillier)
 * [Pédago 1 2019-Coumes-Losekoot](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2019-crepier_Coumes_Losekoot/Blasons_Coumes_Losekoot.ods)
 * [Pédago 1 2016-Mirliaz-Peignier](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2016-communication/activite1a/FicheDePreparation.pdf)
+* [Pédago 2 2019](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/pedago2/2019-cest-de-linfo)
 
 ## Caméléons
 Activité de logique propositionnelle inventée par Pablo Espana-Gutierrez en Pédago 1.
@@ -283,6 +288,11 @@ TODO
 ### Ressources
 O_O
 
+## Le mage, l'aventurier et le château hanté
+Logique temporelle
+### Ressources
+* [Pédago 2 2019-LogiqueTemporelle](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/pedago2/2019-LogiqueTemporelle)
+
 ## Les mineurs (arbre couvrant minimal)
 ### Concepts
 * Algorithmes ++
@@ -321,6 +331,9 @@ CE2/CM1/CM2
 * [Pédago 1 2018-Cabrita-Mescoff](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2018-Marmottes)
 * [Pédago 1 2020-Cosseron-Mulot](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2020-CosseronMulot-BazarMarmottes/informatique-parce-que-marmottes.mdLes%20marmottes%20au%20sommeil%20l/unhbox%20/voidb@x%20/bgroup%20/let%20/unhbox%20/voidb@x%20/setbox%20/@tempboxa%20/hbox%20%7Be/global%20/mathchardef%20/accent@spacefactor%20/spacefactor%20%7D/accent%2019%20e/egroup%20/spacefactor%20/accent@spacefactor%20ger-Projet.pdf)
 
+## Modélisation et vérification
+### Ressources
+* [Pédago2 2019-model_verif](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/pedago2/2019-model_verif)
 
 ## Plus court chemin ou voyageur de commerce sur une planche à clous
 ### Concepts
@@ -353,7 +366,7 @@ Activité prête à l'emploi
 CM1/CM2
 ### Ressources
 * [Pédago 1 2019-Mavromatis-Thuillier](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/pedago1/2019-HumanPuzzle)
-
+* [Pédago 2 2019-Apprentissage_Nim_Etendu](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/pedago2/2019-Apprentissage_Nim_Etendu)
 ## Tablette de chocolat empoisonnée
 ### Concepts
 * Algorithmes ++
