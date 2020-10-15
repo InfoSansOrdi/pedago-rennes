@@ -15,25 +15,23 @@ Autre idée: faire comme dans [ce document pédago 1](https://github.com/InfoSan
 Tentative de standard pour la description de chaque activité:
 ### Nom de l'activité
 Courte description
-#### Axes info scolaire
+#### Concepts
 * Algorithmes:
 * Langages:
 * Information:
 * Machine:
-#### Compétences pensée info
+#### Compétences
 * Pensée algorithmique:
 * Abstraction:
 * Décomposition:
 * Généralisation et motifs:
 * Évaluation:
 * Logique:
-#### Mots-clefs
-* **Mot-clef très important**
-* *Mot-clef un peu important*
-* Mot-clef moins important
 #### Ressources
+Ressources élèves, fiche prep, c'est de l'informatique parce que
 * [Lien 1 avec un nom descriptif (genre le nom du groupe qui a fait ça)](nyan.cat)
 * [Lien 2](truc)
+#### Maturité/public cible
 ---
 
 ## Graphes et automates
@@ -113,7 +111,14 @@ Ressources:
 * [Pédago 1 2016-Mirliaz-Peignier](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2016-communication/activite1a/FicheDePreparation.pdf)
 
 ### Blasons
-Ressources:
+Figure téléphonée pour réfléchir à la notion de langage.
+#### Concepts
+Langage ++; information +; algo .; machine .
+#### Compétences
+
+#### Maturité/public cible
+Activité classique, testée en cycle 3, formation enseignant
+#### Ressources
 * [Pédago 1 2016-Mirliaz-Peignier](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2016-communication/activite1b/ficheDePreparation.pdf)
 * [Pédago 1 2018-Gorius-Legrand](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2018-GoriusLegrand)
 * [Pédago 1 2019-Mavromatis-Thuillier](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/pedago1/2019-Blasons-MavromatisThuillier)
