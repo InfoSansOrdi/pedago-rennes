@@ -13,28 +13,27 @@ Autre idée: faire comme dans [ce document pédago 1](https://github.com/InfoSan
 
 ---
 Tentative de standard pour la description de chaque activité:
-### Nom de l'activité
+## Nom de l'activité
 Courte description
-#### Concepts
+### Concepts
 * Algorithmes:
 * Langages:
 * Information:
 * Machine:
-#### Compétences
+### Compétences
 * Pensée algorithmique:
 * Abstraction:
 * Décomposition:
 * Généralisation et motifs:
 * Évaluation:
 * Logique:
-#### Ressources
+### Maturité/public cible
+### Ressources
 Ressources élèves, fiche prep, c'est de l'informatique parce que
 * [Lien 1 avec un nom descriptif (genre le nom du groupe qui a fait ça)](nyan.cat)
 * [Lien 2](truc)
-#### Maturité/public cible
 ---
 
-## (Graphes et automates)
 ## Châteaux magiques
 Mots-clefs:
 * __Automates finis__
@@ -89,7 +88,6 @@ TODO
 ### Ressources
 * [Pédago 1 2018-Bellier-Jouve](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2018-bellierjouve-tourdemagie/Activite_Automate.pdf)
 
-## (Algorithmes)
 ## Traversée de rivière
 ### Concepts
 * Algorithmes ++
@@ -246,14 +244,6 @@ TODO
 ### Ressources
 * [Pixees](https://pixees.fr/tablette-de-chocolat-empoisonnee)
 
-## Les huit dames
-TODO
-
-## (Langages)
-## Donner et exécuter des ordres
-### Ressources
-* [Pédago 1 2016-Mirliaz-Peignier](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2016-communication/activite1a/FicheDePreparation.pdf)
-
 ## Blasons
 Figure téléphonée pour réfléchir à la notion de langage.
 ### Concepts
@@ -270,8 +260,8 @@ Activité classique, testée en cycle 3, formation enseignant
 * [Pédago 1 2018-Gorius-Legrand](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2018-GoriusLegrand)
 * [Pédago 1 2019-Mavromatis-Thuillier](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/pedago1/2019-Blasons-MavromatisThuillier)
 * [Pédago 1 2019-Coumes-Losekoot](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2019-crepier_Coumes_Losekoot/Blasons_Coumes_Losekoot.ods)
+* [Pédago 1 2016-Mirliaz-Peignier](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2016-communication/activite1a/FicheDePreparation.pdf)
 
-## (Information)
 ## Tour de magie/carrés magiques/Merlin et le donjon
 Variante avec un chapeau de magicien: Merlin et le donjon. Merlin rénove le donjon du château du roi Arthur et cache un trésor sous le plancher.
 Mots-clefs:
@@ -296,9 +286,23 @@ Tout public.
 * [Pédago 1 2018-Gorius-Legrand](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2018-GoriusLegrand/Blasons_TourDeMagie.pdf)
 
 ## Compter en binaire
+Apprendre à compter en binaire et connaître la représentation des nombres.
 Mots-clefs:
 * __Encodage__
-
+### Concepts
+* Algorithmes .
+* Langages .
+* Information **
+* Machine **
+### Compétences
+* Pensée algorithmique .
+* Abstraction *
+* Décomposition .
+* Généralisation et motifs *
+* Evaluation .
+* Logique *
+### Maturité, public cible
+CE1/CE2/CM1/CM2
 ### Ressources
 * [Pédago 1 2018-Cabrita-Mescoff](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2018-Compter-en-binaire/Compter_en_Binaire-Projet.pdf)
 
@@ -328,6 +332,21 @@ CE2/CM1/CM2
 * [Pédago 1 2020-Cosseron-Mulot](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2020-CosseronMulot-BazarMarmottes/informatique-parce-que-marmottes.mdLes%20marmottes%20au%20sommeil%20l/unhbox%20/voidb@x%20/bgroup%20/let%20/unhbox%20/voidb@x%20/setbox%20/@tempboxa%20/hbox%20%7Be/global%20/mathchardef%20/accent@spacefactor%20/spacefactor%20%7D/accent%2019%20e/egroup%20/spacefactor%20/accent@spacefactor%20ger-Projet.pdf)
 
 ## La couleur par les nombres
+On souhaite représenter des images dans un ordinateur.
+### Concepts
+* Algorithmes .
+* Langages .
+* Information **
+* Machine *
+### Compétences
+* Pensée algorithmique .
+* Abstraction *
+* Décomposition .
+* Généralisation et motifs **
+* Evaluation .
+* Logique .
+### Maturité, public cible
+CP/CE1/CE2
 ### Ressources
 * [Pédago 1 2018-Bellier-Jouve](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2018-bellierjouve-tourdemagie/Activite_image.pdf)
 * [Pédago 1 2016-Mirliaz-Peignier](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2016-communication/activite2/FicheDePreparation.pdf)
@@ -353,7 +372,6 @@ Activité prête à l'emploi
 ### Ressources
 * [Pédago 2 2015-Liétard](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/pedago2/2015-TAL)
 
-## (Machine)
 ## Cargobot
 ## M-999/le truc, là
 ## Cache-cache avec la RAM
@@ -364,6 +382,6 @@ Activité prête à l'emploi
 Activité de logique propositionnelle inventée par Pablo Espana-Gutierrez en Pédago 1.
 
 ### Maturité, public cible
-C'est tout nouveau !
+C'est tout nouveau ! Mais le site a l'air complet.
 ### Ressources
 * [Page détaillant l'activité](https://algopi.fr/?page_id=151)
