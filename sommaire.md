@@ -373,6 +373,23 @@ Activité prête à l'emploi
 * [Pédago 2 2015-Liétard](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/pedago2/2015-TAL)
 
 ## Cargobot
+Simulation d'un petit ordinateur avec un langage très simple.
+### Concepts
+* Algorithmes *
+* Langages **
+* Information .
+* Machine *
+### Compétences
+* Pensée algorithmique **
+* Abstraction .
+* Décomposition *
+* Généralisation et motifs .
+* Evaluation .
+* Logique .
+### Maturité, public cible
+A partir de la 6ème
+### Ressources
+O_O
 ## M-999/le truc, là
 ## Cache-cache avec la RAM
 ### Ressources
