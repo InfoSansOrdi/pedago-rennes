@@ -1,7 +1,7 @@
 # Sommaire des activités recensées sur le dépôt git pedago-rennes
 Pour l'instant on a juste épluché pedago1.
 
-Organisation selon les 4 catégories "info scolaire" (algorithmes, langages, information, machine) plus une catégorie supplémentaire "graphes et automates" car beaucoup d'activités classées dans "algorithmes" partagent cette thématique. Plus les activités non classées pour le moment.
+Organisation selon les 4 catégories "info scolaire" (algorithmes, langages, information, machine) plus une catégorie supplémentaire "graphes et automates" car beaucoup d'activités classées dans "algorithmes" partagent cette thématique. Plus les activités non classées pour le moment...
 
 [Classification Dowek](http://www.lsv.fr/~dowek/Philo/quatre.pdf)
 
