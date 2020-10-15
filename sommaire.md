@@ -15,6 +15,18 @@ Autre idée: faire comme dans [ce document pédago 1](https://github.com/InfoSan
 Tentative de standard pour la description de chaque activité:
 ### Nom de l'activité
 Courte description
+#### Axes info scolaire
+* Algorithmes:
+* Langages:
+* Information:
+* Machine:
+#### Compétences pensée info
+* Pensée algorithmique:
+* Abstraction:
+* Décomposition:
+* Généralisation et motifs:
+* Évaluation:
+* Logique:
 #### Mots-clefs
 * **Mot-clef très important**
 * *Mot-clef un peu important*
@@ -146,7 +158,9 @@ Ressources:
 ## Machine
 ### Cargobot
 ### M-999/le truc, là
-### Activité avec de la RAM en legos, je crois que c'est sur le site de Marie Duflot
+### Cache-cache avec la RAM
+Ressources:
+* [Site de Marie Duflot](https://members.loria.fr/MDuflot/files/med/memoirecache.html)
 
 
 ## À classer
