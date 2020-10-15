@@ -104,17 +104,24 @@ TODO
 * [Pixees](https://pixees.fr/la-traversee-de-riviere/)
 
 ## Jeu de Nim
+Deux joueurs s’affrontent et tentent de déterminer une stratégie gagnante.
 Mots-clefs:
 * __Théorie des jeux__
 ### Concepts
-* Algorithmes ++
+* Algorithmes **
 * Langages .
 * Information .
 * Machine .
 ### Compétences
-TODO
+* Pensée algorithmique **
+* Abstraction *
+* Décomposition **
+* Généralisation et motifs *
+* Évaluation .
+* Logique *
 ### Maturité, public cible
-TODO
+Activité prête à l'emploi.
+Public cible: CM1/CM2.
 ### Ressources
 * [Pédago 1 2017-Bautista-Bellec-Bordais-Voorwinden](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2017-divers/nim/deroulement.pdf)
 * [Pédago 1 2019-Gillet-Poirier](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/pedago1/2019-Nim-GilletPoirier)
@@ -159,15 +166,21 @@ TODO
 * [Pédago 1 2016-Henry-Varloot](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2016-algorithmes/preparations.pdf)
 
 ## Crêpier psychorigide
+Il faut aider un galettier à ranger ses galettes carrées de la plus grande à la plus petite.
 ### Concepts
-* Algorithmes ++
+* Algorithmes **
 * Langages .
 * Information .
 * Machine .
 ### Compétences
-TODO
+* Pensée algorithmique **
+* Abstraction .
+* Décomposition *
+* Généralisation et motifs .
+* Évaluation .
+* Logique *
 ### Maturité, public cible
-TODO
+Activité prête à l'emploi.
 ### Ressources
 * [Pédago 1 2016-Henry-Varloot](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2016-algorithmes/preparations.pdf)
 * [Pédago 1 2020-crepier (?)](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/pedago1/2020-crepier)
@@ -188,15 +201,22 @@ TODO
 * [Pédago 1 2018-Cabrita-Mescoff](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2018-Baseball/Baseball%20Multicolore-Projet.pdf)
 
 ## Puzzle humain
+Les élèves incarnent des pièces d’un puzzle qu’ils doivent résoudre.
 ### Concepts
-* Algorithmes ++
-* Langages .
-* Information .
+* Algorithmes **
+* Langages *
+* Information *
 * Machine .
 ### Compétences
-TODO
+* Pensée algorithmique **
+* Abstraction *
+* Décomposition **
+* Généralisation et motifs *
+* Évaluation .
+* Logique .
 ### Maturité, public cible
-TODO
+Activité prête à l'emploi
+CM1/CM2
 ### Ressources
 * [Pédago 1 2019-Mavromatis-Thuillier](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/pedago1/2019-HumanPuzzle)
 
@@ -252,20 +272,28 @@ Activité classique, testée en cycle 3, formation enseignant
 * [Pédago 1 2019-Coumes-Losekoot](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2019-crepier_Coumes_Losekoot/Blasons_Coumes_Losekoot.ods)
 
 ## (Information)
-## Merlin et le donjon
+## Tour de magie/carrés magiques/Merlin et le donjon
+Variante avec un chapeau de magicien: Merlin et le donjon. Merlin rénove le donjon du château du roi Arthur et cache un trésor sous le plancher.
 Mots-clefs:
 * __Code correcteur__
-
-### Ressources
-* [Pédago 1 2018-Gorius-Legrand](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2018-GoriusLegrand/Blasons_TourDeMagie.pdf)
-
-## Tour de magie/carrés magiques
-Mots-clefs:
-* __Code correcteur__
+### Concepts
+* Algorithmes *
+* Langages .
+* Information **
+* Machine .
+### Compétences
+* Pensée algorithmique *
+* Abstraction .
+* Décomposition .
+* Généralisation et motifs **
+* Evaluation .
+* Logique *
 ### Maturité, public cible
-Classique
+Activité prête à l'emploi.
+Tout public.
 ### Ressources
 * [Pédago 1 2018-Bellier-Jouve](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2018-bellierjouve-tourdemagie/tour_de_magie.pdf)
+* [Pédago 1 2018-Gorius-Legrand](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2018-GoriusLegrand/Blasons_TourDeMagie.pdf)
 
 ## Compter en binaire
 Mots-clefs:
@@ -275,12 +303,25 @@ Mots-clefs:
 * [Pédago 1 2018-Cabrita-Mescoff](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2018-Compter-en-binaire/Compter_en_Binaire-Projet.pdf)
 
 ## Marmottes au sommeil léger
+Des marmottes doivent s'organiser pour dormir.
 Mots-clefs:
 * __Encodage__
 * __Compression__
-
+### Concepts
+* Algorithmes *
+* Langages .
+* Information **
+* Machine *
+### Compétences
+* Pensée algorithmique *
+* Abstraction *
+* Décomposition *
+* Généralisation et motifs .
+* Evaluation .
+* Logique .
 ### Maturité, public cible
-Classique
+Activité prête à l'emploi.
+CE2/CM1/CM2
 
 ### Ressources
 * [Pédago 1 2018-Cabrita-Mescoff](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2018-Marmottes)
@@ -292,9 +333,23 @@ Classique
 * [Pédago 1 2016-Mirliaz-Peignier](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2016-communication/activite2/FicheDePreparation.pdf)
 
 ## Les critiques de film
+Il s'agit de classer des critiques de film, sans rien y comprendre.
 Mots-clefs:
 * __Classification__
-
+### Concepts
+* Algorithmes *
+* Langages *
+* Information **
+* Machine *
+### Compétences
+* Pensée algorithmique *
+* Abstraction **
+* Décomposition *
+* Généralisation et motifs **
+* Evaluation *
+* Logique .
+### Maturité, public cible
+Activité prête à l'emploi
 ### Ressources
 * [Pédago 2 2015-Liétard](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/pedago2/2015-TAL)
 
