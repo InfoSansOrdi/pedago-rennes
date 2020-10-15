@@ -1,7 +1,7 @@
 # Sommaire des activités recensées sur le dépôt git pedago-rennes
 Pour l'instant on a juste épluché pedago1.
 
-Organisation selon les 4 catégories "info scolaire" (algorithmes, langages, information, machine) plus une catégorie supplémentaire "graphes et automates" car beaucoup d'activités classées dans "algorithmes" partagent cette thématique. Plus les activités non classées pour le moment...
+Organisation selon les 4 catégories "info scolaire" (algorithmes, langages, information, machine) plus une catégorie supplémentaire "graphes et automates" car beaucoup d'activités classées dans "algorithmes" partagent cette thématique. Plus les activités non classées pour le moment.
 
 [Classification Dowek](http://www.lsv.fr/~dowek/Philo/quatre.pdf)
 
@@ -142,6 +142,13 @@ Ressources:
 Ressources:
 * [Pédago 1 2018-Bellier-Jouve](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2018-bellierjouve-tourdemagie/Activite_image.pdf)
 * [Pédago 1 2016-Mirliaz-Peignier](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2016-communication/activite2/FicheDePreparation.pdf)
+
+### Les critiques de film
+Mots-clefs:
+* __Classification__
+
+Ressources:
+* [Pédago 2 2015-Liétard](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/pedago2/2015-TAL)
 
 ## Machine
 ### Cargobot
