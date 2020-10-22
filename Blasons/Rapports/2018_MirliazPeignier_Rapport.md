@@ -1,6 +1,6 @@
 # Activité 1 - Version a : Donner et exécuter des ordres - Language de programmation
 
-Cette activité est inspiré de l'activité 12 "Donner et exécuter des ordres - Language de programmation" de Computer Science Unplugged. La [fiche de préparation](FicheDePreparation.pdf) décrit l'organisation de l'activité.
+Cette activité est inspiré de l'activité 12 "Donner et exécuter des ordres - Language de programmation" de Computer Science Unplugged. La [fiche de préparation](FichesDePreparation/2018_MirliazPeignier_FicheDePreparation.pdf) décrit l'organisation de l'activité.
 Elle contient également les feuilles à distribuer aux élèves.
 
 Pour cette activité, les élèves travaillent en groupe de deux ou trois avec l'un dans le rôle de l'instructeur (le "programmeur") et les autres en robots. L'instructeur dispose d'images, qu'il doit garder cacher des robots. Son but est de donner les instructions pour que les robots dessinent les les images sur les supports vierges à leur disposition.
