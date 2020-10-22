@@ -4,7 +4,6 @@ Le git est organisé de la façon suivante : chaque activité a un dossier à la
 Vous trouverez dans ce sommaire une classification des activités par concepts (algorithmes, langages, information, machine), et par compétences (pensée algorithmique, abstraction, décomposition, généralisation et motifs, évaluation, logique). Vous trouverez également des données concernant les ressources disponibles, et le public cible.
 
 ---
-
 ## Alice déménage
 ### Concepts
 * Algorithmes ++
@@ -18,6 +17,7 @@ TODO
 ### Ressources
 * [Pédago 1 2019-Begue-Duron](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/pedago1/2019-Alice-demenage-BegueDuron)
 
+---
 ## Algorithmes de tri
 ### Concepts
 * Algorithmes ++
@@ -31,10 +31,12 @@ TODO
 ### Ressources
 * [Pédago 1 2019-Drewery-Garito](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2019-DreweryGarito-AutomatesTris/Fiche_Algo_Tris.pdf)
 
+---
 ## Arbres de décision
 ### Ressources
 * [Pédago 2 2018-ArbresDecision](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/pedago2/2018-ArbresDecision)
 
+---
 ## Baseball multicolore
 ### Concepts
 * Algorithmes ++
@@ -48,6 +50,7 @@ TODO
 ### Ressources
 * [Pédago 1 2018-Cabrita-Mescoff](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2018-Baseball/Baseball%20Multicolore-Projet.pdf)
 
+---
 ## Blasons
 Figure téléphonée pour réfléchir à la notion de langage.
 ### Concepts
@@ -67,6 +70,7 @@ Activité classique, testée en cycle 3, formation enseignant
 * [Pédago 1 2016-Mirliaz-Peignier](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2016-communication/activite1a/FicheDePreparation.pdf)
 * [Pédago 2 2019](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/pedago2/2019-cest-de-linfo)
 
+---
 ## Caméléons
 Activité de logique propositionnelle inventée par Pablo Espana-Gutierrez en Pédago 1.
 ### Maturité, public cible
@@ -74,6 +78,7 @@ C'est tout nouveau ! Mais le site a l'air complet.
 ### Ressources
 * [Page détaillant l'activité](https://algopi.fr/?page_id=151)
 
+---
 ## Cargobot
 Simulation d'un petit ordinateur avec un langage très simple.
 ### Concepts
@@ -92,11 +97,16 @@ Simulation d'un petit ordinateur avec un langage très simple.
 A partir de la 6ème
 ### Ressources
 O_O
+
+---
 ## M-999/le truc, là
+
+---
 ## Cache-cache avec la RAM
 ### Ressources
 * [Site de Marie Duflot](https://members.loria.fr/MDuflot/files/med/memoirecache.html)
 
+---
 ## C'est le bazar
 ### Concepts
 * Algorithmes ++
@@ -110,6 +120,7 @@ TODO
 ### Ressources
 * [Pédago 1 2020-Cosseron-Mulot](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2020-CosseronMulot-BazarMarmottes/informatique-parce-que-bazar.md)
 
+---
 ## Châteaux magiques
 Mots-clefs:
 * __Automates finis__
@@ -126,6 +137,7 @@ TODO
 ### Ressources:
 * [Pédago 1 2019-Drewery-Garito](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2019-DreweryGarito-AutomatesTris/Fiche_Chateaux_Magiques.pdf)
 
+---
 ## Compter en binaire
 Apprendre à compter en binaire et connaître la représentation des nombres.
 Mots-clefs:
@@ -147,6 +159,7 @@ CE1/CE2/CM1/CM2
 ### Ressources
 * [Pédago 1 2018-Cabrita-Mescoff](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2018-Compter-en-binaire/Compter_en_Binaire-Projet.pdf)
 
+---
 ## La couleur par les nombres
 On souhaite représenter des images dans un ordinateur.
 ### Concepts
@@ -167,6 +180,7 @@ CP/CE1/CE2
 * [Pédago 1 2018-Bellier-Jouve](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2018-bellierjouve-tourdemagie/Activite_image.pdf)
 * [Pédago 1 2016-Mirliaz-Peignier](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2016-communication/activite2/FicheDePreparation.pdf)
 
+---
 ## Crêpier psychorigide
 Il faut aider un galettier à ranger ses galettes carrées de la plus grande à la plus petite.
 ### Concepts
@@ -189,6 +203,7 @@ Activité prête à l'emploi.
 * [Pédago 1 2019-Coumes-Losekoot](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/pedago1/2019-crepier_Coumes_Losekoot)
 * [Pédago 1 2019-Begue-Duron](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/pedago1/2019-Crepier-BegueDuron)
 
+---
 ## Les critiques de film
 Il s'agit de classer des critiques de film, sans rien y comprendre.
 Mots-clefs:
@@ -210,6 +225,7 @@ Activité prête à l'emploi
 ### Ressources
 * [Pédago 2 2015-Liétard](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/pedago2/2015-TAL)
 
+---
 ## Île au trésor
 ### Concepts
 * Algorithmes ++
@@ -223,6 +239,7 @@ TODO
 ### Ressources
 * [Pédago 1 2018-Bellier-Jouve](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2018-bellierjouve-tourdemagie/Activite_Automate.pdf)
 
+---
 ## Jeu de Nim
 Deux joueurs s’affrontent et tentent de déterminer une stratégie gagnante.
 Mots-clefs:
@@ -246,6 +263,7 @@ Public cible: CM1/CM2.
 * [Pédago 1 2017-Bautista-Bellec-Bordais-Voorwinden](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2017-divers/nim/deroulement.pdf)
 * [Pédago 1 2019-Gillet-Poirier](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/pedago1/2019-Nim-GilletPoirier)
 
+---
 ## Jeu du labyrinthe
 ### Concepts
 * Algorithmes ++
@@ -259,11 +277,13 @@ TODO
 ### Ressources
 O_O
 
+---
 ## Le mage, l'aventurier et le château hanté
 Logique temporelle
 ### Ressources
 * [Pédago 2 2019-LogiqueTemporelle](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/pedago2/2019-LogiqueTemporelle)
 
+---
 ## Les mineurs (arbre couvrant minimal)
 ### Concepts
 * Algorithmes ++
@@ -277,6 +297,7 @@ TODO
 ### Ressources
 * [Pédago 1 2016-Henry-Varloot](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2016-algorithmes/preparations.pdf)
 
+---
 ## Marmottes au sommeil léger
 Des marmottes doivent s'organiser pour dormir.
 Mots-clefs:
@@ -297,15 +318,16 @@ Mots-clefs:
 ### Maturité, public cible
 Activité prête à l'emploi.
 CE2/CM1/CM2
-
 ### Ressources
 * [Pédago 1 2018-Cabrita-Mescoff](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2018-Marmottes)
 * [Pédago 1 2020-Cosseron-Mulot](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2020-CosseronMulot-BazarMarmottes/informatique-parce-que-marmottes.mdLes%20marmottes%20au%20sommeil%20l/unhbox%20/voidb@x%20/bgroup%20/let%20/unhbox%20/voidb@x%20/setbox%20/@tempboxa%20/hbox%20%7Be/global%20/mathchardef%20/accent@spacefactor%20/spacefactor%20%7D/accent%2019%20e/egroup%20/spacefactor%20/accent@spacefactor%20ger-Projet.pdf)
 
+---
 ## Modélisation et vérification
 ### Ressources
 * [Pédago2 2019-model_verif](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/pedago2/2019-model_verif)
 
+---
 ## Plus court chemin ou voyageur de commerce sur une planche à clous
 ### Concepts
 * Algorithmes ++
@@ -318,6 +340,7 @@ TODO
 ### Ressources
 * [Pédago 1 2017-Bautista-Bellec-Bordais-Voorwinden](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2017-divers/labyrinthe/1FicheProfPrimaire.pdf)
 
+---
 ## Puzzle humain
 Les élèves incarnent des pièces d’un puzzle qu’ils doivent résoudre.
 ### Concepts
@@ -338,6 +361,8 @@ CM1/CM2
 ### Ressources
 * [Pédago 1 2019-Mavromatis-Thuillier](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/pedago1/2019-HumanPuzzle)
 * [Pédago 2 2019-Apprentissage_Nim_Etendu](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/pedago2/2019-Apprentissage_Nim_Etendu)
+
+---
 ## Tablette de chocolat empoisonnée
 ### Concepts
 * Algorithmes ++
@@ -351,6 +376,7 @@ TODO
 ### Ressources
 * [Pixees](https://pixees.fr/tablette-de-chocolat-empoisonnee)
 
+---
 ## Tour de magie/carrés magiques/Merlin et le donjon
 Variante avec un chapeau de magicien: Merlin et le donjon. Merlin rénove le donjon du château du roi Arthur et cache un trésor sous le plancher.
 Mots-clefs:
@@ -374,6 +400,7 @@ Tout public.
 * [Pédago 1 2018-Bellier-Jouve](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2018-bellierjouve-tourdemagie/tour_de_magie.pdf)
 * [Pédago 1 2018-Gorius-Legrand](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2018-GoriusLegrand/Blasons_TourDeMagie.pdf)
 
+---
 ## Traversée de rivière
 ### Concepts
 * Algorithmes ++
