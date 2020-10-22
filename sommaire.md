@@ -4,27 +4,6 @@ Le git est organisé de la façon suivante : chaque activité a un dossier à la
 Vous trouverez dans ce sommaire une classification des activités par concepts (algorithmes, langages, information, machine), et par compétences (pensée algorithmique, abstraction, décomposition, généralisation et motifs, évaluation, logique). Vous trouverez également des données concernant les ressources disponibles, et le public cible.
 
 ---
-Tentative de standard pour la description de chaque activité:
-## Nom de l'activité
-Courte description
-### Concepts
-* Algorithmes:
-* Langages:
-* Information:
-* Machine:
-### Compétences
-* Pensée algorithmique:
-* Abstraction:
-* Décomposition:
-* Généralisation et motifs:
-* Évaluation:
-* Logique:
-### Maturité/public cible
-### Ressources
-Ressources élèves, fiche prep, c'est de l'informatique parce que
-* [Lien 1 avec un nom descriptif (genre le nom du groupe qui a fait ça)](nyan.cat)
-* [Lien 2](truc)
----
 
 ## Alice déménage
 ### Concepts
