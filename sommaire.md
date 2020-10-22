@@ -6,10 +6,10 @@ Vous trouverez dans ce sommaire une classification des activités par concepts (
 ---
 ## Alice déménage
 ### Concepts
-* Algorithmes ++
-* Langages .
-* Information .
-* Machine .
+* Algorithmes(**)
+* Langages(.)
+* Information(.)
+* Machine(.)
 ### Compétences
 TODO
 ### Maturité, public cible
@@ -20,10 +20,10 @@ TODO
 ---
 ## Algorithmes de tri
 ### Concepts
-* Algorithmes ++
-* Langages .
-* Information .
-* Machine .
+* Algorithmes(**)
+* Langages(.)
+* Information(.)
+* Machine(.)
 ### Compétences
 TODO
 ### Maturité, public cible
@@ -39,10 +39,10 @@ TODO
 ---
 ## Baseball multicolore
 ### Concepts
-* Algorithmes ++
-* Langages .
-* Information .
-* Machine .
+* Algorithmes(**)
+* Langages(.)
+* Information(.)
+* Machine(.)
 ### Compétences
 TODO
 ### Maturité, public cible
@@ -54,10 +54,10 @@ TODO
 ## Blasons
 Figure téléphonée pour réfléchir à la notion de langage.
 ### Concepts
-* Langage ++
-* Information +
-* Algorithmes .
-* Machine .
+* Langage(**)
+* Information(*)
+* Algorithmes(.)
+* Machine(.)
 ### Compétences
 TODO
 ### Maturité/public cible
@@ -82,17 +82,17 @@ C'est tout nouveau ! Mais le site a l'air complet.
 ## Cargobot
 Simulation d'un petit ordinateur avec un langage très simple.
 ### Concepts
-* Algorithmes *
-* Langages **
-* Information .
-* Machine *
+* Algorithmes(*)
+* Langages(**)
+* Information(.)
+* Machine(*)
 ### Compétences
-* Pensée algorithmique **
-* Abstraction .
-* Décomposition *
-* Généralisation et motifs .
-* Evaluation .
-* Logique .
+* Pensée algorithmique(**)
+* Abstraction(.)
+* Décomposition(*)
+* Généralisation et motifs(.)
+* Evaluation(.)
+* Logique(.)
 ### Maturité, public cible
 A partir de la 6ème
 ### Ressources
@@ -109,10 +109,10 @@ O_O
 ---
 ## C'est le bazar
 ### Concepts
-* Algorithmes ++
-* Langages .
-* Information .
-* Machine .
+* Algorithmes(**)
+* Langages(.)
+* Information(.)
+* Machine(.)
 ### Compétences
 TODO
 ### Maturité, public cible
@@ -126,10 +126,10 @@ Mots-clefs:
 * __Automates finis__
 * __Langage (associé à un automate)__
 ### Concepts
-* Algorithmes ++
-* Langages +
-* Information .
-* Machine .
+* Algorithmes(**)
+* Langages(*)
+* Information(.)
+* Machine(.)
 ### Compétences
 TODO
 ### Maturité, public cible
@@ -143,17 +143,17 @@ Apprendre à compter en binaire et connaître la représentation des nombres.
 Mots-clefs:
 * __Encodage__
 ### Concepts
-* Algorithmes .
-* Langages .
-* Information **
-* Machine **
+* Algorithmes(.)
+* Langages(.)
+* Information(**)
+* Machine(**)
 ### Compétences
-* Pensée algorithmique .
-* Abstraction *
-* Décomposition .
-* Généralisation et motifs *
-* Evaluation .
-* Logique *
+* Pensée algorithmique(.)
+* Abstraction(*)
+* Décomposition(.)
+* Généralisation et motifs(*)
+* Evaluation(.)
+* Logique(*)
 ### Maturité, public cible
 CE1/CE2/CM1/CM2
 ### Ressources
@@ -163,17 +163,17 @@ CE1/CE2/CM1/CM2
 ## La couleur par les nombres
 On souhaite représenter des images dans un ordinateur.
 ### Concepts
-* Algorithmes .
-* Langages .
-* Information **
-* Machine *
+* Algorithmes(.)
+* Langages(.)
+* Information(**)
+* Machine(*)
 ### Compétences
-* Pensée algorithmique .
-* Abstraction *
-* Décomposition .
-* Généralisation et motifs **
-* Evaluation .
-* Logique .
+* Pensée algorithmique(.)
+* Abstraction(*)
+* Décomposition(.)
+* Généralisation et motifs(**)
+* Evaluation(.)
+* Logique(.)
 ### Maturité, public cible
 CP/CE1/CE2
 ### Ressources
@@ -184,17 +184,17 @@ CP/CE1/CE2
 ## Crêpier psychorigide
 Il faut aider un galettier à ranger ses galettes carrées de la plus grande à la plus petite.
 ### Concepts
-* Algorithmes **
-* Langages .
-* Information .
-* Machine .
+* Algorithmes(**)
+* Langages(.)
+* Information(.)
+* Machine(.)
 ### Compétences
-* Pensée algorithmique **
-* Abstraction .
-* Décomposition *
-* Généralisation et motifs .
-* Évaluation .
-* Logique *
+* Pensée algorithmique(**)
+* Abstraction(.)
+* Décomposition(*)
+* Généralisation et motifs(.)
+* Évaluation(.)
+* Logique(*)
 ### Maturité, public cible
 Activité prête à l'emploi.
 ### Ressources
@@ -209,17 +209,17 @@ Il s'agit de classer des critiques de film, sans rien y comprendre.
 Mots-clefs:
 * __Classification__
 ### Concepts
-* Algorithmes *
-* Langages *
-* Information **
-* Machine *
+* Algorithmes(*)
+* Langages(*)
+* Information(**)
+* Machine(*)
 ### Compétences
-* Pensée algorithmique *
-* Abstraction **
-* Décomposition *
-* Généralisation et motifs **
-* Evaluation *
-* Logique .
+* Pensée algorithmique(*)
+* Abstraction(**)
+* Décomposition(*)
+* Généralisation et motifs(**)
+* Evaluation(*)
+* Logique(.)
 ### Maturité, public cible
 Activité prête à l'emploi
 ### Ressources
@@ -228,10 +228,10 @@ Activité prête à l'emploi
 ---
 ## Île au trésor
 ### Concepts
-* Algorithmes ++
-* Langages .
-* Information .
-* Machine .
+* Algorithmes(**)
+* Langages(.)
+* Information(.)
+* Machine(.)
 ### Compétences
 TODO
 ### Maturité, public cible
@@ -245,17 +245,17 @@ Deux joueurs s’affrontent et tentent de déterminer une stratégie gagnante.
 Mots-clefs:
 * __Théorie des jeux__
 ### Concepts
-* Algorithmes **
-* Langages .
-* Information .
-* Machine .
+* Algorithmes(**)
+* Langages(.)
+* Information(.)
+* Machine(.)
 ### Compétences
-* Pensée algorithmique **
-* Abstraction *
-* Décomposition **
-* Généralisation et motifs *
-* Évaluation .
-* Logique *
+* Pensée algorithmique(**)
+* Abstraction(*)
+* Décomposition(**)
+* Généralisation et motifs(*)
+* Évaluation(.)
+* Logique(*)
 ### Maturité, public cible
 Activité prête à l'emploi.
 Public cible: CM1/CM2.
@@ -266,10 +266,10 @@ Public cible: CM1/CM2.
 ---
 ## Jeu du labyrinthe
 ### Concepts
-* Algorithmes ++
-* Langages .
-* Information .
-* Machine .
+* Algorithmes(**)
+* Langages(.)
+* Information(.)
+* Machine(.)
 ### Compétences
 TODO
 ### Maturité, public cible
@@ -286,10 +286,10 @@ Logique temporelle
 ---
 ## Les mineurs (arbre couvrant minimal)
 ### Concepts
-* Algorithmes ++
-* Langages .
-* Information .
-* Machine .
+* Algorithmes(**)
+* Langages(.)
+* Information(.)
+* Machine(.)
 ### Compétences
 TODO
 ### Maturité, public cible
@@ -304,17 +304,17 @@ Mots-clefs:
 * __Encodage__
 * __Compression__
 ### Concepts
-* Algorithmes *
-* Langages .
-* Information **
-* Machine *
+* Algorithmes(*)
+* Langages(.)
+* Information(**)
+* Machine(*)
 ### Compétences
-* Pensée algorithmique *
-* Abstraction *
-* Décomposition *
-* Généralisation et motifs .
-* Evaluation .
-* Logique .
+* Pensée algorithmique(*)
+* Abstraction(*)
+* Décomposition(*)
+* Généralisation et motifs(.)
+* Evaluation(.)
+* Logique(.)
 ### Maturité, public cible
 Activité prête à l'emploi.
 CE2/CM1/CM2
@@ -330,10 +330,10 @@ CE2/CM1/CM2
 ---
 ## Plus court chemin ou voyageur de commerce sur une planche à clous
 ### Concepts
-* Algorithmes ++
-* Langages .
-* Information .
-* Machine .
+* Algorithmes(**)
+* Langages(.)
+* Information(.)
+* Machine(.)
 ### Compétences
 TODO
 ### Maturité, public cible
@@ -344,17 +344,17 @@ TODO
 ## Puzzle humain
 Les élèves incarnent des pièces d’un puzzle qu’ils doivent résoudre.
 ### Concepts
-* Algorithmes **
-* Langages *
-* Information *
-* Machine .
+* Algorithmes(**)
+* Langages(*)
+* Information(*)
+* Machine(.)
 ### Compétences
-* Pensée algorithmique **
-* Abstraction *
-* Décomposition **
-* Généralisation et motifs *
-* Évaluation .
-* Logique .
+* Pensée algorithmique(**)
+* Abstraction(*)
+* Décomposition(**)
+* Généralisation et motifs(*)
+* Évaluation(.)
+* Logique(.)
 ### Maturité, public cible
 Activité prête à l'emploi
 CM1/CM2
@@ -365,10 +365,10 @@ CM1/CM2
 ---
 ## Tablette de chocolat empoisonnée
 ### Concepts
-* Algorithmes ++
-* Langages .
-* Information .
-* Machine .
+* Algorithmes(**)
+* Langages(.)
+* Information(.)
+* Machine(.)
 ### Compétences
 TODO
 ### Maturité, public cible
@@ -382,17 +382,17 @@ Variante avec un chapeau de magicien: Merlin et le donjon. Merlin rénove le don
 Mots-clefs:
 * __Code correcteur__
 ### Concepts
-* Algorithmes *
-* Langages .
-* Information **
-* Machine .
+* Algorithmes(*)
+* Langages(.)
+* Information(**)
+* Machine(.)
 ### Compétences
-* Pensée algorithmique *
-* Abstraction .
-* Décomposition .
-* Généralisation et motifs **
-* Evaluation .
-* Logique *
+* Pensée algorithmique(*)
+* Abstraction(.)
+* Décomposition(.)
+* Généralisation et motifs(**)
+* Evaluation(.)
+* Logique(*)
 ### Maturité, public cible
 Activité prête à l'emploi.
 Tout public.
@@ -403,10 +403,10 @@ Tout public.
 ---
 ## Traversée de rivière
 ### Concepts
-* Algorithmes ++
-* Langages .
-* Information .
-* Machine .
+* Algorithmes(**)
+* Langages(.)
+* Information(.)
+* Machine(.)
 ### Compétences
 TODO
 ### Maturité, public cible
