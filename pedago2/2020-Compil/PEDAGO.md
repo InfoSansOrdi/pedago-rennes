@@ -96,3 +96,6 @@ n'est pas très pratique : chaque sprite est séparé en plusieurs fichiers PNG
 qui sont superposés par le moteur de jeu au moment du rendu, probablement
 pour les animations. Les assets de Factorio ne sont pas libres d'utilisation.
 
+Progression:
+ - trouver un algo de HLS par eux-mêmes
+ - proposer un algo efficace pour un problème plus compliqué
