@@ -72,3 +72,27 @@ laisser les apprenants faire le dessin sur la carte initiale.
 Pour chaque niveau, avoir un objetif (pédagogique ou non). Avec un ou deux
 niveaux de prise en main pour les apprenants. Mettre en place les objectifs
 pédagogiques avant de concevoir les niveaux.
+
+## Cinquième idée
+Activité basée sur un concept proche de Factorio.
+
+L'idée est de représenter la synthèse de haut niveau et plus généralement
+la génération de hardware à partir d'une spécification. Les apprenants font
+"à la main" l'étape de placement routage sous contrainte de ressources
+pour produire le circuit le plus efficace possible. Le but étant de battre
+son propre record à chaque nouvelle étape.
+
+Chaque apprenant dispose de ressources de fabrication limitées (une ALU, une
+unité de chargement/déchargement de camions) ainsi que d'une flotte de
+camions pour le transport de ressources.
+
+On place des ressources sur une carte et on donne une recette de produit à
+fabriquer aux apprenants. L'objectif est de fabriquer ce produit de manière
+efficace selon un critère donné (coût de transport, de contruction, etc.).
+
+Pour représenter les bâtiments, camions, etc. il va nous falloir des sprites
+libres d'utilisation. Martin suggère les assets de Mindustry, mais le format
+n'est pas très pratique : chaque sprite est séparé en plusieurs fichiers PNG
+qui sont superposés par le moteur de jeu au moment du rendu, probablement
+pour les animations. Les assets de Factorio ne sont pas libres d'utilisation.
+
