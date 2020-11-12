@@ -1,0 +1,3 @@
+digraph {
+"plage" -> "forêt de palmiers" -> "cabane de pêcheurs" -> "volcan" -> "grotte";
+}

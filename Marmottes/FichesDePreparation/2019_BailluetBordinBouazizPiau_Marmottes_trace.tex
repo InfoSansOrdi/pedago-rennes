@@ -1,0 +1,49 @@
+\documentclass[a4paper,11pt]{article}
+ 
+\usepackage{fullpage}%
+ 
+\usepackage[T1]{fontenc}%
+\usepackage[utf8]{inputenc}%
+ 
+\usepackage{mathpazo} 
+ 
+
+\usepackage[main=francais,english]{babel}%  
+ 
+\usepackage{graphicx}%
+ 
+\usepackage{url}%
+\usepackage{abstract}%
+ 
+\usepackage{minted}%
+ 
+ 
+\usepackage{xcolor}
+\definecolor{very-light-gray}{gray}{0.97}
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+\parskip=0.5\baselineskip%
+ 
+\sloppy%
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document} 
+ 
+\begin{center}
+\huge
+Les marmottes au sommeil léger
+\end{center}
+
+\textbf{Présentation~:}
+Des marmottes doivent hiberner pendant l'hiver. Pour cela, elles décident de creuser un terrier, qui doit respecter les contraintes suivantes :
+\begin{enumerate}
+	\item Le terrier n'a qu'une seule sortie.
+	\item \`A partir de la sortie du terrier ou d'un couloir, on ne peut creuser que deux couloirs.
+	\item Les marmottes ne peuvent dormir que seules et au bout d'un couloir.
+\end{enumerate}
+Cependant, les marmottes se réveillent pendant l'hiver et chacune un nombre différent de fois. \`A chaque fois qu'une marmotte remonte du terrier, elle dérange tout le monde. Le but de l'activité est d'obtenir un terrier qui sera dérangé le moins possible pendant l'hiver.
+
+\textbf{\`A retenir~:} 
+La méthode qui donne le terrier optimal est un algorithme de compression. Il permet de traduire un fichier comportant des lettres de l'alphabet en un fichier compréhensible par la machine (des $0$ et des $1$) de façon à prendre le moins de place possible. Pour cela, on représente chaque lettre par une marmotte, et le nombre de fois qu'elle se réveille est le nombre de fois qu'apparaît la lettre dans le fichier.
+\end{document}
