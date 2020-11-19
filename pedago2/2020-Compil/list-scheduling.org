@@ -1,0 +1,77 @@
+#+TITLE: COMPILATION : LIST SCHEDULING ALGORITHM
+#+AUTHOR: Jean-Michel GORIUS & RANDRIANAINA Georges Aaron
+
+* Synopsis
+
+* Activité
+** Ressources
+*** Charpentier
+    - 2
+*** Forgeron
+    - 2
+*** Enchanteur
+    - 1
+*** Alchimiste
+    - 1
+*** Tailleur
+    - 1
+
+** Outils
+*** Épée
+
+    #+BEGIN_SRC
+    %0 = @forgeron()
+    %1 = @alchimiste()
+    %2 = @enchanteur(%0, %1)
+    #+END_SRC
+
+*** Bouclier
+
+    #+BEGIN_SRC
+    %0 = @forgeron()
+    %1 = @tailleur()
+    %2 = @enchanteur(%0, %1)
+    #+END_SRC
+
+*** Catapulte
+
+    #+BEGIN_SRC
+    %0 = @charpentier()		/* roue_1			*/
+    %1 = @charpentier()		/* roue_2			*/
+    %2 = @charpentier()		/* roue_3			*/
+    %3 = @charpentier()		/* roue_4			*/
+    %4 = @forgeron(%0, %1)	/* axe				*/
+    %5 = @forgeron(%2, %3)	/* axe				*/
+    %6 = @charpenter(%4, %5)	/* monter les roues		*/
+    %7 = @charpentier()		/* bras de lancement		*/
+    %8 = @forgeron(%7)		/* mécanisme de lancement	*/
+    %9 = @charpentier(%6, %7)	/* assemblage catapulte		*/
+    #+END_SRC
+    
+*** Boules (pour catapulte)
+
+    #+BEGIN_SRC
+    %0 = @forgeron()
+    %1 = @enchanteur(%0)
+    #+END_SRC
+
+*** Tissu résistant    
+
+    #+BEGIN_SRC
+    # Peut sevir pour : cotte de maille, pantalon hyper resistant,
+    # gant, etc ...
+     %0 = @forgeron()		/* Maille              */
+ +-> %1 = @tailleur()		/* Tissu               */ --+
+ |   %2 = @enchanteur(%0)	/* augmente resistance */   |
+ +-  %3 = @alchimiste(%1, %2)	/* fusion tissu-metal  */   |
+                                                            |
+                                                            v
+							    *
+     #+END_SRC
+
+** Unité d'exécution
+   - Integer/branch
+   - Integer/Load
+   - Load/Store
+   - Floating Point
+   - Floating Point + Multiply
