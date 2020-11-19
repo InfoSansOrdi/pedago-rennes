@@ -67,7 +67,12 @@ Figure téléphonée pour réfléchir à la notion de langage.
 * Algorithmes(.)
 * Machine(.)
 ### Compétences
-TODO
+* Pensée algorithmique(?)
+* Abstraction(?)
+* Décomposition(?)
+* Généralisation et motifs(?)
+* Évaluation(?)
+* Logique(?)
 ### Maturité/public cible
 Activité classique, testée en cycle 3, formation enseignant
 ### Ressources
