@@ -5,6 +5,25 @@ Le dépôt est organisé de la façon suivante : chaque activité a un dossier �
 Vous trouverez dans ce sommaire une classification des activités par concepts (algorithmes, langages, information, machine), et par compétences (pensée algorithmique, abstraction, décomposition, généralisation et motifs, évaluation, logique). Chaque catégorie se voit attribuer ., \*, ou \*\* selon que l'activité ne se classe pas, se classe un peu, ou se classe beaucoup dans la catégorie.
 Vous trouverez également des données concernant les ressources disponibles, et le public cible.
 
+En fin de sommaire sont disponibles des sites où trouver des activités débranchées, ainsi que des exemples d'exposés.
+
+# Communication scientifique 
+
+Ce dépôt contient le matériel nécessaire au module de communication scientifique de l'ENS Rennes (nommé localement pédago1).
+La description complète est [ici](https://github.com/InfoSansOrdi/pedago-rennes).
+
+Sur cette page, vous trouverez des liens vers des collections
+d'activités réutilisables, et les fiches de prep de vos prédécesseurs.
+Il faut ajouter vos propres fiches de prep au dépot au moins 24 heures
+avant votre intervention en classe.
+
+# Fiches de préparation et matériel additionel
+
+Cette liste regroupe le matériel préparé par les élèves pour ce module. En particulier, vos fiches de preparation doivent être soumises sous forme de Pull Request sur le dépôt au moins 24 heures avant votre intervention en classe. Vous enverrez également ces fiches par mail aux enseignants.
+
+Insérez vos fichiers au format année_NomsEleves_Fichier contenant les ressources que vous avez crée dans les répertoirs existants si l'activité a déjà été développée par vos prédecesseurs, ou créez un répertoir s'il s'agit d'une nouvelle activité. Si vous ne souhaitez pas diffuser votre travail sous licence CC-BY-SA, aucun problème, mais il
+faut l'indiquer dans vos fichiers.
+
 ---
 ## Alice déménage
 ### Concepts
@@ -425,23 +444,6 @@ TODO
 ### Ressources
 * [Pixees](https://pixees.fr/la-traversee-de-riviere/)
 
----
-ANCIEN FICHIER README DE PEDAGO1
-A MODIFIER
----
-
-# Communication scientifique 
-
-Ce répertoire contient le matériel nécessaire au module de
-communication scientifique de l'ENS Rennes (nommé localement pédago1).
-La description complète est
-[ici](https://github.com/InfoSansOrdi/pedago-rennes).
-
-Sur cette page, vous trouverez des liens vers des collections
-d'activités réutilisables, et les fiches de prep de vos prédécesseurs.
-Il faut ajouter vos propres fiches de prep au dépot au moins 24 heures
-avant votre intervention en classe.
-
 # Collections d'activités débranchées
 
 Cette liste regroupe des sites dans lesquels vous trouverez des
@@ -508,20 +510,6 @@ préparer vos interventions.
   dans le domaine public.
 
 Si vous avez des liens à ajouter, ils sont bienvenus.
-
-# Fiches de préparation et matériel additionel
-
-Cette liste regroupe le matériel préparé par les élèves pour ce
-module. En particulier, vos fiches de preparation doivent être
-soumises sous forme de Pull Request sur le dépôt au moins 24 heures
-avant votre intervention en classe. Vous enverrez également ces fiches
-par mail aux enseignants.
-
-Créez un répertoire année-nomseleves-activité contenant le source et
-le pdf de votre fiche de prep, ainsi que le matériel supplémentaire
-que vous avez préparé (le cas échéant). Si vous ne souhaitez pas
-diffuser votre travail sous licence CC-BY-SA, aucun problème, mais il
-faut l'indiquer dans vos fichiers.
 
 #### 2016
 
