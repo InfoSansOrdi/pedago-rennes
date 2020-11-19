@@ -1,0 +1,44 @@
+Idée 1 : Faire un choc en leur montrant tout ce qu'ils autorisent.
+Origine (partielle) de l'idée : http://inutile.club/estatis/password-security-checker/
+(on notera les conditions d'utilisations complètement aberrantes également).
+
+Variante évoquée pour téléphone :
+Demander toutes les autorisations sur android, et renvoyer toutes les infos qu'on a obtenues.
+Eventuellement, rajouter également des conditions d'utilisations stupides/extrêmement abusives.
+
+Autre variante :
+Demander des infos, sous forme de questionnaire, et utiliser les infos comme on veut, les renvoyer à peine retouchées et/ou enrichies.
+(typiquement un texte un peu préformaté du genre :
+Merci XXX d'avoir répondu à notre questionnaire. De part ton âge (Xans) tu es sans doute au collège. Ton utilisation de tel et tel outil (typiquement, l'OS, l'ip pour la ville, le navigateur ou ce qu'on peut récupéré habituellement via les interfaces en ligne) nous indique que tu…"
+
+Ajouter éventuellement l'utilisation d'un annuaire + nom et de quelques outils de base ? -> soucis avec la CNIL.
+
+
+Idée 2 : Questionnaire et mini-scénarii :
+
+Inspirations possibles de One Chance ? -> http://www.newgrounds.com/portal/view/555181
+
+Questionnaires déjà existants sur la vie privée :
+
+Incollables : http://incoweb.playbac.fr/?livret=12
+(origines : http://www.panoptinet.com/cybersecurite-enfants/jeu-educatif-cnil-ta-vie-privee-cest-secret/ )
+
+http://www.wsj.com/articles/how-much-do-you-know-about-data-privacy-1429499471 (pas terrible)
+
+http://privacyquiz.aclu.org/ (plutôt bien foutu à première vue !)
+
+https://www.scu.edu/ethics/privacy/privacy-a-quiz/ + https://www.scu.edu/ethics/privacy/answers-to-privacy-protection-quiz/
+
+http://www.nsteens.org/Quizzes/CanYouKeepItPrivate (plus ou moins le genre de questions auxquelles je pensais, mais en moins caricatural si possible)
+
+Idée d'outil pour créer des scénarios interactifs : http://twinery.org/ (open-source)
+
+
+
+
+Autres :
+
+http://epreuve.concours-alkindi.fr/#?p=1 (voir anales 2015, sites web)
+
+Mini jeu CNIL : http://www.2025exmachina.net/
+

@@ -1,0 +1,203 @@
+\documentclass[a4paper]{article}
+\usepackage[14pt]{extsizes}
+
+\usepackage[utf8]{inputenc}
+\usepackage[francais]{babel}
+\usepackage{amsmath}
+\usepackage{latexsym}
+\usepackage{amsfonts}
+\usepackage{stmaryrd}
+\usepackage{amssymb}
+\usepackage{dsfont}
+\usepackage[svgnames,table]{xcolor}
+\usepackage{tikz}
+\usepackage{epsfig}
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+
+\usepackage{enumitem}
+\newlist{qcm}{itemize}{2}
+\setlist[qcm]{label=$\square$}
+
+\usepackage{multicol}
+
+\usepackage[margin=0.5in]{geometry}
+
+\usepackage{adjustbox}
+\usepackage{array}
+
+\pagenumbering{gobble}
+
+\begin{document}
+
+\begin{center}
+  {\Huge Questionnaire sur la vie privée}\\[4ex]
+\end{center}
+
+Ce questionnaire est anonyme, et les réponses ne seront utilisées que dans le cadre du projet Educnum afin d'améliorer la pertinence de notre proposition. Les informations recueillies ne seront ni diffusées ni revendues à aucun tiers.
+
+\section{Vous concernant}
+
+\begin{itemize}
+
+\item Quel âge avez-vous ?
+  \hspace{1em}
+  \line(1,0){100}
+
+\item Sur quels réseaux sociaux êtes vous inscrits ?
+
+
+  \begin{multicols}{4}
+    \begin{qcm}
+    \item Facebook
+    \item Twitter
+    \item Instagram
+    \item Google+
+    \item Tumblr
+    \item Snapchat
+	\item Vine
+    \end{qcm}
+  \end{multicols}
+  \vspace{-1ex}
+
+  Autre(s) :
+  \hrulefill\hspace{1em}
+  \vspace{.5cm}
+
+\item Combien de temps y passez-vous environ ?
+  \begin{multicols}{2}
+    \begin{qcm}
+    \item Je n'y vais jamais.
+    \item Une fois par mois.
+    \item Une fois par semaine.
+    \item 5 minutes par jour.
+    \item Une demi-heure par jour.
+    \item Une heure par jour.
+    \item Plus de deux heures par jour.
+    \end{qcm}
+  \end{multicols}
+
+\item Avez-vous déjà été voir les paramètres de sécurité et de vie privée de ces réseaux sociaux ? Si oui, lesquels ?
+
+  \vspace{.5cm}
+  \hrulefill\hspace{1em}
+
+\end{itemize}
+
+\section{Définition de ``vie privée''}
+
+\begin{itemize}
+\item Parmi les informations suivantes, lesquelles considérez-vous comme privées ?
+
+  \begin{multicols}{2}
+    \begin{qcm}
+    \item Votre nom
+    \item Votre prénom
+    \item Votre pseudo
+    \item Votre âge
+    \item Votre adresse
+    \item Vos goûts musicaux
+    \item Vos résultats scolaires
+    \item Votre numéro de téléphone fixe
+    \item Votre numéro de téléphone portable
+    \item Vos photos
+	\item Vos relations amoureuses
+    \item Votre adresse mail
+    \end{qcm}
+  \end{multicols}
+
+\end{itemize}
+\newpage
+\begin{itemize}
+
+%% \item Accepteriez-vous que les personnes suivantes aient accès aux informations que vous considérez comme privées ? (cochez si vous accepteriez)
+
+%%   \begin{multicols}{2}
+%%     \begin{qcm}
+%% 	\item Un réseau social
+%% 	\item Tout employé du réseau social
+%%     \item Vos parents
+%%     \item Vos enseignants
+%%     \item Vos amis
+%%     \item Votre famille éloignée (cousins/cousines, oncles/tantes)
+%%     \item Les amis de vos amis
+%%     \item Un inconnu rencontré sur internet
+%%     \item Un inconnu que vous avez croisé dans la rue
+%%     \end{qcm}
+%%   \end{multicols}
+
+\item TODO: consigne
+  % TODO: plusieurs types de photos ?
+  \begin{table}[!htbp]
+    %
+    \newcolumntype{R}[2]{%
+      >{\adjustbox{angle=#1,lap=\width-(#2)}\bgroup}%
+      l%
+      <{\egroup}%
+    }
+    \newcommand*\rot{\multicolumn{1}{R{45}{1em}}}%
+    %
+    \rowcolors{0}{}{gray!10}
+    %
+    \def\arraystretch{1.5}%
+    %
+    \newcommand*\squares{$\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$}
+    %
+    \begin{tabular}{r*9c}
+      \rot{} &
+      \rot{réseau social} &
+      \rot{employé du réseau social} &
+      \rot{parents} &
+      \rot{enseignants} &
+      \rot{ amis} &
+      \rot{famille éloignée {\tiny (cousins/cousines, oncles/tantes)}} &
+      \rot{amis de vos amis} &
+      \rot{inconnu rencontré sur internet} &
+      \rot{inconnu croisé dans la rue} \\
+      nom & \squares\\
+      prénom & \squares\\
+      pseudo & \squares\\
+      âge & \squares\\
+      adresse postale & \squares\\
+      adresse e-mail & \squares\\
+      goûts musicaux & \squares\\
+      résultats scolaires & \squares\\
+      numéro de téléphone fixe & \squares\\
+      numéro de téléphone portable & \squares\\
+      photos & \squares\\
+      relations amoureuses & \squares\\
+    \end{tabular}
+  \end{table}
+
+\end{itemize}
+
+\section{Sécurité en général}
+
+\begin{itemize}
+\item Utilisez-vous un unique mot de passe pour tous l'ensemble de vos comptes ?
+  \begin{multicols}{2}
+    \begin{qcm}
+    \item Oui
+    \item Non
+    \end{qcm}
+  \end{multicols}
+
+\item Selon vous, est-il possible de retrouver le lieu ou a été prise une photo si elle est en ligne ?
+  \begin{multicols}{2}
+    \begin{qcm}
+    \item Oui
+    \item Non
+    \end{qcm}
+  \end{multicols}
+
+\item Selon vous, est-il possible de retirer complètement les informations que l'on a mises en ligne ?
+  \begin{multicols}{2}
+    \begin{qcm}
+    \item Oui
+    \item Non
+    \end{qcm}
+  \end{multicols}
+
+\end{itemize}
+
+
+\end{document}
