@@ -1,0 +1,32 @@
+# Materiel
+
+- [nb_perso] cartes personnages, avec [nb_car] caractéristiques variables
+- 1 dé
+- [nb_perso] cartes mensonge/vérité. Exemple (avec p = 1/6) : "3 tu mens, sinon tu dis la vérité"
+- [nb_objectifs] cartes objectifs statistiques. Ex : "Nb de personnes qui ont caractéristique 1 = valeur a et caractéristique 2 = valeur b ?". "Correlation entre la caractéristique 1 et la caractéristique 2 ?"
+- [nb_objectifs] cartes objectifs personnels. Ex : "Trouver Untel, qui est le seul à avoir à la fois caractéristique 1 = valeur a et caractéristique 2 = valeur b et caractéristique 3 = valeur c", "Quelle est la valeur de la caractéristique 3 de Untel ?"
+ => Cumul d'un grand nombre de caractéristique
+ => Choix d'une personne et volonté de trouver des infos perso.
+
+|A|, |A /\ B|, |A /\ B| / |B|
+
+# Déroulement
+
+## Roles
+Un "enqueteur", les autres sont des "participants"
+
+## Phase 1
+
+L'enqueteur cherche à réaliser un objectif statistique et un objectif personnel. Il a droit à un nombre limité [nb_questions] de questions.
+Pour chaque question, un dé est lancé. En fonction du résultat du dés et de sa carte vérité/mensonge, chaque participant détermine si il doit mentir ou pas. Il répond ensuite à la question, en mentant si il le doit.
+
+## Phase 2
+
+L'enqueteur cherche à réaliser les mêmes objectifs, mais les participants disent la vérité.
+On compare les résultats obtenus avec ceux de la phase 1.
+
+# Objectif pédagogique
+
+Le but de cette activité est d'illustrer une technique de protection de la vie privée.
+Normalement l'objectif statistique devrait être rempli tandis que l'objectif personnel doit échouer.
+Il s'agit de sensibiliser au fait qu'il est possible de collecter des données utiles en limitant l'impact sur la vie privée.

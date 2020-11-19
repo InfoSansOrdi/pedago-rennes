@@ -1,0 +1,6 @@
+Affiche bit-flipping (ou autre)
+Fiche animation (récupérer stats sur la classe, infos non-sensibles puis sensibles)
+Constituer un jeu de données de manière interactive
+Remplir le tableau (réfléchir à qui on partage quoi) -> éventuellement proposer des paramètres "par défaut" pour les différents réseaux sociaux
+
+
