@@ -36,7 +36,7 @@ TODO
 ### Maturité, public cible
 TODO
 ### Ressources
-* [Pédago 1 2019-Begue-Duron](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/AliceDemenage)
+* [Dossier AliceDemenage](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/AliceDemenage)
 
 ---
 ## Algorithmes de tri
@@ -50,7 +50,7 @@ TODO
 ### Maturité, public cible
 TODO
 ### Ressources
-* [Pédago 1 2019-Drewery-Garito](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/AlgoDeTri)
+* [Dossier AlgoDeTri](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/AlgoDeTri)
 
 ---
 ## Arbres de décision
@@ -61,7 +61,7 @@ TODO
 ### Maturité, public cible
 TODO
 ### Ressources
-* [Pédago 2 2018-ArbresDecision](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/ArbresDeDecision)
+* [Dossier ArbresDeDecision](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/ArbresDeDecision)
 
 ---
 ## Baseball multicolore
@@ -75,7 +75,7 @@ TODO
 ### Maturité, public cible
 TODO
 ### Ressources
-* [Pédago 1 2018-Cabrita-Mescoff](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/BaseballMulticolore/FichesDePreparation)
+* [Dossier BaseballMuticolore](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/BaseballMulticolore)
 
 ---
 ## Blasons
@@ -95,13 +95,7 @@ Figure téléphonée pour réfléchir à la notion de langage.
 ### Maturité/public cible
 Activité classique, testée en cycle 3, formation enseignant
 ### Ressources
-* [Fiches de préparation](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/Blasons/FichesDePreparation)
-* [Matériel](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/Blasons/Materiel)
-* [Extension: héraldique](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/Blasons/Extensions)
-* [Rapports](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/Blasons/Rapports)
-* [Synthèses](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/Blasons/Syntheses)
-
-(Groupes: pédago 1 2016-Mirliaz-Peignier, 2018-Gorius-Legrand, 2019-Mavromatis-Thuillier, 2019-Coumes-Losekoot et pédago 2 2019)
+* [Dossier Blasons](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/Blasons)
 
 ---
 ## Caméléons
@@ -133,7 +127,7 @@ Simulation d'un petit ordinateur avec un langage très simple.
 ### Maturité, public cible
 A partir de la 6ème
 ### Ressources
-O\_O
+* [Dossier Cargobot](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/Cargobot)
 
 ---
 ## M-999/le truc, là
@@ -155,7 +149,7 @@ TODO
 ### Maturité, public cible
 TODO
 ### Ressources
-* [Pédago 1 2020-Cosseron-Mulot](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/CEstLeBazar)
+* [Dossier CEstLeBazar](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/CEstLeBazar)
 
 ---
 ## Châteaux magiques
@@ -172,7 +166,7 @@ TODO
 ### Maturité, public cible
 TODO
 ### Ressources:
-* [Pédago 1 2019-Drewery-Garito](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/ChateauxMagiques)
+* [Dossier ChateauxMagiques](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/ChateauxMagiques)
 
 ---
 ## Compter en binaire
@@ -194,7 +188,7 @@ Mots-clefs:
 ### Maturité, public cible
 CE1/CE2/CM1/CM2
 ### Ressources
-* [Pédago 1 2018-Cabrita-Mescoff](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/CompterEnBinaire)
+* [Dossier CompterEnBinaire](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/CompterEnBinaire)
 
 ---
 ## La couleur par les nombres
@@ -214,7 +208,7 @@ On souhaite représenter des images dans un ordinateur.
 ### Maturité, public cible
 CP/CE1/CE2
 ### Ressources
-* [Pédago 1 2018-Bellier-Jouve et Pédago 1 2016-Mirliaz-Peignier](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/CouleurNombres)
+* [Dossier CouleurNombres](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/CouleurNombres)
 
 ---
 ## Crêpier psychorigide
@@ -234,7 +228,7 @@ Il faut aider un galettier à ranger ses galettes carrées de la plus grande à 
 ### Maturité, public cible
 Activité prête à l'emploi.
 ### Ressources
-* [Pédago 1: 2016-Henry-Varloot, 2019-Coumes-Losekoot, 2019-Begue-Duron, 2020-crepier](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/CrepierPsychorigide)
+* [Dossier CrepierPsychorigide](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/CrepierPsychorigide)
 
 ---
 ## Les critiques de film
@@ -256,7 +250,7 @@ Mots-clefs:
 ### Maturité, public cible
 Activité prête à l'emploi
 ### Ressources
-* [Pédago 2 2015-Liétard](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/CritiquesFilms)
+* [Dossier CritiquesFilms](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/CritiquesFilms)
 
 ---
 ## Île au trésor
@@ -270,7 +264,7 @@ TODO
 ### Maturité, public cible
 TODO
 ### Ressources
-* [Pédago 1 2018-Bellier-Jouve](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/IleAuTresor)
+* [Dossier IleAuTresor](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/IleAuTresor)
 
 ---
 ## Jeu de Nim
@@ -293,7 +287,7 @@ Mots-clefs:
 Activité prête à l'emploi.
 Public cible: CM1/CM2.
 ### Ressources
-* [Pédago 1: 2017-Bautista-Bellec-Bordais-Voorwinden et 2019-Gillet-Poirier](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/Nim)
+* [Dossier Nim](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/Nim)
 
 ---
 ## Jeu du labyrinthe
@@ -307,13 +301,13 @@ TODO
 ### Maturité, public cible
 TODO
 ### Ressources
-* [IREM Clermont-Ferrand ?](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/Labyrinthe)
+* [Dossier Labyrinthe](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/Labyrinthe)
 
 ---
 ## Le mage, l'aventurier et le château hanté
 Logique temporelle
 ### Ressources
-* [Pédago 2 2019-LogiqueTemporelle](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/MageAventurierChateau)
+* [Dossier MageAventurierChateau](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/MageAventurierChateau)
 
 ---
 ## Les mineurs (arbre couvrant minimal)
@@ -327,7 +321,7 @@ TODO
 ### Maturité, public cible
 TODO
 ### Ressources
-* [Pédago 1 2016-Henry-Varloot](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/Mineurs)
+* [Dossier Mineurs](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/Mineurs)
 
 ---
 ## Marmottes au sommeil léger
@@ -351,12 +345,12 @@ Mots-clefs:
 Activité prête à l'emploi.
 CE2/CM1/CM2
 ### Ressources
-* [Pédago 1: 2018-Cabrita-Mescoff et 2020-Cosseron-Mulot](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/Marmottes)
+* [Dossier Marmottes](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/Marmottes)
 
 ---
 ## Modélisation et vérification
 ### Ressources
-* [Pédago2 2019-model\_verif](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/ModelisationVerification)
+* [Dossier ModelisationVerification](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/ModelisationVerification)
 
 ---
 ## Plus court chemin ou voyageur de commerce sur une planche à clous
@@ -370,7 +364,7 @@ TODO
 ### Maturité, public cible
 TODO
 ### Ressources
-* [Pédago 1 2017-Bautista-Bellec-Bordais-Voorwinden](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/pedago1/2017-divers/labyrinthe/1FicheProfPrimaire.pdf)
+* [Dossier Labyrinthe](https://github.com/InfoSansOrdi/pedago-rennes/blob/master/Labyrinthe)
 
 ---
 ## Puzzle humain
@@ -391,7 +385,7 @@ Les élèves incarnent des pièces d’un puzzle qu’ils doivent résoudre.
 Activité prête à l'emploi
 CM1/CM2
 ### Ressources
-* [Pédago 1: 2019-Mavromatis-Thuillier et pédago 2: 2019-Apprentissage\_Nim\_Etendu](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/PuzzleHumain)
+* [Dossier PuzzleHumain](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/PuzzleHumain)
 
 ---
 ## Tablette de chocolat empoisonnée
@@ -428,7 +422,7 @@ Mots-clefs:
 Activité prête à l'emploi.
 Tout public.
 ### Ressources
-* [Pédago 1: 2018-Bellier-Jouve et 2018-Gorius-Legrand](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/TourDeMagie)
+* [Dossier TourDeMagie](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/TourDeMagie)
 
 ---
 ## Traversée de rivière
