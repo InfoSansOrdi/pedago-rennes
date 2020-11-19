@@ -99,3 +99,13 @@ pour les animations. Les assets de Factorio ne sont pas libres d'utilisation.
 Progression:
  - trouver un algo de HLS par eux-mêmes
  - proposer un algo efficace pour un problème plus compliqué
+
+## Sixième idée
+Activité de scheduling, algorithme de list scheduling
+
+- Echanger avec les autres groupes qui font du scheduling pour consolider les
+idées
+- Trouver des instances intéressantes
+- Produire le matériel (demander à Kerian pour son script qui génère du SVG)
+- Décrire l'activité ("C'est de l'informatique parce que..."), fiche à
+destination de l'enseignant
