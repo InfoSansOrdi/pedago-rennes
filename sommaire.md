@@ -291,6 +291,7 @@ Public cible: CM1/CM2.
 
 ---
 ## Jeu du labyrinthe
+Notions introduites: chemin dans un graphe, mot/langage reconnu par un automate
 ### Concepts
 * Algorithmes(\*\*)
 * Langages(.)
