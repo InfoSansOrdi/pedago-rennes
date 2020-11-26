@@ -349,7 +349,29 @@ CE2/CM1/CM2
 * [Dossier Marmottes](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Marmottes)
 
 ---
-## Modélisation et vérification
+## Le journal du pirate
+Il s'agit de trois activités en une (trois activités distinctes mais pouvant être combinées).
+L'objectif principal de l'activité est de trouver un trésor caché sur une des îles à l'aide du plan de ces îles et des souvenirs d'un pirate. On a alors 3 activités principales qui se décomposent comme suit:
+ - Modélisation: construire le graphe représentant le plan d'une île à partir d'une description textuelle
+ - Vérification: trouver l'île au trésor grâce au plan des îles et aux phrases du pirate (données en 
+français)
+ - Logique: encoder/décoder grâce à de la logique les phrases du pirate
+### Concepts
+* Algorithmes(.)
+* Langages(\*)
+* Information(\*\*)
+* Machine(.)
+### Compétences
+* Pensée algorithmique(.)
+* Abstraction(\*\*)
+* Décomposition(\*)
+* Généralisation et motifs(.)
+* Evaluation(.)
+* Logique(\*\*)
+### Maturité, public cible
+Prête à être essayée une première fois.
+Attention !! Quand on a changé les noms de fichier, ça a cassé des liens dans le README.md (et probablement aussi dans le code javascript).
+Entre CM2 et lycée.
 ### Ressources
 * [Dossier ModelisationVerification](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/ModelisationVerification)
 
