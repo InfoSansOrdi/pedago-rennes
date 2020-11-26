@@ -21,7 +21,7 @@ avant votre intervention en classe.
 
 Cette liste regroupe le matériel préparé par les élèves pour ce module. En particulier, vos fiches de preparation doivent être soumises sous forme de Pull Request sur le dépôt au moins 24 heures avant votre intervention en classe. Vous enverrez également ces fiches par mail aux enseignants.
 
-Insérez vos fichiers au format année_NomsEleves_Fichier contenant les ressources que vous avez crée dans les répertoirs existants si l'activité a déjà été développée par vos prédecesseurs, ou créez un répertoir s'il s'agit d'une nouvelle activité. Si vous ne souhaitez pas diffuser votre travail sous licence CC-BY-SA, aucun problème, mais il
+Insérez vos fichiers au format Année\_NomsEleves\_Fichier contenant les ressources que vous avez crée dans les répertoirs existants si l'activité a déjà été développée par vos prédecesseurs, ou créez un répertoir s'il s'agit d'une nouvelle activité. Si vous ne souhaitez pas diffuser votre travail sous licence CC-BY-SA, aucun problème, mais il
 faut l'indiquer dans vos fichiers.
 
 ---
