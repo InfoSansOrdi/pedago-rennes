@@ -317,11 +317,16 @@ Public cible: CM1/CM2.
 Notions introduites: chemin dans un graphe, mot/langage reconnu par un automate
 ### Concepts
 * Algorithmes(\*\*)
-* Langages(.)
+* Langages(\*)
 * Information(.)
 * Machine(.)
 ### Compétences
-TODO
+* Pensée algorithmique(.)
+* Abstraction(\*)
+* Décomposition(\*\*)
+* Généralisation et motifs(\*)
+* Évaluation(.)
+* Logique(\*)
 ### Maturité, public cible
 TODO
 ### Ressources
