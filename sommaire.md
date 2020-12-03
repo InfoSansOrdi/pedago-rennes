@@ -148,9 +148,6 @@ A partir de la 6ème
 * [Dossier Cargobot](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Cargobot)
 
 ---
-## M-999/le truc, là
-
----
 ## Cache-cache avec la RAM
 ### Ressources
 * [Site de Marie Duflot](https://members.loria.fr/MDuflot/files/med/memoirecache.html)
@@ -387,6 +384,9 @@ Activité prête à l'emploi.
 CE2/CM1/CM2
 ### Ressources
 * [Dossier Marmottes](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Marmottes)
+
+---
+## M-999/le truc, là
 
 ---
 ## Le journal du pirate
