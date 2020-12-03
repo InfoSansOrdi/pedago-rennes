@@ -336,6 +336,10 @@ TODO
 * Généralisation et motifs(.)
 * Evaluation(.)
 * Logique(\*\*): Les règles sont en réalité des formules de logique temporelle.
+
+### Maturité, public visé
+* TODO
+
 ### Ressources
 * [Dossier MageAventurierChateau](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/MageAventurierChateau)
 
