@@ -116,6 +116,25 @@ Activité classique, testée en cycle 3, formation enseignant
 * [Dossier Blasons](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Blasons)
 
 ---
+## C'est le bazar
+### Concepts
+* Algorithmes(\*\*)
+* Langages(.)
+* Information(\*)
+* Machine(\*)
+### Compétences
+* Pensée algorithmique(\*\*)
+* Abstraction(.)
+* Décomposition(.)
+* Généralisation et motifs(.)
+* Evaluation(.)
+* Logique(.)
+### Maturité, public cible
+6ème
+### Ressources
+* [Dossier CEstLeBazar](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/CEstLeBazar)
+
+---
 ## Caméléons
 Activité de logique propositionnelle inventée par Pablo Espana-Gutierrez en Pédago 1.
 ### Concepts
@@ -146,25 +165,6 @@ Simulation d'un petit ordinateur avec un langage très simple.
 A partir de la 6ème
 ### Ressources
 * [Dossier Cargobot](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Cargobot)
-
----
-## C'est le bazar
-### Concepts
-* Algorithmes(\*\*)
-* Langages(.)
-* Information(\*)
-* Machine(\*)
-### Compétences
-* Pensée algorithmique(\*\*)
-* Abstraction(.)
-* Décomposition(.)
-* Généralisation et motifs(.)
-* Evaluation(.)
-* Logique(.)
-### Maturité, public cible
-6ème
-### Ressources
-* [Dossier CEstLeBazar](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/CEstLeBazar)
 
 ---
 ## Châteaux magiques
@@ -282,6 +282,21 @@ TODO
 * [Dossier IleAuTresor](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/IleAuTresor)
 
 ---
+## Labyrinthe
+Notions introduites: chemin dans un graphe, mot/langage reconnu par un automate
+### Concepts
+* Algorithmes(\*\*)
+* Langages(.)
+* Information(.)
+* Machine(.)
+### Compétences
+TODO
+### Maturité, public cible
+TODO
+### Ressources
+* [Dossier Labyrinthe](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Labyrinthe)
+
+---
 ## Jeu de Nim
 Deux joueurs s’affrontent et tentent de déterminer une stratégie gagnante.
 Mots-clefs:
@@ -303,21 +318,6 @@ Activité prête à l'emploi.
 Public cible: CM1/CM2.
 ### Ressources
 * [Dossier Nim](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Nim)
-
----
-## Jeu du labyrinthe
-Notions introduites: chemin dans un graphe, mot/langage reconnu par un automate
-### Concepts
-* Algorithmes(\*\*)
-* Langages(.)
-* Information(.)
-* Machine(.)
-### Compétences
-TODO
-### Maturité, public cible
-TODO
-### Ressources
-* [Dossier Labyrinthe](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Labyrinthe)
 
 ---
 ## Le mage, l'aventurier et le château hanté
