@@ -164,7 +164,7 @@ def draw_A (x, y) :
 #******************************************************************************#
 def draw_C (x, y) :
     # '<polygon points="5 45, 25 5, 45 45" style="fill:yellow"/>'
-    col = draw_color_indication(x, y, 'yellow')
+    col = draw_color_indication(x, y, 'orange')
     padding = (Nucleotide[0] * Nucleotide[2], Nucleotide[1] * Nucleotide[2])
     x1 = padding[0]
     x2 = Nucleotide[0] - padding[0]
@@ -172,7 +172,7 @@ def draw_C (x, y) :
     y1 = 2 * padding[1]
     y2 = Nucleotide[1] - 2 * padding[1]
     C = f'\t\t\t<polygon points="{x + x1} {y + y2}, {x + x3} {y + y1}, ' \
-        + f'{x + x2} {y + y2}" style="fill:yellow"/>'
+        + f'{x + x2} {y + y2}" style="fill:orange"/>'
     return '\t\t<g type="Nucleotide" value="C">\n' + col + C + '\n\t\t</g>'
 
 #******************************************************************************#
