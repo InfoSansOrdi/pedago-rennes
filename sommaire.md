@@ -387,7 +387,7 @@ TODO
 ### Maturité, public cible
 TODO
 ### Ressources
-* [Dossier Labyrinthe](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Labyrinthe)
+TODO pour Mathieu
 
 ---
 ## Puzzle humain
