@@ -148,11 +148,6 @@ A partir de la 6ème
 * [Dossier Cargobot](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Cargobot)
 
 ---
-## Cache-cache avec la RAM
-### Ressources
-* [Site de Marie Duflot](https://members.loria.fr/MDuflot/files/med/memoirecache.html)
-
----
 ## C'est le bazar
 ### Concepts
 * Algorithmes(\*\*)
