@@ -7,6 +7,10 @@ Vous trouverez également des données concernant les ressources disponibles, et
 
 En fin de sommaire sont disponibles des sites où trouver des activités débranchées, ainsi que des exemples d'exposés.
 
+Références:
+* [Les quatre concepts de l'informatique](http://www.lsv.fr/~dowek/Philo/quatre.pdf), Gilles Dowek 
+* [Computational thinking](https://csunplugged.org/en/computational-thinking), CS Unplugged
+
 # Communication scientifique 
 
 Ce dépôt contient le matériel nécessaire au module de communication scientifique de l'ENS Rennes (nommé localement pédago1).
@@ -25,6 +29,20 @@ Insérez vos fichiers au format Année\_NomsEleves\_Fichier contenant les ressou
 faut l'indiquer dans vos fichiers.
 
 ---
+## Alice déménage
+### Concepts
+* Algorithmes(\*\*)
+* Langages(.)
+* Information(.)
+* Machine(.)
+### Compétences
+TODO
+### Maturité, public cible
+TODO
+### Ressources
+* [Dossier AliceDemenage](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/AliceDemenage)
+
+---
 ## Algorithmes de tri
 ### Concepts
 * Algorithmes(\*\*)
@@ -37,25 +55,6 @@ TODO
 TODO
 ### Ressources
 * [Dossier AlgoDeTri](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/AlgoDeTri)
-
----
-## Alice déménage
-### Concepts
-* Algorithmes(\*\*)
-* Langages(.)
-* Information(.)
-* Machine(.)
-### Compétences
-* Pensée algorithmique(\*\*)
-* Abstraction(.)
-* Décomposition(\*)
-* Généralisation et motifs(.)
-* Évaluation(.)
-* Logique(\*)
-### Maturité, public cible
-Primaire
-### Ressources
-* [Dossier AliceDemenage](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/AliceDemenage)
 
 ---
 ## Arbres de décision
@@ -106,13 +105,22 @@ Activité classique, testée en cycle 3, formation enseignant
 ## Caméléons
 Activité de logique propositionnelle inventée par Pablo Espana-Gutierrez en Pédago 1.
 ### Concepts
-TODO
+* Langage(\*)
+* Information(\*)
+* Algorithmes(\*\*)
+* Machine(\*\*)
 ### Compétences
-TODO
+* Pensée algorithmique(\*\*)
+* Abstraction(\*\*)
+* Décomposition(\*)
+* Généralisation et motifs(\*\*)
+* Évaluation(.)
+* Logique(\*\*)
 ### Maturité, public cible
 C'est tout nouveau ! Mais le site a l'air complet.
 ### Ressources
 * [Page détaillant l'activité](https://algopi.fr/?page_id=151)
+* [Page de ressources](https://algopi.fr/?page_id=256)
 
 ---
 ## Cargobot
@@ -147,17 +155,12 @@ A partir de la 6ème
 ### Concepts
 * Algorithmes(\*\*)
 * Langages(.)
-* Information(\*)
-* Machine(\*)
+* Information(.)
+* Machine(.)
 ### Compétences
-* Pensée algorithmique(\*\*)
-* Abstraction(.)
-* Décomposition(.)
-* Généralisation et motifs(.)
-* Evaluation(.)
-* Logique(.)
+TODO
 ### Maturité, public cible
-6ème
+TODO
 ### Ressources
 * [Dossier CEstLeBazar](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/CEstLeBazar)
 
