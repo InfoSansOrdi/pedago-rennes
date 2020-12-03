@@ -102,7 +102,7 @@ TODO
 ### Maturité, public cible
 TODO
 ### Ressources
-* [Dossier AssemblageDeGenomes](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/AssemblageDeGenomes)
+* [Dossier AssemblageDeGenomes]()
 
 ---
 ## Arbres de décision
