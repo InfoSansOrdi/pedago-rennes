@@ -25,20 +25,6 @@ Insérez vos fichiers au format Année\_NomsEleves\_Fichier contenant les ressou
 faut l'indiquer dans vos fichiers.
 
 ---
-## Alice déménage
-### Concepts
-* Algorithmes(\*\*)
-* Langages(.)
-* Information(.)
-* Machine(.)
-### Compétences
-TODO
-### Maturité, public cible
-TODO
-### Ressources
-* [Dossier AliceDemenage](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/AliceDemenage)
-
----
 ## Algorithmes de tri
 ### Concepts
 * Algorithmes(\*\*)
@@ -51,6 +37,25 @@ TODO
 TODO
 ### Ressources
 * [Dossier AlgoDeTri](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/AlgoDeTri)
+
+---
+## Alice déménage
+### Concepts
+* Algorithmes(\*\*)
+* Langages(.)
+* Information(.)
+* Machine(.)
+### Compétences
+* Pensée algorithmique(\*\*)
+* Abstraction(.)
+* Décomposition(\*)
+* Généralisation et motifs(.)
+* Évaluation(.)
+* Logique(\*)
+### Maturité, public cible
+Primaire
+### Ressources
+* [Dossier AliceDemenage](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/AliceDemenage)
 
 ---
 ## Arbres de décision
@@ -142,12 +147,17 @@ A partir de la 6ème
 ### Concepts
 * Algorithmes(\*\*)
 * Langages(.)
-* Information(.)
-* Machine(.)
+* Information(\*)
+* Machine(\*)
 ### Compétences
-TODO
+* Pensée algorithmique(\*\*)
+* Abstraction(.)
+* Décomposition(.)
+* Généralisation et motifs(.)
+* Evaluation(.)
+* Logique(.)
 ### Maturité, public cible
-TODO
+6ème
 ### Ressources
 * [Dossier CEstLeBazar](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/CEstLeBazar)
 
