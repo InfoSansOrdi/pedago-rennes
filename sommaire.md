@@ -25,20 +25,6 @@ Insérez vos fichiers au format Année\_NomsEleves\_Fichier contenant les ressou
 faut l'indiquer dans vos fichiers.
 
 ---
-## Alice déménage
-### Concepts
-* Algorithmes(\*\*)
-* Langages(.)
-* Information(.)
-* Machine(.)
-### Compétences
-TODO
-### Maturité, public cible
-TODO
-### Ressources
-* [Dossier AliceDemenage](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/AliceDemenage)
-
----
 ## Algorithmes de tri
 ### Concepts
 * Algorithmes(\*\*)
@@ -51,6 +37,20 @@ TODO
 TODO
 ### Ressources
 * [Dossier AlgoDeTri](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/AlgoDeTri)
+
+---
+## Alice déménage
+### Concepts
+* Algorithmes(\*\*)
+* Langages(.)
+* Information(.)
+* Machine(.)
+### Compétences
+TODO
+### Maturité, public cible
+TODO
+### Ressources
+* [Dossier AliceDemenage](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/AliceDemenage)
 
 ---
 ## Arbres de décision
