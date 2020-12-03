@@ -136,6 +136,13 @@ Activité classique, testée en cycle 3, formation enseignant
 ---
 ## Caméléons
 Activité de logique propositionnelle inventée par Pablo Espana-Gutierrez en Pédago 1.
+Divisée en cinq chapitres qui couvrent la plupart des concepts.
+1. Introduction et découverte
+2. Backtracking, De Morgan, NNF
+3. Logique ternaire et bugs
+4. Jeux sémantiques de Hintikka
+5. XOR et additionneurs n-bits
+
 ### Concepts
 * Langage(\*)
 * Information(\*)
@@ -149,7 +156,9 @@ Activité de logique propositionnelle inventée par Pablo Espana-Gutierrez en P�
 * Évaluation(.)
 * Logique(\*\*)
 ### Maturité, public cible
-C'est tout nouveau ! Mais le site a l'air complet.
+Activité jeune (2020) mais complète au niveau des ressources.
+D'autres chapitres (TQBF, réseaux de neurones) pourraient être ajoutés dans le futur.
+Cible primaire, collège.
 ### Ressources
 * [Page détaillant l'activité](https://algopi.fr/?page_id=151)
 * [Page de ressources](https://algopi.fr/?page_id=256)
@@ -175,7 +184,6 @@ A partir de la 6ème
 * [Dossier Cargobot](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Cargobot)
 
 ---
-<<<<<<< HEAD
 ## M-999/le truc, là
 
 ---
@@ -198,8 +206,6 @@ TODO
 * [Dossier CEstLeBazar](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/CEstLeBazar)
 
 ---
-=======
->>>>>>> 6f3eebf9bee85507b19652d865012e63e985597e
 ## Châteaux magiques
 Mots-clefs:
 * __Automates finis__
