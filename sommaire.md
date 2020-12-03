@@ -36,9 +36,15 @@ faut l'indiquer dans vos fichiers.
 * Information(.)
 * Machine(.)
 ### Compétences
-TODO
+* Pensée algorithmique(\*\*)
+* Abstraction(.)
+* Décomposition(.)
+* Généralisation et motifs(\*)
+* Évaluation(.)
+* Logique(\*)
 ### Maturité, public cible
-TODO
+Prêt à l'emploi
+CM1/CM2
 ### Ressources
 * [Dossier AliceDemenage](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/AliceDemenage)
 
@@ -75,9 +81,16 @@ TODO
 * Information(.)
 * Machine(.)
 ### Compétences
-TODO
+* Pensée algorithmique(\*\*)
+* Abstraction(.)
+* Décomposition(\*)
+* Généralisation et motifs(\*)
+* Évaluation(.)
+* Logique(\*)
 ### Maturité, public cible
-TODO
+Fiche de préparation disponible, mais pas de materiel sur le dépôt. 
+Toutefois activité développée par ailleurs.
+A partir du CE2
 ### Ressources
 * [Dossier BaseballMuticolore](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/BaseballMulticolore)
 
@@ -100,6 +113,25 @@ Figure téléphonée pour réfléchir à la notion de langage.
 Activité classique, testée en cycle 3, formation enseignant
 ### Ressources
 * [Dossier Blasons](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Blasons)
+
+---
+## C'est le bazar
+### Concepts
+* Algorithmes(\*\*)
+* Langages(.)
+* Information(\*)
+* Machine(\*)
+### Compétences
+* Pensée algorithmique(\*\*)
+* Abstraction(.)
+* Décomposition(.)
+* Généralisation et motifs(.)
+* Evaluation(.)
+* Logique(.)
+### Maturité, public cible
+6ème
+### Ressources
+* [Dossier CEstLeBazar](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/CEstLeBazar)
 
 ---
 ## Caméléons
@@ -143,6 +175,7 @@ A partir de la 6ème
 * [Dossier Cargobot](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Cargobot)
 
 ---
+<<<<<<< HEAD
 ## M-999/le truc, là
 
 ---
@@ -165,6 +198,8 @@ TODO
 * [Dossier CEstLeBazar](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/CEstLeBazar)
 
 ---
+=======
+>>>>>>> 6f3eebf9bee85507b19652d865012e63e985597e
 ## Châteaux magiques
 Mots-clefs:
 * __Automates finis__
@@ -280,6 +315,21 @@ TODO
 * [Dossier IleAuTresor](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/IleAuTresor)
 
 ---
+## Labyrinthe
+Notions introduites: chemin dans un graphe, mot/langage reconnu par un automate
+### Concepts
+* Algorithmes(\*\*)
+* Langages(.)
+* Information(.)
+* Machine(.)
+### Compétences
+TODO
+### Maturité, public cible
+TODO
+### Ressources
+* [Dossier Labyrinthe](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Labyrinthe)
+
+---
 ## Jeu de Nim
 Deux joueurs s’affrontent et tentent de déterminer une stratégie gagnante.
 Mots-clefs:
@@ -303,23 +353,25 @@ Public cible: CM1/CM2.
 * [Dossier Nim](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Nim)
 
 ---
-## Jeu du labyrinthe
-Notions introduites: chemin dans un graphe, mot/langage reconnu par un automate
-### Concepts
-* Algorithmes(\*\*)
-* Langages(.)
-* Information(.)
-* Machine(.)
-### Compétences
-TODO
-### Maturité, public cible
-TODO
-### Ressources
-* [Dossier Labyrinthe](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Labyrinthe)
-
----
 ## Le mage, l'aventurier et le château hanté
-Logique temporelle
+
+### Concepts
+* Algorithmes(\*): Pour résoudre le jeu de manière automatique, il faut développer un algorithme.
+* Langages(.)
+* Information(\*): Le jeu se base sur l'adaptation aux décisions de son adversaire, donc des informations qu'il nous donne.
+* Machine(\*):  L'aventurier symbolise la machine : on ne le manipule pas directement il agit de manière prévisible. *mouais*.
+
+### Compétences
+* Pensée algorithmique(\*): Pour résoudre le jeu de manière, il faut développer un algorithme.
+* Abstraction(\*): On peut transformer les règles en un graphe des états possible.
+* Décomposition(.)
+* Généralisation et motifs(.)
+* Evaluation(.)
+* Logique(\*\*): Les règles sont en réalité des formules de logique temporelle.
+
+### Maturité, public visé
+* TODO
+
 ### Ressources
 * [Dossier MageAventurierChateau](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/MageAventurierChateau)
 
@@ -360,6 +412,9 @@ Activité prête à l'emploi.
 CE2/CM1/CM2
 ### Ressources
 * [Dossier Marmottes](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Marmottes)
+
+---
+## M-999/le truc, là
 
 ---
 ## Le journal du pirate
@@ -405,6 +460,7 @@ TODO pour Mathieu
 ---
 ## Puzzle humain
 Les élèves incarnent des pièces d’un puzzle qu’ils doivent résoudre.
+
 ### Concepts
 * Algorithmes(\*\*)
 * Langages(\*)
