@@ -305,7 +305,20 @@ TODO
 
 ---
 ## Le mage, l'aventurier et le château hanté
-Logique temporelle
+
+### Concepts
+* Algorithmes(\*): Pour résoudre le jeu de manière automatique, il faut développer un algorithme.
+* Langages(.)
+* Information(\*): Le jeu se base sur l'adaptation aux décisions de son adversaire, donc des informations qu'il nous donne.
+* Machine(\*):  L'aventurier symbolise la machine : on ne le manipule pas directement il agit de manière prévisible. *mouais*.
+
+### Compétences
+* Pensée algorithmique(\*): Pour résoudre le jeu de manière, il faut développer un algorithme.
+* Abstraction(\*): On peut transformer les règles en un graphe des états possible.
+* Décomposition(.)
+* Généralisation et motifs(.)
+* Evaluation(.)
+* Logique(\*\*): Les règles sont en réalité des formules de logique temporelle.
 ### Ressources
 * [Dossier MageAventurierChateau](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/MageAventurierChateau)
 
@@ -369,6 +382,7 @@ TODO
 ---
 ## Puzzle humain
 Les élèves incarnent des pièces d’un puzzle qu’ils doivent résoudre.
+
 ### Concepts
 * Algorithmes(\*\*)
 * Langages(\*)
