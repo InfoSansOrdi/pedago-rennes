@@ -82,9 +82,16 @@ TODO
 * Information(.)
 * Machine(.)
 ### Compétences
-TODO
+* Pensée algorithmique(\*\*)
+* Abstraction(.)
+* Décomposition(\*)
+* Généralisation et motifs(\*)
+* Évaluation(.)
+* Logique(\*)
 ### Maturité, public cible
-TODO
+Fiche de préparation disponible, mais pas de materiel sur le dépôt. 
+Toutefois activité développée par ailleurs.
+A partir du CE2
 ### Ressources
 * [Dossier BaseballMuticolore](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/BaseballMulticolore)
 
