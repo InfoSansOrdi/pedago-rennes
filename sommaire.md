@@ -46,9 +46,14 @@ TODO
 * Information(.)
 * Machine(.)
 ### Compétences
-TODO
+* Pensée algorithmique(\*\*)
+* Abstraction(.)
+* Décomposition(\*)
+* Généralisation et motifs(.)
+* Évaluation(.)
+* Logique(\*)
 ### Maturité, public cible
-TODO
+Primaire
 ### Ressources
 * [Dossier AliceDemenage](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/AliceDemenage)
 
