@@ -1,0 +1,252 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage{fullpage}
+\usepackage[francais]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{color}
+\usepackage{tikz}
+\usepackage{url}
+\usepackage{import}
+\usepackage{caption,wrapfig}
+
+\setlength{\parskip}{\smallskipamount}
+\setlength{\parindent}{0pt}
+
+\usepackage{csquotes}
+
+\newenvironment{encart}[2]
+{
+  \begin{center}
+  \vbox{
+  \colorbox{light-blue}{
+  \begin{minipage}{\linewidth}
+  \begin{center}\textbf{#1}\end{center}
+  \end{minipage}}\\
+  \colorbox{light-gray}{
+  \begin{minipage}{\linewidth}
+  #2
+  \end{minipage}}
+  }
+  \end{center}
+}
+
+\AtBeginDocument{
+  \def\labelitemi{$\bullet$}
+  \def\labelitemii{$\bullet$}
+  \def\labelitemiii{$\bullet$}
+}
+
+%\boldmath
+
+\definecolor{light-gray}{gray}{0.95}
+\definecolor{light-blue}{rgb}{0.7 0.7 0.9}
+
+\begin{document}
+
+\begin{center}
+  \Huge \textbf{QuiProCo} \\
+  \vspace{5pt}
+  \large \textbf{QUI} est-ce, ré\textbf{P}onse \textbf{R}and\textbf{O}misée, \textbf{CO}nfidentialité différentielle
+\end{center}
+
+
+  \begin{center}
+   \label{fig:cat}
+    \includegraphics[scale=0.9]{illustration.png}
+  \end{center}
+
+
+Suite au développement d'internet et des outils de stockage d'information, il est aujourd'hui possible d'accumuler de gigantesques masses de données personnelles. Cette accumulation de données est à la fois une chance et un danger.
+D'une part, la collecte de données permet d’acquérir des informations sur la population et de mener des enquêtes. On peut ainsi traquer l'évolution d'une maladie, mesurer le niveau de pauvreté, optimiser les moyens de transports, etc.
+D'un autre coté, la collecte et le stockage de ces informations attentent à la vie privée des personnes concernées qui doivent révéler des informations personnelles et parfois sensibles, comme par exemple leur maladie ou leur niveau de richesse.
+
+La confidentialité différentielle permet de rendre possible des enquêtes globales, tout en limitant les informations que l'on peut obtenir d'une personne particulière.
+
+Le but de cette activité, basée sur le jeu \emph{Qui est-ce ?}, est d'illustrer une technique de confidentialité différentielle : la réponse randomisée. Le principe est simple : lorsqu'une question est posée à une personne, cette dernière choisit aléatoirement de mentir ou de dire la vérité. Selon la probabilité de mentir, les résultats globaux de l'enquête seront plus ou moins perturbés mais il sera difficile de connaître les réponses d'un individu particulier.
+
+
+\encart{Matériel}{
+  \begin{itemize}
+  \item 24 cartes personnages, avec 3 caractéristiques variables
+%  \item autant de longs clous que de trous,
+  \item 1 dé, ou autre source d'aléas
+  \item 4 cartes objectifs globaux
+   \item 4 cartes objectifs personnels
+  \end{itemize}
+}
+
+
+\section*{Déroulement de l'activité}
+
+Tout d'abord, une personne est désignée dans le groupe et sera \enquote{l'enquêteur}. C'est elle qui posera les questions aux autres joueurs, qui seront les \enquote{répondants}.
+
+L'enquêteur tire une carte \enquote{objectif global} et une carte \enquote{objectif personnel}. L'objectif global est correspond au résultat d'une enquête sur l'ensemble des répondants, l'objectif personnel est une information privée que l'enquêteur doit trouver sur un répondant en particulier.
+
+Chaque répondant va ensuite choisir secrètement un nombre dans sa tête et le marquer sur un bout de papier. Il ne dit ni ne montre ce nombre à personne.
+
+L'activité se déroule en deux phases durant lesquelles l'enquêteur a droit à un nombre limité de questions (en fonction du temps disponible) pour réaliser ses deux objectifs.
+
+Lors de la première phase, un dé est lancé à chaque question.
+Si le dé correspond au nombre qu'il a choisi, le répondant ment. Sinon il dit la vérité.
+
+Lors de la deuxième phase, tout le monde dit la vérité.
+
+
+
+\section*{Objectif pédagogique et complément scientifique}
+Le but de cette activité est d'illustrer une technique de protection de la vie privée.
+Normalement l'objectif global devrait être rempli tandis que l'objectif personnel devrait échouer.
+Il s'agit de sensibiliser au fait qu'il est possible de collecter des données utiles tout en limitant l'impact sur la vie privée.
+
+\subsection*{Réponse randomisée}
+
+Le mécanisme de réponse randomisée a été introduit par le sociologue Stanley Warner en 1965~\cite{rr} afin de mener des enquêtes sur des sujets sensibles, par exemple estimer la proportion de tricheurs parmi les étudiants~\cite{scheers1987improved}, ou de recours à l'avortement~\cite{abernathy1970estimates}.
+
+Une description de ce mécanisme se résume par la suite d'étapes ci-dessous :
+\begin{itemize}
+	\item L'enquêteur pose une question fermée (dont la réponse est oui ou non) au participant
+	\item Le ou la participant.e répond la vérité avec une certaine probabilité $p$ connue de l'enquêteur, et ment sinon (par exemple, il peut jeter un dé, et mentir si le résultat est $1$ et dire la vérité sinon ; on aura alors $p=\frac{5}{6}$)
+	\item L'enquêteur récupère la réponse sans savoir si elle est vraie (le ou la participant.e peut toujours nier sa réponse du fait du protocole)
+	\item Avec un nombre suffisant de réponses, des statistiques fiables peuvent quand même être établies
+\end{itemize}
+
+\subsection*{Confidentialité différentielle}
+
+La confidentialité différentielle est un formalisme récent de la notion de vie privée, proposé puis complété par Cynthia Dwork depuis une dizaine d'années~\cite{TCS-042,differential-privacy}.
+Cette notion constitue la référence actuel en matière de confidentialité et de protection de la vie privée.
+
+L'idée générale est que la réponse à une question sur un ensemble d'individus n'est que très faiblement liée à la présence ou à l'absence d'un individu spécifique.
+En particulier, la réponse randomisée répond à cette définition.
+
+\newpage
+\section*{Description du prototype fourni}
+
+
+\subsubsection*{Cartes personnages}
+Un jeu de 24 cartes avec 3 caractéristiques
+\begin{itemize}
+\item La couleur du chat (marron, roux, blanche)
+\item La forme des yeux (petit, allongé, grand)
+\item Un accessoire (le chapeau, walkman, bandana, noeud papillon)
+\end{itemize}
+
+\subsection*{Objectifs globaux}
+Quelques objectifs statistiques pouvant être réalisés avec ces personnages
+
+\begin{itemize}
+
+\item Quel est le nombre de chats roux écoutant de la musique ?
+\item Est-ce que les chats blancs ont plus de chance d'avoir des petits yeux que les autres ?
+\item Y a-t-il plus de chats marrons portant un nœud papillon ou de chats roux avec les yeux allongés ?
+\item Quelle est la couleur la plus représentée parmi les chats qui portent un bandana ?
+
+\end{itemize}
+
+\subsection*{Objectifs personnels}
+Quelques objectifs personnels pouvant être réalisés avec ces personnages
+
+\begin{itemize}
+
+\item Quel joueur a le chat roux aux grand yeux et écoutant de la musique ?
+\item Quel joueur a le chat blanc aux petits yeux et portant un bandana ?
+\item Choisissez un joueur. Quelles sont les caractéristiques du chat de ce joueur ?
+\item Identifiez les chats marrons à gros yeux et n'ayant pas de chapeau.
+
+\end{itemize}
+
+
+\bibliography{biblio}
+\bibliographystyle{plain}
+
+
+
+\newpage
+
+\section*{Cartes personnages à découper}
+
+  \includegraphics[scale=0.45]{out/37.png}
+  \includegraphics[scale=0.45]{out/4.png}
+  \includegraphics[scale=0.45]{out/7.png}
+  \includegraphics[scale=0.45]{out/10.png}
+  \includegraphics[scale=0.45]{out/85.png}
+  \includegraphics[scale=0.45]{out/16.png}
+  \includegraphics[scale=0.45]{out/56.png}
+  \includegraphics[scale=0.45]{out/95.png}
+  \includegraphics[scale=0.45]{out/62.png}
+  \includegraphics[scale=0.45]{out/29.png}
+  \includegraphics[scale=0.45]{out/68.png}
+  \includegraphics[scale=0.45]{out/107.png}
+  \includegraphics[scale=0.45]{out/75.png}
+  \includegraphics[scale=0.45]{out/96.png}
+  \includegraphics[scale=0.45]{out/81.png}
+  \includegraphics[scale=0.45]{out/84.png}
+  \includegraphics[scale=0.45]{out/69.png}
+  \includegraphics[scale=0.45]{out/18.png}
+
+  Images : \url{https://github.com/NoahDragon/cat-generator-avatars}
+
+  \section*{Connaissances de l'attaquant (ne pas découper)}
+
+  \includegraphics[scale=0.45]{out/1.png}
+  \includegraphics[scale=0.45]{out/4.png}
+  \includegraphics[scale=0.45]{out/7.png}
+  \includegraphics[scale=0.45]{out/10.png}
+  \includegraphics[scale=0.45]{out/13.png}
+  \includegraphics[scale=0.45]{out/16.png}
+  \includegraphics[scale=0.45]{out/20.png}
+  \includegraphics[scale=0.45]{out/23.png}
+  \includegraphics[scale=0.45]{out/26.png}
+  \includegraphics[scale=0.45]{out/29.png}
+  \includegraphics[scale=0.45]{out/32.png}
+  \includegraphics[scale=0.45]{out/35.png}
+  \includegraphics[scale=0.45]{out/3.png}
+  \includegraphics[scale=0.45]{out/24.png}
+  \includegraphics[scale=0.45]{out/9.png}
+  \includegraphics[scale=0.45]{out/12.png}
+  \includegraphics[scale=0.45]{out/33.png}
+  \includegraphics[scale=0.45]{out/18.png}
+
+
+
+
+  Images : \url{https://github.com/NoahDragon/cat-generator-avatars}
+
+\section*{Cartes objectifs globaux à découper}
+
+\begin{center}
+
+	\begin{tabular}{|>{\centering\arraybackslash}p{7cm}|>{\centering\arraybackslash}p{7cm}|}
+	\hline \vspace{2mm}
+	\Large{Quel est le nombre de chats roux écoutant de la musique ?} \vspace{2mm}& \vspace{2mm} \Large{Est-ce que les chats blancs ont plus de chance d'avoir des petits yeux que les autres ?} \vspace{2mm} \\
+\hline \vspace{2mm}
+	\Large{Y a-t-il plus de chats marrons portant un nœud papillon ou de chats roux avec les yeux allongés ?} \vspace{2mm}& \vspace{2mm} \Large{Quelle est la couleur la plus présente parmi les chats qui portent un bandana ?} \vspace{2mm} \\
+	\hline
+	\end{tabular}
+
+\end{center}
+
+
+\section*{Cartes objectifs personnels à découper}
+
+
+\begin{center}
+
+	\begin{tabular}{|>{\centering\arraybackslash}p{7cm}|>{\centering\arraybackslash}p{7cm}|}
+	\hline \vspace{2mm}
+	\Large{Quel joueur a le chat roux aux grand yeux et écoutant de la musique ?} \vspace{2mm}& \vspace{2mm} \Large{Quel joueur a le chat blanc aux petits yeux et portant un bandana ?} \vspace{2mm} \\
+\hline \vspace{2mm}
+	\Large{Choisissez un joueur. Quelles sont les caractéristiques du chat de ce joueur ?} \vspace{2mm}& \vspace{2mm} \Large{Identifiez les chats marrons à gros yeux et n'ayant pas de chapeau.} \vspace{2mm} \\
+	\hline
+	\end{tabular}
+
+\end{center}
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
