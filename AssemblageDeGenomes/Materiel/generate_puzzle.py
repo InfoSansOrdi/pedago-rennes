@@ -27,7 +27,7 @@ A4_margin = (20, 33)
 
 ###
 # DRAWING PARAMETERS
-Identifiant = 0.5
+Identifiant = 0.65
 Indication = (0.8, 0.05)
 Text_size = 3
 Solution_text_factor = 1.05
@@ -116,7 +116,7 @@ def draw_stripes (x, y, w, h, dir, n, col) :
     for _ in range(n + 1) :
         line = f'\t\t\t\t<line x1="{top_x}" y1="{y}" ' \
             + f'x2="{bottom_x}" y2="{y + h}" ' \
-            + f'style="stroke:{col};stroke-width:0.3" />\n'
+            + f'style="stroke:{col};stroke-width:0.5" />\n'
         stripes = stripes + line
         top_x = top_x + stripe_offset
         bottom_x = bottom_x + stripe_offset
@@ -132,7 +132,7 @@ def draw_color_indication (x, y, col) :
     indication_width = Nucleotide[0] * Indication[0]
     indication_height = Nucleotide[1] * Indication[1] * 2
     indication_padding = (Nucleotide[0] - indication_width) / 2
-    number_of_stripes = 15
+    number_of_stripes = 8
     s = draw_stripes(x + indication_padding, y, indication_width, \
         indication_height, 'T', number_of_stripes, col)
     s = s + draw_stripes(x + indication_padding, \
@@ -308,6 +308,9 @@ def draw_piece \
 
     Y = offset_y
     X = offset_x + Nucleotide[0] * Identifiant # if not reverse else offset_x
+
+    if reverse :
+        sequence = reverse_complement(sequence)
 
     sequence_svg = '\t<g type="sequence">' \
         + draw_sequence(sequence, X, Y) \
