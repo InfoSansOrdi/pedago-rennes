@@ -367,6 +367,26 @@ Public cible: CM1/CM2.
 * [Dossier Nim](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Nim)
 
 ---
+## Jeu du labyrinthe
+Notions introduites: chemin dans un graphe, mot/langage reconnu par un automate
+### Concepts
+* Algorithmes(\*\*)
+* Langages(\*)
+* Information(.)
+* Machine(.)
+### Compétences
+* Pensée algorithmique(.)
+* Abstraction(\*)
+* Décomposition(\*\*)
+* Généralisation et motifs(\*)
+* Évaluation(.)
+* Logique(\*)
+### Maturité, public cible
+CM1-CM2 (et plus)
+### Ressources
+* [Dossier Labyrinthe](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Labyrinthe)
+
+---
 ## Le mage, l'aventurier et le château hanté
 
 ### Concepts
