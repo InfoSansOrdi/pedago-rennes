@@ -7,6 +7,10 @@ Vous trouverez également des données concernant les ressources disponibles, et
 
 En fin de sommaire sont disponibles des sites où trouver des activités débranchées, ainsi que des exemples d'exposés.
 
+Références:
+* [Les quatre concepts de l'informatique](http://www.lsv.fr/~dowek/Philo/quatre.pdf), Gilles Dowek 
+* [Computational thinking](https://csunplugged.org/en/computational-thinking), CS Unplugged
+
 # Communication scientifique 
 
 Ce dépôt contient le matériel nécessaire au module de communication scientifique de l'ENS Rennes (nommé localement pédago1).
@@ -25,7 +29,7 @@ Insérez vos fichiers au format Année\_NomsEleves\_Fichier contenant les ressou
 faut l'indiquer dans vos fichiers.
 
 ---
-## Algorithmes de tri
+## Alice déménage
 ### Concepts
 * Algorithmes(\*\*)
 * Langages(.)
@@ -42,26 +46,21 @@ faut l'indiquer dans vos fichiers.
 Prêt à l'emploi
 CM1/CM2
 ### Ressources
-* [Dossier AlgoDeTri](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/AlgoDeTri)
+* [Dossier AliceDemenage](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/AliceDemenage)
 
 ---
-## Alice déménage
+## Algorithmes de tri
 ### Concepts
 * Algorithmes(\*\*)
 * Langages(.)
 * Information(.)
 * Machine(.)
 ### Compétences
-* Pensée algorithmique(\*\*)
-* Abstraction(.)
-* Décomposition(\*)
-* Généralisation et motifs(.)
-* Évaluation(.)
-* Logique(\*)
+TODO
 ### Maturité, public cible
-Primaire
+TODO
 ### Ressources
-* [Dossier AliceDemenage](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/AliceDemenage)
+* [Dossier AlgoDeTri](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/AlgoDeTri)
 
 ---
 ## Arbres de décision
@@ -116,16 +115,53 @@ Activité classique, testée en cycle 3, formation enseignant
 * [Dossier Blasons](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Blasons)
 
 ---
+## C'est le bazar
+### Concepts
+* Algorithmes(\*\*)
+* Langages(.)
+* Information(\*)
+* Machine(\*)
+### Compétences
+* Pensée algorithmique(\*\*)
+* Abstraction(.)
+* Décomposition(.)
+* Généralisation et motifs(.)
+* Evaluation(.)
+* Logique(.)
+### Maturité, public cible
+6ème
+### Ressources
+* [Dossier CEstLeBazar](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/CEstLeBazar)
+
+---
 ## Caméléons
 Activité de logique propositionnelle inventée par Pablo Espana-Gutierrez en Pédago 1.
+Divisée en cinq chapitres qui couvrent la plupart des concepts.
+1. Introduction et découverte
+2. Backtracking, De Morgan, NNF
+3. Logique ternaire et bugs
+4. Jeux sémantiques de Hintikka
+5. XOR et additionneurs n-bits
+
 ### Concepts
-TODO
+* Langage(\*)
+* Information(\*)
+* Algorithmes(\*\*)
+* Machine(\*\*)
 ### Compétences
-TODO
+* Pensée algorithmique(\*\*)
+* Abstraction(\*\*)
+* Décomposition(\*)
+* Généralisation et motifs(\*\*)
+* Évaluation(.)
+* Logique(\*\*)
 ### Maturité, public cible
-C'est tout nouveau ! Mais le site a l'air complet.
+Activité jeune (2020) mais complète au niveau des ressources.
+D'autres chapitres (TQBF, réseaux de neurones) pourraient être ajoutés dans le futur.
+Cible primaire, collège.
 ### Ressources
 * [Page détaillant l'activité](https://algopi.fr/?page_id=151)
+* [Page de ressources](https://algopi.fr/?page_id=256)
 
 ---
 ## Cargobot
@@ -160,17 +196,12 @@ A partir de la 6ème
 ### Concepts
 * Algorithmes(\*\*)
 * Langages(.)
-* Information(\*)
-* Machine(\*)
+* Information(.)
+* Machine(.)
 ### Compétences
-* Pensée algorithmique(\*\*)
-* Abstraction(.)
-* Décomposition(.)
-* Généralisation et motifs(.)
-* Evaluation(.)
-* Logique(.)
+TODO
 ### Maturité, public cible
-6ème
+TODO
 ### Ressources
 * [Dossier CEstLeBazar](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/CEstLeBazar)
 
@@ -290,6 +321,21 @@ TODO
 * [Dossier IleAuTresor](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/IleAuTresor)
 
 ---
+## Labyrinthe
+Notions introduites: chemin dans un graphe, mot/langage reconnu par un automate
+### Concepts
+* Algorithmes(\*\*)
+* Langages(.)
+* Information(.)
+* Machine(.)
+### Compétences
+TODO
+### Maturité, public cible
+TODO
+### Ressources
+* [Dossier Labyrinthe](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Labyrinthe)
+
+---
 ## Jeu de Nim
 Deux joueurs s’affrontent et tentent de déterminer une stratégie gagnante.
 Mots-clefs:
@@ -328,7 +374,7 @@ Notions introduites: chemin dans un graphe, mot/langage reconnu par un automate
 * Évaluation(.)
 * Logique(\*)
 ### Maturité, public cible
-TODO
+CM1-CM2 (et plus)
 ### Ressources
 * [Dossier Labyrinthe](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Labyrinthe)
 
@@ -392,6 +438,9 @@ Activité prête à l'emploi.
 CE2/CM1/CM2
 ### Ressources
 * [Dossier Marmottes](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Marmottes)
+
+---
+## M-999/le truc, là
 
 ---
 ## Le journal du pirate
