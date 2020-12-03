@@ -108,19 +108,37 @@ def reverse_complement (seq) :
 # Params: None
 # Return: None
 #******************************************************************************#
+def draw_stripes (x, y, w, h, dir, n, col) :
+    stripe_offset = w / (n + 1)
+    top_x = x + (0 if dir == 'B' else stripe_offset)
+    bottom_x = x + (0 if dir == 'T' else stripe_offset)
+    stripes = f'\t\t\t<g type="stripes" direction="{dir}">\n'
+    for _ in range(n + 1) :
+        line = f'\t\t\t\t<line x1="{top_x}" y1="{y}" ' \
+            + f'x2="{bottom_x}" y2="{y + h}" ' \
+            + f'style="stroke:{col};stroke-width:0.3" />\n'
+        stripes = stripes + line
+        top_x = top_x + stripe_offset
+        bottom_x = bottom_x + stripe_offset
+    stripes = stripes + '\t\t\t</g>\n'
+    return stripes
+
+#******************************************************************************#
+# Function: main function executing the project
+# Params: None
+# Return: None
+#******************************************************************************#
 def draw_color_indication (x, y, col) :
     indication_width = Nucleotide[0] * Indication[0]
-    indication_height = Nucleotide[1] * Indication[1]
+    indication_height = Nucleotide[1] * Indication[1] * 2
     indication_padding = (Nucleotide[0] - indication_width) / 2
-    rects = ''
-    rects = rects + f'\t\t\t<rect x="{x + indication_padding}" y="{y}" ' \
-        + f'width="{indication_width}" height="{indication_height}" ' \
-        + f'stroke="{col}" stroke-width="1" fill="{col}" rx="2"/>\n'
-    rects = rects + f'\t\t\t<rect x="{x + indication_padding}" ' \
-        + f'y="{y + Nucleotide[1] - indication_height}" '\
-        + f'width="{indication_width}" height="{indication_height}" '\
-        + f'stroke="{col}" stroke-width="1" fill="{col}" rx="2"/>\n'
-    return rects
+    number_of_stripes = 15
+    s = draw_stripes(x + indication_padding, y, indication_width, \
+        indication_height, 'T', number_of_stripes, col)
+    s = s + draw_stripes(x + indication_padding, \
+        y + Nucleotide[1] - indication_height, indication_width, \
+        indication_height, 'B', number_of_stripes, col)
+    return s
 
 #******************************************************************************#
 # Function: main function executing the project
@@ -385,8 +403,6 @@ def draw_fasta_sequences (fasta, withReverse=False):
                     color='black', reverse=True)
                 offset_y = offset_y + Nucleotide[1]
             SVGs.append(svg_format(SVG_R))
-        else:
-            SVGs.append(svg_format(''))
         Sequences = Sequences[Sequence_per_page:]
     return SVGs
 
