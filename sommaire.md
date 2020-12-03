@@ -53,6 +53,20 @@ TODO
 * [Dossier AlgoDeTri](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/AlgoDeTri)
 
 ---
+## Assemblage de Génome
+### Concepts
+* Algorithmes(\*\*)
+* Langages(.)
+* Information(.)
+* Machine(.)
+### Compétences
+TODO
+### Maturité, public cible
+TODO
+### Ressources
+* [Dossier AssemblageDeGenomes](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/AssemblageDeGenomes)
+
+---
 ## Arbres de décision
 ### Concepts
 TODO
