@@ -188,6 +188,14 @@ A partir de la 6ème
 
 ---
 ## Cache-cache avec la RAM
+### Concepts
+* Algorithmes(.)
+* Langages(.)
+* Information(.)
+* Machine(\*\*)
+### Compétences
+*  (DESCRIPTION EN COURS)
+### Maturité, public cible
 ### Ressources
 * [Site de Marie Duflot](https://members.loria.fr/MDuflot/files/med/memoirecache.html)
 
