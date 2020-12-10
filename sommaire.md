@@ -91,6 +91,22 @@ CM1/CM2
 * [Dossier AliceDemenage](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/AliceDemenage)
 
 ---
+## Analyse statique de recettes
+### Concepts
+* Algorithmes(\*\*)
+* Langages(\*)
+* Information(.)
+* Machine(.)
+### Compétences
+* Pensée algorithmique(\*\*)
+* Abstraction(\*\*)
+* Décomposition(\*)
+* Généralisation et motifs(.)
+* Évaluation(?)
+* Logique(.)
+
+
+---
 ## Assemblage de Génome
 ### Concepts
 * Algorithmes(\*\*)
