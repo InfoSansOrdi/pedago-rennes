@@ -442,7 +442,7 @@ CM1-CM2 (et plus)
 ### Maturié, public visé ###
 * ? - à tester.
 ### Ressources
-* [Dossier Mineurs](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Mineurs)
+* [Dossier Mineurs](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Mineurs) - à noter que les ressources ne sont pascomplètes. Il manque le matériel brut.
 
 ---
 ## Marmottes au sommeil léger
