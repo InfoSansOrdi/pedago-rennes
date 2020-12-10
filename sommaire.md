@@ -169,6 +169,27 @@ TODO
 * [Dossier ChateauxMagiques](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/ChateauxMagiques)
 
 ---
+## Communications Réseaux
+Les élèves incarnent des routeurs et doivent transmettre des paquets réseaux.
+### Concepts
+* Algorithmes(\*)
+* Langages(.)
+* Information(\*)
+* Machine(\*\*)
+### Compétences
+* Pensée algorithmique(\*)
+* Abstraction(.)
+* Décomposition(\*)
+* Généralisation et motifs(\*)
+* Évaluation(.)
+* Logique(.)
+### Maturité, public cible
+Activité prête à l'emploi
+CE2/CM1/CM2
+### Ressources
+
+
+---
 ## Compter en binaire
 Apprendre à compter en binaire et connaître la représentation des nombres.
 Mots-clefs:
