@@ -29,27 +29,8 @@ Insérez vos fichiers au format Année\_NomsEleves\_Fichier contenant les ressou
 faut l'indiquer dans vos fichiers.
 
 ---
-## Alice déménage
-### Concepts
-* Algorithmes(\*\*)
-* Langages(.)
-* Information(.)
-* Machine(.)
-### Compétences
-* Pensée algorithmique(\*\*)
-* Abstraction(.)
-* Décomposition(.)
-* Généralisation et motifs(\*)
-* Évaluation(.)
-* Logique(\*)
-### Maturité, public cible
-Prêt à l'emploi
-CM1/CM2
-### Ressources
-* [Dossier AliceDemenage](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/AliceDemenage)
-
----
 ## Algorithmes de tri
+Découvrir la puissance d’un algorithme de tri classique.
 ### Concepts
 * Algorithmes(\*\*)
 * Langages(.)
@@ -67,6 +48,27 @@ Prêt à l'emploi
 CM1-CM2
 ### Ressources
 * [Dossier AlgoDeTri](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/AlgoDeTri)
+
+---
+## Alice déménage
+Alice veut déménager et doit empiler des paquets sur sa voiture mais pas trop haut ! Comment faire pour tout ranger en minimisant la hauteur ?
+### Concepts
+* Algorithmes(\*\*)
+* Langages(.)
+* Information(.)
+* Machine(.)
+### Compétences
+* Pensée algorithmique(\*\*)
+* Abstraction(.)
+* Décomposition(.)
+* Généralisation et motifs(\*)
+* Évaluation(.)
+* Logique(\*)
+### Maturité, public cible
+Prêt à l'emploi
+CM1/CM2
+### Ressources
+* [Dossier AliceDemenage](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/AliceDemenage)
 
 ---
 ## Arbres de décision
