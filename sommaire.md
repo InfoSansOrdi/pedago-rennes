@@ -413,13 +413,16 @@ CM1-CM2 (et plus)
 ## Les mineurs (arbre couvrant minimal)
 ### Concepts
 * Algorithmes(\*\*)
-* Langages(.)
+* Langages(\*)
 * Information(.)
 * Machine(.)
 ### Compétences
-TODO
-### Maturité, public cible
-TODO
+* Pensée algorithmique(\*\*)
+* Abstraction()
+* Décomposition(.)
+* Généralisation et motifs(\*)
+* Evaluation(.)
+* Logique()
 ### Ressources
 * [Dossier Mineurs](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Mineurs)
 

@@ -6,5 +6,3 @@ minimal. C'est un repackaging de la ville embourbée (venue du livre
 Unplug) avec des galeries de nains et des diamants. Malheureusement,
 les dessins créés pour l'occasion n'ont pas encore été scannés.
 
-La seconde activité se trouve être celle du crépier psychorigide,
-reprise des activités de M. Quinson.
