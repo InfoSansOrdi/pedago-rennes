@@ -148,7 +148,6 @@ Divisée en cinq chapitres qui couvrent la plupart des concepts.
 3. Logique ternaire et bugs
 4. Jeux sémantiques de Hintikka
 5. XOR et additionneurs n-bits
-
 ### Concepts
 * Langage(\*)
 * Information(\*)
@@ -210,8 +209,6 @@ A partir de la 6ème
 ### Concepts
 * Algorithmes(\*\*)
 * Langages(.)
-* Information(.)
-* Machine(.)
 * Information(\*)
 * Machine(\*)
 ### Compétences
@@ -228,18 +225,21 @@ A partir de la 6ème
 
 ---
 ## Châteaux magiques
-Mots-clefs:
-* __Automates finis__
-* __Langage (associé à un automate)__
 ### Concepts
 * Algorithmes(\*\*)
 * Langages(\*)
 * Information(.)
 * Machine(.)
 ### Compétences
-TODO
+* Pensée algorithmique(.)
+* Abstraction(\*)
+* Décomposition(.)
+* Généralisation et motifs(\*)
+* Evaluation(.)
+* Logique(\*)
 ### Maturité, public cible
-TODO
+Prêt à l'emploi
+CM1-CM2
 ### Ressources:
 * [Dossier ChateauxMagiques](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/ChateauxMagiques)
 
