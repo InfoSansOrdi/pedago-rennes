@@ -238,7 +238,7 @@ A partir de la 6ème
 * Evaluation(.)
 * Logique(\*)
 ### Maturité, public cible
-Prêt à l'emploi
+Une fiche de prep et un materiel 
 CM1-CM2
 ### Ressources:
 * [Dossier ChateauxMagiques](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/ChateauxMagiques)
