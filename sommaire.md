@@ -29,7 +29,29 @@ Insérez vos fichiers au format Année\_NomsEleves\_Fichier contenant les ressou
 faut l'indiquer dans vos fichiers.
 
 ---
+## Algorithmes de tri
+Découvrir la puissance d’un algorithme de tri classique.
+### Concepts
+* Algorithmes(\*\*)
+* Langages(.)
+* Information(.)
+* Machine(.)
+### Compétences
+* Pensée algorithmique(\*\*)
+* Abstraction(.)
+* Décomposition(\*)
+* Généralisation et motifs(.)
+* Évaluation(.)
+* Logique(\*)
+### Maturité, public cible
+Prêt à l'emploi
+CM1-CM2
+### Ressources
+* [Dossier AlgoDeTri](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/AlgoDeTri)
+
+---
 ## Alice déménage
+Alice veut déménager et doit empiler des paquets sur sa voiture mais pas trop haut ! Comment faire pour tout ranger en minimisant la hauteur ?
 ### Concepts
 * Algorithmes(\*\*)
 * Langages(.)
@@ -47,20 +69,6 @@ Prêt à l'emploi
 CM1/CM2
 ### Ressources
 * [Dossier AliceDemenage](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/AliceDemenage)
-
----
-## Algorithmes de tri
-### Concepts
-* Algorithmes(\*\*)
-* Langages(.)
-* Information(.)
-* Machine(.)
-### Compétences
-TODO
-### Maturité, public cible
-TODO
-### Ressources
-* [Dossier AlgoDeTri](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/AlgoDeTri)
 
 ---
 ## Arbres de décision
@@ -142,7 +150,6 @@ Divisée en cinq chapitres qui couvrent la plupart des concepts.
 3. Logique ternaire et bugs
 4. Jeux sémantiques de Hintikka
 5. XOR et additionneurs n-bits
-
 ### Concepts
 * Langage(\*)
 * Information(\*)
@@ -204,29 +211,38 @@ A partir de la 6ème
 ### Concepts
 * Algorithmes(\*\*)
 * Langages(.)
-* Information(.)
-* Machine(.)
+* Information(\*)
+* Machine(\*)
 ### Compétences
-TODO
+* Pensée algorithmique(\*\*)
+* Abstraction(.)
+* Décomposition(.)
+* Généralisation et motifs(.)
+* Evaluation(.)
+* Logique(.)
 ### Maturité, public cible
-TODO
+6ème
 ### Ressources
 * [Dossier CEstLeBazar](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/CEstLeBazar)
 
 ---
 ## Châteaux magiques
-Mots-clefs:
-* __Automates finis__
-* __Langage (associé à un automate)__
+Le roi a été enlevé, et les héros du royaume doivent le retrouver dans la salle du trône du château ennemi. Malheureusement, tous les couloirs du château sont protégés par des sortilèges, et les héros ont besoin de l’aide d’un magicien pour se déplacer entre les salles.
 ### Concepts
 * Algorithmes(\*\*)
 * Langages(\*)
 * Information(.)
 * Machine(.)
 ### Compétences
-TODO
+* Pensée algorithmique(.)
+* Abstraction(\*)
+* Décomposition(.)
+* Généralisation et motifs(\*)
+* Evaluation(.)
+* Logique(\*)
 ### Maturité, public cible
-TODO
+Une fiche de prep et un materiel 
+CM1-CM2
 ### Ressources:
 * [Dossier ChateauxMagiques](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/ChateauxMagiques)
 
