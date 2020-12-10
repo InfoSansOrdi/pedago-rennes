@@ -420,7 +420,7 @@ CM1-CM2 (et plus)
 * Logique(\*\*): Les règles sont en réalité des formules de logique temporelle.
 
 ### Maturité, public visé
-* TODO
+* ? - à tester.
 
 ### Ressources
 * [Dossier MageAventurierChateau](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/MageAventurierChateau)
@@ -439,6 +439,8 @@ CM1-CM2 (et plus)
 * Généralisation et motifs(\*)
 * Evaluation(.)
 * Logique()
+### Maturié, public visé ###
+* ? - à tester.
 ### Ressources
 * [Dossier Mineurs](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Mineurs)
 
