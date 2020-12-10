@@ -212,10 +212,17 @@ A partir de la 6ème
 * Langages(.)
 * Information(.)
 * Machine(.)
+* Information(\*)
+* Machine(\*)
 ### Compétences
-TODO
+* Pensée algorithmique(\*\*)
+* Abstraction(.)
+* Décomposition(.)
+* Généralisation et motifs(.)
+* Evaluation(.)
+* Logique(.)
 ### Maturité, public cible
-TODO
+6ème
 ### Ressources
 * [Dossier CEstLeBazar](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/CEstLeBazar)
 
