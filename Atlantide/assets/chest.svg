@@ -12,8 +12,8 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg8"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="coffre.svg">
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="chest.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -24,8 +24,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="507.00548"
-     inkscape:cy="444.40723"
+     inkscape:cx="674.64555"
+     inkscape:cy="293.25241"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -33,7 +33,7 @@
      showguides="false"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
-     inkscape:window-x="-8"
+     inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1" />
   <metadata
@@ -53,7 +53,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       transform="translate(-26.458333,-60.47619)"
+       transform="matrix(0.50795337,0,0,0.50800025,-12.038991,-12.950966)"
        id="g2501">
       <rect
          style="fill:#8c5630;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.523033;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:5.79969;stroke-opacity:1"
@@ -98,7 +98,7 @@
          sodipodi:nodetypes="cc" />
     </g>
     <g
-       transform="translate(-34.465147,-58.457561)"
+       transform="matrix(0.50801077,0,0,0.50801077,-5.7617125,-12.496859)"
        id="g2490">
       <path
          style="fill:#8c5630;fill-opacity:1;stroke:#000000;stroke-width:0.727411;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -137,7 +137,7 @@
     </g>
     <g
        id="g2490-8"
-       transform="matrix(-1.0013937,0,0,0.99806469,248.37024,-56.011318)">
+       transform="matrix(-0.50970522,0,0,0.50801077,116.79366,-12.404772)">
       <path
          sodipodi:nodetypes="cccccc"
          id="path876-0-01"
