@@ -53,6 +53,22 @@ TODO
 * [Dossier AlgoDeTri](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/AlgoDeTri)
 
 ---
+## Analyse statique de recettes
+### Concepts
+* Algorithmes(\*\*)
+* Langages(\*)
+* Information(.)
+* Machine(.)
+### Compétences
+* Pensée algorithmique(\*\*)
+* Abstraction(\*\*)
+* Décomposition(\*)
+* Généralisation et motifs(.)
+* Évaluation(?)
+* Logique(.)
+
+
+---
 ## Assemblage de Génome
 ### Concepts
 * Algorithmes(\*\*)
