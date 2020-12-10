@@ -473,6 +473,20 @@ TODO
 ### Ressources
 * [Pixees](https://pixees.fr/la-traversee-de-riviere/)
 
+---
+## Atlantide
+### Concepts
+* Algorithmes(\*)
+* Langages(.)
+* Information(\*\*)
+* Machine(\*\*)
+### Compétences
+TODO
+### Maturité, public cible
+Tout public.
+### Ressources
+* [Atlantide](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/Atlantide)
+
 # Collections d'activités débranchées
 
 Cette liste regroupe des sites dans lesquels vous trouverez des
