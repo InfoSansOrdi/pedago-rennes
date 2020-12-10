@@ -227,6 +227,7 @@ A partir de la 6ème
 
 ---
 ## Châteaux magiques
+Le roi a été enlevé, et les héros du royaume doivent le retrouver dans la salle du trône du château ennemi. Malheureusement, tous les couloirs du château sont protégés par des sortilèges, et les héros ont besoin de l’aide d’un magicien pour se déplacer entre les salles.
 ### Concepts
 * Algorithmes(\*\*)
 * Langages(\*)
