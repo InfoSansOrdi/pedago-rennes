@@ -1,5 +1,5 @@
 Ce document présente une activité débranché basé sur le langage décris dans
-[apprendre_langage](../apprendre_langage) pour introduire [l'analyse d'expression
+[apprendre_langage](../apprendre_langage.md) pour introduire [l'analyse d'expression
 disponible](https://en.wikipedia.org/wiki/Available_expression) aux apprenants.
 Cette analyse a pour objectif de simplifier les recettes et de les rendre plus
 simple à faire. Dans cette activité, nous espérons que les apprenants
