@@ -1,5 +1,9 @@
 # ASSEMBLAGE
 
+Kerian Thuillier et Joseph Cabrita
+
+*Copyright 2020 - Licence: cc-by-sa*
+
 ## Objectif
 
 L'objectif de cette activité est de faire comprendre le principe et la complexité de l'assemblage de génome.
