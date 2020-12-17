@@ -26,7 +26,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.54208086"
      inkscape:cx="237.35107"
-     inkscape:cy="842.4155"
+     inkscape:cy="547.25658"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -59,6 +59,14 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Objects">
+    <rect
+       style="fill:#ffffff;stroke-width:0.264583"
+       id="rect3450"
+       width="343.12607"
+       height="404.13712"
+       x="-41.975594"
+       y="-27.332945"
+       ry="0.17172489" />
     <g
        id="g3313"
        transform="translate(-28.811403,1.2191375)">
