@@ -505,7 +505,7 @@ Entre CM2 et lycée.
 * [Dossier ModelisationVerification](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/ModelisationVerification)
 
 ---
-## Plus court chemin ou voyageur de commerce sur une planche à clous
+## Le facteur paresseux
 ### Concepts
 * Algorithmes(\*\*)
 * Langages(.)
