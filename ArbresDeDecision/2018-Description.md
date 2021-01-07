@@ -9,6 +9,8 @@ Le matériel se composerait de 16 cartes représentant des masques, chacun étan
 - Cornes: forme, taille, couleur
 - Oreilles: taille, couleur
 - Sourcils: forme, couleur
+
+Les valeurs possibles pour les caractéristiques sont:
 - Forme: carré ou triangle.
 - Couleur: foncé ou clair (de la teinte qu'on veut).
 - Taille: petit ou grand.

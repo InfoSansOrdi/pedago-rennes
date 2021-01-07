@@ -7,6 +7,28 @@ Vous trouverez également des données concernant les ressources disponibles, et
 
 En fin de sommaire sont disponibles des sites où trouver des activités débranchées, ainsi que des exemples d'exposés.
 
+## Définitions des catégories
+
+Afin de mieux comprendre ce sommaire, voici une définition succincte de chaque catégorie permettant de classifier les activités.
+
+Les concepts sont ceux établis par Gilles Dowek, dans sa classification des concepts informatiques.
+
+Les compétences sont celle décrites par [csunplugged](https://www.csunplugged.org/en/computational-thinking/) comme étant celles de la pensée informatique.
+
+### Concepts
+* Algorithmes : l'activité permet de découvrir la notion d'algorithme, soit en demandant d'en concevoir, soit en demandant d'en suivre (que ce soit explicite ou non).
+* Langages : la notion de langage est travaillée, en tant que moyen de communication standardisé, aussi bien les langages de programmation que les langages de description sont concernés (on ne considère pas les langages formels dans cette catégorie).
+* Information : la représentation des données, l'encodage de l'information et/ou leur transmission sur des canaux sont travaillés.
+* Machine : le fonctionnement matériel de l'informatique est abordé au cours de l'activité.
+
+### Compétences
+* Pensée algorithmique : cette compétence correspond au processus de création d'un algorithme, c'est à dire la création d'une solution générale à un problème, avec une description étape par étape, même informelle (explication orale ou pseudo-code plutôt que programme dans un langage bien défini).
+* Abstraction : cette compétence est celle de la simplification de la complexité, ignorer les bons détails permettant de traiter plus efficacement un problème. Elle requiert la capacité à identifier ce qui est important et ce que ni l'est pas, et est au coeur de l'activité de modélisation.
+* Décomposition : comme son nom l'indique, la décomposition correspond à la compétence de décomposer, par exemple une tâche en sous-tâches, un modèle en ses parties, etc. Cette compétence est par exemple nécessaire à la conception d'un algorithme dont chaque étape résulte de la décomposition d'un problème en plusieurs étapes de résolution.
+* Généralisation et motifs : la généralisation est la capacité d'étendre une solution à de nouveaux cas, elle met en jeu l'abstraction car elle demande de reconnaître les motifs communs à tous ces cas en ignorant leur différences particulières.
+* Évaluation : l'évaluation consiste à quantifier des solutions, pour pouvoir les comparer leur qualité ou attester des améliorations. L'évaluation peut aussi être qualitative, par exemple quand on se demande si un algorithme est correct.
+* Logique : on désigne ici la capacité du raisonnement organisé et rigoureux, permettant de structurer la pensée pour obtenir efficacement des solutions.
+
 # Communication scientifique 
 
 Ce dépôt contient le matériel nécessaire au module de communication scientifique de l'ENS Rennes (nommé localement pédago1).
@@ -60,9 +82,17 @@ Primaire
 ---
 ## Arbres de décision
 ### Concepts
-TODO
+* Algorithmes(.)
+* Langages(.)
+* Information(\*\*)
+* Machine(.)
 ### Compétences
-TODO
+* Pensée algorithmique()
+* Abstraction()
+* Décomposition()
+* Généralisation et motifs()
+* Évaluation()
+* Logique()
 ### Maturité, public cible
 TODO
 ### Ressources
