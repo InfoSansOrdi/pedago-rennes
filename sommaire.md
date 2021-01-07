@@ -37,15 +37,15 @@ Ce dépôt contient le matériel nécessaire au module de communication scientif
 La description complète est [ici](https://github.com/InfoSansOrdi/pedago-rennes).
 
 Sur cette page, vous trouverez des liens vers des collections
-d'activités réutilisables, et les fiches de prep de vos prédécesseurs.
-Il faut ajouter vos propres fiches de prep au dépot au moins 24 heures
+d'activités réutilisables, et les fiches de préparation de vos prédécesseurs.
+Il faut ajouter vos propres fiches de préparation au dépôt au moins 24 heures
 avant votre intervention en classe.
 
-# Fiches de préparation et matériel additionel
+# Fiches de préparation et matériel additionnel
 
-Cette liste regroupe le matériel préparé par les élèves pour ce module. En particulier, vos fiches de preparation doivent être soumises sous forme de Pull Request sur le dépôt au moins 24 heures avant votre intervention en classe. Vous enverrez également ces fiches par mail aux enseignants.
+Cette liste regroupe le matériel préparé par les élèves pour ce module. En particulier, vos fiches de préparation doivent être soumises sous forme de *Pull Request* sur le dépôt au moins 24 heures avant votre intervention en classe. Vous enverrez également ces fiches par mail aux enseignants.
 
-Insérez vos fichiers au format Année\_NomsEleves\_Fichier contenant les ressources que vous avez crée dans les répertoirs existants si l'activité a déjà été développée par vos prédecesseurs, ou créez un répertoir s'il s'agit d'une nouvelle activité. Si vous ne souhaitez pas diffuser votre travail sous licence CC-BY-SA, aucun problème, mais il
+Insérez vos fichiers au format Année\_NomsEleves\_Fichier contenant les ressources que vous avez crée dans les répertoires existants si l'activité a déjà été développée par vos prédécesseurs, ou créez un répertoire s'il s'agit d'une nouvelle activité. Si vous ne souhaitez pas diffuser votre travail sous licence CC-BY-SA, aucun problème, mais il
 faut l'indiquer dans vos fichiers.
 
 ---
@@ -125,7 +125,7 @@ Public inconnu, à tester.
 * Évaluation(.)
 * Logique(\*)
 ### Maturité, public cible
-Fiche de préparation disponible, mais pas de materiel sur le dépôt. 
+Fiche de préparation disponible, mais pas de matériel sur le dépôt. 
 Toutefois activité développée par ailleurs.
 A partir du CE2
 ### Ressources
@@ -163,7 +163,7 @@ Activité classique, testée en cycle 3, formation enseignant
 * Abstraction(.)
 * Décomposition(.)
 * Généralisation et motifs(.)
-* Evaluation(.)
+* Évaluation(.)
 * Logique(.)
 ### Maturité, public cible
 6ème
@@ -212,7 +212,7 @@ Simulation d'un petit ordinateur avec un langage très simple.
 * Abstraction(.)
 * Décomposition(\*)
 * Généralisation et motifs(.)
-* Evaluation(.)
+* Évaluation(.)
 * Logique(.)
 ### Maturité, public cible
 A partir de la 6ème
@@ -247,7 +247,7 @@ A partir de la 6ème
 * Abstraction(.)
 * Décomposition(.)
 * Généralisation et motifs(.)
-* Evaluation(.)
+* Évaluation(.)
 * Logique(.)
 ### Maturité, public cible
 6ème
@@ -267,10 +267,10 @@ Le roi a été enlevé, et les héros du royaume doivent le retrouver dans la sa
 * Abstraction(\*)
 * Décomposition(.)
 * Généralisation et motifs(\*)
-* Evaluation(.)
+* Évaluation(.)
 * Logique(\*)
 ### Maturité, public cible
-Une fiche de prep et un materiel 
+Une fiche de préparation et un matériel 
 CM1-CM2
 ### Ressources:
 * [Dossier ChateauxMagiques](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/ChateauxMagiques)
@@ -290,7 +290,7 @@ Mots-clefs:
 * Abstraction(\*)
 * Décomposition(.)
 * Généralisation et motifs(\*)
-* Evaluation(.)
+* Évaluation(.)
 * Logique(\*)
 ### Maturité, public cible
 CE1/CE2/CM1/CM2
@@ -310,7 +310,7 @@ On souhaite représenter des images dans un ordinateur.
 * Abstraction(\*)
 * Décomposition(.)
 * Généralisation et motifs(\*\*)
-* Evaluation(.)
+* Évaluation(.)
 * Logique(.)
 ### Maturité, public cible
 CP/CE1/CE2
@@ -352,7 +352,7 @@ Mots-clefs:
 * Abstraction(\*\*)
 * Décomposition(\*)
 * Généralisation et motifs(\*\*)
-* Evaluation(\*)
+* Évaluation(\*)
 * Logique(.)
 ### Maturité, public cible
 Activité prête à l'emploi
@@ -389,7 +389,7 @@ Notions introduites: chemin dans un graphe, mot/langage reconnu par un automate
 * Évaluation(.)
 * Logique(\*)
 ### Maturité, public cible
-Fiche de preparation et materiel disponibles.
+Fiche de préparation et matériel disponibles.
 CM1/CM2
 ### Ressources
 * [Dossier Labyrinthe](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Labyrinthe)
@@ -451,7 +451,7 @@ CM1-CM2 (et plus)
 * Abstraction(\*): On peut transformer les règles en un graphe des états possible.
 * Décomposition(.)
 * Généralisation et motifs(.)
-* Evaluation(.)
+* Évaluation(.)
 * Logique(\*\*): Les règles sont en réalité des formules de logique temporelle.
 
 ### Maturité, public visé
@@ -472,12 +472,12 @@ CM1-CM2 (et plus)
 * Abstraction()
 * Décomposition(.)
 * Généralisation et motifs(\*)
-* Evaluation(.)
+* Évaluation(.)
 * Logique()
-### Maturié, public visé ###
+### Maturité, public visé ###
 * ? - à tester.
 ### Ressources
-* [Dossier Mineurs](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Mineurs) - à noter que les ressources ne sont pascomplètes. Il manque le matériel brut.
+* [Dossier Mineurs](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Mineurs) - à noter que les ressources ne sont pas complètes. Il manque le matériel brut.
 
 ---
 ## Marmottes au sommeil léger
@@ -495,7 +495,7 @@ Mots-clefs:
 * Abstraction(\*)
 * Décomposition(\*)
 * Généralisation et motifs(.)
-* Evaluation(.)
+* Évaluation(.)
 * Logique(.)
 ### Maturité, public cible
 Activité prête à l'emploi.
@@ -524,7 +524,7 @@ français)
 * Abstraction(\*\*)
 * Décomposition(\*)
 * Généralisation et motifs(.)
-* Evaluation(.)
+* Évaluation(.)
 * Logique(\*\*)
 ### Maturité, public cible
 Prête à être essayée une première fois.
@@ -603,7 +603,7 @@ Mots-clefs:
 * Abstraction(.)
 * Décomposition(.)
 * Généralisation et motifs(\*\*)
-* Evaluation(.)
+* Évaluation(.)
 * Logique(\*)
 ### Maturité, public cible
 Activité prête à l'emploi.
@@ -632,7 +632,7 @@ activités d'informatique débranchée que vous pouvez reprendre pour
 préparer vos interventions.
 
 - [Hors série spécial débranché](http://www.infinimath.com/espaceeducation/tangenteeducation/sommaire.php?som=271)
-  du magazine Tangente Education.
+  du magazine Tangente Éducation.
 - [Activités d'algorithmique](http://people.irisa.fr/Martin.Quinson/Mediation/SMN/)
   utilisées par M. Quinson à la moindre occasion.
 - La [page médiation](https://members.loria.fr/MDuflot/files/mediation.html) 
@@ -648,8 +648,8 @@ préparer vos interventions.
   réfléchir avec les mains. De nouveaux défis semblent être ajoutés au
   fil du temps. Certaines solutions sont données, mais souvent sans 
   l'algorithme ou la démarche de résolution. 
-- [GALEJADE](https://galejade.inria.fr/) (Graphes et ALgorithmes :
-  Ensemble de Jeux À Destination des Ecoliers). Énormément d'activités
+- [GALEJADE](https://galejade.inria.fr/) (Graphes et Algorithmes :
+  Ensemble de Jeux À Destination des Écoliers). Énormément d'activités
   autour des problèmes classiques de graphes, à jouer soit en jeu de
   plateau soit en grandeur nature. 
   [Document de 400 pages](https://hal.inria.fr/hal-01366804v2) reprenant certaines des activités.
@@ -667,7 +667,7 @@ préparer vos interventions.
 - Activité de [classification des savoirs](https://moex.inria.fr/mediation/class/)
   par Line van den Berg et Jérôme Euzenat.
 - [Teaching Computing in London](http://teachinglondoncomputing.org/)
-  est une initiative britanique proposant de très nombreuses
+  est une initiative britannique proposant de très nombreuses
   ressources (en anglais) très bien faites pour expliquer
   l'informatique dans le cadre scolaire. Ne ratez pas l'activité de la
   feuille de papier intelligente, par exemple. On trouve sur le site
@@ -696,7 +696,7 @@ Si vous avez des liens à ajouter, ils sont bienvenus.
 
 - [Algorithmes](2016-algorithmes) (Léo Henry et Estelle Varloot):
   arbres recouvrants avec un repackaging de la ville embourbée à base
-  de galeries de nains à la recherche de diamants, et le crépier
+  de galeries de nains à la recherche de diamants, et le crêpier
   psychorigide repris des activités de M. Quinson.
 - [Communication d'images](2016-communication) (Joshua Peignier et
   Solène Mirliaz): repackaging de deux activités sur la représentation
