@@ -98,14 +98,15 @@ CM1/CM2
 * Information(\*\*)
 * Machine(.)
 ### Compétences
-* Pensée algorithmique()
-* Abstraction()
-* Décomposition()
-* Généralisation et motifs()
-* Évaluation()
-* Logique()
+* Pensée algorithmique(.)
+* Abstraction(.)
+* Décomposition(*)
+* Généralisation et motifs(*)
+* Évaluation(*)
+* Logique(.)
 ### Maturité, public cible
-TODO
+Matériel absent, description présente.
+Public inconnu, à tester.
 ### Ressources
 * [Dossier ArbresDeDecision](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/ArbresDeDecision)
 
@@ -540,11 +541,16 @@ Entre CM2 et lycée.
 * Information(.)
 * Machine(.)
 ### Compétences
-TODO
+* Pensée algorithmique(.)
+* Abstraction(\*)
+* Décomposition(.)
+* Généralisation et motifs(\*)
+* Evaluation(\*)
+* Logique(\*)
 ### Maturité, public cible
-TODO
+Matériel et absent
 ### Ressources
-TODO pour Mathieu
+Demander à Mathieu Poirier et Matthieu Gillet
 
 ---
 ## Puzzle humain
