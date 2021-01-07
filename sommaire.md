@@ -353,9 +353,14 @@ Notions introduites: chemin dans un graphe, mot/langage reconnu par un automate
 * Information(.)
 * Machine(.)
 ### Compétences
-TODO
+* Pensée algorithmique(.)
+* Abstraction(.)
+* Décomposition(\*)
+* Généralisation et motifs(\*)
+* Évaluation(.)
+* Logique(\*)
 ### Maturité, public cible
-TODO
+CM1/CM2
 ### Ressources
 * [Dossier Labyrinthe](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Labyrinthe)
 
