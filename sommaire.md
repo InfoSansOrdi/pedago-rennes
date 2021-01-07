@@ -70,6 +70,7 @@ TODO
 
 ---
 ## Assemblage de Génome
+Puzzle semblable aux dominos initiant aux concepts d'assemblage du génome (plus précisement à l'algorithme d'assemblage OLC).
 ### Concepts
 * Algorithmes(\*\*)
 * Langages(.)
