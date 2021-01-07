@@ -360,6 +360,7 @@ Notions introduites: chemin dans un graphe, mot/langage reconnu par un automate
 * Évaluation(.)
 * Logique(\*)
 ### Maturité, public cible
+Fiche de preparation et materiel disponibles.
 CM1/CM2
 ### Ressources
 * [Dossier Labyrinthe](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Labyrinthe)
