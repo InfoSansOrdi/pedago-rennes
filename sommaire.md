@@ -11,9 +11,11 @@ En fin de sommaire sont disponibles des sites où trouver des activités débran
 
 Afin de mieux comprendre ce sommaire, voici une définition succincte de chaque catégorie permettant de classifier les activités.
 
-Les concepts sont ceux établis par Gilles Dowek, dans sa classification des concepts informatiques.
+Elle sont issus des références suivantes, et résumées plus bas.
 
-Les compétences sont celle décrites par [csunplugged](https://www.csunplugged.org/en/computational-thinking/) comme étant celles de la pensée informatique.
+### Références:
+* [Les quatre concepts de l'informatique](http://www.lsv.fr/~dowek/Philo/quatre.pdf), Gilles Dowek 
+* [Computational thinking](https://csunplugged.org/en/computational-thinking), CS Unplugged
 
 ### Concepts
 * Algorithmes : l'activité permet de découvrir la notion d'algorithme, soit en demandant d'en concevoir, soit en demandant d'en suivre (que ce soit explicite ou non).
@@ -48,20 +50,7 @@ faut l'indiquer dans vos fichiers.
 
 ---
 ## Algorithmes de tri
-### Concepts
-* Algorithmes(\*\*)
-* Langages(.)
-* Information(.)
-* Machine(.)
-### Compétences
-TODO
-### Maturité, public cible
-TODO
-### Ressources
-* [Dossier AlgoDeTri](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/AlgoDeTri)
-
----
-## Alice déménage
+Découvrir la puissance d’un algorithme de tri classique.
 ### Concepts
 * Algorithmes(\*\*)
 * Langages(.)
@@ -75,7 +64,29 @@ TODO
 * Évaluation(.)
 * Logique(\*)
 ### Maturité, public cible
-Primaire
+Prêt à l'emploi
+CM1-CM2
+### Ressources
+* [Dossier AlgoDeTri](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/AlgoDeTri)
+
+---
+## Alice déménage
+Alice veut déménager et doit empiler des paquets sur sa voiture mais pas trop haut ! Comment faire pour tout ranger en minimisant la hauteur ?
+### Concepts
+* Algorithmes(\*\*)
+* Langages(.)
+* Information(.)
+* Machine(.)
+### Compétences
+* Pensée algorithmique(\*\*)
+* Abstraction(.)
+* Décomposition(.)
+* Généralisation et motifs(\*)
+* Évaluation(.)
+* Logique(\*)
+### Maturité, public cible
+Prêt à l'emploi
+CM1/CM2
 ### Ressources
 * [Dossier AliceDemenage](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/AliceDemenage)
 
@@ -106,9 +117,16 @@ TODO
 * Information(.)
 * Machine(.)
 ### Compétences
-TODO
+* Pensée algorithmique(\*\*)
+* Abstraction(.)
+* Décomposition(\*)
+* Généralisation et motifs(\*)
+* Évaluation(.)
+* Logique(\*)
 ### Maturité, public cible
-TODO
+Fiche de préparation disponible, mais pas de materiel sur le dépôt. 
+Toutefois activité développée par ailleurs.
+A partir du CE2
 ### Ressources
 * [Dossier BaseballMuticolore](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/BaseballMulticolore)
 
@@ -133,16 +151,52 @@ Activité classique, testée en cycle 3, formation enseignant
 * [Dossier Blasons](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Blasons)
 
 ---
+## C'est le bazar
+### Concepts
+* Algorithmes(\*\*)
+* Langages(.)
+* Information(\*)
+* Machine(\*)
+### Compétences
+* Pensée algorithmique(\*\*)
+* Abstraction(.)
+* Décomposition(.)
+* Généralisation et motifs(.)
+* Evaluation(.)
+* Logique(.)
+### Maturité, public cible
+6ème
+### Ressources
+* [Dossier CEstLeBazar](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/CEstLeBazar)
+
+---
 ## Caméléons
 Activité de logique propositionnelle inventée par Pablo Espana-Gutierrez en Pédago 1.
+Divisée en cinq chapitres qui couvrent la plupart des concepts.
+1. Introduction et découverte
+2. Backtracking, De Morgan, NNF
+3. Logique ternaire et bugs
+4. Jeux sémantiques de Hintikka
+5. XOR et additionneurs n-bits
 ### Concepts
-TODO
+* Langage(\*)
+* Information(\*)
+* Algorithmes(\*\*)
+* Machine(\*\*)
 ### Compétences
-TODO
+* Pensée algorithmique(\*\*)
+* Abstraction(\*\*)
+* Décomposition(\*)
+* Généralisation et motifs(\*\*)
+* Évaluation(.)
+* Logique(\*\*)
 ### Maturité, public cible
-C'est tout nouveau ! Mais le site a l'air complet.
+Activité jeune (2020) mais complète au niveau des ressources.
+D'autres chapitres (TQBF, réseaux de neurones) pourraient être ajoutés dans le futur.
+Cible primaire, collège.
 ### Ressources
 * [Page détaillant l'activité](https://algopi.fr/?page_id=151)
+* [Page de ressources](https://algopi.fr/?page_id=256)
 
 ---
 ## Cargobot
@@ -169,6 +223,14 @@ A partir de la 6ème
 
 ---
 ## Cache-cache avec la RAM
+### Concepts
+* Algorithmes(.)
+* Langages(.)
+* Information(.)
+* Machine(\*\*)
+### Compétences
+*  (DESCRIPTION EN COURS)
+### Maturité, public cible
 ### Ressources
 * [Site de Marie Duflot](https://members.loria.fr/MDuflot/files/med/memoirecache.html)
 
@@ -193,18 +255,22 @@ A partir de la 6ème
 
 ---
 ## Châteaux magiques
-Mots-clefs:
-* __Automates finis__
-* __Langage (associé à un automate)__
+Le roi a été enlevé, et les héros du royaume doivent le retrouver dans la salle du trône du château ennemi. Malheureusement, tous les couloirs du château sont protégés par des sortilèges, et les héros ont besoin de l’aide d’un magicien pour se déplacer entre les salles.
 ### Concepts
 * Algorithmes(\*\*)
 * Langages(\*)
 * Information(.)
 * Machine(.)
 ### Compétences
-TODO
+* Pensée algorithmique(.)
+* Abstraction(\*)
+* Décomposition(.)
+* Généralisation et motifs(\*)
+* Evaluation(.)
+* Logique(\*)
 ### Maturité, public cible
-TODO
+Une fiche de prep et un materiel 
+CM1-CM2
 ### Ressources:
 * [Dossier ChateauxMagiques](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/ChateauxMagiques)
 
@@ -307,6 +373,27 @@ TODO
 * [Dossier IleAuTresor](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/IleAuTresor)
 
 ---
+## Labyrinthe
+Notions introduites: chemin dans un graphe, mot/langage reconnu par un automate
+### Concepts
+* Algorithmes(\*\*)
+* Langages(.)
+* Information(.)
+* Machine(.)
+### Compétences
+* Pensée algorithmique(.)
+* Abstraction(.)
+* Décomposition(\*)
+* Généralisation et motifs(\*)
+* Évaluation(.)
+* Logique(\*)
+### Maturité, public cible
+Fiche de preparation et materiel disponibles.
+CM1/CM2
+### Ressources
+* [Dossier Labyrinthe](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Labyrinthe)
+
+---
 ## Jeu de Nim
 Deux joueurs s’affrontent et tentent de déterminer une stratégie gagnante.
 Mots-clefs:
@@ -334,19 +421,41 @@ Public cible: CM1/CM2.
 Notions introduites: chemin dans un graphe, mot/langage reconnu par un automate
 ### Concepts
 * Algorithmes(\*\*)
-* Langages(.)
+* Langages(\*)
 * Information(.)
 * Machine(.)
 ### Compétences
-TODO
+* Pensée algorithmique(.)
+* Abstraction(\*)
+* Décomposition(\*\*)
+* Généralisation et motifs(\*)
+* Évaluation(.)
+* Logique(\*)
 ### Maturité, public cible
-TODO
+CM1-CM2 (et plus)
 ### Ressources
 * [Dossier Labyrinthe](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Labyrinthe)
 
 ---
 ## Le mage, l'aventurier et le château hanté
-Logique temporelle
+
+### Concepts
+* Algorithmes(\*): Pour résoudre le jeu de manière automatique, il faut développer un algorithme.
+* Langages(.)
+* Information(\*): Le jeu se base sur l'adaptation aux décisions de son adversaire, donc des informations qu'il nous donne.
+* Machine(\*):  L'aventurier symbolise la machine : on ne le manipule pas directement il agit de manière prévisible. *mouais*.
+
+### Compétences
+* Pensée algorithmique(\*): Pour résoudre le jeu de manière, il faut développer un algorithme.
+* Abstraction(\*): On peut transformer les règles en un graphe des états possible.
+* Décomposition(.)
+* Généralisation et motifs(.)
+* Evaluation(.)
+* Logique(\*\*): Les règles sont en réalité des formules de logique temporelle.
+
+### Maturité, public visé
+* ? - à tester.
+
 ### Ressources
 * [Dossier MageAventurierChateau](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/MageAventurierChateau)
 
@@ -354,15 +463,20 @@ Logique temporelle
 ## Les mineurs (arbre couvrant minimal)
 ### Concepts
 * Algorithmes(\*\*)
-* Langages(.)
+* Langages(\*)
 * Information(.)
 * Machine(.)
 ### Compétences
-TODO
-### Maturité, public cible
-TODO
+* Pensée algorithmique(\*\*)
+* Abstraction()
+* Décomposition(.)
+* Généralisation et motifs(\*)
+* Evaluation(.)
+* Logique()
+### Maturié, public visé ###
+* ? - à tester.
 ### Ressources
-* [Dossier Mineurs](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Mineurs)
+* [Dossier Mineurs](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Mineurs) - à noter que les ressources ne sont pascomplètes. Il manque le matériel brut.
 
 ---
 ## Marmottes au sommeil léger
@@ -387,6 +501,9 @@ Activité prête à l'emploi.
 CE2/CM1/CM2
 ### Ressources
 * [Dossier Marmottes](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Marmottes)
+
+---
+## M-999/le truc, là
 
 ---
 ## Le journal du pirate
@@ -416,7 +533,7 @@ Entre CM2 et lycée.
 * [Dossier ModelisationVerification](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/ModelisationVerification)
 
 ---
-## Plus court chemin ou voyageur de commerce sur une planche à clous
+## Le facteur paresseux
 ### Concepts
 * Algorithmes(\*\*)
 * Langages(.)
@@ -432,6 +549,7 @@ TODO pour Mathieu
 ---
 ## Puzzle humain
 Les élèves incarnent des pièces d’un puzzle qu’ils doivent résoudre.
+
 ### Concepts
 * Algorithmes(\*\*)
 * Langages(\*)
