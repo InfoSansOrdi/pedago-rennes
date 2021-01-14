@@ -1,0 +1,155 @@
+\documentclass{article}
+
+% set font encoding for PDFLaTeX, XeLaTeX, or LuaTeX
+\usepackage{ifxetex,ifluatex}
+\if\ifxetex T\else\ifluatex T\else F\fi\fi T%
+  \usepackage{fontspec}
+\else
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{lmodern}
+\fi
+\usepackage[landscape]{geometry}% http://ctan.org/pkg/geometry
+\usepackage{array}% http://ctan.org/pkg/array
+\usepackage{hyperref}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage{fullpage}
+\usepackage{xifthen}
+\usepackage{setspace}
+\usepackage{xstring}
+\usepackage{comment}
+\usepackage{listings}
+\usetikzlibrary{circuits.logic.US,circuits.logic.IEC,fit}
+\newcommand\addvmargin[1]{
+  \node[fit=(current bounding box),inner ysep=#1,inner xsep=0]{};
+}
+
+\def\arraystretch{1.5}%  1 is the default, change whatever you need
+
+\include{assets/macros}
+
+
+%\title{Tasks}
+%\author{Me & Me}
+
+% Enable SageTeX to run SageMath code right inside this LaTeX file.
+% http://doc.sagemath.org/html/en/tutorial/sagetex.html
+% \usepackage{sagetex}
+
+% Enable PythonTeX to run Python – https://ctan.org/pkg/pythontex
+% \usepackage{pythontex}
+
+\begin{document}
+
+\begin{center}
+    {\Large\textbf{Problème 1 - Tâches}}
+    \vspace{10mm}
+\end{center}
+
+\begin{minipage}[b]{0.27\textwidth}  
+
+    \centering  
+
+        \twotask{A}{clouche}{cbrun}
+        
+        \twotask{B}{ckaki}{cocean}
+        
+        \twotask{L}{cbordeau}{D}
+        
+        \twotask{D}{ckaki}{cpika}
+    
+        \twotask{E}{A}{B}
+        
+        \threetask{K}{ccrememarron}{climegreen}{cfuschia} 
+        
+        \fourtask{C}{cmarron}{ccrememarron}{climegreen}{cfuschia} 
+        
+\end{minipage}
+\hfill
+\begin{minipage}[b]{0.27\textwidth}
+    \centering
+
+        \twotask{F}{B}{C}
+        
+        \twotask{G}{C}{D}
+        
+       \twotask{H}{E}{F}
+      
+        \twotask{I}{F}{G}
+        
+        \twotask{J}{H}{I}
+        
+        \vspace{+27.8mm}
+
+\end{minipage}
+\hfill
+\begin{minipage}[b]{0.27\textwidth}
+    \centering
+        
+        \twotask{M}{cpika}{F}
+        
+        \twotask{N}{J}{K}
+        
+        \twotask{O}{N}{L}
+        
+        \twotask{P}{O}{M}
+        
+        \vspace{+27.8mm}
+        
+\end{minipage}
+
+
+\newpage
+
+\begin{center}
+    {\Large\textbf{Problème 1 - Graphe de dépendances}}
+\end{center}
+
+\begin{figure}[ht]
+    \centering
+\includegraphics[scale = 1.3]{assets/graph.pdf}
+\caption{Graphe de dépendances}
+\label{fig:graphe}
+\end{figure}
+
+Dans le graphe de la Figure~\ref{fig:graphe}, les noeuds représentent les noms des tâches, et les arêtes représentent les dépendances entre les tâches. Plus précisément, une arête relie la tâche $A$ à la tâche $E$ si on a besoin de la tâche $A$ pour réaliser $E$. Ce graphe est plus communément appelé graphe de dépendances. Déterminer le chemin critique (i.e. le chemin le plus long) dans ce type de graphe, permet de donner un ordre des tâches à réaliser. Une idée intéressante pour débuter est donc de commencer par réaliser les tâches du chemin critique (voir méthode PERT).
+
+
+\newpage
+
+\begin{center}
+    {\Large\textbf{Créer une activité}}
+\end{center}
+
+\begin{minipage}[b]{0.30\textwidth}  
+        Des tâches peuvent être créées facilement en ajoutent une page à ce fichier LaTeX. Une tâche de taille 2, 3 ou 4 peut être créée à l'aide des macros \lstinline|\twotask|, \lstinline|\threetask| and \lstinline|\fourtask|. Le premier argument dénote le nom de la tâche, et devrait être une lettre
+\end{minipage}
+\hfill
+\begin{minipage}[b]{0.30\textwidth}
+    simple. Les arguments qui viennent ensuite donnent les couleurs que l'on verra sur les tâches. Si la valeur de l'argument est égale à une couleur telle que définie dans le fichier \lstinline|macro.tex|, alors l'argument sera interprété comme tel. Sinon, la valeur de l'argument
+\end{minipage}
+\hfill
+\begin{minipage}[b]{0.30\textwidth}
+        sera écrite telle quelle. Pour modifier les couleurs, il faut modifier le fichier \lstinline|macro.tex|. Pour ajouter des couleurs, il suffit de rajouter la commande associée dans \lstinline|macro.tex|, puis d'ajouter le nouveau nom dans la liste définie dans la commande \lstinline|\coloritem|.
+\end{minipage}\\
+
+{\large\textbf{Exemples de tâches}}
+\vspace{5mm}
+
+        \twotask{A}{B}{clouche}
+        
+        \twotask{B}{C}{D}
+       
+        \threetask{D}{cbordeau}{cocean}{cpika} 
+        
+        \fourtask{E}{cmarron}{csuperblue}{climegreen}{cfuschia} \\
+        
+        
+
+\end{document}
+
+
+
+
+
