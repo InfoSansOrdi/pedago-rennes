@@ -391,6 +391,28 @@ Activité prête à l'emploi
 * [Dossier CritiquesFilms](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/CritiquesFilms)
 
 ---
+## Fantastic Scheduling
+Mots-clefs:
+* __Ordonnancement__
+* __Pipeline__
+### Concepts
+* Algorithmes(\*)
+* Langages(.)
+* Information(.)
+* Machine(\*\*)
+### Compétences
+* Pensée algorithmique(\*)
+* Abstraction(.)
+* Décomposition(.)
+* Généralisation et motifs(\*\*)
+* Evaluation(.)
+* Logique(.)
+### Maturité, public cible
+TODO
+### Ressources
+
+
+---
 ## Île au trésor
 ### Concepts
 * Algorithmes(\*\*)
