@@ -53,6 +53,37 @@ TODO
 * [Dossier AlgoDeTri](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/AlgoDeTri)
 
 ---
+## Analyse statique de recettes
+### Concepts
+* Algorithmes(\*\*)
+* Langages(\*)
+* Information(.)
+* Machine(.)
+### Compétences
+* Pensée algorithmique(\*\*)
+* Abstraction(\*\*)
+* Décomposition(\*)
+* Généralisation et motifs(.)
+* Évaluation(?)
+* Logique(.)
+
+
+---
+## Assemblage de Génome
+Puzzle semblable aux dominos initiant aux concepts d'assemblage du génome (plus précisement à l'algorithme d'assemblage OLC).
+### Concepts
+* Algorithmes(\*\*)
+* Langages(.)
+* Information(.)
+* Machine(.)
+### Compétences
+TODO
+### Maturité, public cible
+TODO
+### Ressources
+* [Dossier AssemblageDeGenomes]()
+
+---
 ## Arbres de décision
 ### Concepts
 TODO
@@ -169,6 +200,27 @@ TODO
 * [Dossier ChateauxMagiques](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/ChateauxMagiques)
 
 ---
+## Communications Réseaux
+Les élèves incarnent des routeurs et doivent transmettre des paquets réseaux.
+### Concepts
+* Algorithmes(\*)
+* Langages(.)
+* Information(\*)
+* Machine(\*\*)
+### Compétences
+* Pensée algorithmique(\*)
+* Abstraction(.)
+* Décomposition(\*)
+* Généralisation et motifs(\*)
+* Évaluation(.)
+* Logique(.)
+### Maturité, public cible
+Activité prête à l'emploi
+CE2/CM1/CM2
+### Ressources
+
+
+---
 ## Compter en binaire
 Apprendre à compter en binaire et connaître la représentation des nombres.
 Mots-clefs:
@@ -251,6 +303,28 @@ Mots-clefs:
 Activité prête à l'emploi
 ### Ressources
 * [Dossier CritiquesFilms](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/CritiquesFilms)
+
+---
+## Fantastic Scheduling
+Mots-clefs:
+* __Ordonnancement__
+* __Pipeline__
+### Concepts
+* Algorithmes(\*)
+* Langages(.)
+* Information(.)
+* Machine(\*\*)
+### Compétences
+* Pensée algorithmique(\*)
+* Abstraction(.)
+* Décomposition(.)
+* Généralisation et motifs(\*\*)
+* Evaluation(.)
+* Logique(.)
+### Maturité, public cible
+TODO
+### Ressources
+
 
 ---
 ## Île au trésor
