@@ -1,0 +1,108 @@
+\documentclass[a4paper,11pt]{article}
+ 
+\usepackage{fullpage}
+ 
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{mathpazo} 
+\usepackage{titlesec}
+
+\titleformat{\chapter}
+{\normalfont\bfseries\Huge}{\thechapter}{10pt}{}
+ 
+\usepackage[main=francais,english]{babel}
+
+\parskip=0.5\baselineskip%
+ 
+\sloppy
+
+\usepackage{multirow, tabularx}
+
+\begin{document}
+
+\title{Activité pedago: Atlandide}
+\author{Alex Coudray, Matthieu Gillet et Rémi Piau \\ ENS Rennes \\ Module Pédago2}
+\date{2020--2021}
+
+\maketitle
+
+\section{Informations globales}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|m{4cm}|m{11.5cm}|}
+        \hline
+        \vspace{0.2cm} Public visé: \vspace{0.2cm}
+        & \vspace{0.2cm} Quelconque \vspace{0.2cm} \\
+            
+        \hline
+        \vspace{0.2cm} Pré-requis: \vspace{0.2cm} & \vspace{0.2cm} Connaître sa droite et sa gauche.
+        
+        Organisation seul puis en groupes de 2.\\
+        \hline
+        \vspace{0.2cm} Durée de la séance: \vspace{0.2cm}
+        & \vspace{0.2cm} 45 minutes, adaptable en 55 minutes. \vspace{0.2cm} \\
+        \hline
+        \vspace{0.2cm} Objectifs \newline pédagogiques: \vspace{0.2cm} 
+        & \vspace{0.2cm} Se familiariser avec les notions de vision par ordinateur et de reconstruction d'environnement. \vspace{0.2cm} \\
+        \hline
+    \end{tabular}
+    \caption{Présentation globale.}
+    \label{tab:global}
+\end{table}
+
+\section{Déroulé de la séance}
+\subsection{Gestion du temps}
+Voir le tableau \ref{tab:temps}.
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|>{\centering\arraybackslash}m{2.2cm}|>{\centering\arraybackslash}m{1.2cm}|m{6cm}|>{\centering\arraybackslash}m{2cm}|>{\centering\arraybackslash}m{2.2cm}|}
+        \hline
+        Phase & Durée & Activités et consignes & Organisation & Matériel \\
+        \hline
+        Introduction & 5' & Présentation de l'activité, des règles de la partie 1 et de ses objectifs pédagogiques. & À l'oral & Vidéoprojeté? \\
+        \hline
+        Partie~1 & 5-10' & Les élèves reconstruisent un ou deux puzzles seuls. & Seul & Puzzles de la partie~1 \\
+        \hline
+        Mise en commun, présentation partie~2 & 5-10' & Les encadrants donnent les solutions de la partie~1, expliquent bien le principe de la reconstruction, puis présente les deux dernières parties. & Classe entière & Vidéoprojeté? \\
+        \hline
+        Partie~2 & 10' & À deux, les élèves reconstruisent la carte d'une cité sous-marine. Les encadrants peuvent aider les plongeurs dans leur choix de direction. & Par groupes de~2 & Par groupe: 2~dés, un ensemble de tuiles, un ensemble de cartes de cité, une carte vide \\
+        \hline
+        Partie~3 & 15-25' & À deux, les élèves reconstruisent la carte d'une cité sous-marine qui possède plusieurs fois certains objets. & Par groupe de~2 & Puzzles de la partie~3 \\
+        \hline
+        Conclusion & 5-10' & Bilan global, explication des bonnes stratégie, stratégie optimale?
+        Pourquoi c'est de l'informatique? À quoi ça sert? Lien avec le machine learning & À l'oral & --- \\
+        \hline
+    \end{tabular}
+    \caption{Déroulé de l'activité.}
+    \label{tab:temps}
+\end{table}
+
+\subsection{Présentation des règles}
+Le jeu se déroule en trois parties: la première se déroule seul, et les deux autres se jouent à deux.
+
+\subsubsection*{Partie 1: Puzzle}
+
+Chaque élève aura à sa disposition un puzzle représentant un endroit sous-marin. Les pièces sont formées de petits carrés et se recouvrent, contrairement à un puzzle classique. Le but pour les élèves est d'utiliser ce recouvrement pour reconstruire l'environnement. Étant donné que c'est la première partie, l'activité doit rester simple.
+
+\subsubsection*{Partie 2: Reconstruction à deux}
+
+Les élèves forment des groupes de 2: un <<~plongeur~>> et un <<~maître de la carte~>>. S'il doit y avoir un groupe de 3, le groupe sera formé d'un plongeur et de deux maîtres de la carte.
+
+Chaque maître de la carte a avec lui une carte, ainsi que des bouts de tuile à fournir au plongeur. Au début, le plongeur lance deux dés pour savoir dans quelle case il atterrit, puis il met un compteur d'oxygène à 5.
+
+À chaque tour, le plongeur peut demander au maître de la carte ce qui se trouve dans les (au plus) quatre cases qui lui sont adjacentes. Le maître de la carte lui fournit alors les tuiles correspondantes, que le plongeur peut placer sur sa propre carte, initialement vide.
+
+Ensuite, le plongeur peut avancer dans une de ces quatre directions, au prix d'une unité d'oxygène, et répéter l'opération. Une fois que le plongeur n'a plus d'oxygène, il doit remonter à la surface pour reprendre son souffle. Il retire alors les dés pour réapparaître à un endroit aléatoire de la carte, et tente de reconstruire ce qu'il voit avec ce qu'il a vu précédemment.
+
+Les deux joueurs gagnent quand le plongeur réussit à reconstruire la carte en entier.
+
+\subsubsection*{Partie 3: Reconstruction difficile à deux}
+
+Le principe est le même que dans la partie 2, mais plusieurs objets identiques peuvent se trouver dans la même carte. Au début de cette partie, on pourra avoir des positions de réapparition forcées pour mieux faire comprendre aux élèves la pédagogie de l'activité.
+
+\subsection{Étayages et extensions}
+À la fin de l'activité, les élèves sont libres et peuvent jouer sur de nombreuses cartes, éventuellement plus grandes (et avec plus d'oxygène) pour ceux qui ont bien compris l'activité. Faire construire leurs propres cartes aux élèves est également une solution pour la fin de l'activité.
+
+\end{document}
