@@ -23,3 +23,8 @@ Le travail qu'il reste à faire est :
 - Créer du matériel pour l'activité.
 - Trouver d'autre façon de présenter un analyse.
 - Tester l'activité en condition réel.
+
+## Contributeur
+- Jean Jouve (N'hésitez pas à me contacter par mail:
+  jean.jouve at ens-rennes.fr)
+- Lauric Desauw
