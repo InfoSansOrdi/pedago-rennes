@@ -32,3 +32,17 @@ dans la suite ! Par exemple si dans une recette on a besoin de faire une
 préparation que l'on a vu précédemment alors on peut directement mettre la
 recette à la place de tout réécrire ! La personne qui lit pourra aller lire a la
 page correspondante si elle en a besoin.
+
+## Gestion des variables
+
+Les variables peuvent contenir un certain objet. Par exemple un triangle,
+un carré, etc... Ce n'est pas limité aux formes géométrique, des couleurs
+pourrait être ajouter ou complêtement d'autre type d'objet. Lorsqu'une
+transformation utilise ce qu'il y a dans une variable, on pourrait avoir
+l'impression que l'objet est consomé. Cela emmpécherai des analyse du type
+Expression Disponible car le contenu des variable changerai après chaque
+opération. Pour remédier à cela, il est bien de mettre l'objets contenue dans
+une variable en plusieurs exemplaire et considérer qu'il y en a une infinité.
+Ainsi lorsqu'on applique une transformation sur un objet dans une variable on ne
+retire que un seul objet et la variable garde son contenu.
+
