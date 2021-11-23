@@ -144,7 +144,7 @@ Loogique(.)
 matériel ?, description faite mais fiche de préparation peu précise
 public cible: CM1-CM2 ?
 ### Ressources
-* [Dossier AssemblageDeGenomes]()
+* [Dossier AssemblageDeGenomes](https://github.com/InfoSansOrdi/pedago-rennes/tree/trunk/AssemblageDeGenomes)
 
 ---
 ## Atlantide
