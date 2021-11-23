@@ -14,7 +14,7 @@ Afin de mieux comprendre ce sommaire, voici une définition succincte de chaque 
 Elle sont issus des références suivantes, et résumées plus bas.
 
 ### Références:
-* [Les quatre concepts de l'informatique](http://www.lsv.fr/~dowek/Philo/quatre.pdf), Gilles Dowek 
+* [Les quatre concepts de l'informatique](http://www.lsv.fr/~dowek/Philo/quatre.pdf), Gilles Dowek
 * [Computational thinking](https://csunplugged.org/en/computational-thinking), CS Unplugged
 
 ### Concepts
@@ -31,7 +31,7 @@ Elle sont issus des références suivantes, et résumées plus bas.
 * Évaluation : l'évaluation consiste à quantifier des solutions, pour pouvoir les comparer leur qualité ou attester des améliorations. L'évaluation peut aussi être qualitative, par exemple quand on se demande si un algorithme est correct.
 * Logique : on désigne ici la capacité du raisonnement organisé et rigoureux, permettant de structurer la pensée pour obtenir efficacement des solutions.
 
-# Communication scientifique 
+# Communication scientifique
 
 Ce dépôt contient le matériel nécessaire au module de communication scientifique de l'ENS Rennes (nommé localement pédago1).
 La description complète est [ici](https://github.com/InfoSansOrdi/pedago-rennes).
@@ -105,22 +105,6 @@ CM1/CM2
 * Évaluation(?)
 * Logique(.)
 
-
----
-## Assemblage de Génome
-Puzzle semblable aux dominos initiant aux concepts d'assemblage du génome (plus précisement à l'algorithme d'assemblage OLC).
-### Concepts
-* Algorithmes(\*\*)
-* Langages(.)
-* Information(.)
-* Machine(.)
-### Compétences
-TODO
-### Maturité, public cible
-TODO
-### Ressources
-* [Dossier AssemblageDeGenomes]()
-
 ---
 ## Arbres de décision
 ### Concepts
@@ -131,15 +115,55 @@ TODO
 ### Compétences
 * Pensée algorithmique(.)
 * Abstraction(.)
-* Décomposition(*)
-* Généralisation et motifs(*)
-* Évaluation(*)
+* Décomposition(\*)
+* Généralisation et motifs(\*)
+* Évaluation(\*)
 * Logique(.)
 ### Maturité, public cible
 Matériel absent, description présente.
 Public inconnu, à tester.
 ### Ressources
 * [Dossier ArbresDeDecision](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/ArbresDeDecision)
+
+---
+## Assemblage de Génome
+Puzzle semblable aux dominos initiant aux concepts d'assemblage du génome (plus précisement à l'algorithme d'assemblage OLC).
+### Concepts
+* Algorithmes(\*\*)
+* Langages(.)
+* Information(.)
+* Machine(.)
+### Compétences
+Pensée algorithmique(\*\*)
+Abstraction(.)
+Décomposition(.)
+Généralisation et motifs(\*)
+Évaluation(.)
+Loogique(.)
+### Maturité, public cible
+matériel ?, description faite mais fiche de préparation peu précise
+public cible: CM1-CM2 ?
+### Ressources
+* [Dossier AssemblageDeGenomes]()
+
+---
+## Atlantide
+### Concepts
+* Algorithmes(\*)
+* Langages(.)
+* Information(\*\*)
+* Machine(\*\*)
+### Compétences
+* Pensée algorithmique(\*\*)
+* Abstraction(.)
+* Décomposition(.)
+* Généralisation et motifs(\*)
+* Évaluation(\*)
+* logique(.)
+### Maturité, public cible
+Tout public.
+### Ressources
+* [Atlantide](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/Atlantide)
 
 ---
 ## Baseball multicolore
@@ -156,7 +180,7 @@ Public inconnu, à tester.
 * Évaluation(.)
 * Logique(\*)
 ### Maturité, public cible
-Fiche de préparation disponible, mais pas de matériel sur le dépôt. 
+Fiche de préparation disponible, mais pas de matériel sur le dépôt.
 Toutefois activité développée par ailleurs.
 A partir du CE2
 ### Ressources
@@ -200,6 +224,19 @@ Activité classique, testée en cycle 3, formation enseignant
 6ème
 ### Ressources
 * [Dossier CEstLeBazar](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/CEstLeBazar)
+
+---
+## Cache-cache avec la RAM
+### Concepts
+* Algorithmes(.)
+* Langages(.)
+* Information(.)
+* Machine(\*\*)
+### Compétences
+*  (DESCRIPTION EN COURS)
+### Maturité, public cible
+### Ressources
+* [Site de Marie Duflot](https://members.loria.fr/MDuflot/files/med/memoirecache.html)
 
 ---
 ## Caméléons
@@ -251,41 +288,6 @@ A partir de la 6ème
 * [Dossier Cargobot](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Cargobot)
 
 ---
-## M-999/le truc, là
-
----
-## Cache-cache avec la RAM
-### Concepts
-* Algorithmes(.)
-* Langages(.)
-* Information(.)
-* Machine(\*\*)
-### Compétences
-*  (DESCRIPTION EN COURS)
-### Maturité, public cible
-### Ressources
-* [Site de Marie Duflot](https://members.loria.fr/MDuflot/files/med/memoirecache.html)
-
----
-## C'est le bazar
-### Concepts
-* Algorithmes(\*\*)
-* Langages(.)
-* Information(\*)
-* Machine(\*)
-### Compétences
-* Pensée algorithmique(\*\*)
-* Abstraction(.)
-* Décomposition(.)
-* Généralisation et motifs(.)
-* Évaluation(.)
-* Logique(.)
-### Maturité, public cible
-6ème
-### Ressources
-* [Dossier CEstLeBazar](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/CEstLeBazar)
-
----
 ## Châteaux magiques
 Le roi a été enlevé, et les héros du royaume doivent le retrouver dans la salle du trône du château ennemi. Malheureusement, tous les couloirs du château sont protégés par des sortilèges, et les héros ont besoin de l’aide d’un magicien pour se déplacer entre les salles.
 ### Concepts
@@ -301,7 +303,7 @@ Le roi a été enlevé, et les héros du royaume doivent le retrouver dans la sa
 * Évaluation(.)
 * Logique(\*)
 ### Maturité, public cible
-Une fiche de préparation et un matériel 
+Une fiche de préparation et un matériel
 CM1-CM2
 ### Ressources:
 * [Dossier ChateauxMagiques](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/ChateauxMagiques)
@@ -389,6 +391,24 @@ Mots-clefs:
 Activité prête à l'emploi
 ### Ressources
 * [Dossier CritiquesFilms](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/CritiquesFilms)
+---
+## Le facteur paresseux
+### Concepts
+* Algorithmes(\*\*)
+* Langages(.)
+* Information(.)
+* Machine(.)
+### Compétences
+* Pensée algorithmique(.)
+* Abstraction(\*)
+* Décomposition(.)
+* Généralisation et motifs(\*)
+* Evaluation(\*)
+* Logique(\*)
+### Maturité, public cible
+Matériel et absent
+### Ressources
+Demander à Mathieu Poirier et Matthieu Gillet
 
 ---
 ## Fantastic Scheduling
@@ -408,10 +428,10 @@ Mots-clefs:
 * Evaluation(.)
 * Logique(.)
 ### Maturité, public cible
-TODO
+fiche de préparation presque prête, matériel à construire
+public cible: CM1-CM2
 ### Ressources
-
-
+TODO (en cours)
 ---
 ## Île au trésor
 ### Concepts
@@ -420,33 +440,17 @@ TODO
 * Information(.)
 * Machine(.)
 ### Compétences
-TODO
+Pensée algorithmique(\*\*)
+Abstraction(\*\*)
+Décomposition(.)
+Généralisation et motifs(.)
+Évaluation(.)
+Loogique(\*?)
 ### Maturité, public cible
-TODO
+Activité prête à l'emploi
+CM1/CM2/collège.
 ### Ressources
 * [Dossier IleAuTresor](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/IleAuTresor)
-
----
-## Labyrinthe
-Notions introduites: chemin dans un graphe, mot/langage reconnu par un automate
-### Concepts
-* Algorithmes(\*\*)
-* Langages(.)
-* Information(.)
-* Machine(.)
-### Compétences
-* Pensée algorithmique(.)
-* Abstraction(.)
-* Décomposition(\*)
-* Généralisation et motifs(\*)
-* Évaluation(.)
-* Logique(\*)
-### Maturité, public cible
-Fiche de préparation et matériel disponibles.
-CM1/CM2
-### Ressources
-* [Dossier Labyrinthe](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Labyrinthe)
-
 ---
 ## Jeu de Nim
 Deux joueurs s’affrontent et tentent de déterminer une stratégie gagnante.
@@ -469,9 +473,35 @@ Activité prête à l'emploi.
 Public cible: CM1/CM2.
 ### Ressources
 * [Dossier Nim](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Nim)
+---
+## Le journal du pirate
+Il s'agit de trois activités en une (trois activités distinctes mais pouvant être combinées).
+L'objectif principal de l'activité est de trouver un trésor caché sur une des îles à l'aide du plan de ces îles et des souvenirs d'un pirate. On a alors 3 activités principales qui se décomposent comme suit:
+ - Modélisation: construire le graphe représentant le plan d'une île à partir d'une description textuelle
+ - Vérification: trouver l'île au trésor grâce au plan des îles et aux phrases du pirate (données en
+français)
+ - Logique: encoder/décoder grâce à de la logique les phrases du pirate
+### Concepts
+* Algorithmes(.)
+* Langages(\*)
+* Information(\*\*)
+* Machine(.)
+### Compétences
+* Pensée algorithmique(.)
+* Abstraction(\*\*)
+* Décomposition(\*)
+* Généralisation et motifs(.)
+* Évaluation(.)
+* Logique(\*\*)
+### Maturité, public cible
+Prête à être essayée une première fois.
+Attention !! Quand on a changé les noms de fichier, ça a cassé des liens dans le README.md (et probablement aussi dans le code javascript).
+Entre CM2 et lycée.
+### Ressources
+* [Dossier ModelisationVerification](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/ModelisationVerification)
 
 ---
-## Jeu du labyrinthe
+## Labyrinthe
 Notions introduites: chemin dans un graphe, mot/langage reconnu par un automate
 ### Concepts
 * Algorithmes(\*\*)
@@ -486,10 +516,12 @@ Notions introduites: chemin dans un graphe, mot/langage reconnu par un automate
 * Évaluation(.)
 * Logique(\*)
 ### Maturité, public cible
-CM1-CM2 (et plus)
+Fiche de préparation et matériel disponibles.
+CM1/CM2
 ### Ressources
 * [Dossier Labyrinthe](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Labyrinthe)
-
+---
+## M-999/le truc, là
 ---
 ## Le mage, l'aventurier et le château hanté
 
@@ -512,26 +544,6 @@ CM1-CM2 (et plus)
 
 ### Ressources
 * [Dossier MageAventurierChateau](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/MageAventurierChateau)
-
----
-## Les mineurs (arbre couvrant minimal)
-### Concepts
-* Algorithmes(\*\*)
-* Langages(\*)
-* Information(.)
-* Machine(.)
-### Compétences
-* Pensée algorithmique(\*\*)
-* Abstraction()
-* Décomposition(.)
-* Généralisation et motifs(\*)
-* Évaluation(.)
-* Logique()
-### Maturité, public visé ###
-* ? - à tester.
-### Ressources
-* [Dossier Mineurs](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Mineurs) - à noter que les ressources ne sont pas complètes. Il manque le matériel brut.
-
 ---
 ## Marmottes au sommeil léger
 Des marmottes doivent s'organiser pour dormir.
@@ -557,53 +569,23 @@ CE2/CM1/CM2
 * [Dossier Marmottes](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Marmottes)
 
 ---
-## M-999/le truc, là
-
----
-## Le journal du pirate
-Il s'agit de trois activités en une (trois activités distinctes mais pouvant être combinées).
-L'objectif principal de l'activité est de trouver un trésor caché sur une des îles à l'aide du plan de ces îles et des souvenirs d'un pirate. On a alors 3 activités principales qui se décomposent comme suit:
- - Modélisation: construire le graphe représentant le plan d'une île à partir d'une description textuelle
- - Vérification: trouver l'île au trésor grâce au plan des îles et aux phrases du pirate (données en 
-français)
- - Logique: encoder/décoder grâce à de la logique les phrases du pirate
-### Concepts
-* Algorithmes(.)
-* Langages(\*)
-* Information(\*\*)
-* Machine(.)
-### Compétences
-* Pensée algorithmique(.)
-* Abstraction(\*\*)
-* Décomposition(\*)
-* Généralisation et motifs(.)
-* Évaluation(.)
-* Logique(\*\*)
-### Maturité, public cible
-Prête à être essayée une première fois.
-Attention !! Quand on a changé les noms de fichier, ça a cassé des liens dans le README.md (et probablement aussi dans le code javascript).
-Entre CM2 et lycée.
-### Ressources
-* [Dossier ModelisationVerification](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/ModelisationVerification)
-
----
-## Le facteur paresseux
+## Les mineurs (arbre couvrant minimal)
 ### Concepts
 * Algorithmes(\*\*)
-* Langages(.)
+* Langages(\*)
 * Information(.)
 * Machine(.)
 ### Compétences
-* Pensée algorithmique(.)
-* Abstraction(\*)
+* Pensée algorithmique(\*\*)
+* Abstraction()
 * Décomposition(.)
 * Généralisation et motifs(\*)
-* Evaluation(\*)
-* Logique(\*)
-### Maturité, public cible
-Matériel et absent
+* Évaluation(.)
+* Logique()
+### Maturité, public visé ###
+* ? - à tester.
 ### Ressources
-Demander à Mathieu Poirier et Matthieu Gillet
+* [Dossier Mineurs](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Mineurs) - à noter que les ressources ne sont pas complètes. Il manque le matériel brut.
 
 ---
 ## Puzzle humain
@@ -626,7 +608,26 @@ Activité prête à l'emploi
 CM1/CM2
 ### Ressources
 * [Dossier PuzzleHumain](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/PuzzleHumain)
+---
+## Stéganographie et perles à repasser
+### Concepts
+* Algorithmes(\*\*)
+* Langages(\*)
+* Information(\*\*)
+* Machine(.)
+### Compétences
+* Pensée algorithmique(\*\*)
+* Abstraction(\*)
+* Décomposition(\*)
+* Généralisation et motifs(\*\*)
+* Évaluation(.)
+* Logique(.)
 
+### Maturité, public cible
+Activité prête à l'emploi (juste adapter l'activité pour matériel)
+CMA/CM2
+### Ressources
+* [ressource extérieure très complète](https://framagit.org/poitiers-infosansordi/fiches-activites/-/blob/master/activite_stegano_hama.pdf)
 ---
 ## Tablette de chocolat empoisonnée
 ### Concepts
@@ -635,9 +636,15 @@ CM1/CM2
 * Information(.)
 * Machine(.)
 ### Compétences
-TODO
+* Pensée algorithmique(\*\*)
+* Abstraction(\*)
+* Décomposition(\*\*)
+* Généralisation et motifs(\*)
+* Évaluation(.)
+* Logique(\*\*)
 ### Maturité, public cible
-TODO
+Matériel a adapter ?
+Public cible: CM1/CM2.
 ### Ressources
 * [Pixees](https://pixees.fr/tablette-de-chocolat-empoisonnee)
 
@@ -672,25 +679,17 @@ Tout public.
 * Information(.)
 * Machine(.)
 ### Compétences
-TODO
+* Pensée algorithmique(.)
+* Abstraction(.)
+* Décomposition(\*\*)
+* Généralisation et motifs(.)
+* Évaluation(\*\*)
+* Logique(\*)
 ### Maturité, public cible
-TODO
+Activité prête à l'emploi (à figurines près)
+Public cible: collège
 ### Ressources
 * [Pixees](https://pixees.fr/la-traversee-de-riviere/)
-
----
-## Atlantide
-### Concepts
-* Algorithmes(\*)
-* Langages(.)
-* Information(\*\*)
-* Machine(\*\*)
-### Compétences
-TODO
-### Maturité, public cible
-Tout public.
-### Ressources
-* [Atlantide](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/Atlantide)
 
 # Collections d'activités débranchées
 
@@ -702,7 +701,7 @@ préparer vos interventions.
   du magazine Tangente Éducation.
 - [Activités d'algorithmique](http://people.irisa.fr/Martin.Quinson/Mediation/SMN/)
   utilisées par M. Quinson à la moindre occasion.
-- La [page médiation](https://members.loria.fr/MDuflot/files/mediation.html) 
+- La [page médiation](https://members.loria.fr/MDuflot/files/mediation.html)
   de Marie Duflot-Kremer présente de nombreuses activités et vidéos
   associées, très bien faites.
 - La [page de pixee](https://pixees.fr/category/support-pedagogique/activite/activite-debranchee/)
@@ -713,17 +712,17 @@ préparer vos interventions.
 - [195 défis (mathématiques) à manipuler](http://math.univ-lyon1.fr/irem/spip.php?article524)
   Une collection de petits casse-têtes mathématiques où il s'agit de
   réfléchir avec les mains. De nouveaux défis semblent être ajoutés au
-  fil du temps. Certaines solutions sont données, mais souvent sans 
-  l'algorithme ou la démarche de résolution. 
+  fil du temps. Certaines solutions sont données, mais souvent sans
+  l'algorithme ou la démarche de résolution.
 - [GALEJADE](https://galejade.inria.fr/) (Graphes et Algorithmes :
   Ensemble de Jeux À Destination des Écoliers). Énormément d'activités
   autour des problèmes classiques de graphes, à jouer soit en jeu de
-  plateau soit en grandeur nature. 
+  plateau soit en grandeur nature.
   [Document de 400 pages](https://hal.inria.fr/hal-01366804v2) reprenant certaines des activités.
 - [Groupe IREM Informatique sans ordinateur de Clermont-Ferrand](http://www.irem.univ-bpclermont.fr/spip.php?article892).
   Des activités prêtes à l'emploi, avec les fiches de préparation et
-  le matériel pour les élèves. Tout a été testé en classe. 
-  Le [Groupe IREM de Grenoble](http://www-irem.ujf-grenoble.fr/spip/spip.php?article146) 
+  le matériel pour les élèves. Tout a été testé en classe.
+  Le [Groupe IREM de Grenoble](http://www-irem.ujf-grenoble.fr/spip/spip.php?article146)
   a une page comparable.
 - Activité de [mesure binaire](https://github.com/Mommessc/Mesures_binaires),
   inventée par Marie Le Guilly et Clément Mommessin lors de l'école
@@ -739,7 +738,7 @@ préparer vos interventions.
   l'informatique dans le cadre scolaire. Ne ratez pas l'activité de la
   feuille de papier intelligente, par exemple. On trouve sur le site
   des livrets, des petites vidéos expliquant comment jouer les
-  séquences, et même un  petit magazine dédié: [Computer Science for fun](http://www.cs4fn.org/)! 
+  séquences, et même un  petit magazine dédié: [Computer Science for fun](http://www.cs4fn.org/)!
 - [Ch'ti Code](https://wikis.univ-lille1.fr/chticode/wiki/mpls/informatique-sans-ordinateur)
   est une initiative lilloise foisonne de ressources prêtes à l'emploi.
 - [EPCC Outreach Repository](https://github.com/EPCCed/Activities)
@@ -773,13 +772,13 @@ Si vous avez des liens à ajouter, ils sont bienvenus.
 - [Binaire](2016-BIN) (Benjamin Fasquelle, Raphaël Truffet, Jimmy
   Rogala, et Antonin Garret): repackaging complet de deux activités
   issues du livre unplug autour du binaire: compter en binaire et
-  représentation d'image bitmap. 
+  représentation d'image bitmap.
 
 # Exemples d'exposés en lycée
 
 - [Protéger sa vie privée sur internet](https://framagit.org/nooe/Protection_Vie_Privee/),
   Noe Brucy, 2015.
-- [Cryptographie](https://github.com/Aurele-Barriere/Crypto), 
+- [Cryptographie](https://github.com/Aurele-Barriere/Crypto),
   Aurèle Barrière \& Nathan Thomasset, 2015.
 - [PageRank et vie privée](https://framagit.org/florestan.demoor/PedagoL3/), Florestan De Moor \&
   Jérémy Thibault, 2015.
