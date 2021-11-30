@@ -1,25 +1,13 @@
----
-title: Algorithmes de tri
-classification:
-  - Algorithm: 2
-  - Langage: 0
-  - Information: 0
-  - Machine: 0
-  - PenseeAlgo: 2
-  - Abstraction: 0
-  - Decomposition: 1
-  - Generalisation: 0
-  - Evaluation: 0
-  - Logique: 1
----
-
 # Algorithmes de tri
-Découvrir la puissance d’un algorithme de tri classique.
+Découvrir la puissance d’un algorithme de tri classique, en triant des
+cartes face cachée par binôme.
+
 ## Concepts
 * Algorithmes(\*\*)
 * Langages(.)
 * Information(.)
 * Machine(.)
+
 ## Compétences
 * Pensée algorithmique(\*\*)
 * Abstraction(.)
@@ -27,8 +15,9 @@ Découvrir la puissance d’un algorithme de tri classique.
 * Généralisation et motifs(.)
 * Évaluation(.)
 * Logique(\*)
+
 ## Maturité, public cible
-Prêt à l'emploi
-CM1-CM2
+Testé en CM1-CM2
+
 ## Ressources
 * [Dossier AlgoDeTri](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/AlgoDeTri)
