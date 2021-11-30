@@ -22,7 +22,7 @@ responsabilité de Martin Quinson. Les élèves interviennent dans des
 classes en primaire et au collège. Il s'agit avant tout d'un module de
 communication où les élèves doivent réussir à parler à des vrais gens
 pour faire passer des notions d'informatique simples, en utilisant des
-activités débranchées.
+activités débranchées "clés en main".
 
 Après une séance d'observation en classe, plusieurs séances sont
 dédiées au choix puis à la préparation de deux activités existantes,
@@ -42,8 +42,3 @@ lors des séances de l'emploi du temps.
 Après une présentation des objectifs du module et de quelques
 activités existantes, nous réfléchissons ensemble à la nature de la
 science informatique, ou au rôle des chercheurs dans la société.
-D'autres cours portent sur des techniques de communication plus
-pragmatiques (posture, gestion des silences, rôle de la respiration,
-regards), ou sur l'histoire de la discipline.
-
-
