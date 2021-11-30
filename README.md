@@ -1,4 +1,4 @@
-# Pedago à Rennes
+# Pedago à l'ENS Rennes
 
 Ce dépot est destiné à simplifier le partage et le travail
 collaboratif pour les deux modules de pédago du département
@@ -7,7 +7,7 @@ impliqués dans ces enseignements sont également les bienvenus pour
 participer et réutiliser les ressources disponibles ici : sauf
 indication contraire, les ressources sont sous licence CC-BY-SA.
 
-# Organisation des enseignements à l'ENS Rennes
+# Organisation des enseignements
 
 Le parcours "pédagogie" se découpe de la façon suivante :
 
