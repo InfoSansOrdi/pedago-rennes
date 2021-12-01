@@ -2,8 +2,9 @@
 
 Cette page vise à regrouper (sous une forme un peu fouilli pour
 l'instant) différentes ressources utiles quand on veut créer des
-activités débranchées.
-
+activités débranchées. N'hésitez pas à proposer de nouvelles
+ressources à ajouter ici.
+ 
 ## Images libres de droit
 
 Quelques catalogues d'images et schémas librement réutilisables dans
@@ -19,7 +20,15 @@ vos activités.
   sont aussi utilisables sous licence libre. Attention cependant : la
   majorité des icones de cette collection ne sont pas libres.
   Sélectionnez les bonnes.
-  
+
+## Utiliser git
+
+- Un [crash course](https://mquinson.frama.io/retrogames/Git-crash-course.html)
+  pour le cas où tous les contributeurs ont le même dépot. C'est le
+  cas quand plusieurs personnes du même groupe commitent dans un fork de
+  ce dépôt. Il ne manque plus que l'étape où vous faites une "Pull
+  Request" de votre dépot vers le dépot central.
+
 ## Autre
 
 Pour des couleurs différentiables par des daltoniens et/ou
