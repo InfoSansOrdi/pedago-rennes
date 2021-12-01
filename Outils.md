@@ -28,6 +28,11 @@ vos activités.
   cas quand plusieurs personnes du même groupe commitent dans un fork de
   ce dépôt. Il ne manque plus que l'étape où vous faites une "Pull
   Request" de votre dépot vers le dépot central.
+- Un [cours plus détaillé](http://people.irisa.fr/Thomas.Genet/GEN/CMs/cm4.pdf)
+  sur l'usage du git.
+- Un [autre crash course](https://dev.to/chrisachard/confused-by-git-here-s-a-git-crash-course-to-fix-that-4cmi),
+  encore plus compact que le précédent (mais avec plus d'images).
+
 
 ## Autre
 
