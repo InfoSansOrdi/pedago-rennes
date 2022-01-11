@@ -22,7 +22,7 @@ TODO : lien vers la feuille de prép
 
 * **Introduction** : Vous êtes au volant de votre simulateur de voiture Mario Kart. Vous voulez changer la climatisation ou la radio, mais vous ne pouvez pas quitter la route des yeux sous peine de perdre la course (vous êtes sur la course arc-en-ciel). Mais votre turbo-simulateur 2000 possède une technologie des plus avancées ! Vous avez en effet la possibilité de contrôler votre simulateur à l’aide de gestes dans l’air. Pour savoir où vous en êtes, cette interface va vous envoyer une sensation tactile permettant d’identifier la commande en cours, de valider une interaction, etc... Une des choses importantes est donc de pouvoir reconnaître le “message” envoyé par l’interface.
 * **Objectifs** : Transférer un message à quelqu'un qui ne peut utiliser que son sens du toucher.
-* **Matériel** : Un lot de "jetons" de différentes formes/tailles/poids(matériau) par table. Les formes peuvent être imprimées à partir des fichiers `.svg` [ici](https://github.com/InfoSansOrdi/pedago-rennes/tree/trunk/pedago2/2021-Haptique).
+* **Matériel** : Un lot de "jetons" de différentes formes/tailles/poids(matériau) par table. Les formes peuvent être imprimées à partir des fichiers `.svg` [ici](https://github.com/InfoSansOrdi/pedago-rennes/tree/trunk/Haptique).
 * **Consignes** : Il faut au moins deux personnes. L'une d'entre elles prend le rôle de *messager* et les autres prennent le rôle de *récepteur*. Le messager à un message à faire passer, initialement sous forme d'une suite de chiffres (ex : 1 2 1 1 2) et les récepteurs  doivent retrouver le message. Le récepteur va choisir une suite de jeton qu'il alignera devant les récepteurs afin de représenter le message à transmettre. Le récepteur doit avoir les yeux fermés pour ne pas voir les jetons. Le récepteur va essayer de retrouver le message initial en touchant successivement les jetons. Si il y a plusieurs récepteurs, ils doivent tous reconstruire l’entièreté du message. Une fois que le récepteur a assigné une valeur, le messager pose un morceau de papier sur le jeton (ou écrit sur une feuille à côté) pour se souvenir de la valeur assignée au jeton.
 * **Extensions / aides** :
   * Aide : au lieu de transmettre des chiffres, on transmet des formes (cercle, carré, triangle, ...).
@@ -54,7 +54,7 @@ Exemple de déroulé :
 
 * **Introduction** : Vous avez maintenant un copilote ! Le copilote peut regarder derrière et doit prévenir le pilote lors de l’arrivée d’une carapace. Les bruits du moteur et de la musique sont trop forts pour qu’ils puissent communiquer à l’oral. De plus, les deux personnes ne doivent pas quitter la route des yeux.
 * **Objectifs** : Transférer un message à quelqu'un qui ne peut utiliser que son sens du toucher, sans voir ce qu'on envoie.
-* **Matériel** : Un lot de "jetons" de différentes formes/tailles/poids(matériau) par table. Les formes peuvent être imprimées à partir des fichiers `.svg` [ici](https://github.com/InfoSansOrdi/pedago-rennes/tree/trunk/pedago2/2021-Haptique).
+* **Matériel** : Un lot de "jetons" de différentes formes/tailles/poids(matériau) par table. Les formes peuvent être imprimées à partir des fichiers `.svg` [ici](https://github.com/InfoSansOrdi/pedago-rennes/tree/trunk/Haptique).
 * **Consignes** : Comme l'activité 1, mais le messager ne peut aussi utiliser que son sens du toucher. Sachant qu'il doit quand même connaître le message à transmettre, on peut utiliser un paravent pour cacher le lot de jeton.
 * **Extensions** : Idem activité 1.
 * **Questions à poser** : 
