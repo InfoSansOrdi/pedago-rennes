@@ -1,0 +1,36 @@
+﻿[
+  {
+    "type": "family",
+    "color": 3,
+    "children": [
+      {
+        "type": "egg",
+        "color": "3"
+      },
+      {
+        "type": "family",
+        "color": 2,
+        "children": [
+          {
+            "type": "family",
+            "color": 0,
+            "children": [
+            ]
+          }
+        ]
+      },
+      {
+        "type": "family",
+        "color": 2,
+        "children": [
+          {
+            "type": "family",
+            "color": 0,
+            "children": [
+              ]
+          }
+        ]
+      }
+    ]
+  }
+]
