@@ -1,0 +1,136 @@
+﻿[
+  {
+    "type": "family",
+    "color": null,
+    "children": [
+      {
+        "type": "family",
+        "color": 0,
+        "children": [
+          {
+            "type": "family",
+            "color": 1,
+            "children": [
+              {
+                "type": "family",
+                "color": 2,
+                "children": [
+                  {
+                    "type": "family",
+                    "color": 3,
+                    "children": [
+                      {
+                        "type": "egg",
+                        "color": "0"
+                      },
+                      {
+                        "type": "family",
+                        "color": null,
+                        "children": [
+                          {
+                            "type": "egg",
+                            "color": "1"
+                          },
+                          {
+                            "type": "egg",
+                            "color": "2"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "egg",
+                        "color": "3"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "family",
+    "color": null,
+    "children": [
+      {
+        "type": "family",
+        "color": 4,
+        "children": [
+          {
+            "type": "family",
+            "color": 5,
+            "children": [
+              {
+                "type": "egg",
+                "color": "4"
+              },
+              {
+                "type": "family",
+                "color": null,
+                "children": [
+                  {
+                    "type": "egg",
+                    "color": "4"
+                  },
+                  {
+                    "type": "egg",
+                    "color": "5"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "family",
+    "color": null,
+    "children": [
+      {
+        "type": "family",
+        "color": 6,
+        "children": [
+          {
+            "type": "family",
+            "color": 7,
+            "children": [
+              {
+                "type": "egg",
+                "color": "6"
+              },
+              {
+                "type": "family",
+                "color": null,
+                "children": [
+                  {
+                    "type": "egg",
+                    "color": "6"
+                  },
+                  {
+                    "type": "family",
+                    "color": null,
+                    "children": [
+                      {
+                        "type": "egg",
+                        "color": "6"
+                      },
+                      {
+                        "type": "egg",
+                        "color": "7"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

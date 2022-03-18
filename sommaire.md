@@ -382,7 +382,28 @@ Il faut aider un galettier à ranger ses galettes carrées de la plus grande à 
 Activité prête à l'emploi.
 ### Ressources
 * [Dossier CrepierPsychorigide](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/CrepierPsychorigide)
-
+---
+## Crococalcul
+Une activité permettant d'initier au lambda calcul grâce à une représentation des abstractions sous forme de crocodiles et de variables par leurs oeufs.
+Mots-clefs:
+*__Classification__
+### Concepts
+* Algorithmes(.)
+* Langages(.)
+* Information(\*)
+* Machine(\*\*\*)
+### Compétences
+* Pensée algorithmique(.)
+* Abstraction(\*\*\*\*)
+* Décomposition(\*)
+* Généralisation et motifs(\*\*)
+* Évaluation(\*\*\*\*)
+* Logique(\*\*)
+### Maturité, public cible
+Activité utilisable mais gagnerais énormement à ce que l'activité soit présentée sous la forme d'un jeu.
+### Ressources
+* [Fiche d'explication de l'activité](http://worrydream.com/AlligatorEggs/)
+* [Site utilisable pour expliquer et visualiser l'activité] (https://tibordp.github.io/gator-calculus/)
 ---
 ## Les critiques de film
 Il s'agit de classer des critiques de film, sans rien y comprendre.

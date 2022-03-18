@@ -1,0 +1,47 @@
+* Crêpier psychorigie
+
+Règles globalement bien comprises, explications données au cas par cas pendant la première phase de découverte.
+Certains apprenant ont eu le temps de résoudre 5 fois le problème pendant que d'autres ne l'avait toujours pas terminé, et ce malgrès la règle du "toutes les faces de couleur en haut"
+
+Première mise en commun: Tous on compris comment faire mais aucune explication convaincante, on fixe la règle du robot et de l'instructeur.
+Dès que le problème est résolu par les deux apprenants (rapide car très proche du problème précédent), on demande au robot de cacher les crêpes. On donne 2 piles de crêpes à trier en simultané pour les plus rapides.
+Si le passage du jeu seul au jeu avec robot et instructeur n'apporte pas beaucoup de modification dans la compréhension de la stratégie de tri, le passage aux piles cachés a bien souvent été très efficace pour que les apprenants comprennent leur propre manière de penser et arrivent à l'expliquer.
+
+Deuxième mise en commun: Les explications sont plus claires, les apprenants disent des phrases du genre "On met la plus grande crêpe en dessous et on recommence avec une crêpe en moins".
+
+Le "pourquoi c'est de l'informatique" est axés sur les algorithmes récursifs et l'intérêt de trier les choses (secondaire, car on utilise pas la pile de crêpes une fois triée).
+Il est très bien compris et ré-expliqué par les élèves.
+
+
+* Croco-calcul
+
+** Pendant la séance
+Explications avec des phrases au tableau peu compréhensible, l'animation est bien plus efficace pour faire comprendre le mécanisme de réduction aux élèves.
+Les apprenants posent plein de question concrètes sur l'exemple au tableau: "Et là, le bleu peu manger le rouge ?" etc
+
+On demande aux élèves de faire une première réduction, il faut souvent ré-expliquer l'unique règle. Manipuler les crocodiles en papier est difficile et peu intuitif.
+Mise en commun des résultats: nous avons demandé aux apprenants la famille qu'ils ont obtenu. Ils ont tendance à répéter ce qu'à répondu le premier groupe. Un sondage semble plus approprié (Crocodile bleu... qui est d'accord ?)
+
+On explique la règle des vieux crocodiles: "Les vieux crocos rassemblent plusieurs famille en une seule, ils sont donc mangés en une seule fois par un crocodile et peux disparaitre s'il ne regroupe qu'une seule famille". On fait une "correction" au tableau, un apprenant viens pour appuyer sur les crocos.
+C'est à ce moment que nous avions prévu d'expliquer le recoloriage, nous avons préféré faire un exemple de vieux crocodiles et ne jamais aborder le recoloriage.
+
+Il peut être intérressant d'écrire aux tableau quels sont les actions possibles à chaque réduction (soit le crocodile le plus en haut le plus à gauche mange, soit un vieux crocodile superflu disparait, soit on a fini).
+Avec l'arrivé des vieux crocodiles et des exemples plus compliqués, viennent aussi des difficultés à savoir quels crocodiles sont adjacent au même niveau de profondeur ou dans deux familles différentes.
+
+Les apprenants ne sont pas spécialement plus à l'aise avec la première règle. Nous sommes obligés d'aller les voir un par un pour vérifier qu'ils ont réduit correctement.
+
+Deuxième mise en commun: très semblable à la première. On fait une démonstration plus complexe (au tableau uniquement) représentant l'addition de 1 et 2.
+Le fait de montrer un calcul en crocodile est assez parlant et très utile pour ammener le "c'est de l'informatique parce que".
+
+On explique que réduire les crocodiles est une action simple et répétitive (comme dit précedemment, si on écrit les actions à faire dans l'ordre de priorité au tableau, on doit pouvoir montrer plus facilement que la réduction des crocodiles est très simple et automatisable).
+On s'intéresse donc à la réalisation des nids: on présente le booléen "Vrai" (sans le dire); on demande aux apprenants de construire "Faux". Certains (peu) réussissent directement. Beaucoup trouvent en expliquant que dans l'exemple, le deuxième crocodile ignore ce qu'il mange.
+
+Par manque de temps, nous n'allons pas plus loin dans la construction des termes. Nous faisons une démonstration de "2 * 3" au tableau.
+
+** Bilan
+Manipuler les crocodile en papier est loin d'être évident. Les apprenants ont tendance à détruire le nid mangé qu'ils ne peuvent donc pas recopier, d'autres suppriment le mauvais crocodile.
+
+La question "Quel est le but du jeu", arrive très vite (avant la première manipulation). Il faudrait mettre au poins un véritable jeu avec les crocodiles, si possible à deux joueurs.
+Le problème du jeu à un joueur fait en groupe est que ceux qui ne manipulent pas les crocodiles sont peu investis et finissent par faire autre chose.
+
+Il faudrait expliquer plus tôt le lien avec l'informatique (par exemple entre la partie évaluation et construction), cela permettrait de motiver les apprenants.

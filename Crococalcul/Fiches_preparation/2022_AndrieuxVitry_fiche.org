@@ -1,0 +1,27 @@
+#+TITLE: Croco-calcul
+
+
+* Résumé de l'activité
+Objectif: Introduire le lambda-calcul
+
+Niveau: CM1 - CM2
+
+Durée: 45 minutes
+
+* Déroulement
+
+| Durée          | Phase                              | Activité et consigne                                                                        | Organisation       | Matériel                  |
+|----------------+------------------------------------+---------------------------------------------------------------------------------------------+--------------------+---------------------------|
+| 5 - 10 minutes | Explication du jeu                 | Histoire des crocodiles, explication de la première règle (bêta réduction)                  | En classe          | TBI + grands crocos       |
+|----------------+------------------------------------+---------------------------------------------------------------------------------------------+--------------------+---------------------------|
+| 5 minutes      | Première manipulation              | réduire un petit nid de trois familles de crocodiles                                        | par groupes de 2   | Un jeu par groupe         |
+|----------------+------------------------------------+---------------------------------------------------------------------------------------------+--------------------+---------------------------|
+| 10 minutes     | Mise en commun et dernières règles | Plusieurs réductions non triviales                                                          | classe puis groupe | idem                      |
+|----------------+------------------------------------+---------------------------------------------------------------------------------------------+--------------------+---------------------------|
+| 5 minutes      | Rédution de 1 + 2                  | Réduire le nid suivant                                                                      | En îlots           | Tous les crocos de l'îlot |
+|----------------+------------------------------------+---------------------------------------------------------------------------------------------+--------------------+---------------------------|
+| 10 minutes     | Mise en commun                     | Réduire c'est facile mais pénible, ce qui est dur c'est de fabriquer des nids de crocodiles | En classe          | TBI                       |
+|----------------+------------------------------------+---------------------------------------------------------------------------------------------+--------------------+---------------------------|
+| 5 minutes      | Construction du nid                | Briques élémentaires, Vrai, Faux, Pas/Non                                                   | En classe          | Pas de matériel           |
+|----------------+------------------------------------+---------------------------------------------------------------------------------------------+--------------------+---------------------------|
+| 5 minutes      | C'est de l'info parceque           |                                                                                             |                    |                           |
