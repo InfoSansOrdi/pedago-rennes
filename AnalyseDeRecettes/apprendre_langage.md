@@ -46,3 +46,9 @@ une variable en plusieurs exemplaire et considérer qu'il y en a une infinité.
 Ainsi lorsqu'on applique une transformation sur un objet dans une variable on ne
 retire que un seul objet et la variable garde son contenu.
 
+## Ajout Martin
+
+Des gens ont effectivement inventé une façon d'écrire les recettes de
+cuisine comme un alchimiste. Reste à voir si ça peut aider à passer le
+message informatique prévu, ou si cela risque de faire du bruit inutile.
+https://suberic.net/~dmm/food/alchemical_food.html
