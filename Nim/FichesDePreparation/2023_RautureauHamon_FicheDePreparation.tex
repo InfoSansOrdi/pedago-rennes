@@ -1,0 +1,228 @@
+% Cette fiche d'activité à été développée par
+% + Aloïs Rautureau <alois.rautureau@ens-rennes.fr>
+% + Alexis Hamon <alexis.hamon@ens-rennes.fr>
+
+% Le template vient de
+% + Santiago Bautista <Santiago.Bautista@ens-rennes.fr>
+% + Benjamin Bordais <Benjamin.Bordais@ens-rennes.fr>
+
+% Elle est distribuée sous la licence Creative-Commons by-nc-sa 4.0
+% (Attribution, Non-Commercial, Share Alike)
+% qui peut être trouvée dans
+% [le site de Creative Commons](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+
+\documentclass[12pt, a4paper]{article}
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[top=0.9in, left=0.6in, right=0.7in, bottom=1in]{geometry}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{titling}
+
+\renewcommand{\headrulewidth}{1pt}
+\chead{} 
+\lhead{Jeu de Nim - Plan de l'activité}
+\rhead{Aloïs Rautureau et Alexis Hamon}
+
+\renewcommand{\footrulewidth}{1pt}
+\cfoot{\textbf{page \thepage}} 
+\lfoot{2023}
+\rfoot{ENS Rennes}
+
+\fancypagestyle{plain}{
+\fancyhf{} 
+\cfoot{\textbf{page \thepage}} 
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{1pt}}
+
+\begin{document}
+
+\title{Jeu de Nim}
+\author{Aloïs Rautureau et Alexis Hamon}
+\date{\today}
+\maketitle
+\paragraph*{Niveau:} $6^{\grave{e}me}$
+\paragraph*{Durée:} 55 minutes (dont 10 minutes de battement pour d'éventuelles extensions)
+\paragraph*{Prérequis:} Aucun
+\paragraph*{Description du jeu:}
+Dans le jeu de Nim, deux joueurs s'affrontent. Sur la table, entre eux, il y a 16 pions/jetons/allumettes
+qui sont posés. A tour de rôle, chaque joueur prend un, deux ou trois jetons.
+Le joueur qui fini son tour alors qu'il ne reste plus de jetons a gagné.
+\paragraph*{Objectif pédagogique:}
+Donner des intuitions algorithmiques simples, recherche d'une stratégie gagnante,
+
+\begin{longtable}{c|m{2.5cm}|m{5cm}|m{2.5cm}|m{3cm}}
+\textbf{Durée} & \textbf{Phase} & \textbf{Activités et consignes} & \textbf{Organisation} & \textbf{Matériel} \\ \hline
+
+5' &
+
+Introduction
+
+ &
+
+Explications des règles, puis démonstration du déroulement d'une partie entre les interventants au tableau.
+
+& 
+
+A l'oral
+ 
+ &
+
+Tableau et craies (ou feutres)
+
+
+\\ \hline
+
+5' &
+
+Appropriation des règles
+ 
+ &
+
+
+Les intervenants jouent contre quatre élèves qui semblent avoir bien compris les règles.
+Le but est également de faire remarquer que l'on gagne à chaque fois, afin de donner un but aux élèves: trouver la stratégie gagnante.
+  
+& Idem & Idem \\ \hline
+
+10' & 
+
+Exploration du jeu
+
+ &
+
+Les élèves jouent l’un contre l’autre par groupes de deux. Le but est ici simplement d'explorer et s'approprier le jeu. Les intervenants passent dans les rangs pour réexpliquer les règles si besoin.
+ 
+& 
+
+Groupes de 2 (possiblement îlots de 4 pour échanger)
+
+&
+Une quinzaine de groupes de 16 jetons colorés
+
+
+ \\ \hline
+
+
+5'
+
+&
+
+Mise en commun
+
+& 
+
+Demander à quelques élèves avec une stratégie pédagogiquement intéréssante de la présenter. On entends par là des élèves qui sont dans la bonne direction, mais qui potentiellement manquent un détail particulier. Dans le cas où des élèves auraient trouvés la stratégie gagnante, on leur demande de réfléchir à une manière de la traduire en instructions simples.
+
+& A l'oral & N/A \\ \hline
+
+10' &
+
+Recherche de la stratégie gagnante
+ 
+&
+
+Les élèves recommencent à jouer entre eux, mais avec le but clair de rechercher la stratégie gagnante et de la traduire en instructions simples. Pour ça on peut demander aux élèves de jouer en 2 contre 2 : chaque binôme est composé d'un robot qui exécute les instructions d'un.e programmeur/euse. On peut leur expliquer que le but est de trouver une seule instruction qui permette de toujours gagner (faire une division euclidienne, et prendre le reste de cette division).
+Dans l'éventualité où les élèves auraient déjà trouvé la stratégie gagnante, leur demander de réfléchir à une stratégie gagnante qu'ils connaissent souvent sans savoir la formaliser (ex celle du jeu du Morpion).
+
+& 
+
+Par groupes de quatre
+ 
+ & Sept à huit groupes de 16 jetons colorés  \\ \hline
+
+5' 
+
+&
+
+Démonstration 
+
+&
+
+On choisit deux élèves à l’aise avec cet exercice pour faire une démonstration,
+en binôme avec chacun des intervenants.
+
+&
+
+Au tableau
+
+&
+
+Tableau (et craies ou feutres) \\  \hline
+
+5'
+
+&
+
+Mise en contexte
+
+&
+
+Expliquer le rapport avec l'informatique, et faire notamment le lien avec l'algorithmique, l'intelligence artificielle et la théorie du jeu (i.e c'est grâce a ce genre d'algorithmes que les ordinateurs sont super forts aux échecs/dames).
+
+On peut expliquer la stratégie par la division euclidienne. Si on peut prendre $n$ jetons à chaque tour et qu'il reste $x$ jetons, alors il faut en prendre $mod(x, n + 1)$ (le reste de la division euclidienne). Avec cette idée, les élèves comprennent facilement que notre stratégie fonctionne peu importe le nombre de jetons au départ, et peu importe le nombre de jetons qu'on peut prendre à chaque tour.
+
+Il est important de pouvoir décomposer la stratégie en instructions simples comme ils l'ont fait. Un ordinateur est un peu bête, et ne sait faire que des choses très simples. C'est juste qu'il en fait beaucoup très rapidement.
+
+Profiter de ce temps pour voir l'enthousiasme ou non des élèves face à l'activité pour adapter les suivantes.
+
+& 
+
+Oral collectif 
+
+& 
+
+Rien
+
+\\ \hline
+
+5-10'
+
+&
+
+Extensions
+
+&
+
+Lancer une réflexion sur d'autres jeux en demandant aux élèves de citer des jeux pour lequels ils pensent qu'il existe une stratégie gagnante.
+
+&
+
+A l'oral
+
+&
+
+Rien
+
+\end{longtable}
+
+\paragraph*{Coup de pouce pour débloquer la réflexion} (si les élèves patinent) :
+\begin{itemize}
+\item Ranger les jetons par couleurs, donc par groupes de 4
+\item On peut jouer avec seulement 4 jetons, puis rajouter 4 autres jetons une fois qu'ils auront compris,
+et ainsi de suite.
+\item On joue contre l'élève
+avec la consigne \og regarde bien ce que je fais\fg{}
+puis on inverse les rôles en cours de partie.
+\item On propose des stratégies (qui marchent pas) et on demande aux élèves de jouer contre.
+\begin{itemize}
+\item[\emph{Agressif}] prend toujours 3 pions (ou tous les pions s'il en reste moins), systématiquement.
+\item[\emph{Peureux}] prend toujours un seul pion, systématiquement, quoi qu'il arrive.
+\item[\emph{Aléatoire}] détermination au D6 du nombre de pions pris
+\end{itemize}
+\end{itemize}
+
+\paragraph*{Variantes pour aller plus loin} (si certains groupes d'élèves vont trop vite)
+\begin{itemize}
+\item Est-ce que tu préfères commencer ou pas ?
+\item Et s'il y a 17 jetons au début, que se passe-t-il ?
+\item Maintenant, celui qui prend le dernier jeton perd.
+\item On peut prendre 5 jetons au lieu de 3. Est-ce que ta stratégie fonctionne toujours ?
+\item Et si on a 150 jetons et qu'on peut en prendre 7 à chaque tour ?
+\end{itemize}
+\end{document}
