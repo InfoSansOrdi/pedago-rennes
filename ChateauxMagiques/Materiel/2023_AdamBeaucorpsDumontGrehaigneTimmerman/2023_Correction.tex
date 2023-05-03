@@ -1,0 +1,131 @@
+\documentclass{article}
+
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper, margin=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage[inkscapeformat=png]{svg}
+\usepackage{svg}
+
+\usepackage{tikz}
+\usetikzlibrary{automata, arrows.meta, positioning}
+
+\newcounter{question}
+\newenvironment{question}{
+		\noindent\stepcounter{question}\thequestion. 
+	}{
+		\vspace{10pt}
+	}
+
+
+\begin{document}
+ \centering\section*{Correction chateau magique}
+ \vspace{1cm}
+\begin{minipage}[t]{0.45\textwidth}
+	\begin{center}
+		\textbf{Petit Château}
+	\end{center}
+
+	\begin{question}
+		Est-ce qu'il existe une formule	qui mène à la salle du trône ? Si oui, laquelle ? Si non, pourquoi ?
+
+		\texttt{(cadabra)(abra)(cadabra)}
+	\end{question}
+
+	\begin{question}
+		Le magicien aimerait effectuer exactement 6 déplacements. Est-ce possible ? Si oui, quelle est la formule ? Si non, pourquoi ?
+
+		Au moins une boucle \texttt{cadabra}
+	\end{question}
+
+	\begin{question}
+		Est-ce qu'il existe une formule plus longue que toutes les autres ? Si oui laquelle ? Si non, pourquoi ?
+
+		Non. Si tu en prends une, tu peux en trouver une plus grande.
+	\end{question}
+
+	\begin{question}
+		Est-ce qu'il y a un endroit à ne pas visiter ? Si oui, lequel ? Pourquoi ?
+
+		Les oubliettes (on ne peut pas ressortir)
+	\end{question}
+
+	\begin{question}
+		Est-ce qu'il existe une formule qui commence par abracabra et qui mène au trône ? Si oui, laquelle ? Si non, pourquoi ?
+
+		Non.
+	\end{question}
+\end{minipage}
+\hfill
+\setcounter{question}{0}
+\begin{minipage}[t]{0.45\textwidth}
+	\begin{center}
+		\textbf{Grand Château}
+	\end{center}
+
+	\begin{question}
+		Est-ce qu'il existe une formule qui mène à la salle du trône en passant par la salle du trésor ? Si oui, laquelle ? Si non, pourquoi ?
+
+		Oui (ex : Ecurie $\rightarrow$ Trésor $\rightarrow$ trône)
+	\end{question}
+
+	% \begin{question}
+	% 	Est-ce qu'il existe une formule qui mène à la salle du trône en passant par la grande salle du banquet ? Si oui laquelle ? Si non, pourquoi ?
+
+
+	% \end{question}
+
+	\begin{question}
+		Est-ce qu'il y a un endroit à ne pas visiter ? Si oui, lequel ? Si non, pourquoi ?
+
+		Salle des gardes
+	\end{question}
+
+	\begin{question}
+		Est-ce qu'il existe une formule la plus courte ? Si oui laquelle ? Si non, pourquoi ?
+
+		Oui. \texttt{cada-ra-bra-da-bra-braca} (19 lettres). Différent du moins d'état \texttt{cadabra-cadabra-bra-cadabra} (24 lettres)
+	\end{question}
+
+	\begin{question}
+		Quelle formule permet de passer par un nombre maximal de salle ? (sans ressortir de la salle du trône)
+
+		Passer par : Ronde $\rightarrow$ Magicien $\rightarrow$ Vin$\rightarrow$ Grenier $\rightarrow$ Jardin $\rightarrow$ (Vin)$\rightarrow$ Cuisine $\rightarrow$ Banquet
+	\end{question}
+
+	\begin{question}
+    Une même formule peut-elle nous mener à deux endroits différents ?
+
+    Pas ici. Exemple de problème :
+
+    \begin{tikzpicture}[node distance = 2.5cm, on grid, auto]
+        \node (1) [state, initial, initial text= ] {1};
+        \node (2) [state, right = of 1] {2};
+        \node (3) [state, right = of 2] {3};
+        \node (4) [state, below = of 1] {4};
+
+        \path[-stealth,thick]
+            (1) edge node {abra} (2)
+            (2) edge node {cadabra} (3)
+
+            (1) edge node {abracadabra} (4);
+
+        
+    \end{tikzpicture}
+	\end{question}
+\end{minipage}
+
+\vspace{1cm}
+
+\centering\subsection*{Supplément}
+-> Construire un automate avec un nombre pair de "abra" et un nombre impair de "cada".
+
+Vous commencez au pont-levis, passez dans les salles de votre choix, et finissez dans la salle du trône. 
+Vous pouvez passer par la salle du trône sans vous y arrêter.
+
+\vspace{1cm}
+
+\includesvg{2023_Supplement.svg}
+
+ 
+\end{document}

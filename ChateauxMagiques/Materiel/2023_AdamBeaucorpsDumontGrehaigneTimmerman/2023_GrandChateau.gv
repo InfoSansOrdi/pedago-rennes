@@ -1,0 +1,87 @@
+digraph finite_state_machine {
+    rankdir=LR;
+    size="8,5"
+
+    node [shape = circle, label = "Pont-levis"] Pl;
+    node [shape = circle, label = "Oubliettes"] O;
+    node [shape = doublecircle, label = "Salle du trône"] St;
+    node [shape = circle, label = "Cuisine"] C;
+    node [shape = circle, label = "Salle du banquet"] Sb;
+    node [shape = circle, label = "Salle des gardes"] Sg;
+    node [shape = circle, label = "Tour du Magicien"] TM;
+    node [shape = circle, label = "Ecuries"] E;
+    node [shape = circle, label = "Salle du trésor"] ST;
+    node [shape = circle, label = "Cave à vin"] Cv;
+    node [shape = circle, label = "Chemin de ronde"] Cr;
+    node [shape = circle, label = "Fauconnerie"] F;
+    node [shape = circle, label = "Poulailler"] P;
+    node [shape = circle, label = "Dortoire"] D;
+    node [shape = circle, label = "Les bains"] Ba;
+    node [shape = circle, label = "Bibliothèque"] Bi;
+    node [shape = circle, label = "Grenier"] G;
+    node [shape = circle, label = "Chambre royale"] Cr;
+    node [shape = circle, label = "Jardin"] J;
+
+    node [shape = point]; qi
+
+    qi -> Pl;
+
+    Pl -> Cr [label = "cada"];
+    Pl -> E [label = "cadabra"];
+    
+    E -> ST [label = "abracada"]; //weight = 30 optionel
+    E -> C [label = "cadabra"];
+    E -> F [label = "cada"];
+    
+    F -> P [label = "bra"];
+    
+    P -> E [label = "bracadabra"];
+    
+    Cr -> Sg [label = "abra"];
+    Cr -> TM [label = "ra"];
+    
+    TM -> Cv [label = "bra"];
+    TM -> ST [label = "cadabra"];
+    TM -> Bi [label = "pocus"];
+    
+    Bi -> Sg [label = "hocus"];
+    
+    D -> C [label = "pocus"];
+    D -> Ba [label = "hocus"];
+    
+    Ba -> D [label = "pocus"];
+    
+    Sg -> O [label = "abracadabra"];
+    
+    O -> O [label = "abra"];
+    O -> Sg [label = "cadabra"];
+    
+    ST -> ST [label = "abra"];
+    ST -> St [label = "cadabra"];
+    
+    Cv -> Sg [label = "abra"];
+    Cv -> C [label = "da"];
+    Cv -> G [label = "abraca"];
+    
+    G -> J [label = "dagran"];
+    
+    J -> Cv [label = "tesque"];
+    
+    C -> Sg [label = "abra"];
+    C -> Sb [label = "bra"];
+    
+    Sb -> C [label = "abra"];
+    Sb -> St [label = "braca"];
+
+    St -> ST [label = "abra"];
+    St -> Sb [label = "cadabra"];
+
+    //Sg -> Pl [style = "invis"];
+    Sb -> D [style = "invis"];
+    TM -> O [style = "invis"];
+    //ST -> Sb [style = "invis", weight = 20];
+    E -> O [style = "invis"];
+    ST -> Cv [style = "invis"];
+    //Cv -> Pl [style = "invis", weight = 15];
+    Sg -> TM [style = "invis"];
+}

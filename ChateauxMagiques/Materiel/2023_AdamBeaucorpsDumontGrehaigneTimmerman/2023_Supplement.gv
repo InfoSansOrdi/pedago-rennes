@@ -1,0 +1,32 @@
+digraph finite_state_machine {
+    rankdir=LR;
+    size="8,5"
+
+    // a pair, b impair
+
+    node [shape = circle, label = "1"] n1;
+    node [shape = circle, label = "2"] n2;
+    node [shape = circle, label = "3"] n3;
+    node [shape = doublecircle, label = "4"] n4;
+    node [shape = circle, label = "5"] n5;
+    
+    node [shape = point]; p
+
+    p -> n1;
+
+    n1 -> n2 [label = "a"];
+    n1 -> n4 [label = "b"];
+    
+    n2 -> n3 [label = "a"];
+    
+    n3 -> n2 [label = "a"];
+    
+    n3 -> n4 [label = "b"];
+    
+    n4 -> n5 [label = "b"];
+    
+    n5 -> n4 [label = "b"];
+    
+    
+
+}
