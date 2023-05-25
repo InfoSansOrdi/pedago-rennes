@@ -10,7 +10,7 @@
 
 **2)** Début de recherche sur la plus petite des cartes. Les groupes ayant réussi essayaient de reproduire leur stratégie sur des cartes plus grandes.
 
-*=> **But** : Se familiariser avec le problème et commencer à essayer d'intuiter les simplifications évidentes (ne pas de cycle par exemple).
+**=>** **But** : Se familiariser avec le problème et commencer à essayer d'intuiter les simplifications évidentes (ne pas faire de cycle par exemple).
 
 **3)** Remise en commun : Les élèves partagent les simplifications et autres règles qu'ils ont réussi à intuiter. Puis explication de l'algorithme de Kruskal au tableau.
 
