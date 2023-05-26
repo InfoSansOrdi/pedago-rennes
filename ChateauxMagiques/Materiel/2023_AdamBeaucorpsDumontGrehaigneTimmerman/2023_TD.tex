@@ -1,0 +1,81 @@
+\documentclass{article}
+
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper, landscape, margin=0.5cm]{geometry}
+
+
+
+
+\newcounter{question}
+\renewcommand{\line}{\par\noindent\rule{\textwidth}{0.4pt}\vspace{3pt}}
+\newenvironment{question}{
+		\noindent\stepcounter{question}\thequestion. 
+	}{
+		\line\line\line\line
+		\vspace{-10pt}
+	}
+
+
+
+
+\begin{document}
+\begin{minipage}[t]{0.45\textwidth}
+	\begin{center}
+		\textbf{Petit Château}
+	\end{center}
+
+	\begin{question}
+		Est-ce qu'il existe une formule	qui mène à la salle du trône ? Si oui, laquelle ? Si non, pourquoi ?
+	\end{question}
+
+	\begin{question}
+		Le magicien aimerait effectuer exactement 6 déplacements. Est-ce possible ? Si oui, quelle est la formule ? Si non, pourquoi ?
+	\end{question}
+
+	\begin{question}
+		Est-ce qu'il existe une formule plus longue que toutes les autres ? Si oui laquelle ? Si non, pourquoi ?
+	\end{question}
+
+	\begin{question}
+		Est-ce qu'il y a un endroit à ne pas visiter ? Si oui, lequel ? Pourquoi ?
+	\end{question}
+
+	\begin{question}
+		Est-ce qu'il existe une formule qui commence par abracabra et qui mène au trône ? Si oui, laquelle ? Si non, pourquoi ?
+	\end{question}
+\end{minipage}
+\hfill
+\setcounter{question}{0}
+\begin{minipage}[t]{0.45\textwidth}
+	\begin{center}
+		\textbf{Grand Château}
+	\end{center}
+
+	\begin{question}
+		Est-ce qu'il existe une formule qui mène à la salle du trône en passant par la salle du trésor ? Si oui, laquelle ? Si non, pourquoi ?
+	\end{question}
+
+	% \begin{question}
+	% 	Est-ce qu'il existe une formule qui mène à la salle du trône en passant par la grande salle du banquet ? Si oui laquelle ? Si non, pourquoi ?
+	% \end{question}
+
+	\begin{question}
+		Est-ce qu'il y a un endroit à ne pas visiter ? Si oui, lequel ? Si non, pourquoi ?
+	\end{question}
+
+	\begin{question}
+		Est-ce qu'il existe une formule la plus courte ? Si oui laquelle ? Si non, pourquoi ?
+	\end{question}
+
+	
+	\begin{question}
+		Quelle formule permet de passer par un nombre maximal de salle ? (sans ressortir de la salle du trône)
+	\end{question}
+
+	\begin{question}
+		Une même formule peut-elle nous mener à deux endroits différents ?
+	\end{question}
+\end{minipage}
+	
+\end{document}
