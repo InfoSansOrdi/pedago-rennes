@@ -16,7 +16,7 @@
 
 ## Déroulement des activités
 
-TODO : lien vers la feuille de prép
+[Feuille de préparation](https://github.com/InfoSansOrdi/pedago-rennes/tree/trunk/Haptique/fiche_preparation.pdf)
 
 ### Activité 1
 
