@@ -1,10 +1,10 @@
-# Observation à l'école primaire de Bourgchevreuil (2022)
+# Observation en 2022
 
 ## Remarques 
  - Les élèves travaillent mieux avec une méthodologie bien posée.
  - Système avec un cahier rouge, contenant à chaque fois l'énoncé et l'exercice (l'utiliser pour les interventions ?).
   
-## Classe de Armelle Quinson  
+## Classe A
 
 **Nombre d'élèves** : 25 
 
@@ -12,7 +12,7 @@
 - Réactivité des élèves, reprise en main facile même quand la classe est un peu dissipée.
 - Habitude à la discussion ouverte.
 
-## Classe de Romain Nogues
+## Classe B
 
 **Nombre d'élèves** : 30
 
