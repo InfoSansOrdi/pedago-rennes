@@ -1,6 +1,9 @@
 # Algorithmes de tri
+
 Découvrir la puissance d’un algorithme de tri classique, en triant des
 cartes face cachée par binôme.
+
+**Maturité:** activité testée en CM1-CM2
 
 ## Concepts
 * Algorithmes(\*\*)
@@ -16,8 +19,4 @@ cartes face cachée par binôme.
 * Évaluation(.)
 * Logique(\*)
 
-## Maturité, public cible
-Testé en CM1-CM2
 
-## Ressources
-* [Dossier AlgoDeTri](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/AlgoDeTri)

@@ -5,6 +5,9 @@ un langage jouet. La syntaxe du langage n'est pas encore aboutit mais les
 activité présentant certains analyses le sont (Code mort, Analyse d'expression
 disponible).
 
+**Maturité:** activité à terminer avant de pouvoir la jouer
+
+
 ## Langage
 
 Une description du langage sur lequel les analyses sont basé est présente

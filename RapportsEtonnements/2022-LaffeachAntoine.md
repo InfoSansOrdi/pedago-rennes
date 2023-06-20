@@ -1,5 +1,5 @@
 # Rapport d'étonnement
-## Léo Laffeach et Thibaut Antoine, à l'école Champ-L'évêque, Bruz
+## Léo Laffeach et Thibaut Antoine, en école primaire
 
 La classe était globalement assez calme, nous nous attendions à ce que les élèves soient beaucoup plus dissipés.
 Iels sont très libres dans leurs activités, iels peuvent lire des magazines et jouer à des jeux mathématiques.

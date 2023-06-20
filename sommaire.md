@@ -1,12 +1,12 @@
 # Sommaire des activités recensées ici
 
-Le dépôt est organisé de la façon suivante : chaque activité a un dossier à la racine, les activités sont dans l'ordre alphabétique. Chaque dossier est
-décomposé en sous dossier contenants les différents types de ressources.
+Le dépôt est organisé de la façon suivante : chaque activité a un dossier à la racine, les activités sont dans l'ordre alphabétique. Chaque dossier
+est décomposé en sous dossier contenants les différents types de ressources.
 
-Vous trouverez dans ce sommaire une classification des activités par concepts (algorithmes, langages, information, machine), et par compétences (pensée
-algorithmique, abstraction, décomposition, généralisation et motifs, évaluation, logique). Chaque catégorie se voit attribuer ., \*, ou \*\* selon que
-l'activité ne se classe pas, se classe un peu, ou se classe beaucoup dans la catégorie. Vous trouverez également des données concernant les ressources
-disponibles, et le public cible.
+Vous trouverez dans ce sommaire une classification des activités par concepts (algorithmes, langages, information, machine), et par compétences
+(pensée algorithmique, abstraction, décomposition, généralisation et motifs, évaluation, logique). Chaque catégorie se voit attribuer ., \*, ou \*\*
+selon que l'activité ne se classe pas, se classe un peu, ou se classe beaucoup dans la catégorie. Vous trouverez également des données concernant les
+ressources disponibles, et le public cible.
 
 En fin de sommaire sont disponibles des sites où trouver des activités débranchées, ainsi que des exemples d'exposés.
 
@@ -22,47 +22,51 @@ Elle sont issus des références suivantes, et résumées plus bas.
 
 ### Concepts
 
-* Algorithmes : l'activité permet de découvrir la notion d'algorithme, soit en demandant d'en concevoir, soit en demandant d'en suivre (que ce soit explicite ou
-  non).
-* Langages : la notion de langage est travaillée, en tant que moyen de communication standardisé, aussi bien les langages de programmation que les langages de
-  description sont concernés (on ne considère pas les langages formels dans cette catégorie).
+* Algorithmes : l'activité permet de découvrir la notion d'algorithme, soit en demandant d'en concevoir, soit en demandant d'en suivre (que ce soit
+  explicite ou non).
+* Langages : la notion de langage est travaillée, en tant que moyen de communication standardisé, aussi bien les langages de programmation que les
+  langages de description sont concernés (on ne considère pas les langages formels dans cette catégorie).
 * Information : la représentation des données, l'encodage de l'information et/ou leur transmission sur des canaux sont travaillés.
 * Machine : le fonctionnement matériel de l'informatique est abordé au cours de l'activité.
 
 ### Compétences
-* Pensée algorithmique : cette compétence correspond au processus de création d'un algorithme, c'est à dire la création d'une solution générale à un problème,
-  avec une description étape par étape, même informelle (explication orale ou pseudo-code plutôt que programme dans un langage bien défini).
-* Abstraction : cette compétence est celle de la simplification de la complexité, ignorer les bons détails permettant de traiter plus efficacement un problème.
-  Elle requiert la capacité à identifier ce qui est important et ce que ni l'est pas, et est au coeur de l'activité de modélisation.
-* Décomposition : comme son nom l'indique, la décomposition correspond à la compétence de décomposer, par exemple une tâche en sous-tâches, un modèle en ses
-  parties, etc. Cette compétence est par exemple nécessaire à la conception d'un algorithme dont chaque étape résulte de la décomposition d'un problème en
-  plusieurs étapes de résolution.
-* Généralisation et motifs : la généralisation est la capacité d'étendre une solution à de nouveaux cas, elle met en jeu l'abstraction car elle demande de
-  reconnaître les motifs communs à tous ces cas en ignorant leur différences particulières.
-* Évaluation : l'évaluation consiste à quantifier des solutions, pour pouvoir les comparer leur qualité ou attester des améliorations. L'évaluation peut aussi
-  être qualitative, par exemple quand on se demande si un algorithme est correct.
-* Logique : on désigne ici la capacité du raisonnement organisé et rigoureux, permettant de structurer la pensée pour obtenir efficacement des solutions.
+* Pensée algorithmique : cette compétence correspond au processus de création d'un algorithme, c'est à dire la création d'une solution générale à un
+  problème, avec une description étape par étape, même informelle (explication orale ou pseudo-code plutôt que programme dans un langage bien défini).
+* Abstraction : cette compétence est celle de la simplification de la complexité, ignorer les bons détails permettant de traiter plus efficacement un
+  problème. Elle requiert la capacité à identifier ce qui est important et ce que ni l'est pas, et est au coeur de l'activité de modélisation.
+* Décomposition : comme son nom l'indique, la décomposition correspond à la compétence de décomposer, par exemple une tâche en sous-tâches, un modèle
+  en ses parties, etc. Cette compétence est par exemple nécessaire à la conception d'un algorithme dont chaque étape résulte de la décomposition d'un
+  problème en plusieurs étapes de résolution.
+* Généralisation et motifs : la généralisation est la capacité d'étendre une solution à de nouveaux cas, elle met en jeu l'abstraction car elle
+  demande de reconnaître les motifs communs à tous ces cas en ignorant leur différences particulières.
+* Évaluation : l'évaluation consiste à quantifier des solutions, pour pouvoir les comparer leur qualité ou attester des améliorations. L'évaluation
+  peut aussi être qualitative, par exemple quand on se demande si un algorithme est correct.
+* Logique : on désigne ici la capacité du raisonnement organisé et rigoureux, permettant de structurer la pensée pour obtenir efficacement des
+  solutions.
 
 # Communication scientifique
 
 Ce dépôt contient le matériel nécessaire au module de communication scientifique de l'ENS Rennes (nommé localement pédago1).
 La description complète est [ici](https://github.com/InfoSansOrdi/pedago-rennes).
 
-Sur cette page, vous trouverez des liens vers des collections d'activités réutilisables, et les fiches de préparation de vos prédécesseurs. Il faut ajouter vos
-propres fiches de préparation au dépôt au moins 24 heures avant votre intervention en classe.
+Sur cette page, vous trouverez des liens vers des collections d'activités réutilisables, et les fiches de préparation de vos prédécesseurs. Il faut
+ajouter vos propres fiches de préparation au dépôt au moins 24 heures avant votre intervention en classe.
 
 # Fiches de préparation et matériel additionnel
 
-Cette liste regroupe le matériel préparé par les élèves pour ce module. En particulier, vos fiches de préparation doivent être soumises sous forme de *Pull
-Request* sur le dépôt au moins 24 heures avant votre intervention en classe. Vous enverrez également ces fiches par mail aux enseignants.
+Cette liste regroupe le matériel préparé par les élèves pour ce module. En particulier, vos fiches de préparation doivent être soumises sous forme de
+*Pull Request* sur le dépôt au moins 24 heures avant votre intervention en classe. Vous enverrez également ces fiches par mail aux enseignants.
 
-Insérez vos fichiers au format Année\_NomsEleves\_Fichier contenant les ressources que vous avez crée dans les répertoires existants si l'activité a déjà été
-développée par vos prédécesseurs, ou créez un répertoire s'il s'agit d'une nouvelle activité. Si vous ne souhaitez pas diffuser votre travail sous licence
-CC-BY-SA, aucun problème, mais il faut l'indiquer dans vos fichiers.
+Insérez vos fichiers au format Année\_NomsEleves\_Fichier contenant les ressources que vous avez crée dans les répertoires existants si l'activité a
+déjà été développée par vos prédécesseurs, ou créez un répertoire s'il s'agit d'une nouvelle activité. Si vous ne souhaitez pas diffuser votre travail
+sous licence CC-BY-SA, aucun problème, mais il faut l'indiquer dans vos fichiers.
 
 ---
 ## Algorithmes de tri
 Découvrir la puissance d’un algorithme de tri classique.
+
+**Maturité:** Activité prête.
+
 ### Concepts
 * Algorithmes(\*\*)
 * Langages(.)
@@ -75,15 +79,17 @@ Découvrir la puissance d’un algorithme de tri classique.
 * Généralisation et motifs(.)
 * Évaluation(.)
 * Logique(\*)
-### Maturité, public cible
-Prêt à l'emploi
+### Public cible
 CM1-CM2
 ### Ressources
 * [Dossier AlgoDeTri](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/AlgoDeTri)
 
 ---
 ## Alice déménage
-Alice veut déménager et doit empiler des paquets sur sa voiture mais pas trop haut ! Comment faire pour tout ranger en minimisant la hauteur ?
+Alice veut déménager et doit empiler des paquets dans le coffre de sa voiture, mais comment faire pour tout ranger en minimisant la hauteur ?
+
+**Maturité:** Activité prête, bien testée.
+
 ### Concepts
 * Algorithmes(\*\*)
 * Langages(.)
@@ -96,14 +102,18 @@ Alice veut déménager et doit empiler des paquets sur sa voiture mais pas trop 
 * Généralisation et motifs(\*)
 * Évaluation(.)
 * Logique(\*)
-### Maturité, public cible
-Prêt à l'emploi
+### Public cible
 CM1/CM2
 ### Ressources
 * [Dossier AliceDemenage](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/AliceDemenage)
 
 ---
 ## Analyse statique de recettes
+
+Découverte d'algorithmes d'analyse statique au travers d'un langage jouet de recettes.
+
+**Maturité:** Activité à terminer avant de pouvoir la tester.
+
 ### Concepts
 * Algorithmes(\*\*)
 * Langages(\*)
@@ -119,6 +129,10 @@ CM1/CM2
 
 ---
 ## Arbres de décision
+Activité en cours de développement sur les arbres de décision et la classification.
+
+**Maturité:** Activité à terminer avant de pouvoir la tester.
+
 ### Concepts
 * Algorithmes(.)
 * Langages(.)
@@ -131,15 +145,15 @@ CM1/CM2
 * Généralisation et motifs(\*)
 * Évaluation(\*)
 * Logique(.)
-### Maturité, public cible
-Matériel absent, description présente.
-Public inconnu, à tester.
 ### Ressources
 * [Dossier ArbresDeDecision](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/ArbresDeDecision)
 
 ---
 ## Assemblage de Génome
 Puzzle semblable aux dominos initiant aux concepts d'assemblage du génome (plus précisement à l'algorithme d'assemblage OLC).
+
+**Maturité:** Activité presque prête, mais nécessitant quelques ajustements avant de la tester pour la première fois.
+
 ### Concepts
 * Algorithmes(\*\*)
 * Langages(.)
@@ -152,14 +166,17 @@ Décomposition(.)
 Généralisation et motifs(\*)
 Évaluation(.)
 Loogique(.)
-### Maturité, public cible
-matériel ?, description faite mais fiche de préparation peu précise
-public cible: CM1-CM2 ?
+
 ### Ressources
 * [Dossier AssemblageDeGenomes](https://github.com/InfoSansOrdi/pedago-rennes/tree/trunk/AssemblageDeGenomes)
 
 ---
 ## Atlantide
+
+Découverte des algorithmes de reconstruction d'environnement utilisés en vision par ordinateur.
+
+**Maturité:** Activité presque prête, mais nécessitant quelques ajustements avant de la tester pour la première fois.
+
 ### Concepts
 * Algorithmes(\*)
 * Langages(.)
@@ -172,13 +189,15 @@ public cible: CM1-CM2 ?
 * Généralisation et motifs(\*)
 * Évaluation(\*)
 * logique(.)
-### Maturité, public cible
-Tout public.
 ### Ressources
 * [Atlantide](https://gitlab.com/thaisbaudon/pedago-rennes/-/tree/master/Atlantide)
 
 ---
 ## Baseball multicolore
+Découverte de la notion d'algorithme au travers d'un puzzle. On découvre également la notion de bug informatique.
+
+**Maturité:** Activité prête et testé de très nombreuses fois, pour un public varié.
+
 ### Concepts
 * Algorithmes(\*\*)
 * Langages(.)
@@ -191,10 +210,8 @@ Tout public.
 * Généralisation et motifs(\*)
 * Évaluation(.)
 * Logique(\*)
-### Maturité, public cible
-Fiche de préparation disponible, mais pas de matériel sur le dépôt.
-Toutefois activité développée par ailleurs.
-A partir du CE2
+### Public cible
+À partir du CE2
 ### Ressources
 * [Dossier BaseballMuticolore](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/BaseballMulticolore)
 
