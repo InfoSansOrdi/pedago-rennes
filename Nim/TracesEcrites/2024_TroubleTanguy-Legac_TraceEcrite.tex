@@ -1,0 +1,81 @@
+% Cette trace écrite à été développée par
+% + Héloïse Troublé <heloise.trouble@ens-rennes.fr>
+% + Erwan Tanguy-Legac <erwan.tanguy-legac@ens-rennes.fr>
+
+% Elle est distribuée sous la licence Creative-Commons by-nc-sa 4.0
+% (Attribution, Non-Commercial, Share Alike)
+% qui peut être trouvée dans
+% [le site de Creative Commons](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+\documentclass[12pt,a5paper]{article}
+\usepackage[left=1.5cm, right=1.5cm, lines=45, top=0.3in, bottom=0.7in, includehead]{geometry}
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{titling}
+\usepackage{changepage}
+
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+
+\predate{}
+\postdate{}
+\date{\vspace{-10ex}}
+
+\lhead{Informatique sans ordi}
+\rhead{9 février 2024}
+\title{\vspace{-5ex}Jeu de Nim}
+
+\pagenumbering{gobble}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{fancy}
+
+\section*{Règles du jeu}
+Le jeu de Nim est un jeu qui se joue à deux joueurs, qui jouent chacun leur tour. La partie commence avec 12 jetons sur la table. À chaque tour, le joueur dont c'est le tour peut retirer 1 à 3 jetons. Le joueur qui prend le dernier jeton sur la table gagne la partie.
+
+\section*{Comment gagner ?}
+% Les * sont là pour laisser de la place pour que les élèves puissent facilement compléter
+On a réfléchi à ce qu'on appelle une \textcolor{white}{stratégie gagnante ******} C'est un ensemble de règles qui nous permet de gagner à tous les coups. Avec ces règles, on s'est rendu compte qu'on pouvait toujours gagner si on jouait en \textcolor{white}{deuxième******}
+
+\begin{figure}[h]
+\begin{adjustwidth*}{-2em}{}
+\begin{tikzpicture}[inner sep=2mm, rect/.style={rectangle,draw=black,fill=white,thick}]
+\node[rect] (origin) {l'adversaire joue};
+\node[rect] (1) [above right=of origin] {il a pris 1 jeton\textcolor{white}{s}};
+\node[rect] (2) [right=of origin] {il a pris 2 jetons};
+\node[rect] (3) [below right=of origin] {il a pris 3 jetons};
+\node[rect] (4) [right=of 1] {je prends \textcolor{white}{3 jetons}};
+\node[rect] (5) [right=of 2] {je prends \textcolor{white}{2 jetons}};
+\node[rect] (6) [right=of 3] {je prends \textcolor{white}{1 jetons}};
+\draw [->, thick] (origin) to (1.west);
+\draw [->, thick] (origin) to (2.west);
+\draw [->, thick] (origin) to (3.west);
+\draw [->, thick] (1) to (4);
+\draw [->, thick] (2) to (5);
+\draw [->, thick] (3) to (6);
+
+\node (7) [right=of 4] {};
+\node (8) [right=of 5] {};
+\node (9) [right=of 6] {};
+\node (p) [below=of 9] {};
+\node (q) [below left=of 3] {};
+\draw [-, thick] (4) to (7);
+\draw [-, thick] (5) to (8);
+\draw [-, thick] (6) to (9);
+\draw [-, thick] (7.west) to (p.west);
+\draw [-, thick] (8.west) to (p.west);
+\draw [-, thick] (9.west) to (p.west);
+
+\draw [-, thick] (p.west) to (q.north);
+\draw [->, thick] (q.north) to (origin);
+\end{tikzpicture}
+\end{adjustwidth*}
+\end{figure}
+
+Ceci est un algorithme, c'est-à-dire une suite d'instructions précises qu'un ordinateur peut comprendre et reproduire. On a vu avec l'exemple du robot qu'il est nécessaire d'être précis lorsqu'on donne des instructions à l'ordinateur.
+
+
+\end{document}
