@@ -1,0 +1,207 @@
+% Cette fiche d'activité à été développée par
+% + Erwan Tanguy-Legac <erwan.tanguy-legac@ens-rennes.fr>
+% + Héloïse Troublé <heloise.trouble@ens-rennes.fr>
+
+% Le template a été largement inspiré de celui de
+% + Santiago Bautista <Santiago.Bautista@ens-rennes.fr>
+% + Benjamin Bordais <Benjamin.Bordais@ens-rennes.fr>
+
+% Elle est distribuée sous la licence Creative-Commons by-nc-sa 4.0
+% (Attribution, Non-Commercial, Share Alike)
+% qui peut être trouvée dans
+% [le site de Creative Commons](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+\documentclass[12pt, a4paper]{article}
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[top=0.9in, left=0.6in, right=0.7in, bottom=1in]{geometry}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{titling}
+
+\renewcommand{\headrulewidth}{1pt}
+\chead{} 
+\lhead{Jeu de Nim - Plan de l'activité}
+\rhead{Héloïse Troublé et Erwan Tanguy-Legac}
+
+\renewcommand{\footrulewidth}{1pt}
+\cfoot{\thepage} 
+\lfoot{2024}
+\rfoot{ENS Rennes}
+
+\fancypagestyle{plain}{
+	\fancyhf{} 
+	\cfoot{\thepage}
+	\renewcommand{\headrulewidth}{0pt}
+	\renewcommand{\footrulewidth}{1pt}}
+
+\begin{document}
+	
+	\title{Jeu de Nim}
+	\author{Héloïse Troublé et Erwan Tanguy-Legac}
+	\date{9 février 2024}
+	\maketitle
+	
+	\paragraph*{Niveau :} $6^{\grave{e}me}$
+	\paragraph*{Durée :} 55 minutes
+	\paragraph*{Prérequis :} Aucun
+	\paragraph*{Description du jeu :}
+	Le jeu de Nim est un jeu qui se joue à deux joueurs, qui jouent chacun leur tour. La partie commence avec 12 jetons sur la table. À chaque tour, le joueur dont c'est le tour peut retirer 1 à 3 jetons. Le joueur qui prend le dernier jeton sur la table gagne la partie.
+	
+	\paragraph*{Objectif pédagogique :}
+	Donner des intuitions algorithmiques simples, recherche d'une stratégie gagnante, utilisation d'un vocabulaire précis.
+	
+	\begin{longtable}{c|m{3.9cm}|m{8.4cm}|m{2.4cm}}		\textbf{Durée} & \textbf{Phase} & \textbf{Activités et consignes} & \textbf{Organisation et matériel} \\ \hline\hline
+		
+		5' &
+		
+		Introduction
+		
+		&
+		
+		On se présente, on explique les règles et on joue une partie entre nous deux au tableau sans utiliser de stratégie.
+		
+		& 
+		
+		A l'oral au tableau (avec craies ou feutres)
+		
+		\\ \hline
+		
+		5' &
+		
+		Appropriation des règles
+		
+		&
+		
+		On propose aux élèves de venir jouer contre nous au tableau, on en prend deux qu'on laisse commencer et on gagne.
+		
+		& Idem
+		
+		\\ \hline
+		
+		5' & 
+		
+		Temps libre
+		
+		&
+		
+		On distribue les jetons (qui ne seront pas sur les tables au début de la séance).
+		On laisse les élèves jouer entre eux, on s'assure que tous ont bien compris les règles, on répond aux questions (possibilité de gagner du temps en cas de retard à l'installation)
+		
+		& 
+		
+		Groupes de 2 (possiblement en îlots de 4 pour échanger), 12 jetons par groupe (+1 pour les plus rapides)
+		
+		\\ \hline
+		
+		10'
+		
+		&
+		
+		Recherche de stratégie
+		
+		& 
+		
+		Les élèves continuent de jouer, on commence à jouer contre eux et on insiste sur le fait qu'on gagne à chaque fois. On leur dit qu'il faut trouver un moyen de gagner le plus souvent possible. Pour les plus rapides, on leur demande de commencer à expliciter clairement la stratégie.
+		
+		& Idem
+		
+		\\ \hline
+		
+		5' &
+		
+		Remise en commun
+		
+		&
+		
+		On stoppe l'activité, on reprend l'attention et on ouvre une discussion tous ensemble. Si possible, on interroge des groupes qui ont trouvé une stratégie originale mais pas totalement exacte. On fait venir des élèves au tableau pour jouer contre nous s'ils le souhaitent. On n'explicite pas la stratégie.
+		
+		& 
+		
+		À l'oral, au tableau
+		
+		\\ \hline
+		
+		10' 
+		
+		&
+		
+		Mise au propre de la stratégie 
+		
+		&
+		
+		On demande à tous les élèves de décrire proprement la stratégie. On joue contre leur adversaire en utilisant exactement leur stratégie (on insiste sur la précision requise). Pour les groupes qui ont fini avant, on leur propose des extensions et on leur demande de décrire à nouveau la stratégie. 
+		
+		&
+		
+		Par groupes de 2
+		
+		\\  \hline
+		
+		5'
+		
+		&
+		
+		Robot
+		
+		&
+		
+		On regroupe les élèves par îlots, on leur dit qu'ils vont jouer en 2 contre 2, avec au sein de chaque binôme un robot et un autre qui ferme les yeux. Ils ont le droit de communiquer entre eux mais le robot doit exécuter exactement les ordres de celui qui a les yeux fermés. On s'assure du respect des règles.
+		
+		& 
+		
+		Par groupes de 4 (les îlots)
+		
+		\\ \hline
+		
+		10'
+		
+		&
+		
+		Institutionnalisation
+		
+		&
+		
+		On reprend l'attention des élèves, et on présente l'institutionnalisation (détail ci-dessous). Les grands axes sont la description de la stratégie, le fait qu'elle soit propre à ce jeu (et qu'elle change si on change le nombre de jetons), que la notion se généralise à d'autres jeux mais que cela ne marche pas avec tous, et enfin on termine sur la précision requise dans la description de la stratégie. On distribue la trace écrite et on la remplit avec eux.
+		
+		&
+		
+		A l'oral
+		
+	\end{longtable}
+	
+\newpage
+	
+\subsection*{Institutionnalisation :}
+	
+	C’est de l’informatique, parce qu’on cherche une stratégie qui permette de gagner à coup sûr, une stratégie automatique = un algorithme (liste d’instructions, comme une recette de cuisine).
+	
+	La stratégie du jeu de Nim : Quand ton adversaire prend des pions, tu peux toujours compléter pour qu’à vous deux, vous ayez pris 4 pions (s’il en prend 1, tu prends 3, 2 tu prends 2, 3 tu prends 1). Il faut donc regrouper les pions en groupes de 4, et tu pourras toujours prendre le dernier, car 12 = 4x3 : il y a 3 groupes de 4 jetons. Si l’adversaire commence, tu es donc sûr de pouvoir gagner, on dit que tu as une stratégie gagnante ! Mais si on ajoute des jetons, ça change…
+	
+	Chercher une stratégie gagnante dans un jeu à 2 joueurs, c’est un domaine de l’informatique appelé la théorie des jeux. Le but, c’est de construire un algorithme qui te bat à tous les coups ! Mais ça n’est pas possible avec tous les jeux : s’il y a du hasard, comme à la bataille par exemple, ça ne marche pas : l’ordinateur ne peut pas choisir les cartes qui vont être retournées, c’est aléatoire. Exemples de jeu à 2 sans hasard ? (morpions…)
+	
+	Quand on cherche à écrire la stratégie gagnante, il faut être super précis : dans notre jeu, il faut bien dire quand/pourquoi on prend 1, 2 ou 3 jetons, sinon ça ne marche pas. C’est pareil pour tous les algorithmes : l’ordinateur fait exactement ce qu’on lui dit de faire, rien de plus, il ne peut rien deviner. Pour faire ça, on ne lui parle pas en français, mais dans un langage dit de programmation (ex : scratch) : il y a des instructions de base (ex : addition), et on les liste, pour que l’ordinateur sache exactement ce qu’on lui demande.
+	
+	\paragraph*{Étayages} (si les élèves patinent) :
+	\begin{itemize}
+		\item Ranger les jetons par couleurs, donc par groupes de 4
+		\item On peut jouer avec seulement 4 jetons, puis rajouter 4 autres jetons une fois qu'ils auront compris,
+		et ainsi de suite.
+		\item On joue contre l'élève
+		avec la consigne \og regarde bien ce que je fais\fg{}
+		puis on inverse les rôles en cours de partie.
+		\item On joue en prenant toujours le même nombre de jetons (et on fait varier ce nombre)
+	\end{itemize}
+	
+	\paragraph*{Extensions} (si certains groupes d'élèves vont trop vite) :
+	\begin{itemize}
+		\item Est-ce que tu préfères commencer ou pas ?
+		\item Et s'il y a 13 jetons au début, que se passe-t-il ?
+		\item Maintenant, celui qui prend le dernier jeton perd.
+		\item On peut prendre 5 jetons au lieu de 3. Est-ce que ta stratégie fonctionne toujours ?
+	\end{itemize}
+\end{document}
