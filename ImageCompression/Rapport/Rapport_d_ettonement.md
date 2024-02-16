@@ -1,0 +1,13 @@
+# Rapport d'étonnement - Activité 'Images Téléphonées'
+
+- Nous avions suivi les conseils du groupe précédent, et avions préparé des grilles à l'avance. Nous avions prévu de donner des feuilles A4 quadrillés vierge, pour qu'ils aient l'intuition de donner les dimensions de l'image dès le début et introduire le retour à la ligne. Ça a été un échec; ils ont plutôt été tentés de décrire les images de façon ambigu : "va à droite", "trace une diagonale", etc, et était perdu sans les dimensions (images qui doublait de surface entre les dessinateur et le programmeur). Pour les faire vite changer de direction, nous avons rétropédalé et avons décidé de découper des grilles aux formats des images. Une fois cette modification faîte, l'activité est parti sur de bons rails.
+- Nous avions tenté de minimiser le nombre de remise en commun afin de ne pas les sortir de leur activité. La première d(entre elles a été très importante et il est important de la faire assez tôt, pour permettre à tous les groupes d'avoir la technique sans trop perdre de temps.
+- Pour lancer l'institutionnalisation, nous avons décidé d'afficher une image quelconque au vidéo-projecteur et de zoomer dessus afin de montrer que les images sont des grilles de pixels.
+- Nous n'avons pas eu de problèmes de tricherie. Au début de l'activité, on a explicité que si le dessinateur regardait l'image du programmeur, ce dernier avait "perdu".
+
+### Extension des images-puzzle en couleur :
+
+- Une fois que les groupes avaient bien compris la méthode sur les plus grandes grilles (10x10), nous avons donné des portions d'image en couleur reconstitué une fois fini au tableau. Les élèves ont particulièrement appréciés reconnaître des images qu'ils connaissaient (Mario et Pokeball en l'occurence) et voir leurs travaux rassemblés a facilité la remise en commun en recentrant l'intérêt sur ce qui se passait au tableau.
+- Les élèves étaient motivés par les images en couleur et en ont redemandé. Si cette extension est mise en place, il est recommandé de prévoir large sur la quantité d'image en couleur (Nous en avions prévu 10).
+- Nous avons redessiné des pixelart afin de restreindre le nombre de couleur, ainsi, l'hyperball ne nécessite que 2 à 3 crayons de couleurs : noir, éventuellement gris, jaune tandis que Mario en nécessite 4, mais pas plus que 3 par groupe : rouge, bleu, marron, beige/rose.
+- Nous avions pensé à introduire le travail parallèle dans l'institutionnalisation à partir de cette expérience, mais nous ne l'avons pas fait au final. Nous laissons le soin aux futurs groupes d'éventuellement intégrer à l'institutionnalisation les algorithmes concurrents/distribués.
