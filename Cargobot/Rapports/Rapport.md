@@ -11,3 +11,5 @@ Certains groupes ont cru que les encadrés en bas des fiches problèmes présent
 Les groupes ont eu du mal à comprendre le fonctionnement de l'activité. Après qu'on soit passé leur expliquer individuellement, la plupart avait compris, mais avait toujours du mal à avancer (manque de concentration + difficulté).
 
 Le peu de groupes qui avait des bonnes idées ne s'en rendait pas compte. Quand on a tenté de synthétiser au tableau le fonctionnement des branchements conditionnels, ces groupes avaient oublié comment ils avaient fait, ce qui nous a forcé à donner la solution nous-même.
+
+Le choix des branchements conditionnels comme notion principale était trop ambtieux.
