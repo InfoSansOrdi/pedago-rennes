@@ -1,0 +1,146 @@
+% Cette trace écrite à été développée par
+% + Héloïse Troublé <heloise.trouble@ens-rennes.fr>
+% + Erwan Tanguy-Legac <erwan.tanguy-legac@ens-rennes.fr>
+
+% Elle est distribuée sous la licence Creative-Commons by-nc-sa 4.0
+% (Attribution, Non-Commercial, Share Alike)
+% qui peut être trouvée dans
+% [le site de Creative Commons](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+\documentclass[11pt,a5paper]{article}
+\usepackage[left=1.5cm, right=1.5cm, lines=45, top=0.3in, includehead]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{titling}
+\usepackage{ragged2e}
+\usepackage{subcaption}
+\usepackage{wrapfig}
+\usepackage{tikz}
+
+\DeclareCaptionFormat{custom}{#3}
+\captionsetup{format=custom}
+
+\setlength{\droptitle}{-2em}
+
+\predate{}
+\postdate{}
+\date{\vspace{-12ex}}
+
+\lhead{Informatique sans ordi}
+\rhead{29 mars 2024}
+\title{\vspace{-5ex}Marmottes}
+
+\pagenumbering{gobble}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{fancy}
+\justifying
+
+C’est l’hiver, les marmottes s’apprêtent à hiberner. Elles veulent pour cela construire un terrier. Afin qu'il ne s’effondre pas, elles cons-truisent des galeries en forme de V inversé uniquement. Les marmottes ne peuvent pas dormir au
+milieu d'une galerie, et dès qu'une marmotte remonte à la surface, elle fait du bruit pour chaque galerie qu'elle traverse. On veut construire une galerie afin que le moins bruit possible soit généré.
+Dans l'exemple ci-dessous, les marmottes sont représentées par leur nombre de réveils. 
+\section*{Construction de la galerie}
+
+\begin{wrapfigure}{r}{0.5\textwidth}
+\begin{tikzpicture}[every node/.style={circle, draw}]
+  \node (1) {1};
+  \node (2) [right of=1] {2};
+  \node (2bis) [right of=2] {2};
+  \node (3) [right of=2bis]{3};
+  \node (4) [right of=3]{4};
+\end{tikzpicture}
+\caption{Situation de départ : cercles triés}
+\end{wrapfigure}
+
+L'algorithme peut être décrit ainsi : tant qu'il reste au moins deux galeries en construction, on relie les deux plus petites.
+La taille d'une galerie est définie comme la somme des chiffres présents dans ses cercles.
+
+\begin{figure}[h!]
+\begin{subfigure}{0.5\textwidth}
+  \centering
+\begin{tikzpicture}[every node/.style={circle, draw}]
+  \node at (0, 0) (2)  {2};
+  \node at (1, 0) (1) {1};
+  \node at (2, 0) (2bis) {2};
+  \node at (3, 0) (3) {3};
+  \node at (4, 0) (4) {4};
+  \node at (1.5, 0.7) (5) {};
+  \draw (1) -- (5);
+  \draw (2bis) -- (5);
+\end{tikzpicture}
+  \caption{On relie les cercles à gauche et on trie}
+\end{subfigure}%
+\hfill
+\begin{subfigure}{0.5\textwidth}
+  \centering
+\begin{tikzpicture}[every node/.style={circle, draw}]
+  \node at (3, 0.7) (2)  {2};
+  \node at (3.5, 0) (1) {1};
+  \node at (4.5, 0) (2bis) {2};
+  \node at (1, 0) (3) {3};
+  \node at (2, 0) (4) {4};
+  \node at (4, 0.7) (5) {};
+  \node at (3.5, 1.4) (6) {};
+  \draw (1) -- (5);
+  \draw (2bis) -- (5);
+  \draw (2) -- (6);
+  \draw (5) -- (6);
+\end{tikzpicture}
+  \caption{\hspace{3mm}On continue : la galerie droite vaut 5}
+\end{subfigure}
+\end{figure}
+
+\begin{figure}[h!]
+\begin{subfigure}{0.5\textwidth}
+  \centering
+\begin{tikzpicture}[every node/.style={circle, draw}]
+  \node at (3, 0.7) (2)  {2};
+  \node at (3.5, 0) (1) {1};
+  \node at (4.5, 0) (2bis) {2};
+  \node at (5.5, 0) (3) {3};
+  \node at (6.5, 0) (4) {4};
+  \node at (4, 0.7) (5) {};
+  \node at (3.5, 1.4) (6) {};
+  \node at (6, 0.7) (7) {};
+  \draw (1) -- (5);
+  \draw (2bis) -- (5);
+  \draw (2) -- (6);
+  \draw (5) -- (6);
+  \draw (3) -- (7);
+  \draw (4) -- (7);
+\end{tikzpicture}
+  \caption{On relie les deux galeries à gauche et on trie. La galerie obtenue est de taille 7}
+\end{subfigure}%
+\hfill
+\begin{subfigure}{0.5\textwidth}
+  \centering
+\begin{tikzpicture}[every node/.style={circle, draw}]
+  \node at (3, 0.7) (2)  {2};
+  \node at (3.5, 0) (1) {1};
+  \node at (4.5, 0) (2bis) {2};
+  \node at (5, 0.7) (3) {3};
+  \node at (6, 0.7) (4) {4};
+  \node at (4, 0.7) (5) {};
+  \node at (3.5, 1.4) (6) {};
+  \node at (5.5, 1.4) (7) {};
+  \node at (4.5, 2.1) (root) {};
+  \draw (1) -- (5);
+  \draw (2bis) -- (5);
+  \draw (2) -- (6);
+  \draw (5) -- (6);
+  \draw (3) -- (7);
+  \draw (4) -- (7);
+  \draw (7) -- (root);
+  \draw (6) -- (root);
+\end{tikzpicture}
+  \caption{Galerie finale obtenue}
+\end{subfigure}
+\end{figure}
+
+Cet algorithme est utilisé pour coder des informations afin qu'elles prennent le moins de place possible dans l'ordinateur.
+
+\end{document}
