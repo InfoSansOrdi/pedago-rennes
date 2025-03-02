@@ -1,0 +1,118 @@
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{mathrsfs}
+
+\usepackage[a4paper,width=280mm,top=10mm,bottom=20mm, landscape]{geometry}
+
+\usepackage{makecell}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{subfig}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{tikz}
+\usepackage{tikz-cd}
+\usetikzlibrary{shapes}
+\usepackage{mathtools}
+\usepackage{titlesec} 
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{mathdots}
+\usepackage{cancel}
+\usepackage{comment}
+
+\usepackage{makeidx}
+
+\usepackage{tgpagella}
+\makeindex
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{subfiles}
+
+\renewcommand{\arraystretch}{1.5}
+
+
+\renewcommand\theadalign{c}
+\renewcommand\theadfont{\textfont}
+\renewcommand\theadgape{\Gape[4pt]}
+\renewcommand\cellgape{\Gape[4pt]}
+
+\title{Fiches de préparation}
+
+\author{William Hasley \& Nowar Kazem}
+\date{}
+
+\begin{document}
+\begin{titlepage}
+
+\begin{center}
+\begin{tabular}{|c|>{\hsize=0.3\hsize\centering\arraybackslash}c|c|c|c|}
+\hline 
+\multicolumn{5}{|c|}{
+William Hasley \& Nowar Kazem} \\
+\hline 
+\multicolumn{1}{|l|}{\textbf{Classe} : CM1/CM2} & \multicolumn{3}{|l|}{\textbf{Titre} : Pixels.} & \multicolumn{1}{|l|}{\textbf{Séance n°1}} \\ 
+\hline
+\multicolumn{5}{|l|}{\textbf{Compétences travaillées} : Communication, Séquence d'instruction, Aléatoire théorique en Informatique.} \\
+\multicolumn{5}{|l|}{\textbf{Objectifs} : Introduire la notion de Complexité de Kolmogorov, il est impossible d'avoir du vrai aléatoire sur un ordinateur.} \\
+\hline
+\textbf{Activité} & \textbf{Script} & \textbf{Notes/Objectifs} & \textbf{Matériel} & \textbf{Temps (min)} \\
+\hline 
+\thead{Présentation\\de l'activité} & \thead{
+    - se présenter \\
+    - Raconter l'histoire de Kolmo. \\
+    - Faire un exemple de tableau, reformulation\\
+    - Remarquer qu'il existe toujours\\ la solution naïve.\\
+    - Les dispatcher en groupes\\ de 4 ou 3 (Maintenant car\\ reviennent du "temps calme")
+    } & \thead{Contextualiser \\  Transmettre le but : \\Le moins d'instruction possible!} & \thead{Tableau pour exemple\\(Grille vide)} & \thead{8} \\ 
+\hline 
+\thead{Distribution\\du matériel} & \thead{
+    - Distribuer une grille par groupe\\
+    - Distribuer les tableaux\\
+    - Distribuer les groupes de Pixels\\ (Les garder entre même couleur!!)
+} & \thead{faire que ça soit rapide} & \thead{- Grille 6x6\\-Les pixels\\ -Les tableaux} & \thead{3} \\ 
+\hline
+\thead{Activité} & \thead{
+    - passer dans les rangs pour voir\\ si tout se passe bien\\
+    - ajouter une règle de construction\\ pour les plus rapide\\
+    - demander de prouver l'optimalité\\ pour les encore plus rapide
+} & \thead{faire attention au volume sonore} & \thead{*} & \thead{20} \\ 
+\hline 
+\thead{Remise en commun} & \thead{
+    - reprendre l'attention, Bien passé?\\
+    - Prendre deux groupes de deux\\ pour faire une course!\\
+    - Deux tableaux différents, \\ un aléatoire et l'autre un pattern,\\ le groupe le plus rapide gagne.\\
+    - Pointer le fait que le tableau aléatoire met plus de temps.
+} &  \thead{Montrer que l'aléatoire prend\\ plus d'instruction à décrire} &\thead{Deux \textbf{GRANDS} exemples} & \thead{5} \\ 
+\hline 
+\thead{Nouvelle activité} & \thead{
+    - Afficher trois tableaux pseudo-aléatoires \\ sur la TV / le tableau.\\
+    - Réflexion en groupe pendant un temps\\
+    - Vote comme remise en commun.
+    } & \thead{Identifier le tableau le plus aléatoire\\(Le plus long à décrire)} & \thead{- Trois \textbf{Grands} tableaux en PDF} & \thead{7} \\ 
+\hline 
+\thead{Institutionnalisation} & \thead{
+    - Pourquoi est-ce de l'informatique?\\
+    - faire reformuler / interpréter personnellement.\\
+    - distribuer la trace écrite (+ la lire).
+} & \thead{être clair} & \thead{- trace écrite} & \thead{10} \\ 
+\hline 
+\multicolumn{4}{|l|}{} &
+\multicolumn{1}{|c|}{\textbf{Total :} 53} \\
+\hline
+\end{tabular}
+\end{center}
+\end{titlepage}
+
+\newpage
+
+\textbf{Institutionnalisation (Version L3)}\\
+    Parfois, l'informaticien se demande ce qu'il peut faire, mais aussi ce qu'il ne peut pas faire : Un exemple de ce qu'un ordinateur ne peut pas faire est du vrai aléatoire. Nous devons donc nous réduire à de la génération pseudo-aléatoire. Mais comment quantifier "l'aléa" d'un générateur? Le mathématicien Kolmogorov (avec Solmonof) a tenté de donner un sens par notre analogie : Plus une chaîne semble aléatoire, plus cette dernière est difficile à décrire. Ici, Kolmo (oui très subtile...) est reconnaissable car ses tableaux sont vraiment aléatoires. Cette notion rejoint la compression de données.\\
+Il est également possible de partir sur l'incalculabilité de la complexité de Kolmogorov $\to$ Des trucs sont vraiment incalculables. Il sera impossible de créer un robot qui donne la plus petite description des tableaux! (enfin si, parce que ce modèle est très réduit, il manque les boucles et autre...).\\
+L'aléatoire est utilisé en Cryptologie, en Simulation ou encore dans les divertissement. Pour aller plus loin, la notion de complexité de Kolmogorov a été utilisé pour démontrer des inclusions de classes de complexité (c.f Wiki).
+
+\end{document}
+
+
