@@ -1,0 +1,213 @@
+% Cette fiche d'activité à été développée par
+% + Erwan Tanguy-Legac <erwan.tanguy-legac@ens-rennes.fr>
+% + Héloïse Troublé <heloise.trouble@ens-rennes.fr>
+
+% Le template a été largement inspiré de celui de
+% + Santiago Bautista <Santiago.Bautista@ens-rennes.fr>
+% + Benjamin Bordais <Benjamin.Bordais@ens-rennes.fr>
+
+% Elle est distribuée sous la licence Creative-Commons by-nc-sa 4.0
+% (Attribution, Non-Commercial, Share Alike)
+% qui peut être trouvée dans
+% [le site de Creative Commons](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+\documentclass[12pt, a4paper]{article}
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[top=0.9in, left=0.6in, right=0.7in, bottom=1in]{geometry}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{fancyhdr}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{titling}
+
+\pagestyle{fancy}
+
+\renewcommand{\headrulewidth}{1pt}
+\chead{}
+\lhead{Marmottes - Plan de l'activité}
+\rhead{Héloïse Troublé et Erwan Tanguy-Legac}
+
+\renewcommand{\footrulewidth}{1pt}
+\cfoot{\thepage} 
+\lfoot{2024}
+\rfoot{ENS Rennes}
+
+\fancypagestyle{plain}{
+	\fancyhf{} 
+	\cfoot{\thepage}
+	\renewcommand{\headrulewidth}{0pt}
+	\renewcommand{\footrulewidth}{1pt}}
+
+\begin{document}
+	
+	\title{Marmottes}
+	\author{Héloïse Troublé et Erwan Tanguy-Legac}
+	\date{29 mars 2024}
+	\maketitle
+	
+	\paragraph*{Niveau :} $6^{\grave{e}me}$
+	\paragraph*{Durée :} 55 minutes
+	\paragraph*{Prérequis :} Aucun
+	\paragraph*{Description du jeu :}
+  L'activité des marmottes consiste à introduire l'algorithme de compression de Huffman, décrit ci-dessous, et à présenter l'encodage
+  d'un texte selon un arbre de Huffman.
+	
+	\paragraph*{Objectif pédagogique :}
+  Découverte de l'algorithme de Huffman, introduction aux arbres binaires, introduction à la compression sans perte.
+
+  \paragraph*{Matériel nécéssaire :}
+  Pour chaque groupe de 4 élèves, prévoir minimum 4 fourches, 5 marmottes (4, 3, 2, 2, 1), et une feuille pour la partie décodage.
+  Il faudrait prévoir des instances supplémentaires pour les groupes les plus rapides (une fourche et une marmotte 1 en plus d'une deuxième
+  instance de décodage suffisent).
+	
+	\begin{longtable}{c|m{3.9cm}|m{8.4cm}|m{2.4cm}}		\textbf{Durée} & \textbf{Phase} & \textbf{Activités et consignes} & \textbf{Organisation et matériel} \\ \hline\hline
+		
+		10' &
+		
+		Introduction
+		
+		&
+		
+		On se présente, on explique les règles clairement (surtout pour le comptage des points), on s'assure le plus possible que tout
+    le monde ait compris.
+		
+		&
+		
+		A l'oral au tableau (avec vidéoprojecteur ou aimants selon la salle)
+		
+		\\ \hline
+		
+	  10' &
+		
+    Recherche
+		
+		&
+		
+	  On laisse les élèves chercher un arbre optimal, on passe dans les rangs pour s'assurer que tout le monde ait bien compris les règles.
+    Pour les plus rapides, on leur donne d'autres instances.
+		
+		& Par groupes de 4 (en îlots)
+		
+		\\ \hline
+		
+		5' + 5' &
+		
+		Mise en commun et explication de la stratégie optimale
+		
+		&
+		
+	  On demande aux élèves comment ils ont fait, puis on leur présente l'algorithme de Huffman. L'idéal est d'avoir réussi
+    à trouver un groupe qui a bien avancé et leur expliquer rapidement l'algorithme en leur demandant s'ils acceptent de
+    passer au tableau pour le présenter au reste de la classe.
+
+		&
+		
+		Au tableau (avec vidéoprojecteur ou aimants selon la salle)
+		
+		\\ \hline
+		
+		5'
+		
+		&
+		
+	  Présentation décodage
+		
+		&
+		
+		On présente la méthode de décodage d'un texte qui a été encodé avec un arbre de Huffman.
+		
+		& Idem
+		
+		\\ \hline
+		
+		15' &
+		
+	  Décodage et encodage
+		
+		&
+		
+		On laisse les élèves décoder un texte qu'on leur a distribué (avec l'arbre associé). Ensuite si la durée le permet,
+    on leur propose de se séparer en groupes binômes et d'encoder un mot avant de le transmettre à l'autre binôme du groupe
+    de 4. Les élèves sont très lents sur l'encodage.
+		
+		&
+		
+		Par groupes de 4
+		
+		\\ \hline
+		
+		5'
+		
+		&
+		
+		Institutionnalisation
+		
+		&
+		
+		On reprend l'attention des élèves, et on présente l'institutionnalisation (détail ci-dessous). Les grands axes sont la
+    présentation du stockage des données dans un ordinateur, une rapide explication de l'algorithme de construction, puis
+    les cas d'utilisation de la compression.
+		
+		&
+		
+		A l'oral
+		
+	\end{longtable}
+	
+	
+\subsection*{Présentation :}
+C’est l’hiver, les marmottes s’apprêtent à hiberner. Elles veulent pour cela construire un terrier avec plein de galeries. Afin de
+s’assurer que le terrier ne s’effondre pas, on ne peut que construire des galeries en forme de V inversé (il est très important ici
+d'expliciter la structure de l'arbre, avec un parent et deux fils). Mais on a un problème : de temps en temps, elles se réveillent
+et remontent à la surface, en faisant plein de bruit, ce qui risquerait de réveiller les autres. À cause de ça, aucune marmotte ne
+veut dormir au milieu d’une galerie : elles dorment toutes au fond (sinon elles se feraient marcher dessus). On veut construire une
+galerie pour que les marmottes fassent le moins de bruit possible. Pour déterminer le bruit que fait une marmotte, on compte le nombre
+de galeries qu'elle doit traverser pour remonter à la surface (ce qui correspond à sa profondeur dans l'arbre). Le chiffre sur chaque
+marmotte indique le nombre de fois qu’une marmotte va se réveiller au cours de l’hiver. (petit exemple)
+On va maintenant vous distribuer de quoi faire des galeries, le but est d’en construire une telle que le moins de marmottes possibles
+soient réveillées au cours de l’hiver.
+
+\subsection*{Présentation de l'algorithme :}
+Il existe une méthode pour construire à tous les coups la meilleure galerie. Pour cela, il faut commencer par ordonner les marmottes
+en fonction du nombre de fois qu’elles se réveillent. On prend ensuite les deux premières, et on les met toutes les deux à l’extrémité
+d’une galerie. On compte le nombre de réveils qui auront lieu dans cette galerie, et on place cette galerie avec les marmottes, en
+gardant l’ordre qu’on avait. On répète cela tant qu’on a deux galeries. On obtient ainsi à la fin une très grande galerie, qui
+est la meilleure possible.
+
+\subsection*{Présentation décodage :}
+Ce que l’on vient de faire sert à raccourcir la taille des textes dans l’ordinateur. Les lettres sont stockées comme une suite de 8 1 ou
+de 0 (comme toute information). Ce n’est pas toujours très efficace donc on aimerait réduire la place que ça prend. Si on remplace les
+marmottes par les lettres, et les couloirs par un choix entre 0 et 1, on peut coder et décoder un texte (c'est comme un code secret).
+On va vous faire passer une galerie construite avec la méthode que vous venez de voir, mais on a remplacé les marmottes par des lettres.
+On va en plus vous donner une suite de 0 et de 1, et vous devrez trouver la phrase qui a été codée. Pour décoder une lettre, vous partez
+de l’entrée de la galerie et si le prochain chiffre est un 0, vous allez à gauche, sinon vous allez à droite. Quand vous arrivez sur une
+lettre, vous écrivez la lettre et vous repartez de l’entrée de la galerie pour décoder la lettre suivante. (Petit exemple avec un
+arbre de hauteur 2 au tableau, le mot OUI fonctionne bien)
+
+\subsection*{Institutionnalisation :}
+C’est de l’informatique, parce que grâce au codage des lettres créé par le terrier, on a réussi à coder un texte en prenant très peu de place !
+En informatique, c’est important dans la gestion de la mémoire de l’ordinateur : on veut pouvoir stocker un maximum d’informations, de données
+dans un minimum de place. Pour ça, on réfléchit à une façon intelligente d’encoder les informations qui sont obligatoirement stockées dans
+l’ordinateur comme une suite de 0 et de 1.
+
+Ce qu’on a appliqué ici, c’est l’encodage d’Huffman. On regarde la fréquence d’apparition des caractères dans un texte, et on applique
+l’algorithme d’Huffman sur ces fréquences. (ex : si une lettre est présente 3 fois dans le texte, on ajoute une marmotte 3). Ensuite on
+construit le terrier qui minimisera le nombre de fois où des marmottes se réveillent, en fusionnant les plus petits terriers. Ça construit
+un codage de chaque caractère qui fait en sorte qu’au final, le stockage du texte prenne le moins de place possible.
+
+Faire en sorte que les données prennent moins de place dans l’ordinateur, c’est super important. C’est ça qui permet de voir des vidéos
+en direct et de stocker plein de photos sur une clé USB. Vous savez qu’on peut créer toutes les couleurs avec les 3 couleurs primaires
+(leur demander lesquelles c’est, leur dire qu’en informatique c’est rouge/vert/bleu). On peut voir une image comme une grille, où chaque
+case contient 3 lettres pour indiquer la quantité de chaque couleur, ça fait beaucoup de lettres à stocker (sachant que les grilles sont
+de taille 1000*1000). Compresser permet de stocker environ 250 fois plus d’images, ce qui est beaucoup.
+
+\subsection*{Instances :}
+On commence avec une instance assez simple, composée des jetons 4 3 2 2 1. Cette instance a pour optimal une valeur de 27, avec le 4 à une
+profondeur 2 (le 3 peut soit être avec le 4 à profondeur 2 ou à profondeur 3). Rajouter une marmotte 1 à cette instance change la
+valeur de l'optimal à 32.
+
+Deux instances pour le décodage sont fournies dans le répertoire correspondant (une courte et une plus longue).
+
+\end{document}
