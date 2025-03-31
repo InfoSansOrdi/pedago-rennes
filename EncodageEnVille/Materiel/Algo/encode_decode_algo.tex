@@ -1,0 +1,133 @@
+\documentclass{article}
+\usepackage[tmargin=0.5cm,rmargin=0.5in,lmargin=0.5in,margin=0.5in,bmargin=2cm,footskip=.2in]{geometry}
+
+\usepackage{import}
+
+\title{\textbf{Pedago - PKE}}
+\date{\textit{Un beau lundi de 2025}}
+\author{Hasley William}
+
+\usepackage{nameref}
+\usepackage[ruled, vlined,linesnumbered, french, frenchkw]{algorithm2e}
+\usepackage{setspace}
+\usepackage{comment} % enables the use of multi-line comments (\ifx \fi) 
+
+\SetKwInput{KwRes}{Sortie}%
+\SetKwIF{Si}{SinonSi}{Sinon}{si}{alors}{sinon si}{sinon}{fin si}%
+\SetKwFor{Pour}{Pour}{faire}{fin Pour}%
+\SetKwInput{KwIn}{Entrée}
+\SetKwInput{KwOut}{Sortie}
+
+\usepackage[none]{hyphenat}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usepackage{tkz-tab}
+\usepackage{amsfonts} 
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[mathscr]{eucal}
+\usepackage{bigints}
+
+
+\usepackage[upright]{fourier} % PACKAGE QUI MODIFIE LA FONT DE BASE
+
+\usepackage{eulervm} % Fixe les matrices mais détruit les inégalités et les cases -> A fix à la main
+\usepackage{euler} %eulervm
+\usepackage{mathdots}
+
+\usepackage{stmaryrd}
+
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{fancybox}
+\usepackage[most]{tcolorbox}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathtools, array, boldline}
+\usetikzlibrary{automata, positioning, shapes}
+
+\parindent 0ex
+
+
+\begin{document}
+
+\begin{algorithm}[H]
+\setstretch{1.35}
+\KwIn{La carte publique du receveur. Un nombre à envoyer}
+\KwOut{Le message encodé}
+\SetAlgoLined
+\SetNoFillComment
+\vspace{3mm}
+
+Choisir des nombres aléatoirement pour chaque point de la carte\;
+Ajuster ces choix afin que le total de ces nombres corresponde au message à envoyer\;
+
+\Pour{\textsl{Chaque point de la carte}}{
+	Modifier la valeur associée à ce point en encodant la somme des valeurs voisines (avec la valeur actuelle)\;
+}
+
+Envoyer la carte avec ces nombres au receveur\;
+
+\caption{Procédure d'Encodage}
+\end{algorithm}
+
+\vspace{5em}
+
+\begin{algorithm}[H]
+\setstretch{1.35}
+\KwIn{La carte privée du receveur, remplie par l'envoyeur. Un nombre à décoder}
+\KwOut{Le message décodé}
+\SetAlgoLined
+\SetNoFillComment
+\vspace{3mm}
+
+Sommer chaque nombre sur les points spéciaux de la carte\;
+Retrouver le nombre envoyé\;
+
+\caption{Procédure de Décodage}
+\end{algorithm}
+
+\vspace{3em}
+
+\noindent\rule{\textwidth}{1pt}
+
+\vspace{3em}
+
+\begin{algorithm}[H]
+\setstretch{1.35}
+\KwIn{La carte publique du receveur. Un nombre à envoyer}
+\KwOut{Le message encodé}
+\SetAlgoLined
+\SetNoFillComment
+\vspace{3mm}
+
+Choisir des nombres aléatoirement pour chaque point de la carte\;
+Ajuster ces choix afin que le total de ces nombres corresponde au message à envoyer\;
+
+\Pour{\textsl{Chaque point de la carte}}{
+	Modifier la valeur associée à ce point en encodant la somme des valeurs voisines (avec la valeur actuelle)\;
+}
+
+Envoyer la carte avec ces nombres au receveur\;
+
+\caption{Procédure d'Encodage}
+\end{algorithm}
+
+\vspace{5em}
+
+\begin{algorithm}[H]
+\setstretch{1.35}
+\KwIn{La carte privée du receveur, remplie par l'envoyeur. Un nombre à décoder}
+\KwOut{Le message décodé}
+\SetAlgoLined
+\SetNoFillComment
+\vspace{3mm}
+
+Sommer chaque nombre sur les points spéciaux de la carte\;
+Retrouver le nombre envoyé\;
+
+\caption{Procédure de Décodage}
+\end{algorithm}
+
+
+\end{document}
