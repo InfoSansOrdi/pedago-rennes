@@ -38,12 +38,24 @@ Activité prête à l'emploi, souvent jouée en CM1/CM2 par exemple.
 
 ### [Crêpier psychorigide](CrepierPsychorigide/)
 
-Il faut aider un galettier à ranger ses galettes carrées de la plus grande à la
-plus petite. C'est l'occasion pour les participants de *chercher* un algorithme,
-d'en inventer un. Il est donc naturel de jouer cette activité après le jeu de
-Nim si les conditions s'y prêtent.
+Le but de cette activité est de permettre aux participant·es de découvrir un
+algorithme par eux-mêmes. Elle constitue donc une suite logique à une activité
+de découverte de la notion d'algorithme comme le [jeu de Nim](Nim/), mais elle
+peut également être jouée de façon indépendante.
 
-Activité prête à l'emploi, souvent jouée en CM1/CM2 par exemple.
+En pratique, il s'agit de trier des planchettes de bois ou plastique par taille
+croissante en appliquant un algorithme systématique.
+
+Cette activité est prête à l'emploi et vraiment rodée. Elle a souvent été jouée
+à de très nombreux niveaux, du CM1 à la licence, ainsi qu'en formation
+d'enseignants.
+
+Les concepts informatiques mis en avant par cette activité sont les algorithmes,
+l'instruction conditionnelle (pour la variante avec les couleurs des faces), la
+boucle et même la complexité pour les extensions. Si les participant·es
+travaillent en groupe comme conseillé, on apprend de plus à argumenter puis à
+verbaliser son raisonnement.
+
 
 **Concepts.**
  Algorithmes: 2;
@@ -53,28 +65,24 @@ Activité prête à l'emploi, souvent jouée en CM1/CM2 par exemple.
 
 **Compétences.**
  Pensée algorithmique: 2;
- Abstraction: 0;
- Décomposition: 1;
+ Abstraction: 2;
+ Décomposition: 2;
  Généralisation et motifs: 0;
  Évaluation: 0;
- Logique: 1.
+ Logique: 0.
 
 ### [Blasons](Blasons/)
 
-Le but de cette activité est de montrer aux participant·es qu’un ordinateur ne
-faisant que suivre ce qu'on lui demande de faire sans intelligence ni
-imagination, il faut donc donner des instructions précises et sans ambiguïté.
+Le but de cette activité est d'insister sur l'importance d'un vocabulaire précis
+et sans ambiguïté. C'est particulièrement important avec un ordinateur qui ne
+fait que suivre ce qu'on lui demande de faire sans intelligence ni imagination.
 
 En pratique, un·e participant·e doit faire dessiner une image mystère à ses
 camarades en leur donnant les bonnes instructions.
 
-Activité prête à l'emploi et vraiment rodée. Elle a souvent été
-jouée à de très nombreux niveaux, du CM1 à la licence, ainsi qu'en formation
+Cette activité est prête à l'emploi et vraiment rodée. Elle a souvent été jouée
+à de très nombreux niveaux, du CM1 à la licence, ainsi qu'en formation
 d'enseignants.
-
-**Concepts.** Algorithme: 0; Langage: 2; Information: 1; Machine: 0
-
-**Compétences.** TODO
 
 ### [Tour de magie carrée](TourMagieCarree/)
 
@@ -91,31 +99,21 @@ continue d'enseignants, en passant par le primaire et le lycée.
 
 **Concepts.** Algorithmes : 1; Langages : 0; Information : 2; Machine : 0.
 
-**Compétences.** 
- Pensée algorithmique : 1; Abstraction : 0; Décomposition : 0;
- Généralisation et motifs : 2; Évaluation : 0; Logique : 1;
-
 ### [Tris de cartes](TrisDeCartes/)
 
-Découvrir la puissance d’un algorithme de tri classique, en triant des
-cartes face cachée par binôme.
+Ce nom regroupe plusieurs activités complémentaires autour du tri des cartes. La première
+vise à expliquer l'intérêt du tri et de la recherche dichotomique, tandis que la
+seconde permet de découvrir quelques algorithmes de tris classiques.
 
-C'est une activité rodée et bien testée à partir du CM1, mais pas toujours très
-fun à jouer.
+Ces activités sont rodées et testées à la fois en CM2 et au lycée, mais elles ne sont
+pas toujours très fun à jouer. Il s'agit plutôt d'activités scolaires classiques que
+de vrais jeux.
 
 **Concepts.**
  Algorithmes : 2;
  Langages : 0;
  Information : 0;
  Machine : 0.
-
-**Compétences.**
- Pensée algorithmique : 2;
- Abstraction : 0;
- Décomposition : 1;
- Généralisation et motifs : 0;
- Évaluation : 0;
- Logique : 1.
 
 
 ### ImagePixel

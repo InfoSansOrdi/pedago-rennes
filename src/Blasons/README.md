@@ -243,11 +243,12 @@ une suite d'instructions, et nécessite donc d'utiliser une pensée algorithmiqu
 Il faut tout de même remarquer qu'un algorithme décrivant un blason donné est un
 peu particulier étant donné qu'il renvoie toujours la même chose.
 
-#### Logique: 0
 
+## Références et discussion
 
-
-## Matériel supplémentaire
+Cette activité a été inventée par Solène Mirliaz et Josuha Peignier quand ils
+étaient en L3 à Rennes en 2018. Elle a été utilisée en classe presque chaque
+année depuis.
 
 Le [dépôt git](https://github.com/InfoSansOrdi/pedago-rennes/tree/trunk/src/Blasons)
 contient de nombreuses fiches de préparation plus ou moins prêtes à l'emploi,
@@ -269,12 +270,6 @@ ont inventé la semaine suivante l'activité des blasons comme on la connaît. L
 fiche initiale peut être vue comme une extension des blasons, même si la version
 actuelle a été testée avec succès au lycée et avec des publics adultes (en
 médiation ou en formation continue d'enseignants).
-
-### Discussion pédagogique
-
-Cette activité a été inventée par Solène Mirliaz et Josuha Peignier quand ils
-étaient en L3 à Rennes en 2018. Elle a été utilisée en classe presque chaque
-année depuis.
 
 ### Rapports d'expériences
 

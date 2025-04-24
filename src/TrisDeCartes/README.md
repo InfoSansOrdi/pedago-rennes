@@ -174,24 +174,24 @@ meilleure idée de l'efficacité comparée des algorithmes. La [page
 wikipedia](https://fr.wikipedia.org/wiki/Algorithme_de_tri) correspondante est
 également bien faite.
 
-## Matériel supplémentaire
-
-Le [dépôt git](https://github.com/InfoSansOrdi/pedago-rennes/tree/trunk/src/TrisDeCartes)
-contient de nombreuses fiches de préparation plus ou moins prêtes à l'emploi,
-ainsi que des traces écrites. 
-
-- [Fiche scientifique](http://www.irem.univ-bpclermont.fr/IMG/pdf/2FicheScientifique-3.pdf)
-  rédigée par les membres de l'IREM de Clermont-Ferrand présente l'intérêt
-  historique du tri des cartes perforées, avant de présenter plusieurs
-  algorithmes classiques ([copie locale](2FicheScientifique-3.pdf)).
-
-### Discussion pédagogique
+## Références et discussion
 
 Utiliser une pile de cartes pour montrer l'intérêt des algorithmes de tri est
 très classique. La séquence "C'est le bazar" justifiant l'intérêt des
 algorithmes de tris par une recherche dichotomique est une idée de Marie Duflot,
 qui a [une page web](https://members.loria.fr/MDuflot/files/med/bazar.html) à ce
 sujet.
+
+Le [dépôt git](https://github.com/InfoSansOrdi/pedago-rennes/tree/trunk/src/TrisDeCartes)
+contient de nombreuses fiches de préparation plus ou moins prêtes à l'emploi,
+ainsi que des traces écrites. 
+
+### Webographie
+
+ - [Fiche scientifique](http://www.irem.univ-bpclermont.fr/IMG/pdf/2FicheScientifique-3.pdf)
+   rédigée par les membres de l'IREM de Clermont-Ferrand présente l'intérêt
+   historique du tri des cartes perforées, avant de présenter plusieurs
+   algorithmes classiques ([copie locale](2FicheScientifique-3.pdf)).
 
 ### Rapports d'expériences
 

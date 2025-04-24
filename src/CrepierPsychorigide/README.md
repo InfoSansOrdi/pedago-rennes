@@ -202,7 +202,7 @@ git](https://github.com/InfoSansOrdi/pedago-rennes/tree/trunk/src/CrepierPsychor
 contient de nombreuses fiches de préparation plus ou moins prêtes à l'emploi,
 ainsi que des traces écrites.
 
-Autres pages décrivant cette activité sur le web :
+### Webographie
 
 - Marie Duflot a fait une [page
   web](https://members.loria.fr/MDuflot/files/med/crepier.html) sur ce thème
@@ -215,7 +215,7 @@ Autres pages décrivant cette activité sur le web :
   activité, avec une [fiche scientifique](http://www.irem.univ-bpclermont.fr/IMG/pdf/Algorithme-2.pdf) sur la notion d'algorithme ([copie locale](IREM-CF-Algorithme-2.pdf)) ainsi qu'une [fiche de préparation](http://www.irem.univ-bpclermont.fr/IMG/pdf/CrepierVersion2017-05-10.pdf) ([copie locale](IREM-CF-CrepierVersion2017-05-10.pdf)).
 - L'IREM de Grenoble a [une page](https://irem.univ-grenoble-alpes.fr/recherche-action/informatique-de-l-ecole-jusqu-au-lycee/activite-algorithmique-crepier-psychorigide-498704.kjsp) avec une trace écrite pour les élèves et une fiche de prep pour l'enseignant ([copie locale de tous les fichiers](IREM-Gre-fichiers.zip)).
 
-Rapports d'expériences des ancien·nes animateur·rices :
+### Rapports d'expériences
 
 {{#include rapports.md}}
 

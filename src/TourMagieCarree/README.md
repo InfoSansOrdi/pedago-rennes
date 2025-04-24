@@ -114,7 +114,6 @@ par comprendre le truc, à condition de prendre le temps. Les élèves de CP
 parlent plus facilement de "nombres doubles" que de "nombres pairs", mais la
 solution fini par émerger malgré tout.
 
-
 ### Spoiler alert! Comment ça marche
 
 Le truc réside dans les 11 cartes ajoutées par l'assistant·e une fois que les
@@ -229,30 +228,8 @@ tomber sur un code qui n’existe pas. Encore mieux : si un seul des chiffres es
 changé, il est tout bonnement impossible de tomber sur un code valide et l'on
 est sûr de détecter que le code a été mal lu...
 
-## Matériel supplémentaire
 
-À ce jour, personne n'a fait de matériel à imprimer pour cette activité, car il
-suffit d'avoir du papier biface, ou bien de coller entre elles deux feuilles de
-papier colorées avant de découper des carrés 5cm par 5cm et de plastifier le
-résultat. On peut aussi coller une feuille colorée sur du carton plume avant de
-découper des jetons.
-
-Le [dépôt git](https://github.com/InfoSansOrdi/pedago-rennes/tree/trunk/src/TourMagieCarree/FichesDePreparation)
-contient de nombreuses fiches de préparation plus ou moins prêtes à l'emploi, ainsi qu'une 
-[trace écrite](https://github.com/InfoSansOrdi/pedago-rennes/tree/trunk/src/TourMagieCarree/Traces).
-
-- [Fiche de prép](http://www.irem.univ-bpclermont.fr/IMG/pdf/1FicheProf.pdf) par
-  l'IREM de Clermont-Ferrand ([copie local](fiche-prep-carres-magiques-IREM-CF.pdf)).
-- [Fiche scientifique](http://www.irem.univ-bpclermont.fr/IMG/pdf/2FicheScientifique-4.pdf)
-  rédigée par les membres de l'IREM de Clermont-Ferrand contient plus de détails
-  sur l'importance des codes correcteurs en informatique ([copie
-  locale](fiche-scientifique-carres-magiques.pdf)).
-- [Démo branchée](Materiel/demo_ecran.html), sous forme de page web utilisable à
-  l'écran en classe pour montrer le plateau à toute la classe sur le TBI. C'est
-  simplement une grille de case dont on peut inverser la couleur en cliquant
-  dessus.
-
-# Références et discussion
+## Références et discussion
 
 Il s'agit de l'une des activités présentes dans le premier livre *Computer
 Science* de l'équipe néo-zélandaise, bien décrite [en
@@ -268,10 +245,29 @@ instructive, dont la présente page reprend beaucoup de matériel (photos
 incluses). Merci Marie ! Comme il se doit, le repartage est également sous
 licence CC-BY-SA.
 
-Il existe étonnamment peu de retours d'élèves sur cette activité, pourtant
-testée de très nombreuses fois avec succès.
+À ce jour, personne n'a fait de matériel à imprimer pour cette activité, car il
+suffit d'avoir du papier biface, ou bien de coller entre elles deux feuilles de
+papier colorées avant de découper des carrés 5cm par 5cm et de plastifier le
+résultat. On peut aussi coller une feuille colorée sur du carton plume avant de
+découper des jetons.
 
-- [Repetto et Sok](Rapports/2023_Repetto_Sok.html)  (2023)
-- [Coudray et Radet](Rapports/2019_Coudray_Radet.html)  (2019)
-- [Bailluet, Bordin, Bouaziz et Piau](Rapports/2019_Bailluet_Bordin_Bouaziz_Piau.html)  (2019)
-- [Gorius et Legrand](Rapports/2018_Gorius_Legrand.html)  (2018)
+Le [dépôt git](https://github.com/InfoSansOrdi/pedago-rennes/tree/trunk/src/TourMagieCarree/FichesDePreparation)
+contient de nombreuses fiches de préparation plus ou moins prêtes à l'emploi, ainsi qu'une 
+[trace écrite](https://github.com/InfoSansOrdi/pedago-rennes/tree/trunk/src/TourMagieCarree/Traces).
+
+### Webographie
+
+ - [Fiche de prép](http://www.irem.univ-bpclermont.fr/IMG/pdf/1FicheProf.pdf) par
+   l'IREM de Clermont-Ferrand ([copie local](fiche-prep-carres-magiques-IREM-CF.pdf)).
+ - [Fiche scientifique](http://www.irem.univ-bpclermont.fr/IMG/pdf/2FicheScientifique-4.pdf)
+   rédigée par les membres de l'IREM de Clermont-Ferrand contient plus de détails
+   sur l'importance des codes correcteurs en informatique ([copie
+   locale](fiche-scientifique-carres-magiques.pdf)).
+ - [Démo branchée](Materiel/demo_ecran.html), sous forme de page web utilisable à
+   l'écran en classe pour montrer le plateau à toute la classe sur le TBI. C'est
+   simplement une grille de case dont on peut inverser la couleur en cliquant
+   dessus.
+
+### Rapports d'expériences
+
+{{#include rapports.md}}

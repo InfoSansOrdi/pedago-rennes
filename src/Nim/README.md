@@ -122,7 +122,10 @@ d'intelligence artificielle), ou tirent leurs actions au hasard (ce sont des
 algorithmes randomisés). Mais au final, leur procédure pour apprendre ou pour
 tirer au hasard est toujours pré-déterminée par le programme utilisé.
 
-## Matériel supplémentaire
+## Références et discussion
+
+Cette activité est un grand classique du folklore de la médiation mathématique,
+comme détaillé sur la [page wikipedia associée](https://fr.wikipedia.org/wiki/Jeux_de_Nim).
 
 Le [dépôt git](https://github.com/InfoSansOrdi/pedago-rennes/tree/trunk/src/Nim)
 contient de nombreuses fiches de préparation plus ou moins prêtes à l'emploi,
@@ -130,12 +133,7 @@ ainsi que des traces écrites. Exemple de [fiche de
 préparation](nim_prep_2017_BautistaBordais.pdf) et de [trace
 écrite](nim_trace_ecrite.pdf).
 
-## Références et discussion
-
-Cette activité est un grand classique du folklore de la médiation mathématique,
-comme détaillé sur la [page wikipedia
-associée](https://fr.wikipedia.org/wiki/Jeux_de_Nim). Quelques autres liens la
-décrivant :
+### Webographie
 
 - Une [fiche du site
   Pixees](http://people.irisa.fr/Martin.Quinson/Mediation/SMN/) est consacrée à
