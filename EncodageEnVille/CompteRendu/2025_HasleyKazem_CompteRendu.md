@@ -4,8 +4,6 @@
 ## Sommaire :
 
 
-- [Compte Rendu - Encodage en ville](#compte-rendu---encodage-en-ville)
-  - [Sommaire :](#sommaire-)
 - [Présentation de l'activité](#présentation-de-lactivité)
 - [Enjeu choisi](#enjeu-choisi)
 - [Rapport de la séance](#rapport-de-la-séance)
