@@ -27,6 +27,8 @@ De plus, au bout d'un moment, ils commencaient à s'ennuyer car c'était toujour
 - C'est une bonne idée d'utiliser le mot "machine" pour parler de l'IA, bien expliquer que lorsque l'on fait jouer l'IA, un élève joue normalement, et un autre ne fait que
 suivre les instructions données par la machine (il est les bras et les yeux de cette dernière).
 
+- Il y a beaucoup de manières différentes d'entraîner l'IA. Une première manière consiste à mettre 5 jetons de chaque couleur dans chaque gobelet, et d'enlever tous les jetons choisis lors d'une défaite de l'IA. L'inconvénient est que cette méthode prend beaucoup de temps à faire converger l'IA, mais est très simple à expliquer. Une autre méthode consiste à mettre un jeton de chaque couleur dans chaque gobelet, et à retirer uniquement le jeton correspondant au dernier choix si l'IA perd. Quand un gobelet n'a plus de jeton du tout, c'est que qu'aucun choix depuis cette position ne peut amener l'IA à la victoire à coup sûr. On peut au choix remettre un jeton de chaque couleur, ou retourner le gobelet.
+
 ## Sources d'Étonnement
 
 Beaucoup d'élèves pensent avoir trouvé une stratégie et demandent à commencer...

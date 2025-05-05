@@ -32,11 +32,7 @@ L'extension restante pour les groupes les plus rapides sont les lois du magicien
 
 ### Ce qui doit être corrigé et ce qui est retenu (selon les points du déroulement).
 
-**1)** Faire reformuler la consigne et l'objectif explicitement par un élève.
-Insister sur l'histoire des caméléons pour que ce soit plus ludique et compréhensible.
-Ne pas oublier d'indiquer qu'il faut réinitialiser l'arbre (en analogie à l'histoire qui souligne que le caméléon de fin doit se cacher des prédateurs).
-
-**2)** Les élèves au tableau avaient du mal à expliquer la stratégie générale qu'ils avaient trouvée.
+Les élèves au tableau avaient du mal à expliquer la stratégie générale qu'ils avaient trouvée.
 
 ### Améliorations (matérielles et idées)
 
