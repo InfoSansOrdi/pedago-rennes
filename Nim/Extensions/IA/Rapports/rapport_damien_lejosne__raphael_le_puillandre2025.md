@@ -10,7 +10,7 @@ Nous avons présenté cette activité deux fois (avec des améliorations entre l
 
 Le jeu de Nim a beaucoup de variantes, il est important de ne pas trop embrouiller les élèves avec ces variantes.
 
-Lors de notre premère intervention, nous avons présenté aux élèves la version avec 1, 2 ou 3 jetons (version un peu plus difficile que la version.
+Lors de notre première intervention, nous avons présenté aux élèves la version avec 1, 2 ou 3 jetons (version un peu plus difficile que la version.
 Ensuite, par souci de rapidité de convergence de l'IA, nous jouons avec 1 ou 2 jetons tout en gardant la version 1, 2, 3 lorsque les élèves jouent entre eux.
 Ça a un peu embrouillé les élèves.
 
