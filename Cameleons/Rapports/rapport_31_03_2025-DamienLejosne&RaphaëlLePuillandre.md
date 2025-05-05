@@ -1,6 +1,6 @@
 # Rapport d'étonnement
 
-> 1ère séance (classe A et B) : les caméléons
+> 1ère séance : les caméléons
 
 > Damien Lejosne, Raphaël Le Puillandre
 
@@ -38,20 +38,11 @@ Ne pas oublier d'indiquer qu'il faut réinitialiser l'arbre (en analogie à l'hi
 
 **2)** Les élèves au tableau avaient du mal à expliquer la stratégie générale qu'ils avaient trouvée.
 
-**4)** Plusieurs groupes avaient avancé assez vite et l'extension restante était l'introduction au magicien De Morgan, cependant il s'agissait surtout de la démonstration, par îlot, de la technique du magicien puis il était attendu des élèves qu'ils appliquent celà naïvement. L'idée peut potentiellement être retravaillée pour avoir plus de réflexion de la part des élèves.
-
-Le vocabulaire utilisé comporte les mots : *portes logiques*, *composants électroniques* (pour référencer ce qui compose un ordinateur), *circuits électroniques*, *binaire*, *décimal* (pour la calculatrice).
-Cela a globalement été bien appréhendé par les élèves.
-
 ### Améliorations (matérielles et idées)
 
-- Bandes de valuation pour les caméléons pour garder en mémoire les valeurs de départ.
-*OU BIEN*
 Leur proposer de garder en mémoire la valuation initiale en conservant un double des caméléons en haut de l'arbre
 
 - Projection de l'exemple dans **1)** au tableau et pendant les explications des élèves au tableau en plus grand avec une animation.
-
-- Configurations d'arbres avec une et une seule valuation correcte avec les oiseaux pour que ce soit difficile à trouver.
 
 - Faire inventer aux élèves leurs propres arbres en fonction d'une valuation qu'ils proposent.
 
