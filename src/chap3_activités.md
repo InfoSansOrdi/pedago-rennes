@@ -1,38 +1,128 @@
 # Les activités
 
 Il existe de très nombreuses activités d'informatique débranchée, et il n'est
-pas facile de choisir. Pour vous aide, cette page liste différentes activités
+pas facile de choisir. Pour vous aider, cette page liste différentes activités
 par ordre de complexité. Les activités vertes sont bien rodées car elles ont été
 testées en classe à de nombreuses reprises, et elles sont accessibles aux élèves
 de primaire. Les activités bleues sont un peu moins rodées et il faut vous
 préparer à finaliser certains documents associés, mais si vous avez l'habitude
 de l'informatique débranchée, vous devriez pouvoir improviser. Les activités
 rouges demandent encore plus de travail : certaines n'ont jamais été jouées en
-classe et le déroulé comme le matériel demandent à être raffinés. Les activités
+classe. Leur déroulé comme le matériel demandent à être affinés. Les activités
 noires ne sont pas prêtes à être jouées pour l'instant (certaines sont à peine
 ébauchées), et elles ont besoin de vous pour avancer.
 
 Les activités sont aussi triées en fonction des concepts mis en oeuvre
-(Algorithme, Langage, Information et Machine) selon une grille de lecture de
-Gilles Dowek détaillée plus bas sur cette page. Enfin, leur rapport aux
-[compétences identifiées par CS
+(Algorithme, Langage, Information et Machine) selon une [grille de
+lecture](http://www.lsv.fr/~dowek/Philo/quatre.pdf) de Gilles Dowek détaillée
+plus bas sur cette page. Enfin, leur rapport aux [compétences identifiées par CS
 unplugged](https://www.csunplugged.org/fr/computational-thinking/) (pensée
 algorithmique, abstraction, décomposition, généralisation et motifs, évaluation,
-logique), également détaillées plus bas.
+logique), également détaillé plus bas.
 
 ## Activités vertes
 
 Ces activités sont bien testées et assez faciles à mettre en oeuvre. Mais cela
 ne veut pas dire pour autant qu'on peut animer une séance sans la préparer correctement.
 
-- Nim
-- Crêpes
-- Blasons + ImagePixel (Images téléphonées)
-- Trier les cartes
-- Caméléons
-- Carré magique
-- Chateau magique
-- Chateau pas très fort
+### [Nim](Nim/)
+
+Deux joueurs s’affrontent et tentent de déterminer une stratégie gagnante. C'est
+une très bonne introduction à la notion d'algorithme.
+
+Activité prête à l'emploi, souvent jouée en CM1/CM2 par exemple.
+
+**Concepts.** Algorithme: 2; Langage: 0; Information: 0; Machine: 0.
+
+**Compétences.** Pensée algorithmique: 2; Abstraction: 1; Décomposition: 2; Généralisation et motifs 1; Evaluation: 0; Logique: 1
+
+### [Crêpier psychorigide](CrepierPsychorigide/)
+
+Il faut aider un galettier à ranger ses galettes carrées de la plus grande à la
+plus petite. C'est l'occasion pour les participants de *chercher* un algorithme,
+d'en inventer un. Il est donc naturel de jouer cette activité après le jeu de
+Nim si les conditions s'y prêtent.
+
+Activité prête à l'emploi, souvent jouée en CM1/CM2 par exemple.
+
+**Concepts.**
+ Algorithmes: 2;
+ Langages: 0;
+ Information: 0;
+ Machine: 0.
+
+**Compétences.**
+ Pensée algorithmique: 2;
+ Abstraction: 0;
+ Décomposition: 1;
+ Généralisation et motifs: 0;
+ Évaluation: 0;
+ Logique: 1.
+
+### [Blasons](Blasons/)
+
+Le but de cette activité est de montrer aux participant·es qu’un ordinateur ne
+faisant que suivre ce qu'on lui demande de faire sans intelligence ni
+imagination, il faut donc donner des instructions précises et sans ambiguïté.
+
+En pratique, un·e participant·e doit faire dessiner une image mystère à ses
+camarades en leur donnant les bonnes instructions.
+
+Activité prête à l'emploi et vraiment rodée. Elle a souvent été
+jouée à de très nombreux niveaux, du CM1 à la licence, ainsi qu'en formation
+d'enseignants.
+
+**Concepts.** Algorithme: 0; Langage: 2; Information: 1; Machine: 0
+
+**Compétences.** TODO
+
+### [Tour de magie carrée](TourMagieCarree/)
+
+Cette activité se présente comme un tour de magie où l'animateur·ice fait de la
+prestidigitation pour deviner une action secrète des participant·es. Le truc
+étant basé sur la théorie mathématique des codes correcteurs, faire découvrir ce
+truc aux participants est l'occasion d'expliquer comment les ordinateurs
+détectent les erreurs de recopies quand ils communiquent sur le réseau.
+
+C'est une activité extrêmement bien rodée, testée de la fin du CP à la formation
+continue d'enseignants, en passant par le primaire et le lycée.
+
+**Mots-clefs** : Code correcteur.
+
+**Concepts.** Algorithmes : 1; Langages : 0; Information : 2; Machine : 0.
+
+**Compétences.** 
+ Pensée algorithmique : 1; Abstraction : 0; Décomposition : 0;
+ Généralisation et motifs : 2; Évaluation : 0; Logique : 1;
+
+### [Tris de cartes](TrisDeCartes/)
+
+Découvrir la puissance d’un algorithme de tri classique, en triant des
+cartes face cachée par binôme.
+
+C'est une activité rodée et bien testée à partir du CM1, mais pas toujours très
+fun à jouer.
+
+**Concepts.**
+ Algorithmes : 2;
+ Langages : 0;
+ Information : 0;
+ Machine : 0.
+
+**Compétences.**
+ Pensée algorithmique : 2;
+ Abstraction : 0;
+ Décomposition : 1;
+ Généralisation et motifs : 0;
+ Évaluation : 0;
+ Logique : 1.
+
+
+### ImagePixel
+(Images téléphonées)
+### Caméléons
+### Chateau magique
+### Chateau pas très fort
 
 ## Activités bleues
 
@@ -52,7 +142,7 @@ ne veut pas dire pour autant qu'on peut animer une séance sans la préparer cor
 - Ile aux pirates
 - Hexaflexagone
 - Activité de [classification des savoirs](https://moex.inria.fr/mediation/class/) par Line van den Berg et Jérôme Euzenat.
-- Classif des champi
+- Classification des champignons
 - 9001 chaudrons, 1000 MIPS, ChiFuMi de Nash
 
 ## Activités noires
@@ -72,7 +162,7 @@ Deux activités sont bien avancées, mais noire quand même :
 
 ## Grilles de classification
 
-Chaque activité est par ailleurs classifiée sur deux grilles de lectures. La
+Chaque activité est par ailleurs classifiée sur deux grilles de lecture. La
 première grille classe les activités en fonction des concepts mis en oeuvre, en
 reprenant la [classification de Gilles
 Dowek](http://www.lsv.fr/~dowek/Philo/quatre.pdf). Pour chaque concept,
@@ -113,9 +203,9 @@ de CS unpluged](https://www.csunplugged.org/fr/computational-thinking/) :
   reconnaître les motifs communs à tous ces cas en ignorant leur différences
   particulières.
 * **Évaluation :** l'évaluation consiste à quantifier des solutions, pour
-  pouvoir les comparer leur qualité ou attester des améliorations. L'évaluation
-  peut aussi être qualitative, par exemple quand on se demande si un algorithme
-  est correct.
+  pouvoir comparer leur qualité ou attester des améliorations. L'évaluation peut
+  aussi être qualitative, par exemple quand on se demande si un algorithme est
+  correct.
 * **Logique :** on désigne ici la capacité du raisonnement organisé et
   rigoureux, permettant de structurer la pensée pour obtenir efficacement des
   solutions.
@@ -134,9 +224,9 @@ préparer vos interventions.
 - Le [livre CS unpluged](https://interstices.info/upload/csunplugged/CSUnplugged_fr.pdf) des gens qui ont popularisé le concept d'informatique unplug (ils ont
   aussi [un site web](http://csunplugged.org/)).
 - [195 défis (mathématiques) à manipuler](http://math.univ-lyon1.fr/irem/spip.php?article524) Une collection de petits casse-têtes mathématiques où il s'agit de
-  réfléchir avec les mains. De nouveaux défis semblent être ajoutés au fil du temps. Certaines solutions sont données, mais souvent sans l'algorithme ou la
+  réfléchir avec les mains. De nouveaux défis semblent être ajoutés au fil du temps. Certaines solutions sont données, mais souvent sans l'algorithme ou sans la
   démarche de résolution.
-- [GALEJADE](https://galejade.inria.fr/) (Graphes et Algorithmes : Ensemble de Jeux À Destination des Écoliers). Énormément d'activités autour des problèmes
+- [GALEJADE](https://galejade.inria.fr/) (Graphes et ALgorithmes : Ensemble de Jeux À Destination des Écoliers). Énormément d'activités autour des problèmes
   classiques de graphes, à jouer soit en jeu de plateau soit en grandeur nature. [Document de 400 pages](https://hal.inria.fr/hal-01366804v2) reprenant
   certaines des activités.
 - [Groupe IREM Informatique sans ordinateur de Clermont-Ferrand](http://www.irem.univ-bpclermont.fr/spip.php?article892). Des activités prêtes à l'emploi, avec
@@ -154,7 +244,7 @@ préparer vos interventions.
   l'emploi.
 - [EPCC Outreach Repository](https://github.com/EPCCed/Activities) contient des activités de médiation scientifique mises en place par le centre de calcul de
   l'université d'Edinburgh. C'est donc plutôt centré autour du calcul parallèle, du HPC et des big data.
-- [Le Castor Informatique](http://castor-informatique.fr/) Ce concours est à l'informatique ce que le Kangourou est aux mathématiques : une façon ludique de
+- Le concours du [Castor Informatique](http://castor-informatique.fr/) est à l'informatique ce que le Kangourou est aux mathématiques : une façon ludique de
   faire découvrir l'informatique aux scolaires (primaire et secondaire). On doit pouvoir adapter la plupart des activités pour les rendre unplug.
 - [Network and Magic](https://code.ffdn.org/ljf/networkandmagic), un jeu de rôles pour expliquer le fonctionnement d'internet.
 

@@ -1,12 +1,13 @@
 pages:
   image: mquinson/infosansordi
   script:
-  - apk add --no-cache mdbook pipx py3-markdown texlive texmf-dist-langfrench texmf-dist-latexextra make
-  - pipx install --global linkchecker
-  - for dir in Nim ; do make -C src/${dir} clean all ; done
+#  - apk add --no-cache mdbook pipx py3-markdown texlive texmf-dist-langfrench texmf-dist-latexextra make
+#  - apk add --no-cache font-terminus font-inconsolata font-dejavu font-noto font-awesome font-noto-extra
+#  - pipx install --global linkchecker
+  - for dir in Blasons CrepierPsychorigide Nim TourMagieCarree TrisDeCartes ; do make -C src/${dir} clean all ; done
   - mdbook build
-  - mkdir public; mv book/* public
-  - linkchecker public
+  - mkdir public ; mv book/* public
+  - linkchecker --ignore-url=.*.css public && echo "linkchecker is OK"
   artifacts:
     paths:
     - public

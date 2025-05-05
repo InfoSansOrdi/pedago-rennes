@@ -338,24 +338,6 @@ CP/CE1/CE2
 * [Dossier CouleurNombres](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/CouleurNombres)
 
 ---
-## Crêpier psychorigide
-Il faut aider un galettier à ranger ses galettes carrées de la plus grande à la plus petite.
-### Concepts
-* Algorithmes(\*\*)
-* Langages(.)
-* Information(.)
-* Machine(.)
-### Compétences
-* Pensée algorithmique(\*\*)
-* Abstraction(.)
-* Décomposition(\*)
-* Généralisation et motifs(.)
-* Évaluation(.)
-* Logique(\*)
-### Maturité, public cible
-Activité prête à l'emploi.
-### Ressources
-* [Dossier CrepierPsychorigide](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/CrepierPsychorigide)
 ---
 ## Crococalcul
 Une activité permettant d'initier au lambda calcul grâce à une représentation des abstractions sous forme de crocodiles et de variables par leurs oeufs.
@@ -459,28 +441,6 @@ Activité prête à l'emploi
 CM1/CM2/collège.
 ### Ressources
 * [Dossier IleAuTresor](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/IleAuTresor)
----
-## Jeu de Nim
-Deux joueurs s’affrontent et tentent de déterminer une stratégie gagnante.
-Mots-clefs:
-* __Théorie des jeux__
-### Concepts
-* Algorithmes(\*\*)
-* Langages(.)
-* Information(.)
-* Machine(.)
-### Compétences
-* Pensée algorithmique(\*\*)
-* Abstraction(\*)
-* Décomposition(\*\*)
-* Généralisation et motifs(\*)
-* Évaluation(.)
-* Logique(\*)
-### Maturité, public cible
-Activité prête à l'emploi.
-Public cible: CM1/CM2.
-### Ressources
-* [Dossier Nim](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Nim)
 ---
 ## Le journal du pirate
 Il s'agit de trois activités en une (trois activités distinctes mais pouvant être combinées). L'objectif principal de l'activité est de trouver un trésor caché
@@ -654,29 +614,6 @@ Matériel a adapter ?
 Public cible: CM1/CM2.
 ### Ressources
 * [Pixees](https://pixees.fr/tablette-de-chocolat-empoisonnee)
-
----
-## Tour de magie/carrés magiques/Merlin et le donjon
-Variante avec un chapeau de magicien: Merlin et le donjon. Merlin rénove le donjon du château du roi Arthur et cache un trésor sous le plancher.
-Mots-clefs:
-* __Code correcteur__
-### Concepts
-* Algorithmes(\*)
-* Langages(.)
-* Information(\*\*)
-* Machine(.)
-### Compétences
-* Pensée algorithmique(\*)
-* Abstraction(.)
-* Décomposition(.)
-* Généralisation et motifs(\*\*)
-* Évaluation(.)
-* Logique(\*)
-### Maturité, public cible
-Activité prête à l'emploi.
-Tout public.
-### Ressources
-* [Dossier TourDeMagie](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/TourDeMagie)
 
 ---
 ## Traversée de rivière

@@ -1,4 +1,5 @@
 *.aux
 *.log
-*.pdf
 *.html
+*-500x.png
+rapports.md

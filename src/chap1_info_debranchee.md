@@ -2,8 +2,8 @@
 
 ## Qu'est ce que c'est ? 
 
-Il s'agit de petits jeux de logique et autres casses-têtes auxquels on joue avec
-des bouts de bois du carton ou du plastique pleins de couleurs, mais surtout
+Il s'agit de petits jeux de logique et autres casse-têtes auxquels on joue avec
+des bouts de bois, du carton ou du plastique, pleins de couleurs, mais surtout
 sans électronique. Il existe de nombreuses activités, couvrant presque tous les
 concepts fondamentaux de l'informatique. Elles peuvent être utilisées en classe
 ou lors d'événements comme la Fête de la science. Cette façon de faire découvrir
@@ -27,7 +27,7 @@ l'équipement des classes.
 ![Atelier de découpe](decoupe_SMN-300x.jpg)
 
 Un autre avantage est que les élèves ont l'habitude d'apprendre en manipulant
-des objets, tandis que les enseignants savent déjà enseigner ainsi. Quand on n'a que
+des objets, et les enseignants savent déjà enseigner ainsi. Quand on n'a que
 quelques séances, il est bien pratique de pouvoir s'appuyer sur les habitudes de
 la classe. Il serait bien plus difficile de faire des activités sur ordinateurs
 avec des enfants n'en ayant jamais utilisé en classe avant cela. D'expérience,
@@ -58,14 +58,15 @@ Enfin, cette approche a l'avantage d'être inclusive, puisqu'il n'y a pas de
 prérequis. Geeker à la maison avec papa ne donne pas d’avantage en classe, et
 tous les élèves sont à égalité devant l'activité. Comme cela permet d’aborder de
 vrais concepts complexes de l’informatique, c’est un bon outil pour réintégrer
-gens habituellement exclus de la technologie. On peut même intégrer d'éventuels
-enfants ne maîtrisant pas bien français, puisqu'il s'agit surtout de *manipuler
-et réfléchir*.
+les personnes habituellement exclus de la technologie. On peut même intégrer
+d'éventuels enfants ne maîtrisant pas bien le français ou des [élèves à besoins
+éducatifs particuliers](https://fr.wikipedia.org/wiki/Inclusion_scolaire),
+puisqu'il s'agit surtout de *manipuler et réfléchir*.
 
 ## En pratique
 
-Toutes les activités fonctionnent de la même manière : donne un matériel simple
-mais un peu intriguant aux participants, et on explique un petit défi à faire
+Toutes les activités fonctionnent de la même manière : on distribue un matériel
+simple mais un peu intriguant aux participant·es, et on pose un petit défi à faire
 seul ou en groupe. L’objectif est que chaque participant·e cherche activement à
 résoudre le puzzle donné, en collaborant avec les autres. Selon les activités,
 le guidage par les animateurs est plus ou moins directif et l'on termine la
