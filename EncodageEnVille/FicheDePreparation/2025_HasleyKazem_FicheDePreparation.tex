@@ -1,0 +1,175 @@
+% Cette fiche d'activité à été développée par
+% + Nowar Kazem <nowar.kazem-legac@ens-rennes.fr>
+% + William Hasley <william.hasley@ens-rennes.fr>
+
+% Le template a été largement inspiré de celui de
+% + Erwan Tanguy-Legac <erwan.tanguy-legac@ens-rennes.fr>
+% + Héloïse Troublé <heloise.trouble@ens-rennes.fr>
+
+% Elle est distribuée sous la licence Creative-Commons by-nc-sa 4.0
+% (Attribution, Non-Commercial, Share Alike)
+% qui peut être trouvée dans
+% [le site de Creative Commons](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+\documentclass[12pt, a4paper]{article}
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[top=0.9in, left=0.6in, right=0.7in, bottom=1in]{geometry}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{titling}
+
+\renewcommand{\headrulewidth}{1pt}
+\chead{} 
+\lhead{Encodage en ville - Plan de l'activité}
+\rhead{William Hasley et Nowar Kazem}
+
+\renewcommand{\footrulewidth}{1pt}
+\cfoot{\thepage} 
+\lfoot{2025}
+\rfoot{ENS Rennes}
+
+\fancypagestyle{plain}{
+	\fancyhf{} 
+	\cfoot{\thepage}
+	\renewcommand{\headrulewidth}{0pt}
+	\renewcommand{\footrulewidth}{1pt}}
+
+\begin{document}
+	
+	\title{Encodage en ville}
+	\author{William Hasley et Nowar Kazem}
+	\date{17 mars 2025}
+	\maketitle
+	
+	\paragraph*{Niveau :} CM1/CM2 
+	\paragraph*{Durée :} 45 minutes
+	\paragraph*{Prérequis :} Aucun
+	\paragraph*{Description de l'activité :}
+	Il s'agit d'un protocole cryptographique. La clé public est un graphe, la clé privée est un sous-ensemble de l'ensemble des sommets tel que la famille des voisinnages de ses éléments 
+	forment une partition de l'ensemble de sommets, où un voisinnages d'un sommet est l'ensemble de ses voisins union le sommet lui-même. Le chiffrement consiste à mettre des nombres aléotoires 
+	sur certains sommets puis de mettre des nombres sur les sommets restants de façon à ce que la somme fasse le nombre qu'on veut chiffrer. Le déchiffrement se fait en sommant les nombres sur 
+	les sommets appartenant à notre clé privée. Le problème de trouver une clé privée valide (qui fonctionne) est NP-complet, ce qui fait de ce protocole un protocole sûr et intéressant.
+	 
+	
+	\paragraph*{Objectif pédagogique :}
+	Expliquer ce que c'est la cryptographique, pourquoi est-elle nécessaire, parler de problèmes \textit{difficiles} (NP-complet).
+	
+	\begin{longtable}{c|m{3.9cm}|m{8.4cm}|m{2.4cm}}		\textbf{Durée} & \textbf{Phase} & \textbf{Activités et consignes} & \textbf{Organisation et matériel} \\ \hline\hline
+		
+		7' &
+		
+		Introduction
+		
+		&
+		
+		On se présente, on explique le protocole et on chiffre puis déchiffre un message au tableau. On leur demande une reformulation.
+		
+		& 
+		
+		A l'oral au tableau (avec craies ou feutres). On s'assure qu'ils ont bien compris les instructions à exécuter.	
+
+		\\ \hline
+
+		4' &
+
+		Temps libre
+
+		&
+
+		On distribue le matériel (les graphes). On laisse les élèves chiffrer et déchiffrer, on répond aux éventuelles questions.
+
+		&
+
+		Groupes de 4 (les îlots), trois graphes par groupe (facile, moyen et difficile).
+		
+		\\ \hline
+		
+		10'
+		
+		&
+		
+		Chiffrement et déchiffrement	
+		
+		& 
+		
+		Les élèves continuent à chiffrer et déchiffrer, on leur montre l'importance de la clé privée en demandant s'ils peuvent trouver le message (le nombre) à partir du chiffré.
+
+		
+		& Idem
+		
+		\\ \hline
+		
+		7' &
+		
+		Remise en commun + institutionnalisation
+		
+		&
+		
+		On stoppe l'activité, on reprend l'attention et on leur parle un peu de la cryptographie (pourquoi cela est nécessaire). On leur fait remarquer qu'un graphe doit avoir certaines propirétés pour pour qu'il soit une \textit{clé privée} valide.
+		
+		& 
+		
+		À l'oral, au tableau
+		
+		\\ \hline
+		
+		10' 
+		
+		&
+		
+		Recherche d'une \textit{clé privée} qui marche 
+		
+		&
+		
+		On demande à tous les élèves de chercher une \textit{clé privée} qui marche. On leur fait remarquer que plus le graphe est grand, plus c'est difficile.
+		
+		&
+		
+		Par groupes de 4
+		
+		\\ \hline
+		
+		7'
+		
+		&
+		
+		Institutionnalisation
+		
+		&
+		
+		On reprend l'attention des élèves, et on présente l'institutionnalisation (détail ci-dessous). 
+		
+		&
+		
+		A l'oral
+		
+	\end{longtable}
+	
+\newpage
+	
+\subsection*{Institutionnalisation :}
+	
+	C’est de l’informatique, parce qu’on cherche à communiquer de façon sûre et sécurisée.
+	
+	Nos messages peuvent être interceptés facilement, tout le monde peut voir ce qu'on envoie. Il est donc primordial de rendre nos messages incompréhensible par les adversaires : c'est ce qu'on appelle chiffrer. En même temps, il faut que notre destinataire puisse lire/comprendre notre message, il doit donc disposer d'une \textit{secret(clé privée)} qui lui permet de lire notre message : c'est ce qu'on appelle déchiffrer.
+	
+	On a vu qu'on pouvait construire une \textit{clé privée} qui permet de déchiffrer le message. Mais ce problème (le problème de construire une \textit{clé privée}) est \textit{difficile} : c'est un problème NP-complet. Cela empêche l'adversaire de construire une \textit{clé privée} et donc de casser notre protocole. Ce protocole est sécurisé parce qu'il s'appuie sur un problème NP-complet.
+
+	La recherche de protocoles sûrs et efficaces est un domaine de l'informatique appelé la cryptographie.
+	
+	\paragraph*{Étayages} (si les élèves patinent) :
+	\begin{itemize}
+		\item leur montrer un exemple qui ne marche pas
+	\end{itemize}
+	
+	\paragraph*{Extensions} (si certains groupes d'élèves vont trop vite) :
+	\begin{itemize}
+		\item Est-ce qu'il est toujours possible de trouver une \textit{clé privée} à partir d'un certain graphe ?
+	\end{itemize}
+\end{document}
+
