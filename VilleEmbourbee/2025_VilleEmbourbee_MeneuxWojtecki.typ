@@ -19,7 +19,7 @@
   [
 Toutes les routes de la ville ont été détruites ! Pour pouvoir se déplacer à nouveau sans problème dans la ville, il faut reconstruire des routes, de manière à pouvoir accéder à toute la ville. Cependant, on veut utiliser le moins de béton possible, pour pouvoir construire une piscine avec le reste.
   ],
-  image("map.jpg",)
+  image("2025_Carte_TraceEcrite_MeneuxWojtecki.jpg",)
 )
 
 
