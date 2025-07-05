@@ -1,0 +1,179 @@
+% Cette fiche d'activité à été développée par
+% + Ismaël Gaye <ismael.gaye@ens-rennes.fr>
+% + Adil Oubninte <adil.oubninte@ens-rennes.fr>
+
+% Le template a été largement inspiré de celui de
+% + Erwan Tanguy-Legac <erwan.tanguy-legac@ens-rennes.fr>
+% + Héloïse Troublé <heloise.trouble@ens-rennes.fr>
+
+% Elle est distribuée sous la licence Creative-Commons by-nc-sa 4.0
+% (Attribution, Non-Commercial, Share Alike)
+% qui peut être trouvée dans
+% [le site de Creative Commons](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+\documentclass[12pt, a4paper]{article}
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[top=0.9in, left=0.6in, right=0.7in, bottom=1in]{geometry}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{titling}
+
+\renewcommand{\headrulewidth}{1pt}
+\chead{} 
+\lhead{Alice déménage - Plan de l'activité}
+\rhead{Ismaël Gaye et Adil Oubninte}
+
+\renewcommand{\footrulewidth}{1pt}
+\cfoot{\thepage} 
+\lfoot{2024}
+\rfoot{ENS Rennes}
+
+\fancypagestyle{plain}{
+	\fancyhf{} 
+	\cfoot{\thepage}
+	\renewcommand{\headrulewidth}{0pt}
+	\renewcommand{\footrulewidth}{1pt}}
+
+\begin{document}
+	
+	\title{Alice déménage}
+	\author{Ismaël Gaye et Adil Oubninte}
+	\date{24 mars 2024}
+	\maketitle
+	
+	\paragraph*{Niveau :} $6^{\grave{e}me}$
+	\paragraph*{Durée :} 55 minutes
+	\paragraph*{Prérequis :} Aucun
+	\paragraph*{Description du jeu :}
+	Alice déménage est un jeu se jouant tout seul mais peut aussi se faire en coopération. L'objectif de ce jeu est étant donnés une grille de départ (représentant la taille maximale de la pile que Alice peut faire au dessus de sa voiture) et de ses valises (ici des polygones) de construire la pile de valises de hauteur minimale.
+	
+	\paragraph*{Objectif pédagogique :}
+	Introduire la notion de difficulté des problèmes (et donc la NP-complétude).
+	
+	\begin{longtable}{c|m{3.9cm}|m{8.4cm}|m{2.4cm}}		\textbf{Durée} & \textbf{Phase} & \textbf{Activités et consignes} & \textbf{Organisation et matériel} \\ \hline\hline
+		
+		5' &
+		
+		Introduction
+		
+		&
+		
+		On se présente (rapidement cette fois), on explique les règles. On fait un exemple au tableau. On insiste bien sur le fait de trouver un algorithme qu'un ordinateur peut comprendre plutôt que de trouver une solution (Les tables seront positionnées en îlot en amont de la séance)
+		
+		& 
+		
+		A l'oral au tableau
+		
+		\\ \hline
+		
+		10' & 
+		
+		Temps libre
+		
+		&
+		
+		On distribue les grilles et première enveloppe (qui ne seront pas sur les tables au début de la séance). On laisse les élèves essayer de trouver un moyen de trouver la solution optimale, on s'assure que tous ont bien compris les règles, on répond aux questions (possibilité de gagner du temps en cas de retard à l'installation)
+		
+		& 
+		
+		Groupes de 2 (possiblement en îlots de 4 pour échanger), 12 jetons par groupe (+ext pour les plus rapides)
+		
+		\\ \hline
+
+        5' &
+		
+		Remise en commun
+		
+		&
+		
+		On stoppe l'activité, on reprend l'attention et on ouvre une discussion tous ensemble. Si possible, on interroge des groupes qui ont trouvé une esquise d'algorithme. On fait venir des élèves aux tableaux pour les tester sur l'exemple.
+		
+		& 
+		
+		À l'oral, au tableau
+		
+		\\ \hline
+		
+		15'
+		
+		&
+		
+		Robot
+		
+		& 
+		
+		Les élèves continue de jouer mais cette fois l'un d'entre eux doit donner des instructions élémentaire (pour simuler un algorithme). Au besoin on passe dans les groupes pour faire le robot.
+		
+		& Par groupe
+		
+		\\  \hline
+		
+		10'
+		
+		&
+		
+		Robot efficace
+		
+		&
+		
+		On distribue tout le jeux au élèves et on lui demande d'avoir un robot efficace, qui ne dépend pas du jeux.
+		
+		& 
+		
+		Par groupes de 4 (les îlots)
+		
+		\\ \hline
+		
+		10'
+		
+		&
+		
+		Institutionnalisation
+		
+		&
+		
+		On reprend l'attention des élèves et on explique l'insitutionnalisation de manière intéractive. On répond aux potentiels question et on s'assure qu'ils ont compris en leur demandant de ré-expliquer
+		
+		&
+		
+		A l'oral
+		
+	\end{longtable}
+	
+\newpage
+	
+\subsection*{Institutionnalisation :}
+	
+Le problème de savoir si les affaires d'Alice (la goat) tiennent dans une valise d'une certaine taille est "compliqué":
+On voudrait une méthode pour faire ça automatiquement, peu importe la taille de valise, où les affaires d'Alice: on cherche un algorithme
+Mais comme vous avez pu le remarquer, la plupart des algorithmes sont très longs et demande souvent de faire des essais et de retourner sur ses pas: c'est qu'on appelle le backtracking
+Les problèmes pour lesquels on n'a que des algorithmes très long sont appelés "NP-difficile" où "NP-dur", car pour des grandes valises et beaucoup d'affaires, 
+un ordinateur mettrait des années à trouver la solution.
+C'est de l'informatique car quand on essaye de résoudre un problème avec un algorithme, on se rend parfois compte qu'il prend trop de temps à le résoudre. Mais on ne peut pas toujours l'améliorer,
+c'est pour cela qu'on étudie les problèmes qui peuvent être résolus rapidement, et ceux qu'on arrive pas à résoudre rapidement
+Aujourd'hui encore, on ne sait pas si les problèmes difficile ne peuvent pas quand même être résolu rapidement, c'est la question "P=NP" qui est un des problèmes du millénaire: celui qui trouve la réponse
+gagne même 1 millions de dollar !
+C'est très important car on utilise les problèmes compliqués (comme la factorisation) dans des domaines comme la cryptographie pour protéger les cartes bancaires et internet.
+
+En resumé, en informatique on essaye de résoudre des problèmes automatiquement (avec des algorithmes), mais certain problème sont difficiles à résoudre (NP-dur) car tout les algo qu'on trouve sont très lents !
+
+
+	
+	\paragraph*{Étayages} (si les élèves patinent) :
+	\begin{itemize}
+		\item Placer une des pièces correctement
+		\item Faire des plus petit puzzle
+		\item Pour le robot: on autorise un peu plus que des instructions élémentaire
+	\end{itemize}
+	
+	\paragraph*{Extensions} (si certains groupes d'élèves vont trop vite) :
+	\begin{itemize}
+        \item Il y a 6 puzzles différents
+		\item Insister sur l'algorithme
+	\end{itemize}
+\end{document}

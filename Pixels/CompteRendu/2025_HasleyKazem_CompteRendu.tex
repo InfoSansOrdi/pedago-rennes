@@ -1,0 +1,169 @@
+\documentclass{article}
+
+\usepackage[tmargin=2cm,rmargin=1in,lmargin=1in,margin=0.85in,bmargin=2cm,footskip=.2in]{geometry}
+
+\usepackage[upright]{fourier} % PACKAGE QUI MODIFIE LA FONT DE BASE
+\usepackage[none]{hyphenat}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usepackage{tkz-tab}
+\usepackage{amsfonts} 
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[mathscr]{eucal}
+\usepackage{bigints}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{pdfpages}
+\usepackage{centernot}
+\usepackage{witharrows}
+\usepackage[inline]{enumitem} 
+\usepackage{cancel}
+\usepackage{hyperref}
+
+\usepackage{stmaryrd}
+
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead{}
+\fancyfoot[C]{\thepage}
+
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\title{\textbf{Compte-rendu Pixels}}
+\date{\textit{\today}}
+\author{Hasley William - 228}
+
+% Des commandes qui se font à chaque page --------
+\parindent 0ex
+
+
+\begin{document}
+
+\begin{titlepage}
+
+\begin{center}
+
+\vfill
+\line(1,0){400}\\
+\huge{\textbf{Pédagogie : Compte-rendu (PIXELS)}}\\[3mm]
+\Large{\textbf{- William HASLEY \& Nowar KAZEM - }}\\[1mm]
+\line(1,0){400}
+\vfill
+\end{center}
+
+
+\begin{flushleft}
+
+\renewcommand{\contentsname}{Sommaire}  % Remplace Contents par Sommaire
+\tableofcontents
+\vfill
+\end{flushleft}
+
+\end{titlepage}
+
+\newpage
+
+\section{Présentation de l'activité}
+
+Nous avons choisi de présenter une activité similaire à l'activité "Blasons", mais avec un objectif différent. L'activité Pixels propose aux élèves de remplir des grilles de pixels via des instructions de base. Bien que l'activité d'origine choisit de présenter la représentation machine d'images (par compression de motifs répétitifs), nous avons choisi de parler d'aléa en informatique théorique. Le format de tableaux que propose l'activité nous a paru comme une représentation suffisamment visuelle de l'aléatoire pour pouvoir transmettre l'idée principale (qui sera détaillée dans la section  \hyperref[sec:enjeu]{\textbf{\underline{Enjeu choisi}}} ).\\
+
+Nous avons choisi de produire un matériel réduit mais versatile : Les élèves ont reçu : \begin{itemize}
+\item Une grille (6x6) vide.
+\item Des pixels de chaque couleur
+\item Des tableaux à reproduire.
+\end{itemize}
+
+\bigskip
+
+Pour cette activité, nous avons choisi l'organisation suivante : 
+\begin{enumerate}
+\item Présentation de Nous, puis "histoire" de l'activité.
+\item Première tâche : Par groupe de trois, essayer de reproduire des tableaux donnés via un jeu d'instruction réduit avec le moins d'instructions possibles (Un peintre dictant les instructions sans voir le tableau en construction, seulement l'objectif. Un robot reproduisant le tableau avec les pixels fourni. Un observateur vérifiant les coups du robot et pouvant aider le peintre si en difficulté).
+
+\item Regrouper les résultats (si le temps le permet). Il est intéressant de calibrer l'activité afin que tous les groupes ne réussissent pas à tout finir (pour faire jouer l'intuition plus tard dans l'activité).
+
+\item Faire une course au tableau (envoyer deux groupes de deux pour réaliser un tableau chaque). Les règles sont les mêmes que précédemment, mais les groupes doivent réaliser des tableaux différents: L'un est complètement aléatoire, et l'autre plus ordonné. Demander au reste de la classe de réfléchir à des solutions pour les deux tableaux. (Pour ne pas décevoir un groupe, faire un tirage aléatoire pour les tableaux à faire)
+
+\item Remettre en commun une deuxième fois. Introduire l'idée que l'aléatoire met plus d'instructions à être décrit : Ce qui s'est normalement vu pendant la course. Réutiliser les résultats de la première tâche, notamment en impliquant les groupes n'ayant pas tout fait : Leur faire deviner quels sont les tableaux demandant le plus d'instructions à être décrit.
+
+\item Institutionnalisation + Trace écrite + Questions. 
+\end{enumerate}
+
+\bigskip
+
+(Histoire de l'activité : Kolmo est un peintre s'illustrant dans le pixel art / mosaïque (les élèves de primaire en font normalement). Il est reconnu pour faire des tableaux "aléatoires", sans vrai forme. Étant invité partout, ce dernier n'a plus le temps de reproduire ses tableaux dans les expositions. Il décide alors de construire un robot pour l'aider: Ce robot lui permet d'encoder ses tableaux en une suite d'instructions simples, telles que "Mettre un pixel ici", "Tracer une ligne verticale / horizontale / diagonale entre ici et là".)
+
+
+\newpage
+
+\section{Enjeu choisi}
+\label{sec:enjeu}
+
+Comme dit précédemment, nous avons choisi d'aborder la notion d'aléatoire en informatique théorique. Étant donné qu'un ordinateur suit une liste d'instructions prédéterminées, il leur est impossible de générer une suite "vraiment" aléatoire. Il est donc important de pouvoir mesurer ce que l'on appelle intuitivement "aléatoire" afin d'éviter de retrouver des motifs pouvant être utilisés par des agents malicieux.
+
+\bigskip
+
+\underline{VERSION PROF} : Le mathématicien Andreï Kolmogorov propose dès 1963 une formalisation de ce que l'on peut considérer comme une mesure de l'aléa d'une chaîne de caractère. Pour ce dernier, une chaîne est d'autant plus aléatoire que cette dernière prend d'instructions à décrire. Formellement, la Complexité de Kolmogorov d'une chaîne correspond à la taille du plus petit programme produisant la chaîne recherchée (Notons que la complexité dépend a priori du langage choisi initialement). La notion est facilement joignable à la notion de compressibilité, de calculabilité (La complexité de Kolmogorov est incalculable), et même à des notions de complexité (Des inclusions de classes de complexité ont utilisé pour oracle cette notion). L'enjeu est avant tout de construire le parallèle entre aléa, difficulté de description et présence de motifs dans un objet. Une mauvaise génération d'aléa pourrait faciliter des attaques en cryptographie, peut entraîner des biais dans des simulations...
+
+\vspace{2em}
+
+\underline{VERSION ÉLÈVE} :\\
+
+\hrule
+
+\vspace{2em}
+
+\begin{center}
+\Large{\textbf{\underline{Les tableaux de Kolmo}}}
+\end{center}
+\Large{
+Un ordinateur ne peut pas tout faire. Parce que ces derniers suivent une liste d'instructions prédéterminée, il leur est par exemple impossible de créer des objets aléatoires. \textit{Les tableaux de Kolmo} illustrent comment les informaticiens parlent alors d'aléa : Un objet est dit aléatoire si ce dernier ne peut être décrit de manière concise. La taille minimale d'une description d'un objet est nommée \textbf{Complexité de Kolmogorov} de l'objet. Cette description de l'aléatoire est importante dans plusieurs domaines, tels que la \textbf{Cryptologie}, la \textbf{Simulation} ou encore le \textbf{Divertissement}.
+
+}
+
+\vspace{2em}
+\hrule
+\vspace{1em}
+
+\normalsize{(Les derniers termes en gras ont évidemment vocation à être développés à l'oral)}
+
+\vspace{2em}
+
+\section{Rapport de la séance}
+
+À l'issue de cette première séance, nous sommes agréablement surpris de constater que l'activité manuelle a été accueillie très positivement (nous étions inquiet que la recherche d'une solution optimale puisse paraître ennuyante). Les élèves étaient investis et ont globalement joué le jeu. À tel point que lors de la sélection de groupes pour la partie course, tous les élèves se sont portés volontaires (dur de choisir).\\
+
+Nous avions cependant mal compris le fonctionnement de la classe (l'activité demandait un peu moins d'une heure) : Nous nous sommes vus contraints d'accorder moins de temps pour la première partie (ce qui n'a pas empêché les élèves de l'apprécier). Ce manque de temps (et donc de pratique) s'est ressenti lors de l'institutionnalisation, lorsque nous avons demandé aux élèves quels étaient selon eux les tableaux les plus difficiles à décrire. Nous avons obtenu quelques réponses différentes, mais dans l'ensemble, la majorité des élèves ont pu intuiter le lien entre aléa et longueur de description.
+
+\newpage
+
+Néanmoins, nous sommes contraints de constater que l'institutionnalisation n'a pas appelé aux connaissances personnelles des élèves assez rapidement : Peu d'élèves étaient investis pour donner une utilisation de l'aléatoire dans le divertissement (peut-être est-ce également une question trop compliquée pour eux?). Certains élèves ont compris l'idée derrière cette notion, mais beaucoup ont décrochés sur la fin (explication de la cryptologie et de la simulation). Il semble donc nécessaire de réécrire la trace écrite afin d'impliquer plus rapidement les élèves, sans chercher à tracer le lien entre le sens profond de l'activité et des applications réelles auxquelles les élèves ne sont pas forcément sensibles.\\
+
+
+Nous somme également surpris de constater qu'il est compliqué pour les élèves de "voir les lignes" : A plusieurs reprises, les élèves se sont échinés à donner la solution triviale (pixel par pixel) sans voir le bénéfice de tracer une ligne. Comme l'institutrice nous l'a fait remarquer, si l'élève ne voit pas le bénéfice de tracer une ligne plutôt que de donner la solution pixel par pixel, alors ce dernier sera plus enclin à donner la solution pixel par pixel. (Certains élèves étaient suffisamment rapide pour donner chaque coordonnées très rapidement).
+
+
+\vspace{2em}
+
+
+\section{Notes pour le futur}
+
+Si cette activité intéresse de futurs groupes, nous donnons ici quelques notes sur ce qu'il semble pertinent d'améliorer : 
+\begin{itemize}
+\item Le matériel : Nous avons choisi de donner une grille 6x6, et 22 pixels en papier de chaque couleur pour chaque groupe de trois. Bien que les élèves semblent aimer cette manipulation, le matériel est assez compliqué à manipuler de manière efficace. Il faut donc penser à prévoir un matériel assez grand pour pouvoir le manipuler facilement, et pouvoir le préparer rapidement (en tant qu'animateur, il faut donner à chaque groupe une vingtaine de pixels de chaque couleur, ce qui est compliqué pour de petits pixels).\\
+Néanmoins, il est également possible de chercher une autre solution de présentation afin de réduire la consommation de papier pour cette activité. Il est également intéressant de penser à inclure des repères de coordonnées semblables aux coordonnées d'un plateau d'échecs afin que les élèves se repèrent facilement.
+
+\item Organisation de la première partie : Nous avons donné 6 tableaux à reproduire à chaque groupe. En une quinzaine de minutes, les groupes les plus rapides ont pu faire 4 tableaux (même s'ils semblaient avoir compris l'idée, et ne semblaient pas vouloir faire les autres car trop simple), alors que les groupes les plus lents ont réalisé un seul tableau. Dans l'ensemble, le calibrage était assez bon, il suffirait de réduire le nombre de tableaux à quatre afin d'avoir un calibrage parfait (bien que ceci n'offre pas une répartition idéale entre peintre, robot et vérificateur). Cependant, réduire le nombre de tableaux ne permettrait pas d'offrir des tableaux vraiment aléatoires, faussement aléatoires, difficiles à décrire simplement mais faisable, vraiment simples, où la description minimale réduit beaucoup le nombre d'instructions, où rajouter une instruction facilite grandement la tâche $\ldots$. Étant donné que la question du jeu d'instruction original n'a pas pu être abordé, il peut être pertinent d'enlever ce dernier type de tableau.
+
+\item Course : Afin de ne pas décevoir un des groupes au tableau, nous avons décidé de présenter les modalités de la course avant coup, et de laisser les groupes s'arranger entre eux pour savoir lequel aura le tableau du dessus et du dessous (sans savoir lequel est aléatoire et l'autre plus facile). Les deux groupes ont offert une solution pixel par pixel! Nous attendions une solution simple de la part du groupe ayant le tableau plus ordonné: Ce tableau était uniquement constitué de lignes. Mais comme dit plus haut, si l'élève ne voit pas immédiatement le bénéfice d'une ligne, ce dernier ne l'utilisera pas (les robots devinaient que leur camarade voulait représenter une ligne et prédisaient les prochaines instructions).
+
+\item Trace écrite (+ institutionnalisation). Il est important de trouver un moyen d'impliquer l'élève immédiatement dans cette expérience, sans chercher à tracer le lien entre le sens profond de l'activité et des notions réelles auxquelles l'élève n'est pas forcément sensible. Par divertissement, nous espérions entendre l'application "Jeux-vidéos" (qui est apparue très tard). Insister immédiatement et plus fortement sur cette application pourrait permettre de maintenir le contact plus longtemps. Il semble bon de limiter les applications plus concrètes (Cryptologie et simulation) à un lien vague, après avoir raccroché aux Jeux vidéos.
+\end{itemize}
+
+
+\end{document}

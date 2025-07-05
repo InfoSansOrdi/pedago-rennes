@@ -1,0 +1,5 @@
+Marmottes au sommeil léger:
+ - Vérifier que la meilleure valeur pour un terrier ne soit pas trop facile à obtenir (ou obtenir une valeur proche).
+ - L'activité est assez compliquée pour les élèves et assez compliquée à expliquer clairement, le rapport entre les terriers et comment compresser les données doit être clairement illustré avec par exemple la compression d'un mot au tableau.
+ - Ne pas dire que fusionner des marmottes donne une "grosse marmotte"
+ - Il aurait fallu faire des groupes moins nombreux (de 2 ou 3)

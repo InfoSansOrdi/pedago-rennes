@@ -1,0 +1,179 @@
+% Cette fiche d'activité à été développée par
+% + Ismaël Gaye <ismael.gaye@ens-rennes.fr>
+% + Adil Oubninte <adil.oubninte@ens-rennes.fr>
+
+% Le template a été largement inspiré de celui de
+% + Erwan Tanguy-Legac <erwan.tanguy-legac@ens-rennes.fr>
+% + Héloïse Troublé <heloise.trouble@ens-rennes.fr>
+
+% Elle est distribuée sous la licence Creative-Commons by-nc-sa 4.0
+% (Attribution, Non-Commercial, Share Alike)
+% qui peut être trouvée dans
+% [le site de Creative Commons](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+\documentclass[12pt, a4paper]{article}
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[top=0.9in, left=0.6in, right=0.7in, bottom=1in]{geometry}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{titling}
+
+\renewcommand{\headrulewidth}{1pt}
+\chead{} 
+\lhead{Tour de magie carrée - Plan de l'activité}
+\rhead{Ismaël Gaye et Adil Oubninte}
+
+\renewcommand{\footrulewidth}{1pt}
+\cfoot{\thepage} 
+\lfoot{2024}
+\rfoot{ENS Rennes}
+
+\fancypagestyle{plain}{
+	\fancyhf{} 
+	\cfoot{\thepage}
+	\renewcommand{\headrulewidth}{0pt}
+	\renewcommand{\footrulewidth}{1pt}}
+
+\begin{document}
+	
+	\title{Tour de magie carrée}
+	\author{Ismaël Gaye et Adil Oubninte}
+	\date{10 mars 2024}
+	\maketitle
+	
+	\paragraph*{Niveau :} $6^{\grave{e}me}$
+	\paragraph*{Durée :} 55 minutes
+	\paragraph*{Prérequis :} Aucun
+	\paragraph*{Description du jeu :}
+	Le jeu du tour de magie carrée est un jeu qui se avec un.e magicien.ne et un.e assistant.e. La partie commence avec 25 jetons qu'on dispose en carré de 5x5. L'assistant.e dessine un motif de taille 4x4 avec les jetons et utilise les derniers jetons pour encoder la parité de chaque lignes et colonnes, puis iel retire un jeton. Le.a magicien.ne doit deviner quel est la couleur du jeton manquant.
+	
+	\paragraph*{Objectif pédagogique :}
+	Introduire la théorie de l'information et la déduction d'un encodage.
+	
+	\begin{longtable}{c|m{3.9cm}|m{8.4cm}|m{2.4cm}}		\textbf{Durée} & \textbf{Phase} & \textbf{Activités et consignes} & \textbf{Organisation et matériel} \\ \hline\hline
+		
+		5' &
+		
+		Présentation de l'activité avec exemples
+		
+		&
+		
+		On se présente, on explique les règles et effectue une partie entre nous deux au tableau. (Les tables seront positionnées en îlot en amont de la séance). On propose aux élèves de venir faire un motif au tableau, on demande à l'assistant de placer les jetons correcteur, et on devine le motif
+		
+		& 
+		
+		A l'oral au tableau (avec craies ou feutres)
+		
+		
+		\\ \hline
+		
+		10' & 
+		
+		Activité
+		
+		&
+		
+		On distribue les jetons (qui ne seront pas sur les tables au début de la séance).
+		On fixe un motif pour chaque groupe avec une pièce manquante et ils doivent le compléter.
+		Répéter ça plusieurs fois avec différent motif
+		& 
+		
+		Groupes de 4, 25 jetons par groupe
+        
+        
+		\\ \hline
+		
+        5'
+		
+		&
+		
+		Remise en commun
+		
+		& 
+		
+		On stoppe l'activité, on reprend l'attention et on ouvre une discussion tous ensemble. Si possible, on interroge des groupes qui ont trouvé une astuce original mais pas totalement exacte. On fait venir des élèves au tableau pour jouer avec nous s'ils le souhaitent. On n'explicite pas l'astuce.
+		
+		& Idem
+		
+		\\ \hline
+		
+		15' &
+		
+		Temps libre
+		
+		&
+		Les élèves continuent de jouer, ils choisissent un motif, l'assistant.e place les jetons correcteurs et retire un jeton. Ils doivent deviner sa couleur. 
+        On insiste sur le fait qu'on a pas à connaître le motif et qu'il faut compter.
+		
+		
+		& 
+		
+		À l'oral, au tableau
+		
+		\\ \hline
+		
+		10' 
+		
+		&
+		
+		Mise au propre de l'astuce 
+		
+		&
+		
+		On demande à tous les élèves de décrire proprement l'astuce. On les faits jouer le rôles du magicien. Pour les groupes qui
+ont fini avant, on leur propose des extensions
+		
+		&
+		
+		Par groupes de 4
+		
+		\\  \hline
+
+		
+		10'
+		
+		&
+		
+		Institutionnalisation
+		
+		&
+		
+		On reprend l'attention des élèves, et on présente l'institutionnalisation (détail ci-dessous). Les grands axes sont la description de l'astuce et pourquoi c'est utile, que des codes plus efficace existent mais qu'ils sont plus compliqué et enfin on termine sur les applications de cette stratégie
+		
+		&
+		
+		A l'oral
+		
+	\end{longtable}
+	
+\newpage
+	
+\subsection*{Institutionnalisation :}
+
+C'est de l'informatique parce que c'est important de pouvoir corriger des erreurs quand on transmets un message: par exemple les qr-code peuvent être légèrement abimé mais on veut quand même pouvoir les lires.
+Une solution serait de recopier plusieurs fois le message, mais pour gagner du temps et de l'espace on utilise des techniques plus efficaces: c'est les codes correcteurs
+On veut pouvoir retrouver un bout d'information manquant (les pertes) ou un bout d'information qui à été changé (les corruptions)
+Ici on utilise la parité: on veut que le nombre de case noire sur chaque ligne et chaque colonne soit paire. Pour cela on rajoute une ligne et une colonne pour compléter.
+Comme les ordinateurs utilisent des 0 et des 1 pour communiquer, on peut utiliser le même principe et voir les 1 comme des jetons noirs et les 0 comme des jetons blancs.
+C'est utilisé partout en informatique: pour communiquer sur internet, pour envoyer des messages privé etc...
+	
+	\paragraph*{Étayages} (si les élèves patinent) :
+	\begin{itemize}
+		\item Faire des plus petits carrés (3x3)
+		\item Utiliser des jetons numéroté qui compte le nombre de case noirs.
+		\item On joue contre l'élève
+		en comptant à haute voix.
+	\end{itemize}
+	
+	\paragraph*{Extensions} (si certains groupes d'élèves vont trop vite) :
+	\begin{itemize}
+        \item Plus de jetons
+		\item Inverser un carré au lieu de l'enlever
+		\item Code bar ?
+	\end{itemize}
+\end{document}

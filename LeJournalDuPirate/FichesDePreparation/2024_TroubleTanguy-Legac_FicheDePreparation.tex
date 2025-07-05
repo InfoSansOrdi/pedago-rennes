@@ -1,0 +1,202 @@
+% Cette fiche d'activité à été développée par
+% + Erwan Tanguy-Legac <erwan.tanguy-legac@ens-rennes.fr>
+% + Héloïse Troublé <heloise.trouble@ens-rennes.fr>
+
+% Le template a été largement inspiré de celui de
+% + Santiago Bautista <Santiago.Bautista@ens-rennes.fr>
+% + Benjamin Bordais <Benjamin.Bordais@ens-rennes.fr>
+
+% Elle est distribuée sous la licence Creative-Commons by-nc-sa 4.0
+% (Attribution, Non-Commercial, Share Alike)
+% qui peut être trouvée dans
+% [le site de Creative Commons](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+\documentclass[12pt, a4paper]{article}
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[top=0.9in, left=0.6in, right=0.7in, bottom=1in]{geometry}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{fancyhdr}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{titling}
+
+\pagestyle{fancy}
+
+\renewcommand{\headrulewidth}{1pt}
+\chead{}
+\lhead{Journal du Pirate - Plan de l'activité}
+\rhead{Héloïse Troublé et Erwan Tanguy-Legac}
+
+\renewcommand{\footrulewidth}{1pt}
+\cfoot{\thepage} 
+\lfoot{2024}
+\rfoot{ENS Rennes}
+
+\fancypagestyle{plain}{
+	\fancyhf{}
+	\cfoot{\thepage}
+	\renewcommand{\headrulewidth}{0pt}
+	\renewcommand{\footrulewidth}{1pt}}
+
+\begin{document}
+	
+	\title{Journal du Pirate}
+	\author{Héloïse Troublé et Erwan Tanguy-Legac}
+	\date{12 avril 2024}
+	\maketitle
+	
+	\paragraph*{Niveau :} $6^{\grave{e}me}$
+	\paragraph*{Durée :} 55 minutes
+	\paragraph*{Prérequis :} Aucun
+	\paragraph*{Description du jeu :}
+    L'activité consiste à modéliser des objets (îles) selon une description et à vérifier la présence d'une propriété (chemin).
+	\paragraph*{Objectif pédagogique :}
+    Introduction à la modélisation et à la vérification
+  \paragraph*{Matériel nécéssaire :}
+    Pour chaque groupe de 4 élèves, imprimer autant de fois qu'il y a d'îles (6 pour nous) de fiche des lieux.
+	\begin{longtable}{c|m{3.9cm}|m{8.4cm}|m{2.4cm}}		\textbf{Durée} & \textbf{Phase} & \textbf{Activités et consignes} & \textbf{Organisation et matériel} \\ \hline\hline
+		
+		5' &
+		
+		Introduction
+		
+		&
+		
+		On se présente, on donne le contexte de l'activité.
+		
+		&
+		
+		A l'oral au tableau
+		
+		\\ \hline
+		
+	  5' &
+		
+    Modélisation du chemin
+		
+		&
+	
+    On leur demande de décrire le plus précisément possible le chemin décrit.
+		
+		& Par groupes de 4 (en îlots)
+		
+		\\ \hline
+		
+		5' &
+		
+		Mise en commun de la modélisation
+		
+		&
+		
+    On fait une mise en commun pour s'assurer qu'il n'y a aucun problème de compréhension du journal.
+    On essaie de faire ressortir et comprendre les bons et mauvais points des différentes approches.
+
+		&
+		
+		Au tableau
+		
+		\\ \hline
+		
+		10'
+		
+		&
+		
+	  Découverte des deux premières îles
+		
+		&
+		
+		On distribue les deux premières îles (île scorpion et île tortue). On essaie de passer dans les groupes et de voir le niveau de
+    compréhension de chaque groupe pour savoir auxquels on va donner des extensions.
+		
+		& Par groupes de 4 (en îlots)
+		
+		\\ \hline
+		
+		5' &
+		
+	  Mise en commun
+		
+		&
+		
+    On met en commun pour que tous les élèves soient au même niveau.
+    On leur demande d'expliquer exactement comment ils ont fait pour s'assurer que le trésor n'était pas présent sur les îles.
+    On s'attend à des justifications avec des schémas.
+		
+		&
+		
+    Au tableau
+		
+		\\ \hline
+		
+		15'
+		
+		&
+		
+		Distribution des 4 autres îles
+
+		&
+		
+    On distribue 3 ou 4 îles à chaque groupe (île de la fortune, île des oiseaux rapides,
+    île des singes hurleurs, île des dauphins roses), en fonction de leur vitesse et compréhension lors des parties précédentes.
+		
+		&
+		
+		Par groupes de 4 (en îlots)
+
+    \\ \hline
+
+    10'
+
+    &
+
+    Institutionnalisation
+
+    &
+
+    On reprend l'attention des élèves, on fait l'Institutionnalisation : on explique l'intérêt de modéliser des propriétés et de les vérifier.
+		
+    &
+
+    Au tableau
+
+	\end{longtable}
+	
+\subsection*{Présentation :}
+Des explorateurs ont trouvé le journal d’un grand pirate qui contient sans doute l’emplacement de son immense trésor. Vous devez les aider à
+savoir sur quelle île il a été caché. Le journal contient uniquement la description du chemin qu’a emprunté le pirate. On va dans un premier
+temps vous demander de schématiser le chemin, puis on vous distribuera des descriptions d’îles sur lesquelles le trésor pourrait être et on
+vous demandera de trouver sur quelle île le trésor est.
+
+\subsection*{Institutionnalisation :}
+C’est de l’informatique, parce que grâce à nos cartes, on a réussi à modéliser toutes les îles et le chemin suivi par le pirate, pour vérifier
+sur quelle île ce chemin était possible. Pour faire ça, on a choisi un format pour décrire les îles : nos cartes c’est ce qu’on appelle des
+automates en informatique (ensemble d’états, ici les lieux (plage…), et des transitions entre des états, ici des chemins (chemin fleuri, scabreux…)).
+
+\paragraph*{}
+On a fait deux étapes de travail : \\
+- D’abord modéliser les îles : choisir les bons états (les bons éléments sur chaque île), puis les bonnes transitions (les bons chemins entre
+les éléments, avec parfois une information sur le temps qu’un chemin prend pour être parcouru) \\
+- Puis une étape de vérification : pour chaque île, on a vérifié ce qu’on appelle des propriétés, c’est des caractéristiques qui permettent de
+décrire les îles et voir si ça correspond au chemin du pirate, comme par exemple :
+\\
+“On peut débarquer sur cette île” (sinon c’est compliqué de l’explorer…), \\
+“Il y a une forêt de palmier sur cette île”, \\
+“La grotte est accessible depuis le volcan”, \\
+“Le chemin jusqu’à la grotte prend 8h depuis la plage”... \\
+
+Il n’y a qu’une seule île qui permettait de suivre le chemin du pirate dans le même temps que lui, on a donc pu déterminer sur quelle île
+était caché le trésor.
+
+En informatique, c’est un domaine qui s’appelle la vérification de modèle. Et ça sert par exemple au diagnostic : c’est exactement comme
+pour les humains, on a envie de savoir si une machine fonctionne normalement. Pour ça, on représente les états dans lesquels elle peut être
+(schéma débile au tableau en même temps), et comme on veut vérifier que la machine ne peut pas tomber en panne, on regarde si on peut aller
+dans l’état “panne” en suivant les transitions au cours du fonctionnement de la machine. Si c’est pas le cas, on dit que l’état n’est pas
+accessible, et on peut faire confiance à la machine !
+
+Là on a fait tout ça à la main, mais on peut demander à un ordinateur de le faire : on automatise la vérification, mais au lieu de faire
+confiance aveuglément à ce que l’ordinateur nous dit, on a un outil (les automates) pour pouvoir s’assurer que le résultat est bon. Ici,
+on a pas eu besoin de vous croire sur parole pour savoir sur quelle île était le trésor, on est sûr grâce aux cartes !
+
+\end{document}

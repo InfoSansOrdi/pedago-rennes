@@ -1,0 +1,9 @@
+[book]
+authors = ["Martin Quinson (éditeur)"]
+language = "fr"
+multilingual = false
+src = "src"
+title = "Informatique débranchée"
+
+[output.html]
+mathjax-support = true

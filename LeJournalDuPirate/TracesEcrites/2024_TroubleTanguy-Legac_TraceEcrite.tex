@@ -1,0 +1,98 @@
+% Cette trace écrite à été développée par
+% + Héloïse Troublé <heloise.trouble@ens-rennes.fr>
+% + Erwan Tanguy-Legac <erwan.tanguy-legac@ens-rennes.fr>
+
+% Elle est distribuée sous la licence Creative-Commons by-nc-sa 4.0
+% (Attribution, Non-Commercial, Share Alike)
+% qui peut être trouvée dans
+% [le site de Creative Commons](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+\documentclass[12pt,a5paper]{article}
+\usepackage[left=1.5cm, right=1.5cm, lines=45, top=0.3in, includehead]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{titling}
+\usepackage{ragged2e}
+\usepackage{subcaption}
+\usepackage{wrapfig}
+\usepackage{tikz}
+\usetikzlibrary{quotes}
+
+\DeclareCaptionFormat{custom}{#3}
+\captionsetup{format=custom}
+
+\setlength{\droptitle}{-2em}
+
+\predate{}
+\postdate{}
+\date{\vspace{-12ex}}
+
+\lhead{Informatique sans ordi}
+\rhead{12 avril 2024}
+\title{\vspace{-5ex}Journal du Pirate}
+
+\pagenumbering{gobble}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{fancy}
+\justifying
+
+Des explorateurs ont trouvé le journal d’un grand pirate qui contient sans doute l’emplacement de son immense trésor. Vous devez les aider à savoir sur quelle île il a été caché. Le journal contient uniquement la description du chemin qu’a emprunté le pirate.
+On a commencé par \textbf{modéliser} le chemin que le pirate a emprunté.
+
+{
+\centering
+\begin{figure}[h]
+  \centering
+\begin{tikzpicture}[node distance=22.5mm, node/.style={thick, minimum size=16mm, rectangle, rounded corners=3mm, draw}]
+  \node (init) [] {};
+  \node (plage) [node, right of=init, node distance=12mm] {};
+  \node (palmiers) [node, right of=plage] {};
+  \node (cabane) [node, right of=palmiers] {};
+  \node (volcan) [node, right of=cabane] {};
+  \node (tresor) [node, right of=volcan] {};
+  \draw [-stealth, thick] (init) to (plage);
+  \draw (plage) edge["2h", thick, -stealth] (palmiers);
+  \draw (palmiers) edge["3h", thick, -stealth] (cabane);
+  \draw (cabane) edge["2h", thick, -stealth] (volcan);
+  \draw (volcan) edge["1h", thick, -stealth] (tresor);
+\end{tikzpicture}
+\end{figure}
+}
+
+Après avoir modélisé le chemin du pirate, on a pu modéliser avec un schéma les différentes îles qui nous ont été distribuées pour vérifier
+s'il était possible pour le pirate d'atteindre le trésor sur chaque île.
+On a ainsi pu trouver la seule île sur lequel le trésor pouvait se cacher (en prenant en compte les temps de marche) !
+
+\vspace{3mm}
+
+Ce qu'on a fait ici ressemble fortement à un domaine de l'informatique qui est le diagnostic : on cherche à savoir si une machine fonctionne
+normalement, c'est-à-dire s'il est possible ou non d'atteindre l'état \textit{en panne} depuis l'état de départ en suivant les transitions
+possibles.
+
+\begin{center}
+\begin{tikzpicture}[text height=1.5ex, text depth=.25ex, node/.style={thick, minimum size=8mm, rectangle, draw}]
+  \node (empty) at (0, 1) [] {};
+  \node (init) at (0, 0) [node] {début};
+  \node (marche) at (-0.2, -1.1) [node] {marche};
+  \node (veille) at (1.7, -1.1) [node] {veille};
+  \node (arret) at (0, -2.2) [node] {fin de tâche};
+  \node (panne) at (-2.2, -1.1) [node] {panne};
+
+  \draw [-stealth, thick] (empty) to (init);
+  \draw [-stealth, thick] (init) to (marche);
+  \draw [stealth-stealth, thick] (marche) to (veille);
+  \draw [-stealth, thick] (marche) to (arret);
+  \draw [-stealth, thick] (arret) to (veille);
+  \draw [-stealth, thick] (panne) to (init);
+  \draw [-stealth, thick] (arret) to (panne);
+\end{tikzpicture}
+\end{center}
+
+Dans l'exemple ci-dessus, où on a modélisé une machine, on peut s'assurer qu'il est impossible pour la machine de tomber en panne avant d'avoir
+fini au moins une fois sa tâche.
+\end{document}

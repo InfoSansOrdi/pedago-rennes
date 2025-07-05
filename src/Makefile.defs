@@ -1,0 +1,35 @@
+RAPPORTS ?= $(patsubst Rapports/%.md,Rapports/%.html,$(wildcard Rapports/*.md)) rapports.md
+
+TARGETS=${TRACES} ${MATOS} ${PREPS} ${RAPPORTS} ${IMG}
+
+all: ${TARGETS}
+
+clean: 
+	rm -f *.aux *.log *.html *~ ${TARGETS}
+
+%.pdf: %.tex
+	pdflatex $< -o $@
+
+%.pdf: %.typ
+	typst compile $< $@
+
+%.html: %.md
+	python ../../md-to-html.py $< $@
+
+%.pdf: %.svg
+	rsvg-convert -f pdf -o $@ $<
+
+%-500x.png: %.svg
+	rsvg-convert -f png --background-color=white --width=500 --keep-aspect-ratio -o $@ $<
+%-300x.png: %.svg
+	rsvg-convert -f png --background-color=white --width=300 --keep-aspect-ratio -o $@ $<
+%-100x.png: %.svg
+	rsvg-convert -f png --background-color=white --width=100 --keep-aspect-ratio -o $@ $<
+
+rapports.md: Rapports/*
+	rm -f rapports.md
+	for f in $$(ls Rapports/*md |sort -r) ; do \
+	  base=$$(basename $$f .md|sed 's/[0-9]*_//'|sed 's/_/ et /g' | sed 's/,/, /g');\
+	  year=$$(echo $$f|sed 's/_.*$$//'|sed 's|[^/]*/||'); \
+	  echo "- [$$base](Rapports/$$(basename $$f .md).html) ($$year)" >> rapports.md; \
+	done

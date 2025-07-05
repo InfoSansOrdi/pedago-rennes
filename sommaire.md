@@ -1,48 +1,5 @@
 # Sommaire des activités recensées ici
 
-Le dépôt est organisé de la façon suivante : chaque activité a un dossier à la racine, les activités sont dans l'ordre alphabétique. Chaque dossier
-est décomposé en sous dossier contenants les différents types de ressources.
-
-Vous trouverez dans ce sommaire une classification des activités par concepts (algorithmes, langages, information, machine), et par compétences
-(pensée algorithmique, abstraction, décomposition, généralisation et motifs, évaluation, logique). Chaque catégorie se voit attribuer ., \*, ou \*\*
-selon que l'activité ne se classe pas, se classe un peu, ou se classe beaucoup dans la catégorie. Vous trouverez également des données concernant les
-ressources disponibles, et le public cible.
-
-En fin de sommaire sont disponibles des sites où trouver des activités débranchées, ainsi que des exemples d'exposés.
-
-## Définitions des catégories
-
-Afin de mieux comprendre ce sommaire, voici une définition succincte de chaque catégorie permettant de classifier les activités.
-
-Elle sont issus des références suivantes, et résumées plus bas.
-
-### Références:
-* [Les quatre concepts de l'informatique](http://www.lsv.fr/~dowek/Philo/quatre.pdf), Gilles Dowek
-* [Computational thinking](https://csunplugged.org/en/computational-thinking), CS Unplugged
-
-### Concepts
-
-* Algorithmes : l'activité permet de découvrir la notion d'algorithme, soit en demandant d'en concevoir, soit en demandant d'en suivre (que ce soit
-  explicite ou non).
-* Langages : la notion de langage est travaillée, en tant que moyen de communication standardisé, aussi bien les langages de programmation que les
-  langages de description sont concernés (on ne considère pas les langages formels dans cette catégorie).
-* Information : la représentation des données, l'encodage de l'information et/ou leur transmission sur des canaux sont travaillés.
-* Machine : le fonctionnement matériel de l'informatique est abordé au cours de l'activité.
-
-### Compétences
-* Pensée algorithmique : cette compétence correspond au processus de création d'un algorithme, c'est à dire la création d'une solution générale à un
-  problème, avec une description étape par étape, même informelle (explication orale ou pseudo-code plutôt que programme dans un langage bien défini).
-* Abstraction : cette compétence est celle de la simplification de la complexité, ignorer les bons détails permettant de traiter plus efficacement un
-  problème. Elle requiert la capacité à identifier ce qui est important et ce que ni l'est pas, et est au coeur de l'activité de modélisation.
-* Décomposition : comme son nom l'indique, la décomposition correspond à la compétence de décomposer, par exemple une tâche en sous-tâches, un modèle
-  en ses parties, etc. Cette compétence est par exemple nécessaire à la conception d'un algorithme dont chaque étape résulte de la décomposition d'un
-  problème en plusieurs étapes de résolution.
-* Généralisation et motifs : la généralisation est la capacité d'étendre une solution à de nouveaux cas, elle met en jeu l'abstraction car elle
-  demande de reconnaître les motifs communs à tous ces cas en ignorant leur différences particulières.
-* Évaluation : l'évaluation consiste à quantifier des solutions, pour pouvoir les comparer leur qualité ou attester des améliorations. L'évaluation
-  peut aussi être qualitative, par exemple quand on se demande si un algorithme est correct.
-* Logique : on désigne ici la capacité du raisonnement organisé et rigoureux, permettant de structurer la pensée pour obtenir efficacement des
-  solutions.
 
 # Communication scientifique
 
@@ -381,24 +338,6 @@ CP/CE1/CE2
 * [Dossier CouleurNombres](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/CouleurNombres)
 
 ---
-## Crêpier psychorigide
-Il faut aider un galettier à ranger ses galettes carrées de la plus grande à la plus petite.
-### Concepts
-* Algorithmes(\*\*)
-* Langages(.)
-* Information(.)
-* Machine(.)
-### Compétences
-* Pensée algorithmique(\*\*)
-* Abstraction(.)
-* Décomposition(\*)
-* Généralisation et motifs(.)
-* Évaluation(.)
-* Logique(\*)
-### Maturité, public cible
-Activité prête à l'emploi.
-### Ressources
-* [Dossier CrepierPsychorigide](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/CrepierPsychorigide)
 ---
 ## Crococalcul
 Une activité permettant d'initier au lambda calcul grâce à une représentation des abstractions sous forme de crocodiles et de variables par leurs oeufs.
@@ -502,28 +441,6 @@ Activité prête à l'emploi
 CM1/CM2/collège.
 ### Ressources
 * [Dossier IleAuTresor](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/IleAuTresor)
----
-## Jeu de Nim
-Deux joueurs s’affrontent et tentent de déterminer une stratégie gagnante.
-Mots-clefs:
-* __Théorie des jeux__
-### Concepts
-* Algorithmes(\*\*)
-* Langages(.)
-* Information(.)
-* Machine(.)
-### Compétences
-* Pensée algorithmique(\*\*)
-* Abstraction(\*)
-* Décomposition(\*\*)
-* Généralisation et motifs(\*)
-* Évaluation(.)
-* Logique(\*)
-### Maturité, public cible
-Activité prête à l'emploi.
-Public cible: CM1/CM2.
-### Ressources
-* [Dossier Nim](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/Nim)
 ---
 ## Le journal du pirate
 Il s'agit de trois activités en une (trois activités distinctes mais pouvant être combinées). L'objectif principal de l'activité est de trouver un trésor caché
@@ -699,29 +616,6 @@ Public cible: CM1/CM2.
 * [Pixees](https://pixees.fr/tablette-de-chocolat-empoisonnee)
 
 ---
-## Tour de magie/carrés magiques/Merlin et le donjon
-Variante avec un chapeau de magicien: Merlin et le donjon. Merlin rénove le donjon du château du roi Arthur et cache un trésor sous le plancher.
-Mots-clefs:
-* __Code correcteur__
-### Concepts
-* Algorithmes(\*)
-* Langages(.)
-* Information(\*\*)
-* Machine(.)
-### Compétences
-* Pensée algorithmique(\*)
-* Abstraction(.)
-* Décomposition(.)
-* Généralisation et motifs(\*\*)
-* Évaluation(.)
-* Logique(\*)
-### Maturité, public cible
-Activité prête à l'emploi.
-Tout public.
-### Ressources
-* [Dossier TourDeMagie](https://github.com/InfoSansOrdi/pedago-rennes/tree/master/TourDeMagie)
-
----
 ## Traversée de rivière
 ### Concepts
 * Algorithmes(\*\*)
@@ -741,47 +635,6 @@ Public cible: collège
 ### Ressources
 * [Pixees](https://pixees.fr/la-traversee-de-riviere/)
 
-# Collections d'activités débranchées
-
-Cette liste regroupe des sites dans lesquels vous trouverez des
-activités d'informatique débranchée que vous pouvez reprendre pour
-préparer vos interventions.
-
-- [Hors série spécial débranché](http://www.infinimath.com/espaceeducation/tangenteeducation/sommaire.php?som=271) du magazine Tangente Éducation.
-- [Activités d'algorithmique](http://people.irisa.fr/Martin.Quinson/Mediation/SMN/) utilisées par M. Quinson à la moindre occasion.
-- La [page médiation](https://members.loria.fr/MDuflot/files/mediation.html) de Marie Duflot-Kremer présente de nombreuses activités et vidéos associées, très
-  bien faites.
-- La [page de pixee](https://pixees.fr/category/support-pedagogique/activite/activite-debranchee/) sur l'informatique débranchée, pleine de liens.
-- Le [livre CS unpluged](https://interstices.info/upload/csunplugged/CSUnplugged_fr.pdf) des gens qui ont popularisé le concept d'informatique unplug (ils ont
-  aussi [un site web](http://csunplugged.org/)).
-- [195 défis (mathématiques) à manipuler](http://math.univ-lyon1.fr/irem/spip.php?article524) Une collection de petits casse-têtes mathématiques où il s'agit de
-  réfléchir avec les mains. De nouveaux défis semblent être ajoutés au fil du temps. Certaines solutions sont données, mais souvent sans l'algorithme ou la
-  démarche de résolution.
-- [GALEJADE](https://galejade.inria.fr/) (Graphes et Algorithmes : Ensemble de Jeux À Destination des Écoliers). Énormément d'activités autour des problèmes
-  classiques de graphes, à jouer soit en jeu de plateau soit en grandeur nature. [Document de 400 pages](https://hal.inria.fr/hal-01366804v2) reprenant
-  certaines des activités.
-- [Groupe IREM Informatique sans ordinateur de Clermont-Ferrand](http://www.irem.univ-bpclermont.fr/spip.php?article892). Des activités prêtes à l'emploi, avec
-  les fiches de préparation et le matériel pour les élèves. Tout a été testé en classe. Le [Groupe IREM de
-  Grenoble](http://www-irem.ujf-grenoble.fr/spip/spip.php?article146) a une page comparable.
-- Activité de [mesure binaire](https://github.com/Mommessc/Mesures_binaires), inventée par Marie Le Guilly et Clément Mommessin lors de l'école d'été
-  «[Médiation](https://www.societe-informatique-de-france.fr/ecole-mediation-scientifique-en-informatique/)» de la SIF à Toulouse en 2018.
-- Activité d'[apprentissage par renforcement](https://projet.liris.cnrs.fr/lirismed/index.php?id=la-machine-qui-apprend-a-jouer-toute-seule) par Eric Duchêne et
-  Aline Parreau.
-- Activité de [classification des savoirs](https://moex.inria.fr/mediation/class/) par Line van den Berg et Jérôme Euzenat.
-- [Teaching Computing in London](http://teachinglondoncomputing.org/) est une initiative britannique proposant de très nombreuses ressources (en anglais) très
-  bien faites pour expliquer l'informatique dans le cadre scolaire. Ne ratez pas l'activité de la feuille de papier intelligente, par exemple. On trouve sur le
-  site des livrets, des petites vidéos expliquant comment jouer les séquences, et même un petit magazine dédié: [Computer Science for
-  fun](http://www.cs4fn.org/)!
-- [Ch'ti Code](https://wikis.univ-lille1.fr/chticode/wiki/mpls/informatique-sans-ordinateur) est une initiative lilloise foisonne de ressources prêtes à
-  l'emploi.
-- [EPCC Outreach Repository](https://github.com/EPCCed/Activities) contient des activités de médiation scientifique mises en place par le centre de calcul de
-  l'université d'Edinburgh. C'est donc plutôt centré autour du calcul parallèle, du HPC et des big data.
-- [Le Castor Informatique](http://castor-informatique.fr/) Ce concours est à l'informatique ce que le Kangourou est aux mathématiques : une façon ludique de
-  faire découvrir l'informatique aux scolaires (primaire et secondaire). On doit pouvoir adapter la plupart des activités pour les rendre unplug.
-- [Network and Magic](https://code.ffdn.org/ljf/networkandmagic), un jeu de rôles pour expliquer le fonctionnement d'internet.
-- [Alligator Eggs!](http://worrydream.com/AlligatorEggs/) est un puzzle dont les règles représentent le λ-calcul. La ressource est dans le domaine public.
-
-Si vous avez des liens à ajouter, ils sont bienvenus.
 
 #### 2016
 
@@ -791,9 +644,3 @@ Si vous avez des liens à ajouter, ils sont bienvenus.
   livre unplug: figure téléphonée en vectoriel puis en bitmap. Tous les supports (dessins compris) ont été refaits pour l'occasion.
 - [Binaire](2016-BIN) (Benjamin Fasquelle, Raphaël Truffet, Jimmy Rogala, et Antonin Garret): repackaging complet de deux activités issues du livre unplug
   autour du binaire: compter en binaire et représentation d'image bitmap.
-
-# Exemples d'exposés en lycée
-
-- [Protéger sa vie privée sur internet](https://framagit.org/nooe/Protection_Vie_Privee/), Noe Brucy, 2015.
-- [Cryptographie](https://github.com/Aurele-Barriere/Crypto), Aurèle Barrière \& Nathan Thomasset, 2015.
-- [PageRank et vie privée](https://framagit.org/florestan.demoor/PedagoL3/), Florestan De Moor \& Jérémy Thibault, 2015.

@@ -6,8 +6,6 @@
 - L'utilisation d'un vidéoprojecteur et d'un outil tel que [tableaunoir](https://tableaunoir.github.io/) paraît intéressante pour expliquer interactivement au tableau.
 - Ce n'est pas très grave si les règles de formation des terriers ne sont pas très bien comprises, il est plus simple de les laisser faire et de passer dans les groupes pour les corriger et les aider. Dans la majorité des groupes, au moins une personne avait compris les règles une fois expliquées.
 
-
-
 ## Déroulement de l'activité
 
 - L'activité était séparée en deux parties, une portée sur la construction d'un terrier optimal, et l'autre sur l'encodage et le décodage de messages à l'aide de l'arbre construit avec l'algorithme.
