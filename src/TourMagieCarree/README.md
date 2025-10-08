@@ -267,6 +267,9 @@ contient de nombreuses fiches de préparation plus ou moins prêtes à l'emploi,
    l'écran en classe pour montrer le plateau à toute la classe sur le TBI. C'est
    simplement une grille de case dont on peut inverser la couleur en cliquant
    dessus.
+ - Xerox utilise un [code correcteur](https://w2.eff.org/Privacy/printers/docucolor/)
+   très comparable pour identifier l'imprimante utilisée pour chaque
+   page imprimée.
 
 ### Rapports d'expériences
 
