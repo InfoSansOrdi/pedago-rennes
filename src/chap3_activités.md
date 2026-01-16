@@ -245,5 +245,8 @@ préparer vos interventions.
 - Le concours du [Castor Informatique](http://castor-informatique.fr/) est à l'informatique ce que le Kangourou est aux mathématiques : une façon ludique de
   faire découvrir l'informatique aux scolaires (primaire et secondaire). On doit pouvoir adapter la plupart des activités pour les rendre unplug.
 - [Network and Magic](https://code.ffdn.org/ljf/networkandmagic), un jeu de rôles pour expliquer le fonctionnement d'internet.
+- Nous avions fait des activités autour du réseau dans le cadre d'une [semaine de médiation du projet FACTO](https://facto.irisa.fr/mediation/index.html)
+  mais [ces ressources](https://gitlab.inria.fr/quinson/facto-mediation) sont en accès restreint pour éviter que les participants se spoilent. Demandez
+  moi un accès si ça vous intéresse.
 
 Si vous avez des liens à ajouter, ils sont bienvenus.
