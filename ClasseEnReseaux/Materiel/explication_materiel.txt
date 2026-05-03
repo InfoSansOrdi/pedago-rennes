@@ -1,0 +1,10 @@
+ Le matériel est décomposé par couleurs.
+ Une couleur est attribuée à un îlot (un sous réseau).
+ Dans tout les sous réseau, on attribut un identifiant à chaque personne (une grande lettre de la couleur de l'îlot).
+ On relie les tables de l'îlot via des scooby doo qu'on scotch à chaque extremité (cette étape est longue et doit se faire à l'avance ou pendant que l'autre présente l'activité).
+ Les petites cases de couleurs correspondent aux messages et la lettre sur la case à l'identifiant du destinataire.
+ Certains messages ont un destinataire qui n'existe pas.
+ L'impression se fait comme suit :
+    On imprime les planches de messages et d'identifiant sur des planches d'auto-collant.
+    On colle ces planches du du carton plume.
+    On découpe le carton plume.
