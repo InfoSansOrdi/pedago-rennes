@@ -81,7 +81,7 @@ de la figure [\[chemin\]](#chemin) doit exister dans l'île en question. La deux
 que le chemin met en tout 8h a être parcouru, ce qui permettra de
 choisir entre les deux dernières îles.
 
-![Chemin caractérisant l'île au trésor](chemin_final.svg)
+![Chemin caractérisant l'île au trésor](Materiel/2019_BautistaLeDilavrecParreaux_CheminFinal.svg)
 <a name="chemin"></a> 
 
 Voici les descriptions des îles qu'il faudra donner au fur et à mesure.
@@ -294,9 +294,8 @@ ces cas-là, trois stratégies successives pourront être mises en place:
     texte, on pourra leur distribuer une carte de l'île (fournies dans
 	le document "fiche élève") comme celle ci-dessous:
 	
-![Exemple de carte d'île (île de la fortune)](iles/svgs/modelisation/ile_fortune2.svg)
+<img alt="Exemple de carte d'île (île de la fortune)" src="Materiel/Iles/Svgs/Modelisation/2019_BautistaLeDilavrecParreaux_IleFortune2.svg" width="512"/>
 <a name="fortune_mode"></a> 
-
 
 Quand certains participants auront trouvé comment faire, une mise en
 commun permettra de montrer à tout le monde comment faire un schéma à
